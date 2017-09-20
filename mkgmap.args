@@ -1,0 +1,38 @@
+#Use style file
+style-file: Style - Joris
+
+#include the download of the latest sea files from from http://osm2.pleiades.uni-wuppertal.de/sea/latest/
+#or from http://www.mkgmap.org.uk/download/mkgmap.html
+precomp-sea: sea.zip
+generate-sea: land-tag=natural=background
+
+#include de download of the latest bounds from http://osm2.pleiades.uni-wuppertal.de/bounds/latest/
+#or see also from http://www.mkgmap.org.uk/download/mkgmap.html
+check-styles
+bounds: bounds.zip
+location-autofill: is_in,nearest
+housenumbers
+x-split-name-index
+tdbfile
+latin1
+name-tag-list: name,name:nl,name:fr,name:de,int_name,place_name
+code-page: 1252
+show-profiles: 1
+merge-lines
+add-pois-to-areas
+add-pois-to-lines
+link-pois-to-ways
+#JB org: min-size-polygon: 4
+#JB org: polygon-size-limits=17:2, 15:0
+min-size-polygon: 4
+polygon-size-limits=17:2, 15:0
+preserve-element-order
+keep-going
+#net
+route
+index
+remove-ovm-work-files
+nsis
+
+#JB: Optional create img that can be copied to the gps as a single file
+#gmapsupp
