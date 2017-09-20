@@ -16,8 +16,8 @@ Rem ----------------------------------------------------------------------------
 Rem Debug parameters
 Rem -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Set mkgmap_BatchFileVersion=20170915 17h46
-Set mkgmap_PauseAtEnd=True
-Set mkgmap_SkipSplitter=True
+Set mkgmap_PauseAtEnd=False
+Set mkgmap_SkipSplitter=False
 Set mkgmap_SkipMkgmap=False
 Set mkgmap_SkipNsis=False
 Set mkgmap_SkipPoly=False
