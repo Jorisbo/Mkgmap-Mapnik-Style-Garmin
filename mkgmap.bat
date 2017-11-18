@@ -2,26 +2,29 @@
 REM All these folders must exist, if not create them first (no trailing backslash)
 Rem -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Set mkgmap_BuildFolder=C:\Temp\Garmin
-Set mkgmap_GeoFabrik=C:\Garmin\Geofabrik
-Set mkgmap_InstallerDestinationFolder=C:\Walvis\Kaarten\JBM
-Set mkgmap_DefaultConfig=10
+Set mkgmap_GeoFabrik=C:\Garmin\Sources\Geofabrik
+Set mkgmap_Cities=C:\Garmin\Sources\Cities15000.zip
+Set mkgmap_InstallerDestinationFolder=C:\Walvis\Kaarten\Jbm
+Set mkgmap_TypfileFolder=C:\Data\Dropbox\Garmin\Mkgmap\Typ
+Set mkgmap_DefaultConfig=26
 
 Rem Divide Europe in reasonable parts less then 2 Gigabyte
 Rem 1=Benelux, 2=Alpen, 3=Frankrijk - Noord, 4=Frankrijk - Zuid
 Rem 5=Duitsland - Noord, 6=Duitsland - Zuid, 7=Italie, 8=Spanje, 9=Engeland
-Rem 10=TEST, 11=Griekenland, 12=Oostblok, 13=Scandinavie, 14=Finland
-Rem 21=Zuid Limburg, 22=Chiemsee, 23=Knokke, 24=Schiphol, 25=Bilbao
+Rem 10=Test, 11=Griekenland, 12=Oostblok, 13=Scandinavie, 14=Japan
+Rem 21=Zuid Limburg, 22=Chiemsee, 23=Knokke, 24=Schiphol, 25=Bilbao, 26=Nederland
 
 Rem -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Rem Debug parameters
 Rem -------------------------------------------------------------------------------------------------------------------------------------------------------------------
-Set mkgmap_BatchFileVersion=20170915 17h46
+Set mkgmap_BatchFileVersion=20171007 12h15
 Set mkgmap_PauseAtEnd=False
-Set mkgmap_SkipSplitter=False
+Set mkgmap_SkipSplitter=True
 Set mkgmap_SkipMkgmap=False
 Set mkgmap_SkipNsis=False
 Set mkgmap_SkipPoly=False
 Set mkgmap_SkipRunInstaller=False
+Set mkgmap_SkipClearOutputFolderOnSuccess=False
 
 Rem -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Rem Documentation
@@ -172,16 +175,17 @@ Goto lbl_StartBuildProces
 
 :lbl_Default_Config10
 Set mkgmap_FamilyId=8010
-Set mkgmap_Map=TEST
-Set mkgmap_Country=TEST
-Set mkgmap_Area=TEST
+Set mkgmap_Map=JBM - Test
+Set mkgmap_Country=Test
+Set mkgmap_Area=Test
 Set mkgmap_Abbreviation=TST
 Set mkgmap_SplitterInputFile="%mkgmap_GeoFabrik%\europe-latest.osm.pbf"
+Set mkgmap_SplitterInputFile="%mkgmap_GeoFabrik%\netherlands-latest.osm.pbf"
 Set mkgmap_SkipPoly=False
-Set mkgmap_Poly_LeftUnder_Lon=10.3
-Set mkgmap_Poly_LeftUnder_Lat=59.4
-Set mkgmap_Poly_RightUp_Lon=11
-Set mkgmap_Poly_RightUp_Lat=60.1
+Set mkgmap_Poly_LeftUnder_Lon=4.3
+Set mkgmap_Poly_LeftUnder_Lat=51.56
+Set mkgmap_Poly_RightUp_Lon=5.1
+Set mkgmap_Poly_RightUp_Lat=52.3
 Goto lbl_StartBuildProces
 
 :lbl_Default_Config11
@@ -233,12 +237,12 @@ Goto lbl_StartBuildProces
 
 :lbl_Default_Config14
 Set mkgmap_FamilyId=8014
-Set mkgmap_Map=JBM - Finland
-Set mkgmap_Country=Finland
-Set mkgmap_Area=Finland
-Set mkgmap_Abbreviation=SU
-Set mkgmap_SplitterInputFile="%mkgmap_GeoFabrik%\europe-latest.osm.pbf"
-Set mkgmap_SkipPoly=False
+Set mkgmap_Map=JBM - Japan
+Set mkgmap_Country=Japan
+Set mkgmap_Area=Japan
+Set mkgmap_Abbreviation=JAP
+Set mkgmap_SplitterInputFile="%mkgmap_GeoFabrik%\japan-latest.osm.pbf"
+Set mkgmap_SkipPoly=True
 Set mkgmap_Poly_LeftUnder_Lon=20
 Set mkgmap_Poly_LeftUnder_Lat=54.3
 Set mkgmap_Poly_RightUp_Lon=34.4
@@ -317,6 +321,20 @@ Set mkgmap_Poly_RightUp_Lon=-2.5
 Set mkgmap_Poly_RightUp_Lat=44
 Goto lbl_StartBuildProces
 
+:lbl_Default_Config26
+Set mkgmap_FamilyId=8026
+Set mkgmap_Map=JBM - Nederland
+Set mkgmap_Country=Nederland
+Set mkgmap_Area=Nederland
+Set mkgmap_Abbreviation=NL
+Set mkgmap_SplitterInputFile="%mkgmap_GeoFabrik%\netherlands-latest.osm.pbf"
+Set mkgmap_SkipPoly=True
+Set mkgmap_Poly_LeftUnder_Lon=-3.3
+Set mkgmap_Poly_LeftUnder_Lat=43
+Set mkgmap_Poly_RightUp_Lon=-2.5
+Set mkgmap_Poly_RightUp_Lat=44
+Goto lbl_StartBuildProces
+
 Rem Check if all folders exists or create them so we can start logging
 Rem -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 :lbl_StartBuildProces
@@ -372,13 +390,10 @@ Rem Compose all variabels
 Rem -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Set mkgmap_Date=%date%
 Set mkgmap_Date=%mkgmap_Date:~-10%
-Set mkgmap_TypeFile_Typ=jbm_ws.typ
-Set mkgmap_TypeFile_Typ=jbm_mpnk.typ
-Set mkgmap_TypeFile_Txt="C:\Data\Garmin\Type Files\jbm_ws.txt"
-Set mkgmap_TypeFile_Txt="C:\Data\Garmin\Type Files\jbm_mpnk.txt"
-Set mkgmap_Cities=Cities15000.zip
+Set mkgmap_TypFile_Typ=jbm_mpnk.typ
+Set mkgmap_TypFile_Txt="%mkgmap_TypfileFolder%\jbm_mpnk.txt"
 Set mkgmap_NsiFile=osmmap.nsi
-Set mkgmap_JavaMemory=8000
+Set mkgmap_JavaMemory=6000
 If [%mkgmap_MaxNodes%]==[] (Set mkgmap_MaxNodes=1600000)
 Set mkgmap_ArgsSplitter="%mkgmap_OutputFolderSplitter%\template.args"
 Set mkgmap_SplitterStartId=%mkgmap_FamilyId%0001
@@ -395,21 +410,21 @@ Set mkgmap>> %mkgmap_Logfile%
 
 Echo.>> %mkgmap_Logfile%
 Echo --------------------------------------------------------------------------->> %mkgmap_Logfile%
-Echo # Generate typefile with correct family id>> %mkgmap_Logfile%
+Echo # Generate typ-file with correct family id>> %mkgmap_Logfile%
 Echo --------------------------------------------------------------------------->> %mkgmap_Logfile%
 If %mkgmap_SkipMkgmap%==True (
 		Echo # !! Test option : mkgmap will NOT be executed>> %mkgmap_Logfile%
 		Goto lbl_NoMkgmap
 )
-If Not Exist %mkgmap_TypeFile_Txt% (
-	Echo # Typ-file  [%mkgmap_TypeFile_Txt%] does not exist ! Execution of the script will stop.>> %mkgmap_Logfile%
+If Not Exist %mkgmap_TypFile_Txt% (
+	Echo # Typ-file  [%mkgmap_TypFile_Txt%] does not exist ! Execution of the script will stop.>> %mkgmap_Logfile%
 	Goto lbl_Error
 )
 
-Set mkgmap_ExecuteTypefileCommando=java -jar "%mkgmap_MyDir%\mkgmap.jar" --output-dir="%mkgmap_OutputFolderMap%" --family-id=%mkgmap_FamilyId% %mkgmap_Typefile_Txt%
-Echo # Execute statement [%mkgmap_ExecuteTypefileCommando%]>> %mkgmap_Logfile%
-%mkgmap_ExecuteTypefileCommando%
-Rem cleanup left overs as a result of the typefile generation proces
+Set mkgmap_ExecuteTypfileCommando=java -jar "%mkgmap_MyDir%\mkgmap.jar" --output-dir="%mkgmap_OutputFolderMap%" --family-id=%mkgmap_FamilyId% %mkgmap_TypFile_Txt%
+Echo # Execute statement [%mkgmap_ExecuteTypfileCommando%]>> %mkgmap_Logfile%
+%mkgmap_ExecuteTypfileCommando%
+Rem cleanup left overs as a result of the typ-file generation proces
 Del /q "%mkgmap_OutputFolderMap%\osmmap.tdb">> %mkgmap_Logfile%
 Del /q "%mkgmap_OutputFolderMap%\osmmap.img">> %mkgmap_Logfile%
 Echo # Typ-file created with id [%mkgmap_FamilyId%] in folder [%mkgmap_OutputFolderMap%]>> %mkgmap_Logfile%
@@ -443,7 +458,7 @@ If Not Exist "%mkgmap_SplitterInputFile%" (
 	Echo # !! ERROR: (Geofabrik pbf file to split [%mkgmap_SplitterInputFile%] could not be found>> %mkgmap_Logfile%
 	Goto lbl_Error
 )
-Rem --geonames-file=%mkgmap_myDir%\%mkgmap_Cities%
+Rem --geonames-file=%mkgmap_Cities%
 Set mkgmap_ExecuteSplitterCommando=java -Xmx%mkgmap_JavaMemory%m -jar "%mkgmap_MyDir%\splitter.jar" --output-dir="%mkgmap_OutputFolderSplitter%" --max-nodes=%mkgmap_MaxNodes% --mapid=%mkgmap_splitterStartid% %mkgmap_polyparam%  %mkgmap_SplitterInputFile%
 Echo # Execute statement [%mkgmap_ExecuteSplitterCommando%] >> %mkgmap_Logfile%
 If %mkgmap_SkipSplitter%==True (
@@ -507,7 +522,7 @@ Echo ---------------------------------------------------------------------------
 Echo # Start executing mkgmap>> %mkgmap_Logfile%
 Echo --------------------------------------------------------------------------->> %mkgmap_Logfile%
 REM The order of parameters does matter. The -c option must be after the --output option and de typ-file must be last
-Set mkgmap_ExecuteMkgmapCommando=java -Xmx%mkgmap_JavaMemory%m -jar "%mkgmap_MyDir%\mkgmap.jar" --output-dir="%mkgmap_OutputFolderMap%" -c %mkgmap_ArgsCommand% "%mkgmap_OutputFolderMap%"\%mkgmap_Typefile_Typ%
+Set mkgmap_ExecuteMkgmapCommando=java -Xmx%mkgmap_JavaMemory%m -jar "%mkgmap_MyDir%\mkgmap.jar" --output-dir="%mkgmap_OutputFolderMap%" -c %mkgmap_ArgsCommand% "%mkgmap_OutputFolderMap%"\%mkgmap_TypFile_Typ%
 Echo # Execute statement [%mkgmap_ExecuteMkgmapCommando%] >> %mkgmap_Logfile%
 
 %mkgmap_ExecuteMkgmapCommando%>> %mkgmap_Logfile%
@@ -543,7 +558,6 @@ If Not Exist "%mkgmap_OutputFolderMap%\%mkgmap_Map%.exe" (
 )
 xCopy /y "%mkgmap_OutputFolderMap%\%mkgmap_Map%.exe"  "%mkgmap_InstallerDestinationFolder%" >> %mkgmap_Logfile%
 
-
 Echo.>> %mkgmap_Logfile%
 Echo --------------------------------------------------------------------------->> %mkgmap_Logfile%
 Echo # Execute Basecamp installation>> %mkgmap_Logfile%
@@ -558,14 +572,27 @@ Call "%mkgmap_OutputFolderMap%\%mkgmap_Map%.exe" /S
 Echo # Installer executed:  %date% %time% >> %mkgmap_Logfile%
 Echo.>> %mkgmap_Logfile%
 
+Echo.>> %mkgmap_Logfile%
+Echo --------------------------------------------------------------------------->> %mkgmap_Logfile%
+Echo # Clear output folder with generated img files and 'nsis' .exe to save space>> %mkgmap_Logfile%
+Echo --------------------------------------------------------------------------->> %mkgmap_Logfile%
+If %mkgmap_SkipClearOutputFolderOnSuccess%==True (
+		Echo # !! Test option : Temporary output folder is not cleared >> %mkgmap_Logfile%
+		Goto lbl_NoNsisInstaller
+)
+If Exist "%mkgmap_OutputFolderMap%" (
+	Del /q "%mkgmap_OutputFolderMap%"\*.*
+)
+
 :lbl_NoNsisInstaller
 
 Echo.>> %mkgmap_Logfile%
 Echo --------------------------------------------------------------------------->> %mkgmap_Logfile%
 Echo # Clear Garmin Basecamp tile cache>> %mkgmap_Logfile%
 Echo --------------------------------------------------------------------------->> %mkgmap_Logfile%
-Del /Q "C:\Users\%username%\AppData\Local\Garmin\BaseCamp\TileCache\"*.tile
+Del /q "C:\Users\%username%\AppData\Local\Garmin\BaseCamp\TileCache\"*.tile
 Echo # Tile cache deleted>> %mkgmap_Logfile%
+
 
 Goto :lbl_EF
 
