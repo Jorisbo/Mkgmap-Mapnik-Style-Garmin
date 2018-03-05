@@ -3,13 +3,13 @@ style-file: Style - Joris
 
 #include the download of the latest sea files from from http://osm2.pleiades.uni-wuppertal.de/sea/latest/
 #or from http://www.mkgmap.org.uk/download/mkgmap.html
-precomp-sea: sea.zip
+precomp-sea: c:\garmin\sources\sea.zip
 generate-sea: land-tag=natural=background
 
 #include de download of the latest bounds from http://osm2.pleiades.uni-wuppertal.de/bounds/latest/
 #or see also from http://www.mkgmap.org.uk/download/mkgmap.html
 check-styles
-bounds: bounds.zip
+bounds: c:\garmin\sources\bounds.zip
 location-autofill: is_in,nearest
 housenumbers
 x-split-name-index
