@@ -1,38 +1,55 @@
 #Use style file
+#=======================================================================
+keep-going
 style-file: Style - Joris
+check-styles
 
 #include the download of the latest sea files from from http://osm2.pleiades.uni-wuppertal.de/sea/latest/
 #or from http://www.mkgmap.org.uk/download/mkgmap.html
+#=======================================================================
 precomp-sea: c:\garmin\sources\sea.zip
-generate-sea: land-tag=natural=background
-
-#include de download of the latest bounds from http://osm2.pleiades.uni-wuppertal.de/bounds/latest/
-#or see also from http://www.mkgmap.org.uk/download/mkgmap.html
-check-styles
 bounds: c:\garmin\sources\bounds.zip
+generate-sea: land-tag=natural=background
+#floodblocker
+
+latin1
+code-page: 1252
 location-autofill: is_in,nearest
 housenumbers
-x-split-name-index
 tdbfile
-latin1
 name-tag-list: name,name:nl,name:fr,name:de,int_name,place_name
-code-page: 1252
 show-profiles: 1
-merge-lines
 add-pois-to-areas
+pois-to-areas-placement=always=middle
 add-pois-to-lines
 link-pois-to-ways
+
+#Optimization
+#=======================================================================
 #JB org: min-size-polygon: 4
 #JB org: polygon-size-limits=17:2, 15:0
-min-size-polygon: 4
-polygon-size-limits=17:2, 15:0
-preserve-element-order
-keep-going
-#net
+#Changing these values can cause white non rendered blocks in the water on lower zoomlevels
+#Started with 20 at alle levels but that was to big for the lower zoomelevels. So lowered the value to 12 and 8 at the end
+		min-size-polygon: 20
+		polygon-size-limits=24:12, 22:20, 20:20, 18:12, 16:8, 14:8
+		merge-lines
+		
+#originally not set, then set to 4 and 8, on lower zoomlevels the edges ara more sharp
+		#reduce-point-density=4
+		#reduce-point-density-polygon=8
+
+#20180324 uitgeschakeld: preserve-element-order (snap wat het doet maar snap het nut niet)
+		#preserve-element-order
+#20180324 uitgeschakeld: order-by-decreasing-area (maakt de file 10% groter en is niet zinvol ivm met advanced multi-draworder typ-file)
+		#order-by-decreasing-area
+
 route
+make-poi-index
+x-split-name-index
 index
+
+#Processing
+#default overviewmap :  osmmap.img
 remove-ovm-work-files
 nsis
-
-#JB: Optional create img that can be copied to the gps as a single file
 #gmapsupp
