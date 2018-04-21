@@ -8,7 +8,7 @@ CodePage=1252
 [_comments]
 ;Joris Bovens
 ;Jorisbo@hotmail.com
-;Generated: 20180415 18:46
+;Generated: 20180421 11:53
 ;From master: JBM
 ;As subset: mapnik
 [End]
@@ -33,7 +33,7 @@ Type=0x10,2
 Type=0x11,2
 Type=0x12,11
 Type=0x13,21
-Type=0x14,2
+Type=0x14,3
 Type=0x15,2
 Type=0x16,2
 Type=0x17,8
@@ -41,7 +41,7 @@ Type=0x18,7
 Type=0x19,18
 Type=0x1a,2
 Type=0x1b,14
-Type=0x1c,3
+Type=0x1c,2
 Type=0x1d,8
 Type=0x1e,4
 Type=0x1f,5
@@ -1238,10 +1238,10 @@ Xpm="32 32 2 1"
 [_polygon]
 type=0x32
 ;GRMN_TYPE: Water Areas/SEA/Sea/Non NT
-String1=0x01,Mer
-String2=0x02,Meer
-String3=0x04,Sea
-String4=0x03,Zee
+String1=0x01,Eau
+String2=0x02,Wasser
+String3=0x04,Water
+String4=0x03,Water
 String5=0x09,
 String6=0x24,
 ExtendedLabels=Y
@@ -1578,24 +1578,9 @@ String4=0x03,Water
 String5=0x09,
 String6=0x24,
 ExtendedLabels=Y
-FontStyle=NoLabel (invisible)
-CustomColor=No
-Xpm="0 0 1 0"
-"1 c #AAD3DF"
-[end]
-
-[_polygon]
-type=0x3e
-;GRMN_TYPE: Water Areas/LAKE_10MI/Lake less than 30 sq mi but greater or equal to 10 sq mi in area/Non NT
-String1=0x01,Port
-String2=0x02,Bootshafen
-String3=0x04,Marina
-String4=0x03,Haven
-String5=0x09,
-String6=0x24,
-ExtendedLabels=Y
-FontStyle=NoLabel (invisible)
-CustomColor=No
+FontStyle=SmallFont
+CustomColor=Day
+DaycustomColor:#4D80B3
 Xpm="0 0 1 0"
 "1 c #AAD3DF"
 [end]
@@ -5513,6 +5498,31 @@ DaycustomColor:#838383
 [end]
 
 [_line]
+type=0x10c0d
+;GRMN_TYPE: //
+UseOrientation=Y
+Xpm="32 5 2  1"
+"! c #626262"
+"  c none"
+"    !                           "
+"    !                           "
+"!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+"    !                           "
+"    !                           "
+;12345678901234567890123456789012
+String1=0x01,
+String2=0x02,
+String3=0x04,Zipline
+String4=0x03,Tokkelbaan
+String5=0x09,
+String6=0x24,
+ExtendedLabels=Y
+FontStyle=NoLabel (invisible)
+CustomColor=Day
+DaycustomColor:#838383
+[end]
+
+[_line]
 type=0x10c0e
 ;GRMN_TYPE: //
 UseOrientation=Y
@@ -5783,27 +5793,6 @@ DayXpm="9 9 2 1"   Colormode=16
 [end]
 
 [_point]
-type=0x007
-subtype=0x00
-;GRMN_TYPE: Political Entities/CITY_100K/City with the range of (100, 200] thousand inhabitants/Non NT
-String1=0x01,
-String2=0x02,
-String3=0x04,Locality
-String4=0x03,Naamsaanduiding
-String5=0x09,
-String6=0x24,
-ExtendedLabels=Y
-FontStyle=NormalFont
-CustomColor=Day
-DaycustomColor:#737373
-DayXpm="1 1 2 1"   Colormode=16
-"!	c #00FF4B"
-"  	c none"
-" "
-;1
-[end]
-
-[_point]
 type=0x008
 subtype=0x00
 ;GRMN_TYPE: Political Entities/CITY_50K, MEDIUM_CITY/Medium city center, typically 50K-1M inhabitants/Non NT
@@ -5843,18 +5832,14 @@ String4=0x03,Woonplaats (>10k)
 String5=0x09,
 String6=0x24,
 ExtendedLabels=Y
-FontStyle=NormalFont
+FontStyle=Default
 CustomColor=Day
 DaycustomColor:#414141
-DayXpm="10 5 2 1"   Colormode=16
-"!	c #BD30B4"
+DayXpm="1 1 2 1"   Colormode=16
+"!	c #00FF4B"
 "  	c none"
-"!!!!!     "
-"!!!!!     "
-"!!!!!     "
-"!!!!!     "
-"!!!!!     "
-;1234567890
+" "
+;1
 [end]
 
 [_point]
@@ -5868,19 +5853,14 @@ String4=0x03,Dorp (>5k)
 String5=0x09,
 String6=0x24,
 ExtendedLabels=Y
-FontStyle=NormalFont
+FontStyle=Default
 CustomColor=Day
 DaycustomColor:#414141
-DayXpm="12 6 2 1"   Colormode=16
-"!	c #BD30B4"
+DayXpm="1 1 2 1"   Colormode=16
+"!	c #00FF4B"
 "  	c none"
-"!!!!!!      "
-"!!!!!!      "
-"!!!!!!      "
-"!!!!!!      "
-"!!!!!!      "
-"!!!!!!      "
-;123456789012
+" "
+;1
 [end]
 
 [_point]
@@ -5894,9 +5874,9 @@ String4=0x03,Dorp (>1000)
 String5=0x09,
 String6=0x24,
 ExtendedLabels=Y
-FontStyle=Default
+FontStyle=NormalFont
 CustomColor=Day
-DaycustomColor:#878787
+DaycustomColor:#414141
 DayXpm="1 1 2 1"   Colormode=16
 "!	c #00FF4B"
 "  	c none"
@@ -5915,9 +5895,30 @@ String4=0x03,Gehucht
 String5=0x09,
 String6=0x24,
 ExtendedLabels=Y
-FontStyle=Default
+FontStyle=NormalFont
 CustomColor=Day
-DaycustomColor:#414141
+DaycustomColor:#878787
+DayXpm="1 1 2 1"   Colormode=16
+"!	c #00FF4B"
+"  	c none"
+" "
+;1
+[end]
+
+[_point]
+type=0x00d
+subtype=0x00
+;GRMN_TYPE: Political Entities/CITY_UNKNOWN/City of unknown population/Non NT
+String1=0x01,
+String2=0x02,
+String3=0x04,Name
+String4=0x03,Naam
+String5=0x09,
+String6=0x24,
+ExtendedLabels=Y
+FontStyle=SmallFont
+CustomColor=Day
+DaycustomColor:#737373
 DayXpm="1 1 2 1"   Colormode=16
 "!	c #00FF4B"
 "  	c none"
@@ -5953,13 +5954,13 @@ subtype=0x00
 String1=0x01,Pays
 String2=0x02,Land
 String3=0x04,Country
-String4=0x03,Landsdeel
+String4=0x03,Groot Eiland
 String5=0x09,
 String6=0x24,
 ExtendedLabels=Y
-FontStyle=NormalFont
+FontStyle=LargeFont
 CustomColor=Day
-DaycustomColor:#BD30B4
+DaycustomColor:#000000
 DayXpm="1 1 2 1"   Colormode=16
 "!	c #00FF4B"
 "  	c none"
@@ -5978,7 +5979,7 @@ String4=0x03,Provincie
 String5=0x09,
 String6=0x24,
 ExtendedLabels=Y
-FontStyle=LargeFont
+FontStyle=NormalFont
 CustomColor=Day
 DaycustomColor:#BD30B4
 DayXpm="1 1 2 1"   Colormode=16
@@ -6931,7 +6932,8 @@ String5=0x09,
 String6=0x24,
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
-CustomColor=No
+CustomColor=Day
+DaycustomColor:#0065D5
 DayXpm="16 10 2 1"   Colormode=16
 "!	c #0095FF"
 "  	c none"
@@ -6959,8 +6961,9 @@ String4=0x03,Bed en breakfast
 String5=0x09,
 String6=0x24,
 ExtendedLabels=Y
-FontStyle=NoLabel (invisible)
-CustomColor=No
+FontStyle=SmallFont
+CustomColor=Day
+DaycustomColor:#0065D5
 DayXpm="16 15 2 1"   Colormode=16
 "!	c #0095FF"
 "  	c none"
@@ -7227,27 +7230,27 @@ ExtendedLabels=Y
 FontStyle=SmallFont
 CustomColor=Day
 DaycustomColor:#0065D5
-DayXpm="16 16 3 1"   Colormode=16
+DayXpm="20 16 3 1"   Colormode=16
 "!	c #0095FF"
 "#	c #7BCAFF"
 "  	c none"
-"################"
-"################"
-"                "
-"!!              "
-"!!              "
-"!! !!  !!!!!    "
-"!! !! !!!!!!  !!"
-"!!            !!"
-"!!!!!!!!!!!!!!!!"
-"!!!!!!!!!!!!!!!!"
-"!!            !!"
-"!!            !!"
-"!!            !!"
-"                "
-"################"
-"################"
-;1234567890123456
+"################    "
+"################    "
+"                    "
+"!!                  "
+"!!                  "
+"!! !!  !!!!!        "
+"!! !! !!!!!!  !!    "
+"!!            !!    "
+"!!!!!!!!!!!!!!!!    "
+"!!!!!!!!!!!!!!!!    "
+"!!            !!    "
+"!!            !!    "
+"!!            !!    "
+"                    "
+"################    "
+"################    "
+;12345678901234567890
 [end]
 
 [_point]
@@ -7263,8 +7266,8 @@ String6=0x24,
 ExtendedLabels=Y
 FontStyle=SmallFont
 CustomColor=Day
-DaycustomColor:#0095FF
-DayXpm="16 13 2 1"   Colormode=16
+DaycustomColor:#0065D5
+DayXpm="16 12 2 1"   Colormode=16
 "!	c #0095FF"
 "  	c none"
 "    !           "
@@ -7279,7 +7282,6 @@ DayXpm="16 13 2 1"   Colormode=16
 " !!!!!!!!!   !! "
 "        !!!!!!! "
 "       !!!!!!!!!"
-"                "
 ;1234567890123456
 [end]
 
@@ -7720,19 +7722,33 @@ subtype=0x01
 ;GRMN_TYPE: Business - Attractions/THEME_PARK/Amusement or theme park, i.e. Disneyland/Non NT
 String1=0x01,
 String2=0x02,
-String3=0x04,Tourist attraction
-String4=0x03,Touristische attractie
+String3=0x04,Video games
+String4=0x03,Video games
 String5=0x09,
 String6=0x24,
 ExtendedLabels=Y
-FontStyle=SmallFont
-CustomColor=Day
-DaycustomColor:#660033
-DayXpm="1 1 2 1"   Colormode=16
-"!	c #009500"
+FontStyle=NoLabel (invisible)
+CustomColor=No
+DayXpm="15 16 2 1"   Colormode=16
+"!	c #BD30B4"
 "  	c none"
-" "
-;1
+" !             "
+"  !   !!!!     "
+"   !!!!  !     "
+"        !!     "
+"   !!   ! !!   "
+"  !!!! ! !!!!  "
+" !!!!!!!!!!!!! "
+"!!!  !!!!!  !!!"
+"!!    !!! !! !!"
+"!!    !!! !! !!"
+"!!!  !!!!!  !!!"
+"!!!!!!!!!!!!!!!"
+"!!!!!!!!!!!!!!!"
+"!!!!!!   !!!!!!"
+"!!!!!     !!!!!"
+" !!!       !!! "
+;123456789012345
 [end]
 
 [_point]
@@ -7892,27 +7908,6 @@ DayXpm="18 16 2 1"   Colormode=16
 
 [_point]
 type=0x02c
-subtype=0x07
-;GRMN_TYPE: Business - Attractions/ZOO/Zoo/Non NT
-String1=0x01,
-String2=0x02,
-String3=0x04,Zoo
-String4=0x03,Themapark / Dierentuin
-String5=0x09,
-String6=0x24,
-ExtendedLabels=Y
-FontStyle=NormalFont
-CustomColor=Day
-DaycustomColor:#775010
-DayXpm="1 1 2 1"   Colormode=16
-"!	c #009500"
-"  	c none"
-" "
-;1
-[end]
-
-[_point]
-type=0x02c
 subtype=0x08
 ;GRMN_TYPE: Business - Attractions/ARENA/Arena or track/Non NT
 String1=0x01,
@@ -8021,24 +8016,24 @@ ExtendedLabels=Y
 FontStyle=SmallFont
 CustomColor=Day
 DaycustomColor:#000000
-DayXpm="10 14 2 1"   Colormode=16
+DayXpm="14 14 2 1"   Colormode=16
 "!	c #101010"
 "  	c none"
-"    !!    "
-"    !!    "
-"    !!    "
-"    !!    "
-"!!!!!!!!!!"
-"!!!!!!!!!!"
-"    !!    "
-"    !!    "
-"    !!    "
-"    !!    "
-"    !!    "
-"    !!    "
-"    !!    "
-"    !!    "
-;1234567890
+"    !!        "
+"    !!        "
+"    !!        "
+"    !!        "
+"!!!!!!!!!!    "
+"!!!!!!!!!!    "
+"    !!        "
+"    !!        "
+"    !!        "
+"    !!        "
+"    !!        "
+"    !!        "
+"    !!        "
+"    !!        "
+;12345678901234
 [end]
 
 [_point]
@@ -8052,9 +8047,8 @@ String4=0x03,Boedistische tempel
 String5=0x09,
 String6=0x24,
 ExtendedLabels=Y
-FontStyle=SmallFont
-CustomColor=Day
-DaycustomColor:#000000
+FontStyle=NoLabel (invisible)
+CustomColor=No
 DayXpm="14 14 2 1"   Colormode=16
 "!	c #101010"
 "  	c none"
@@ -8316,24 +8310,24 @@ ExtendedLabels=Y
 FontStyle=SmallFont
 CustomColor=Day
 DaycustomColor:#734A08
-DayXpm="12 13 3 1"   Colormode=16
+DayXpm="14 13 3 1"   Colormode=16
 "!	c #734A08"
 "#	c #BD956A"
 "  	c none"
-"   #!!!!#   "
-"  #!!!!!!#  "
-"  !!!  !!!  "
-"  !!!!!!!!  "
-"  !      !  "
-"  !!!!!!!!  "
-"  !!    !!  "
-"  !!!!!!!!  "
-"  !!!!!!!!  "
-"  !!!!!!!!  "
-"            "
-"#!!!!!!!!!!#"
-"!!!!!!!!!!!!"
-;123456789012
+"   #!!!!#     "
+"  #!!!!!!#    "
+"  !!!  !!!    "
+"  !!!!!!!!    "
+"  !      !    "
+"  !!!!!!!!    "
+"  !!    !!    "
+"  !!!!!!!!    "
+"  !!!!!!!!    "
+"  !!!!!!!!    "
+"              "
+"#!!!!!!!!!!#  "
+"!!!!!!!!!!!!  "
+;12345678901234
 [end]
 
 [_point]
@@ -8350,19 +8344,19 @@ ExtendedLabels=Y
 FontStyle=SmallFont
 CustomColor=Day
 DaycustomColor:#734A08
-DayXpm="12 9 2 1"   Colormode=16
+DayXpm="16 9 2 1"   Colormode=16
 "!	c #734A08"
 "  	c none"
-"!!!!!!!!!!!!"
-"! !!!!!!!! !"
-"!!!!    !!!!"
-"!!!!!!!!!!!!"
-"!!        !!"
-"!!!!!!!!!!!!"
-"!!!!    !!!!"
-"! !!!!!!!! !"
-"!!!!!!!!!!!!"
-;123456789012
+"!!!!!!!!!!!!    "
+"! !!!!!!!! !    "
+"!!!!    !!!!    "
+"!!!!!!!!!!!!    "
+"!!        !!    "
+"!!!!!!!!!!!!    "
+"!!!!    !!!!    "
+"! !!!!!!!! !    "
+"!!!!!!!!!!!!    "
+;1234567890123456
 [end]
 
 [_point]
@@ -8412,25 +8406,26 @@ String4=0x03,Theater
 String5=0x09,
 String6=0x24,
 ExtendedLabels=Y
-FontStyle=NoLabel (invisible)
-CustomColor=No
-DayXpm="14 13 2 1"   Colormode=16
+FontStyle=SmallFont
+CustomColor=Day
+DaycustomColor:#734A08
+DayXpm="16 13 2 1"   Colormode=16
 "!	c #734A08"
 "  	c none"
-"!!!!!!!!      "
-"!      !      "
-"! !  ! !      "
-"!     !!!!!!!!"
-"! !  !!!!!!!!!"
-"! !  !!! !! !!"
-"!  !! !! !! !!"
-"!     !!!!!!!!"
-" !    !!!  !!!"
-"  !!!!!! !! !!"
-"      !! !! !!"
-"       !!!!!! "
-"        !!!!  "
-;12345678901234
+"!!!!!!!!        "
+"!      !        "
+"! !  ! !        "
+"!     !!!!!!!!  "
+"! !  !!!!!!!!!  "
+"! !  !!! !! !!  "
+"!  !! !!!!!!!!  "
+"!     !!!!!!!!  "
+" !    !!!  !!!  "
+"  !!!!!! !! !!  "
+"      !! !! !!  "
+"       !!!!!!   "
+"        !!!!    "
+;1234567890123456
 [end]
 
 [_point]
@@ -8643,7 +8638,7 @@ subtype=0x09
 String1=0x01,
 String2=0x02,
 String3=0x04,Swimmingpool
-String4=0x03,Zwembad
+String4=0x03,Waterpark
 String5=0x09,
 String6=0x24,
 ExtendedLabels=Y
@@ -8713,27 +8708,26 @@ String4=0x03,Fitness
 String5=0x09,
 String6=0x24,
 ExtendedLabels=Y
-FontStyle=SmallFont
-CustomColor=Day
-DaycustomColor:#009500
-DayXpm="14 14 2 1"   Colormode=16
+FontStyle=NoLabel (invisible)
+CustomColor=No
+DayXpm="16 14 2 1"   Colormode=16
 "!	c #009500"
 "  	c none"
-"         !!   "
-"        !!!!  "
-"         !!   "
-"      !!!!  ! "
-"    !!!!!! !! "
-"   !! !!!!!!  "
-"      !! !!   "
-"     !!!      "
-" !! !! !!!    "
-" !!!!!  !!    "
-" ! !!   !!    "
-"       !!     "
-"       !!     "
-"       !!!    "
-;12345678901234
+"         !!     "
+"        !!!!    "
+"         !!     "
+"      !!!!  !   "
+"    !!!!!! !!   "
+"   !! !!!!!!    "
+"      !! !!     "
+"     !!!        "
+" !! !! !!!      "
+" !!!!!  !!      "
+" ! !!   !!      "
+"       !!       "
+"       !!       "
+"       !!!      "
+;1234567890123456
 [end]
 
 [_point]
@@ -9304,17 +9298,15 @@ String6=0x24,
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
-DayXpm="6 6 3 1"   Colormode=16
-"!	c #CC8FCC"
-"#	c #BD30B4"
+DayXpm="9 5 2 1"   Colormode=16
+"!	c #BD30B4"
 "  	c none"
-" !##! "
-"!####!"
-"######"
-"######"
-"!####!"
-" !##! "
-;123456
+" !!!     "
+"!!!!!    "
+"!!!!!    "
+"!!!!!    "
+" !!!     "
+;123456789
 [end]
 
 [_point]
@@ -9861,7 +9853,7 @@ String4=0x03,Luchthaven
 String5=0x09,
 String6=0x24,
 ExtendedLabels=Y
-FontStyle=SmallFont
+FontStyle=NormalFont
 CustomColor=Day
 DaycustomColor:#8461C4
 DayXpm="16 16 2 1"   Colormode=16
@@ -9873,7 +9865,7 @@ DayXpm="16 16 2 1"   Colormode=16
 "       !!       "
 "       !!       "
 "      !!!!      "
-"    !!!!!!!!    "
+"   !!!!!!!!!    "
 "   !!!!!!!!!!   "
 " !!!!!!!!!!!!!! "
 "!!!!   !!   !!!!"
@@ -10434,7 +10426,7 @@ String4=0x03,Busstation
 String5=0x09,
 String6=0x24,
 ExtendedLabels=Y
-FontStyle=SmallFont
+FontStyle=Default
 CustomColor=Day
 DaycustomColor:#0065FF
 DayXpm="16 16 2 1"   Colormode=16
@@ -10593,6 +10585,31 @@ DayXpm="10 13 2 1"   Colormode=16
 
 [_point]
 type=0x02f
+subtype=0x1b
+;GRMN_TYPE: //
+String1=0x01,
+String2=0x02,
+String3=0x04,
+String4=0x03,Kantoor
+String5=0x09,
+String6=0x24,
+ExtendedLabels=Y
+FontStyle=SmallFont
+CustomColor=Day
+DaycustomColor:#4863A0
+DayXpm="8 5 2 1"   Colormode=16
+"!	c #4863A0"
+"  	c none"
+" !!!    "
+"!!!!!   "
+"!!!!!   "
+"!!!!!   "
+" !!!    "
+;12345678
+[end]
+
+[_point]
+type=0x02f
 subtype=0x1d
 ;GRMN_TYPE: //
 String1=0x01,Hypermarche
@@ -10736,24 +10753,24 @@ ExtendedLabels=Y
 FontStyle=SmallFont
 CustomColor=Day
 DaycustomColor:#DA0092
-DayXpm="19 14 2 1"   Colormode=16
+DayXpm="16 14 2 1"   Colormode=16
 "!	c #DA0092"
 "  	c none"
-"   !!!!!!!!        "
-"  !!      !!       "
-" !!  !!!!  !!      "
-"!!   !!!!   !!     "
-"!    !!!!    !     "
-"! !!!!!!!!!! !     "
-"! !!!!!!!!!! !     "
-"! !!!!!!!!!! !     "
-"! !!!!!!!!!! !     "
-"!    !!!!    !     "
-"!!   !!!!   !!     "
-" !!  !!!!  !!      "
-"  !!      !!       "
-"   !!!!!!!!        "
-;1234567890123456789
+"   !!!!!!!!     "
+"  !!      !!    "
+" !!  !!!!  !!   "
+"!!   !!!!   !!  "
+"!    !!!!    !  "
+"! !!!!!!!!!! !  "
+"! !!!!!!!!!! !  "
+"! !!!!!!!!!! !  "
+"! !!!!!!!!!! !  "
+"!    !!!!    !  "
+"!!   !!!!   !!  "
+" !!  !!!!  !!   "
+"  !!      !!    "
+"   !!!!!!!!     "
+;1234567890123456
 [end]
 
 [_point]
@@ -11529,7 +11546,7 @@ String4=0x03,Fietsenwinkel
 String5=0x09,
 String6=0x24,
 ExtendedLabels=Y
-FontStyle=SmallFont
+FontStyle=NormalFont
 CustomColor=Day
 DaycustomColor:#BD30B4
 DayXpm="14 11 2 1"   Colormode=16
@@ -11560,7 +11577,7 @@ String4=0x03,Golfclub
 String5=0x09,
 String6=0x24,
 ExtendedLabels=Y
-FontStyle=NormalFont
+FontStyle=Default
 CustomColor=Day
 DaycustomColor:#009500
 DayXpm="19 18 2 1"   Colormode=16
@@ -11687,6 +11704,48 @@ CustomColor=Day
 DaycustomColor:#CA8D37
 DayXpm="1 1 2 1"   Colormode=16
 "!	c #FFFFFF"
+"  	c none"
+" "
+;1
+[end]
+
+[_point]
+type=0x03c
+subtype=0x01
+;GRMN_TYPE: //
+String1=0x01,
+String2=0x02,
+String3=0x04,Tourist attraction
+String4=0x03,Touristische attractie
+String5=0x09,
+String6=0x24,
+ExtendedLabels=Y
+FontStyle=SmallFont
+CustomColor=Day
+DaycustomColor:#660033
+DayXpm="1 1 2 1"   Colormode=16
+"!	c #FFFFFF"
+"  	c none"
+" "
+;1
+[end]
+
+[_point]
+type=0x03c
+subtype=0x02
+;GRMN_TYPE: //
+String1=0x01,
+String2=0x02,
+String3=0x04,Zoo
+String4=0x03,Dierentuin / Themepark
+String5=0x09,
+String6=0x24,
+ExtendedLabels=Y
+FontStyle=Default
+CustomColor=Day
+DaycustomColor:#775010
+DayXpm="1 1 2 1"   Colormode=16
+"!	c #009500"
 "  	c none"
 " "
 ;1
@@ -12027,9 +12086,9 @@ String4=0x03,Begraafplaats
 String5=0x09,
 String6=0x24,
 ExtendedLabels=Y
-FontStyle=SmallFont
+FontStyle=Default
 CustomColor=Day
-DaycustomColor:#202020
+DaycustomColor:#495E48
 DayXpm="1 1 2 1"   Colormode=16
 "!	c #009500"
 "  	c none"
@@ -12166,28 +12225,28 @@ String6=0x24,
 ExtendedLabels=Y
 FontStyle=SmallFont
 CustomColor=Day
-DaycustomColor:#0065FF
-DayXpm="19 16 3 1"   Colormode=16
+DaycustomColor:#247CFB
+DayXpm="18 16 3 1"   Colormode=16
 "!	c #0095FF"
 "#	c #FFFFFF"
 "  	c none"
-"       !!          "
-"     !!!!!!        "
-"   !!!!!!!!!!      "
-" !!!!!####!!!!!    "
-"!!!!########!!!!   "
-"!!!####!!####!!!   "
-" !!####!!!###!!    "
-" !!##!#!!####!!    "
-" !!##!#!#####!!    "
-" !!#!!!!!!###!!    "
-" !!#!!!!#!!##!!    "
-" !!###!!##!##!!    "
-" !!###!!!#!##!!    "
-" !!###!#!#!##!!    "
-" !!##!!#!#!##!!    "
-" !!##!##!!###!!    "
-;1234567890123456789
+"       !!         "
+"     !!!!!!       "
+"   !!!!!!!!!!     "
+" !!!!!    !!!!!   "
+"!!!!        !!!!  "
+"!!!    !!    !!!  "
+" !!    !!!   !!   "
+" !!  ! !!    !!   "
+" !!  !!!     !!   "
+" !! !!!!!!   !!   "
+" !! !!!! !!  !!   "
+" !!   !!  !  !!   "
+" !!   !!! !  !!   "
+" !!   !#! !  !!   "
+" !!  !!#! !  !!   "
+" !!  !##!!   !!   "
+;123456789012345678
 [end]
 
 [_point]
@@ -12231,25 +12290,25 @@ ExtendedLabels=Y
 FontStyle=Default
 CustomColor=Day
 DaycustomColor:#4A58AD
-DayXpm="10 15 2 1"   Colormode=16
+DayXpm="11 15 2 1"   Colormode=16
 "!	c #9E83CB"
 "  	c none"
-"    !!    "
-"   !!!!   "
-"   !!!!   "
-"    !!    "
-"    !!    "
-" !!!!!!!! "
-" !!!!!!!! "
-"    !!    "
-"    !!    "
-"!   !!   !"
-"!!  !!  !!"
-"!!! !! !!!"
-" !!!!!!!! "
-"  !!!!!!  "
-"    !!    "
-;1234567890
+"    !!     "
+"   !!!!    "
+"   !!!!    "
+"    !!     "
+"    !!     "
+" !!!!!!!!  "
+" !!!!!!!!  "
+"    !!     "
+"    !!     "
+"!   !!   ! "
+"!!  !!  !! "
+"!!! !! !!! "
+" !!!!!!!!  "
+"  !!!!!!   "
+"    !!     "
+;12345678901
 [end]
 
 [_point]
@@ -12564,24 +12623,24 @@ ExtendedLabels=Y
 FontStyle=SmallFont
 CustomColor=Day
 DaycustomColor:#734A08
-DayXpm="18 14 2 1"   Colormode=16
+DayXpm="19 14 2 1"   Colormode=16
 "!	c #734A08"
 "  	c none"
-" ! ! !    ! ! !   "
-" !!!!!    !!!!!   "
-"                  "
-" !!!!!    !!!!!   "
-" !! !!    !! !!   "
-" !   !    !   !   "
-" !! !!!!!!!! !!   "
-" !!!!!!!!!!!!!!   "
-" !!!!!!!!!!!!!!   "
-" !!!!!!!!!!!!!!   "
-"                  "
-" !!!!!!!!!!!!!!   "
-"!!!!!!!!!!!!!!!!  "
-"!!!!!!!!!!!!!!!!  "
-;123456789012345678
+" ! ! !    ! ! !    "
+" !!!!!    !!!!!    "
+"                   "
+" !!!!!    !!!!!    "
+" !! !!    !! !!    "
+" !   !    !   !    "
+" !! !!!!!!!! !!    "
+" !!!!!!!!!!!!!!    "
+" !!!!!!!!!!!!!!    "
+" !!!!!!!!!!!!!!    "
+"                   "
+" !!!!!!!!!!!!!!    "
+"!!!!!!!!!!!!!!!!   "
+"!!!!!!!!!!!!!!!!   "
+;1234567890123456789
 [end]
 
 [_point]
@@ -12598,24 +12657,24 @@ ExtendedLabels=Y
 FontStyle=SmallFont
 CustomColor=Day
 DaycustomColor:#734A08
-DayXpm="16 14 2 1"   Colormode=16
+DayXpm="20 14 2 1"   Colormode=16
 "!	c #734A08"
 "  	c none"
-" !!!        !!! "
-"!!!!!      !!!!!"
-"                "
-"!!!!!      !!!!!"
-"!! !!      !! !!"
-"!   !      !   !"
-"!! !!!!!!!!!! !!"
-"!!!!!!!!!!!!!!!!"
-"!!!!!!!!!!!!!!!!"
-"!!!!!!!!!!!!!!!!"
-"!!!!!!    !!!!!!"
-"!!!!!      !!!!!"
-"!!!!!      !!!!!"
-"!!!!!      !!!!!"
-;1234567890123456
+" !!!        !!!     "
+"!!!!!      !!!!!    "
+"                    "
+"!!!!!      !!!!!    "
+"!! !!      !! !!    "
+"!   !      !   !    "
+"!! !!!!!!!!!! !!    "
+"!!!!!!!!!!!!!!!!    "
+"!!!!!!!!!!!!!!!!    "
+"!!!!!!!!!!!!!!!!    "
+"!!!!!!    !!!!!!    "
+"!!!!!      !!!!!    "
+"!!!!!      !!!!!    "
+"!!!!!      !!!!!    "
+;12345678901234567890
 [end]
 
 [_point]
@@ -12632,24 +12691,24 @@ ExtendedLabels=Y
 FontStyle=SmallFont
 CustomColor=Day
 DaycustomColor:#734A08
-DayXpm="16 14 2 1"   Colormode=16
+DayXpm="20 14 2 1"   Colormode=16
 "!	c #734A08"
 "  	c none"
-"       !!       "
-"      !!!!      "
-" !!  !!!!!!  !! "
-"!!!! !!!!!! !!!!"
-"                "
-"!!!! !!!!!! !!!!"
-"!!!!!!!!!!!!!!!!"
-"!! !!!!!!!!!! !!"
-"!   !!!!!!!!   !"
-"!   !!!!!!!!   !"
-"!!!!!!    !!!!!!"
-"!!!!!      !!!!!"
-"!!!!!      !!!!!"
-"!!!!!      !!!!!"
-;1234567890123456
+"       !!           "
+"      !!!!          "
+" !!  !!!!!!  !!     "
+"!!!! !!!!!! !!!!    "
+"                    "
+"!!!! !!!!!! !!!!    "
+"!!!!!!!!!!!!!!!!    "
+"!! !!!!!!!!!! !!    "
+"!   !!!!!!!!   !    "
+"!   !!!!!!!!   !    "
+"!!!!!!    !!!!!!    "
+"!!!!!      !!!!!    "
+"!!!!!      !!!!!    "
+"!!!!!      !!!!!    "
+;12345678901234567890
 [end]
 
 [_point]
@@ -12666,24 +12725,24 @@ ExtendedLabels=Y
 FontStyle=SmallFont
 CustomColor=Day
 DaycustomColor:#734A08
-DayXpm="16 14 2 1"   Colormode=16
+DayXpm="20 14 2 1"   Colormode=16
 "!	c #734A08"
 "  	c none"
-"                "
-"       !!       "
-"     !!!!!!     "
-"   !!!!!!!!!!   "
-" !!!!!!!!!!!!!! "
-"!!!!!!!  !!!!!!!"
-"!!!!!!!  !!!!!!!"
-"!!!!!!    !!!!!!"
-"    !! !! !!    "
-"!!!!!! !! !!!!!!"
-"!  !!! !! !!!  !"
-"!  !!! !! !!!  !"
-"!!!!!! !! !!!!!!"
-"!!!!!! !! !!!!!!"
-;1234567890123456
+"                    "
+"       !!           "
+"     !!!!!!         "
+"   !!!!!!!!!!       "
+" !!!!!!!!!!!!!!     "
+"!!!!!!!  !!!!!!!    "
+"!!!!!!!  !!!!!!!    "
+"!!!!!!    !!!!!!    "
+"    !! !! !!        "
+"!!!!!! !! !!!!!!    "
+"!  !!! !! !!!  !    "
+"!  !!! !! !!!  !    "
+"!!!!!! !! !!!!!!    "
+"!!!!!! !! !!!!!!    "
+;12345678901234567890
 [end]
 
 [_point]
@@ -12714,13 +12773,13 @@ subtype=0x14
 String1=0x01,
 String2=0x02,
 String3=0x04,
-String4=0x03,Water
+String4=0x03,Rotsen
 String5=0x09,
 String6=0x24,
 ExtendedLabels=Y
 FontStyle=NormalFont
 CustomColor=Day
-DaycustomColor:#4D80B3
+DaycustomColor:#967757
 DayXpm="1 1 2 1"   Colormode=16
 "!	c #009500"
 "  	c none"
@@ -12742,20 +12801,20 @@ ExtendedLabels=Y
 FontStyle=SmallFont
 CustomColor=Day
 DaycustomColor:#734A08
-DayXpm="14 10 2 1"   Colormode=16
+DayXpm="12 10 2 1"   Colormode=16
 "!	c #D40000"
 "  	c none"
-"    !         "
-"    !         "
-"   !!!        "
-"   !!!        "
-"  !!!!!       "
-"  !!!!!       "
-" !!!!!!!      "
-" !!!!!!!      "
-"!!!!!!!!!     "
-"!!!!!!!!!     "
-;12345678901234
+"    !       "
+"    !       "
+"   !!!      "
+"   !!!      "
+"  !!!!!     "
+"  !!!!!     "
+" !!!!!!!    "
+" !!!!!!!    "
+"!!!!!!!!!   "
+"!!!!!!!!!   "
+;123456789012
 [end]
 
 [_point]
@@ -12772,20 +12831,20 @@ ExtendedLabels=Y
 FontStyle=SmallFont
 CustomColor=Day
 DaycustomColor:#734A08
-DayXpm="14 10 2 1"   Colormode=16
+DayXpm="12 10 2 1"   Colormode=16
 "!	c #D08F55"
 "  	c none"
-"    !         "
-"    !         "
-"   !!!        "
-"   !!!        "
-"  !!!!!       "
-"  !!!!!       "
-" !!!!!!!      "
-" !!!!!!!      "
-"!!!!!!!!!     "
-"!!!!!!!!!     "
-;12345678901234
+"    !       "
+"    !       "
+"   !!!      "
+"   !!!      "
+"  !!!!!     "
+"  !!!!!     "
+" !!!!!!!    "
+" !!!!!!!    "
+"!!!!!!!!!   "
+"!!!!!!!!!   "
+;123456789012
 [end]
 
 [_point]
@@ -12802,22 +12861,22 @@ ExtendedLabels=Y
 FontStyle=SmallFont
 CustomColor=Day
 DaycustomColor:#734A08
-DayXpm="18 12 2 1"   Colormode=16
+DayXpm="17 12 2 1"   Colormode=16
 "!	c #D08B54"
 "  	c none"
-"            !     "
-"            !     "
-"           !!     "
-"           !!     "
-"          !!!     "
-"!         !!!     "
-"!!       !!!!     "
-"!!!      !!!!     "
-"!!!!    !!!!!     "
-"!!!!!  !!!!!!     "
-"!!!!!!!!!!!!!     "
-"!!!!!!!!!!!!!     "
-;123456789012345678
+"            !    "
+"            !    "
+"           !!    "
+"           !!    "
+"          !!!    "
+"!         !!!    "
+"!!       !!!!    "
+"!!!      !!!!    "
+"!!!!    !!!!!    "
+"!!!!!  !!!!!!    "
+"!!!!!!!!!!!!!    "
+"!!!!!!!!!!!!!    "
+;12345678901234567
 [end]
 
 [_point]
@@ -12852,27 +12911,28 @@ String4=0x03,Forttoren
 String5=0x09,
 String6=0x24,
 ExtendedLabels=Y
-FontStyle=NoLabel (invisible)
-CustomColor=No
-DayXpm="10 15 2 1"   Colormode=16
+FontStyle=SmallFont
+CustomColor=Day
+DaycustomColor:#525252
+DayXpm="13 15 2 1"   Colormode=16
 "!	c #525252"
 "  	c none"
-" ! !  ! ! "
-" !!!!!!!! "
-" !!!!!!!! "
-"          "
-" !!!!!!!! "
-" !!!!!!!! "
-" !!!!!!!! "
-" !!!  !!! "
-" !!!  !!! "
-" !!!!!!!! "
-" !!!!!!!! "
-" !!!!!!!! "
-"!!!!!!!!!!"
-"!!!!!!!!!!"
-"!!!    !!!"
-;1234567890
+" ! !  ! !    "
+" !!!!!!!!    "
+" !!!!!!!!    "
+"             "
+" !!!!!!!!    "
+" !!!!!!!!    "
+" !!!!!!!!    "
+" !!!  !!!    "
+" !!!  !!!    "
+" !!!!!!!!    "
+" !!!!!!!!    "
+" !!!!!!!!    "
+"!!!!!!!!!!   "
+"!!!!!!!!!!   "
+"!!!    !!!   "
+;1234567890123
 [end]
 
 [_point]
@@ -12886,27 +12946,28 @@ String4=0x03,Observatietoren
 String5=0x09,
 String6=0x24,
 ExtendedLabels=Y
-FontStyle=NoLabel (invisible)
-CustomColor=No
-DayXpm="10 15 2 1"   Colormode=16
+FontStyle=SmallFont
+CustomColor=Day
+DaycustomColor:#525252
+DayXpm="13 15 2 1"   Colormode=16
 "!	c #525252"
 "  	c none"
-"   !!!!   "
-" !!!!!!!! "
-"!!!!!!!!!!"
-"!! !  ! !!"
-"!! !  ! !!"
-"!!!!!!!!!!"
-"!!!!!!!!!!"
-"  !!  !!  "
-"  !!  !!  "
-"  !!  !!  "
-"  !!  !!  "
-"  ! !! !  "
-" !!!  !!! "
-" !!    !! "
-" !!    !! "
-;1234567890
+"   !!!!      "
+" !!!!!!!!    "
+"!!!!!!!!!!   "
+"!! !  ! !!   "
+"!! !  ! !!   "
+"!!!!!!!!!!   "
+"!!!!!!!!!!   "
+"  !!  !!     "
+"  !!  !!     "
+"  !!  !!     "
+"  !!  !!     "
+"  ! !! !     "
+" !!!  !!!    "
+" !!    !!    "
+" !!    !!    "
+;1234567890123
 [end]
 
 [_point]
@@ -13086,27 +13147,28 @@ String4=0x03,Molen
 String5=0x09,
 String6=0x24,
 ExtendedLabels=Y
-FontStyle=NoLabel (invisible)
-CustomColor=No
-DayXpm="12 15 2 1"   Colormode=16
+FontStyle=SmallFont
+CustomColor=Day
+DaycustomColor:#525252
+DayXpm="16 15 2 1"   Colormode=16
 "!	c #525252"
 "  	c none"
-" !        ! "
-"!!!      !!!"
-" !!! !! !!! "
-"  !!!  !!!  "
-"   !!!!!!   "
-"    !!!!    "
-"    !!!!    "
-"   !!  !!   "
-"  !!!  !!!  "
-" !!! !! !!! "
-"!!!  !!  !!!"
-" !  !!!!  ! "
-"   !!!!!!   "
-"  !!!!!!!!  "
-"  !!!!!!!!  "
-;123456789012
+" !        !     "
+"!!!      !!!    "
+" !!! !! !!!     "
+"  !!!  !!!      "
+"   !!!!!!       "
+"    !!!!        "
+"    !!!!        "
+"   !!  !!       "
+"  !!!  !!!      "
+" !!! !! !!!     "
+"!!!  !!  !!!    "
+" !  !!!!  !     "
+"   !!!!!!       "
+"  !!!!!!!!      "
+"  !!!!!!!!      "
+;1234567890123456
 [end]
 
 [_point]
