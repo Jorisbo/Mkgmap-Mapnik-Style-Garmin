@@ -8,127 +8,127 @@ CodePage=1252
 [_comments]
 ;Joris Bovens
 ;Jorisbo@hotmail.com
-;Generated: 20180609 15:49
+;Generated: 20180923 13:32
 ;From master: JBM
 ;As subset: mapnik
 [End]
 
 [_drawOrder]
-Type=0x01,26
-Type=0x02,15
+Type=0x01,27
+Type=0x02,16
 Type=0x03,3
-Type=0x04,26
-Type=0x05,16
+Type=0x04,27
+Type=0x05,17
 Type=0x06,2
 Type=0x07,2
-Type=0x08,23
+Type=0x08,24
 Type=0x09,2
-Type=0x0a,6
-Type=0x0b,6
+Type=0x0a,7
+Type=0x0b,7
 Type=0x0c,4
-Type=0x0d,10
-Type=0x0e,25
+Type=0x0d,11
+Type=0x0e,26
 Type=0x0f,2
 Type=0x10,3
 Type=0x11,2
-Type=0x12,10
-Type=0x13,23
-Type=0x14,4
+Type=0x12,11
+Type=0x13,24
+Type=0x14,5
 Type=0x15,2
 Type=0x16,2
-Type=0x17,9
-Type=0x18,8
-Type=0x19,19
-Type=0x1a,15
-Type=0x1b,14
+Type=0x17,10
+Type=0x18,9
+Type=0x19,20
+Type=0x1a,16
+Type=0x1b,15
 Type=0x1c,2
-Type=0x1d,9
-Type=0x1e,5
-Type=0x1f,8
-Type=0x20,20
-Type=0x21,20
+Type=0x1d,10
+Type=0x1e,6
+Type=0x1f,9
+Type=0x20,21
+Type=0x21,21
 Type=0x22,4
 Type=0x23,3
-Type=0x24,6
+Type=0x24,7
 Type=0x25,2
-Type=0x26,10
+Type=0x26,11
 Type=0x27,1
 Type=0x28,2
-Type=0x29,15
-Type=0x2a,7
-Type=0x2b,9
-Type=0x2c,13
-Type=0x2d,15
-Type=0x2e,11
+Type=0x29,16
+Type=0x2a,8
+Type=0x2b,10
+Type=0x2c,14
+Type=0x2d,16
+Type=0x2e,12
 Type=0x2f,2
-Type=0x30,15
-Type=0x31,15
+Type=0x30,16
+Type=0x31,16
 Type=0x32,2
-Type=0x33,22
-Type=0x34,22
-Type=0x35,22
-Type=0x36,22
-Type=0x37,22
+Type=0x33,23
+Type=0x34,23
+Type=0x35,23
+Type=0x36,23
+Type=0x37,23
 Type=0x38,2
-Type=0x39,23
-Type=0x3a,14
+Type=0x39,24
+Type=0x3a,15
 Type=0x3b,3
-Type=0x3c,21
+Type=0x3c,22
 Type=0x3d,2
-Type=0x3e,21
-Type=0x3f,22
-Type=0x40,15
-Type=0x41,7
+Type=0x3e,22
+Type=0x3f,23
+Type=0x40,16
+Type=0x41,8
 Type=0x42,2
 Type=0x43,2
-Type=0x44,18
-Type=0x45,18
-Type=0x46,21
-Type=0x47,22
+Type=0x44,19
+Type=0x45,19
+Type=0x46,22
+Type=0x47,23
 Type=0x48,2
-Type=0x49,22
+Type=0x49,23
 Type=0x4a,1
 Type=0x4b,1
 Type=0x4c,3
-Type=0x4d,21
-Type=0x4e,9
-Type=0x4f,21
-Type=0x50,14
-Type=0x51,22
-Type=0x52,22
-Type=0x53,22
-Type=0x54,22
-Type=0x55,22
-Type=0x56,22
-Type=0x57,22
-Type=0x5a,11
-Type=0x5b,10
-Type=0x5c,10
-Type=0x5d,11
+Type=0x4d,22
+Type=0x4e,10
+Type=0x4f,22
+Type=0x50,15
+Type=0x51,23
+Type=0x52,23
+Type=0x53,23
+Type=0x54,23
+Type=0x55,23
+Type=0x56,23
+Type=0x57,23
+Type=0x5a,12
+Type=0x5b,11
+Type=0x5c,11
+Type=0x5d,12
 Type=0x5e,4
-Type=0x5f,23
+Type=0x5f,24
 Type=0x60,2
-Type=0x61,9
-Type=0x62,22
+Type=0x61,10
+Type=0x62,23
 Type=0x63,3
-Type=0x64,2
-Type=0x65,8
+Type=0x64,4
+Type=0x65,9
 Type=0x66,4
 Type=0x67,2
-Type=0x68,15
-Type=0x69,22
-Type=0x6a,17
+Type=0x68,16
+Type=0x69,23
+Type=0x6a,18
 Type=0x6b,2
-Type=0x6c,17
-Type=0x6d,24
-Type=0x6e,14
+Type=0x6c,18
+Type=0x6d,25
+Type=0x6e,15
 Type=0x6f,4
-Type=0x7a,19
-Type=0x7b,20
-Type=0x7c,6
-Type=0x7d,12
-Type=0x7e,17
-Type=0x7f,24
+Type=0x7a,20
+Type=0x7b,21
+Type=0x7c,7
+Type=0x7d,13
+Type=0x7e,18
+Type=0x7f,25
 [end]
 
 [_polygon]
@@ -327,7 +327,7 @@ ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
 Xpm="0 0 1 0"
-"1 c #F0F0D8"
+"1 c #FBECD7"
 [end]
 
 [_polygon]
@@ -343,7 +343,7 @@ ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
 Xpm="0 0 1 0"
-"1 c #F0F0D8"
+"1 c #FBECD7"
 [end]
 
 [_polygon]
@@ -359,7 +359,7 @@ ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
 Xpm="0 0 1 0"
-"1 c #F0F0D8"
+"1 c #FBECD7"
 [end]
 
 [_polygon]
@@ -1340,7 +1340,7 @@ Xpm="32 32 2 1"
 type=0x34
 ;GRMN_TYPE: //
 String1=0x01,Forêt
-String2=0x02,Wald
+String2=0x02,Laubwald
 String3=0x04,Trees
 String4=0x03,Bomen (Loofbos)
 String5=0x09,
@@ -1390,7 +1390,7 @@ Xpm="32 32 2 1"
 type=0x35
 ;GRMN_TYPE: //
 String1=0x01,Forêt
-String2=0x02,Wald
+String2=0x02,Nadelwald
 String3=0x04,Trees
 String4=0x03,Bomen (Dennenbos)
 String5=0x09,
@@ -1926,7 +1926,7 @@ ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
 Xpm="0 0 1 0"
-"1 c #FBECD7"
+"1 c #EEF0D5"
 [end]
 
 [_polygon]
@@ -3138,7 +3138,7 @@ String4=0x03,Straat
 String5=0x09,
 String6=0x24,
 ExtendedLabels=Y
-FontStyle=NoLabel (invisible)
+FontStyle=SmallFont
 CustomColor=No
 [end]
 
@@ -3298,7 +3298,7 @@ String4=0x03,Voetgangers
 String5=0x09,
 String6=0x24,
 ExtendedLabels=Y
-FontStyle=NoLabel (invisible)
+FontStyle=SmallFont
 CustomColor=No
 [end]
 
@@ -4986,6 +4986,26 @@ CustomColor=No
 [end]
 
 [_line]
+type=0x10a08
+;GRMN_TYPE: //
+UseOrientation=Y
+LineWidth=5
+BorderWidth=1
+Xpm="0 0 2 0"
+"1 c #AAE0CB"
+"2 c #6E8E7E"
+String1=0x01,
+String2=0x02,
+String3=0x04,Water slide
+String4=0x03,Waterglijbaan
+String5=0x09,
+String6=0x24,
+ExtendedLabels=Y
+FontStyle=NoLabel (invisible)
+CustomColor=No
+[end]
+
+[_line]
 type=0x10a09
 ;GRMN_TYPE: //
 UseOrientation=Y
@@ -6233,8 +6253,8 @@ ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
 DayXpm="13 14 3 1"   Colormode=16
-"!	c #734A08"
-"#	c #BD956A"
+"!	c #C77400"
+"#	c #CD9649"
 "  	c none"
 "  !!    ! ! !"
 " !!!!   ! ! !"
@@ -6242,7 +6262,7 @@ DayXpm="13 14 3 1"   Colormode=16
 "!!!!!!  ! ! !"
 "!!!!!!  ! ! !"
 "!!!!!!  ! ! !"
-"#!!!!#  !#!#!"
+"#!!!!#  ! ! !"
 " !!!!   !!!!!"
 "  !!     #!# "
 "  !!     #!# "
@@ -6267,18 +6287,18 @@ ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
 DayXpm="14 9 3 1"   Colormode=16
-"!	c #BD956A"
-"#	c #734A08"
+"!	c #C77400"
+"#	c #CD9649"
 "  	c none"
-"  !########!  "
-" !##########! "
-" ############ "
-" ############ "
+"  #!!!!!!!!#  "
+" #!!!!!!!!!!# "
+" !!!!!!!!!!!! "
+" !!!!!!!!!!!! "
 "              "
-"!############!"
+"#!!!!!!!!!!!!#"
 "              "
-" ############ "
-" !##########! "
+" !!!!!!!!!!!! "
+" #!!!!!!!!!!# "
 ;12345678901234
 [end]
 
@@ -6296,21 +6316,21 @@ ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
 DayXpm="13 12 3 1"   Colormode=16
-"!	c #734A08"
-"#	c #BD9541"
+"!	c #CD9344"
+"#	c #C77400"
 "  	c none"
-" !!!!!!!!!   "
-" !!!!!!!!!!! "
-" !!!!!!!!!  !"
-" !!!!!!!!!  !"
-" !!!!!!!!!  !"
-" !!!!!!!!!!! "
-" !!!!!!!!!   "
-"  !!!!!!!    "
-"   !!!!!     "
+" #########   "
+" ########### "
+" #########  #"
+" #########  #"
+" #########  #"
+" ########### "
+" #########   "
+"  #######    "
+"   #####     "
 "             "
-"!!!!!!!!!!!  "
-" #!!!!!!!#   "
+"###########  "
+" !#######!   "
 ;1234567890123
 [end]
 
@@ -6328,23 +6348,23 @@ ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
 DayXpm="13 14 3 1"   Colormode=16
-"!	c #734A08"
-"#	c #BD956A"
+"!	c #CFA060"
+"#	c #C77400"
 "  	c none"
-" !!!!!!!     "
-"!!     !!    "
-"!   #!!!!    "
-"!  #!!!!!!!! "
-"!  !!!!!!##!!"
-"!  !!!!!!  !!"
-"!!!!!!!!!  #!"
-"!!!!!!!!!  #!"
-"!!!!!!!!!  #!"
-"!!!!!!!!!  #!"
-"!!!!!!!!!##!!"
-"!!!!!!!!!!!! "
-"!       !    "
-"!!!!!!!!!    "
+" #######     "
+"##     ##    "
+"#   !####    "
+"#  !######## "
+"#  ######!!##"
+"#  ######  ##"
+"#########  !#"
+"#########  !#"
+"#########  !#"
+"#########  !#"
+"#########!!##"
+"############ "
+"#       #    "
+"#########    "
 ;1234567890123
 [end]
 
@@ -6362,7 +6382,7 @@ ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
 DayXpm="13 12 2 1"   Colormode=16
-"!	c #734A08"
+"!	c #C77400"
 "  	c none"
 "!!!!!!!!!!!!!"
 " !!!!!!!!!!! "
@@ -6393,7 +6413,7 @@ ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
 DayXpm="10 13 2 1"   Colormode=16
-"!	c #734A08"
+"!	c #C77400"
 "  	c none"
 "!!!!!!!!!!"
 "!        !"
@@ -6425,7 +6445,7 @@ ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
 DayXpm="13 14 2 1"   Colormode=16
-"!	c #734A08"
+"!	c #C77400"
 "  	c none"
 "          !!!"
 "     !!!!!!!!"
@@ -6458,7 +6478,7 @@ ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
 DayXpm="12 16 2 1"   Colormode=16
-"!	c #734A08"
+"!	c #C77400"
 "  	c none"
 "   !!  !!!  "
 " !!!!! !!!! "
@@ -6486,7 +6506,7 @@ subtype=0x08
 String1=0x01,
 String2=0x02,
 String3=0x04,Icecream
-String4=0x03,IJswinkel
+String4=0x03,IJs
 String5=0x09,
 String6=0x24,
 ExtendedLabels=Y
@@ -6518,8 +6538,8 @@ DayXpm="12 16 2 1"   Colormode=16
 type=0x02a
 subtype=0x09
 ;GRMN_TYPE: Business - Food and Drink/RESTAURANT_MEXICAN/Mexican cuisine/Non NT
-String1=0x01,
-String2=0x02,
+String1=0x01,Banc
+String2=0x02,Bank
 String3=0x04,Bench
 String4=0x03,Bankje
 String5=0x09,
@@ -6862,7 +6882,7 @@ DayXpm="6 16 2 1"   Colormode=16
 type=0x02a
 subtype=0x17
 ;GRMN_TYPE: //
-String1=0x01,
+String1=0x01,Porte
 String2=0x02,Schranke
 String3=0x04,Gate
 String4=0x03,Hek, Poort
@@ -7419,7 +7439,7 @@ subtype=0x0f
 String1=0x01,
 String2=0x02,
 String3=0x04,Books
-String4=0x03,Boekwinkel
+String4=0x03,Boeken
 String5=0x09,
 String6=0x24,
 ExtendedLabels=Y
@@ -7513,13 +7533,13 @@ subtype=0x12
 String1=0x01,
 String2=0x02,
 String3=0x04,Budget
-String4=0x03,Budget winkel
+String4=0x03,Budget
 String5=0x09,
 String6=0x24,
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
-DayXpm="14 16 2 1"   Colormode=16
+DayXpm="14 17 2 1"   Colormode=16
 "!	c #BD30B4"
 "  	c none"
 "    !!!!!!    "
@@ -7538,6 +7558,7 @@ DayXpm="14 16 2 1"   Colormode=16
 "!!  !   !   !!"
 "!!! !!!!!!!!!!"
 "!!!!!!!!!!!!!!"
+"!!!!!!!!!!!!!!"
 ;12345678901234
 [end]
 
@@ -7548,7 +7569,7 @@ subtype=0x13
 String1=0x01,
 String2=0x02,
 String3=0x04,Fisch
-String4=0x03,Viswinkel
+String4=0x03,Vis
 String5=0x09,
 String6=0x24,
 ExtendedLabels=Y
@@ -7777,6 +7798,117 @@ DayXpm="12 16 2 1"   Colormode=16
 [end]
 
 [_point]
+type=0x02b
+subtype=0x1a
+;GRMN_TYPE: //
+String1=0x01,
+String2=0x02,
+String3=0x04,Bookmaker
+String4=0x03,Bookmaker
+String5=0x09,
+String6=0x24,
+ExtendedLabels=Y
+FontStyle=NoLabel (invisible)
+CustomColor=No
+DayXpm="17 16 7 1"   Colormode=16
+"!	c #ECE5EC"
+"#	c #ECE7EC"
+"%	c #EDE7ED"
+"?	c #EEEAEE"
+"$	c #F0EFF0"
+"*	c #BD30B4"
+"  	c none"
+"*****************"
+"*****************"
+"**             **"
+" **          ?** "
+" **    ***#  !** "
+"***   *****  %***"
+"*     *****  $  *"
+"**    *****    **"
+"**     ***     **"
+"   ***  *  ***   "
+"  ***** * *****  "
+"  *************  "
+"  ***** * *****  "
+"   ***  *  ***   "
+"       ***       "
+"      *****      "
+;12345678901234567
+[end]
+
+[_point]
+type=0x02b
+subtype=0x1b
+;GRMN_TYPE: //
+String1=0x01,
+String2=0x02,
+String3=0x04,Trade
+String4=0x03,Handel
+String5=0x09,
+String6=0x24,
+ExtendedLabels=Y
+FontStyle=NoLabel (invisible)
+CustomColor=No
+DayXpm="16 16 2 1"   Colormode=16
+"!	c #BD30B4"
+"  	c none"
+"    !!!  !!     "
+"    !!!  !!     "
+"    !!!!!!!     "
+"    !!!!!!!     "
+"    !!!!!!!     "
+"                "
+"!!  !! !!!!!!!!!"
+"!!  !! !!!!!!!!!"
+"!!!!!! !!!!!!!!!"
+"!!!!!! !!!!!!!!!"
+"!!!!!! !!!!!!!!!"
+"                "
+"                "
+"!!!!!!!!!!!!!!!!"
+"!!     !!     !!"
+"!!     !!     !!"
+;1234567890123456
+[end]
+
+[_point]
+type=0x02b
+subtype=0x1f
+;GRMN_TYPE: //
+String1=0x01,
+String2=0x02,
+String3=0x04,Charity store
+String4=0x03,Goede doelen winkel
+String5=0x09,
+String6=0x24,
+ExtendedLabels=Y
+FontStyle=NoLabel (invisible)
+CustomColor=No
+DayXpm="14 17 2 1"   Colormode=16
+"!	c #BD30B4"
+"  	c none"
+"    !!!!!!    "
+"    !!!!!!    "
+"    !    !    "
+"    !    !    "
+"    !    !    "
+"!!!!!!!!!!!!!!"
+"!!!!!!!!!!!!!!"
+"!!!!  !!  !!!!"
+"!!!        !!!"
+"!!          !!"
+"!!          !!"
+"!!!        !!!"
+"!!!!      !!!!"
+"!!!!!    !!!!!"
+"!!!!!!  !!!!!!"
+"!!!!!!!!!!!!!!"
+"!!!!!!!!!!!!!!"
+;12345678901234
+[end]
+
+[_point]
 type=0x02c
 subtype=0x00
 ;GRMN_TYPE: //
@@ -7997,6 +8129,41 @@ DayXpm="18 16 2 1"   Colormode=16
 "      !!!!!!      "
 "     !!!!!!!!     "
 ;123456789012345678
+[end]
+
+[_point]
+type=0x02c
+subtype=0x07
+;GRMN_TYPE: Business - Attractions/ZOO/Zoo/Non NT
+String1=0x01,
+String2=0x02,
+String3=0x04,Birdhide
+String4=0x03,Vogelkijkhut
+String5=0x09,
+String6=0x24,
+ExtendedLabels=Y
+FontStyle=NoLabel (invisible)
+CustomColor=No
+DayXpm="16 16 2 1"   Colormode=16
+"!	c #009500"
+"  	c none"
+"   !!!    !!!   "
+"   !!!    !!!   "
+"                "
+"  !!!! !! !!!!  "
+"  !!!! !! !!!!  "
+"  !!!! !! !!!!  "
+"  !!!! !! !!!!  "
+" !!!!! !! !!!!! "
+" !!!!! !! !!!!! "
+" !!!!! !! !!!!! "
+" !!!!      !!!! "
+"!!!!!      !!!!!"
+"!!!!!      !!!!!"
+"!!!!!      !!!!!"
+"!!!!!      !!!!!"
+"!!!!!      !!!!!"
+;1234567890123456
 [end]
 
 [_point]
@@ -8612,50 +8779,74 @@ DayXpm="12 13 2 1"   Colormode=16
 
 [_point]
 type=0x02d
-subtype=0x05
-;GRMN_TYPE: Business - Entertainment/GOLF_COURSE/Golf course/Non NT
+subtype=0x04
+;GRMN_TYPE: Business - Entertainment/CASINO/Casino/Non NT
 String1=0x01,
 String2=0x02,
-String3=0x04,
-String4=0x03,Ingang
+String3=0x04,Casino
+String4=0x03,Casino
 String5=0x09,
 String6=0x24,
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
-DayXpm="6 6 1 1"   Colormode=16
-"!	c #B9A99C"
-"!!!!!!"
-"!!!!!!"
-"!!!!!!"
-"!!!!!!"
-"!!!!!!"
-"!!!!!!"
-;123456
+DayXpm="16 15 2 1"   Colormode=16
+"!	c #734A08"
+"  	c none"
+"    !!!         "
+"   !!!!!        "
+"  !!!  !!       "
+" !!!!  !!!      "
+"!!!!!!!!!!!     "
+"!!!!!!!         "
+"!!  !!  !!!!!!! "
+"!!  !! !!!!!!!!!"
+" !!!!! !!!!!  !!"
+"  !!!! !!!!!  !!"
+"   !!! !!!!!!!!!"
+"    !! !!  !!!!!"
+"       !!  !!!!!"
+"       !!!!!!!!!"
+"        !!!!!!! "
+;1234567890123456
 [end]
 
 [_point]
 type=0x02d
-subtype=0x06
-;GRMN_TYPE: Business - Entertainment/SKI_CENTER/Ski area or resort/Non NT
+subtype=0x05
+;GRMN_TYPE: Business - Entertainment/GOLF_COURSE/Golf course/Non NT
 String1=0x01,
 String2=0x02,
-String3=0x04,
-String4=0x03,Ingang
+String3=0x04,Golgcourse
+String4=0x03,Golfbaan
 String5=0x09,
 String6=0x24,
 ExtendedLabels=Y
-FontStyle=NoLabel (invisible)
-CustomColor=No
-DayXpm="6 6 1 1"   Colormode=16
-"!	c #9A826F"
-"!!!!!!"
-"!!!!!!"
-"!!!!!!"
-"!!!!!!"
-"!!!!!!"
-"!!!!!!"
-;123456
+FontStyle=SmallFont
+CustomColor=Day
+DaycustomColor:#009500
+DayXpm="19 18 2 1"   Colormode=16
+"!	c #009500"
+"  	c none"
+"        !!         "
+"!        !!        "
+"!!        !!       "
+"!!!        !!      "
+"!!!!    !!  !!     "
+"!!!!!  !!!! !!!    "
+"!!!     !!  !!     "
+"!!         !!      "
+"!       !!!        "
+"!       !!!!       "
+"!        !!!!      "
+"!        !!!!      "
+"!         !!!!     "
+"!        !! !!     "
+"!       !!  !!     "
+"!      !!   !!     "
+"!     !!   !!      "
+"!    !!   !!       "
+;1234567890123456789
 [end]
 
 [_point]
@@ -8664,23 +8855,33 @@ subtype=0x07
 ;GRMN_TYPE: Business - Entertainment/BOWLING/Bowling alley/Non NT
 String1=0x01,
 String2=0x02,
-String3=0x04,
-String4=0x03,Ingang (Service)
+String3=0x04,Bowling alley
+String4=0x03,Bowlingbaan
 String5=0x09,
 String6=0x24,
 ExtendedLabels=Y
-FontStyle=NoLabel (invisible)
+FontStyle=SmallFont
 CustomColor=No
-DayXpm="6 6 2 1"   Colormode=16
-"!	c #9A826F"
+DayXpm="16 16 2 1"   Colormode=16
+"!	c #009500"
 "  	c none"
-"!!!!!!"
-"!    !"
-"!    !"
-"!    !"
-"!    !"
-"!!!!!!"
-;123456
+"            !!  "
+"           !!!! "
+"           !!!! "
+"            !!  "
+"                "
+"            !!  "
+"                "
+"   !!!      !!  "
+" !!! !!!   !!!! "
+" !!!  !!  !!!!!!"
+"!!!!!!!!!  !!!!!"
+"!!!! !  !  !!!!!"
+"!!!  ! !!  !!!!!"
+" !!!!!!!  !!!!!!"
+" !!!!!!!  !!!!!!"
+"   !!!     !!!! "
+;1234567890123456
 [end]
 
 [_point]
@@ -8861,33 +9062,175 @@ subtype=0x0d
 ;GRMN_TYPE: //
 String1=0x01,
 String2=0x02,
-String3=0x04,Beachresort
-String4=0x03,Strandtent
+String3=0x04,Outdoor seating
+String4=0x03,Buiten zitplaats
 String5=0x09,
 String6=0x24,
 ExtendedLabels=Y
-FontStyle=SmallFont
-CustomColor=Day
-DaycustomColor:#009500
+FontStyle=NoLabel (invisible)
+CustomColor=No
+DayXpm="16 16 2 1"   Colormode=16
+"!	c #FFFFFF"
+"#	c #009500"
+"!!!!!!!##!!!!!!!"
+"!!!!!######!!!!!"
+"!!!##########!!!"
+"!##############!"
+"################"
+"!!!!!!!##!!!!!!!"
+"!!!!!!!##!!!!!!!"
+"##!!!!!##!!!!!##"
+"##!!!!!##!!!!!##"
+"##!!!!!##!!!!!##"
+"##!##########!##"
+"##!!!!!##!!!!!##"
+"##!!!!!##!!!!!##"
+"#####!!##!!#####"
+"##!##!!##!!##!##"
+"##!##!!##!!##!##"
+;1234567890123456
+[end]
+
+[_point]
+type=0x02d
+subtype=0x0e
+;GRMN_TYPE: //
+String1=0x01,
+String2=0x02,
+String3=0x04,Massage
+String4=0x03,Massage salon
+String5=0x09,
+String6=0x24,
+ExtendedLabels=Y
+FontStyle=NoLabel (invisible)
+CustomColor=No
+DayXpm="16 16 2 1"   Colormode=16
+"!	c #009500"
+"  	c none"
+"                "
+"      !!        "
+"     !!!!       "
+"     !!!!       "
+"      !!        "
+"     !!         "
+"    !!!         "
+"    !!!!        "
+"   !!! !!!      "
+"   !!!  !!   !! "
+"  !!!       !!!!"
+"            !!!!"
+"!!!!!!!!!!   !! "
+" !!!!!!!!!!!    "
+"           !!!!!"
+"                "
+;1234567890123456
+[end]
+
+[_point]
+type=0x02d
+subtype=0x0f
+;GRMN_TYPE: //
+String1=0x01,
+String2=0x02,
+String3=0x04,Amusementcentre
+String4=0x03,Amusementscentrum
+String5=0x09,
+String6=0x24,
+ExtendedLabels=Y
+FontStyle=NoLabel (invisible)
+CustomColor=No
 DayXpm="16 15 2 1"   Colormode=16
 "!	c #009500"
 "  	c none"
-"     !!!!       "
-"    !!!!!!!!    "
-"   !!!!!!!!!!   "
-"  !!!!!!!!!!!   "
-"  !!!!!!!!!!!   "
-"  !!!!!!        "
-"  !!!  !        "
-"  !    !!       "
-"        !       "
-"        !!      "
-"         !      "
-"         !!     "
-" !!    !!!!  !! "
+"!!!!        !!!!"
+"!!!!!      !!!!!"
+"    !!    !!    "
+"     !!  !!     "
+"     !!  !!     "
+"  !!!!!!!!!!!!  "
+"  !!!!!!!!!!!!  "
+"!!!!   !!   !!!!"
+"!!!!   !!   !!!!"
+"!!!!   !!   !!!!"
 "!!!!!!!!!!!!!!!!"
-"!   !!    !!   !"
+"!!!!!!!!!!!!!!!!"
+"!!!!!!!!!!!!!!!!"
+"!!   !!  !!   !!"
+"!!   !!  !!   !!"
 ;1234567890123456
+[end]
+
+[_point]
+type=0x02d
+subtype=0x10
+;GRMN_TYPE: //
+String1=0x01,
+String2=0x02,
+String3=0x04,
+String4=0x03,Ingang
+String5=0x09,
+String6=0x24,
+ExtendedLabels=Y
+FontStyle=NoLabel (invisible)
+CustomColor=No
+DayXpm="6 6 1 1"   Colormode=16
+"!	c #B9A99C"
+"!!!!!!"
+"!!!!!!"
+"!!!!!!"
+"!!!!!!"
+"!!!!!!"
+"!!!!!!"
+;123456
+[end]
+
+[_point]
+type=0x02d
+subtype=0x11
+;GRMN_TYPE: //
+String1=0x01,
+String2=0x02,
+String3=0x04,
+String4=0x03,Ingang
+String5=0x09,
+String6=0x24,
+ExtendedLabels=Y
+FontStyle=NoLabel (invisible)
+CustomColor=No
+DayXpm="6 6 1 1"   Colormode=16
+"!	c #9A826F"
+"!!!!!!"
+"!!!!!!"
+"!!!!!!"
+"!!!!!!"
+"!!!!!!"
+"!!!!!!"
+;123456
+[end]
+
+[_point]
+type=0x02d
+subtype=0x12
+;GRMN_TYPE: //
+String1=0x01,
+String2=0x02,
+String3=0x04,
+String4=0x03,Ingang (Service)
+String5=0x09,
+String6=0x24,
+ExtendedLabels=Y
+FontStyle=NoLabel (invisible)
+CustomColor=No
+DayXpm="6 6 2 1"   Colormode=16
+"!	c #9A826F"
+"  	c none"
+"!!!!!!"
+"!    !"
+"!    !"
+"!    !"
+"!    !"
+"!!!!!!"
+;123456
 [end]
 
 [_point]
@@ -8965,7 +9308,7 @@ subtype=0x15
 String1=0x01,
 String2=0x02,
 String3=0x04,Beverages
-String4=0x03,Drankenwinkel
+String4=0x03,Dranken
 String5=0x09,
 String6=0x24,
 ExtendedLabels=Y
@@ -9027,6 +9370,177 @@ DayXpm="13 16 2 1"   Colormode=16
 [end]
 
 [_point]
+type=0x02d
+subtype=0x18
+;GRMN_TYPE: //
+String1=0x01,
+String2=0x02,
+String3=0x04,Houseware
+String4=0x03,Keuken en koken
+String5=0x09,
+String6=0x24,
+ExtendedLabels=Y
+FontStyle=NoLabel (invisible)
+CustomColor=No
+DayXpm="16 17 2 1"   Colormode=16
+"!	c #BD30B4"
+"  	c none"
+" !!!!           "
+"!!!!!!!!!!!  !  "
+"!!!!!!!!!!!  !! "
+" !!!!        !! "
+"             !!!"
+"             !!!"
+"             !!!"
+"    !!!!     !!!"
+" !!!!!!!!!!  !!!"
+"             !!!"
+" !!!!!!!!!!  !! "
+" !!!!!!!!!!  !! "
+" !!!!!!!!!!  !! "
+" !!!!!!!!!!  !! "
+" !!!!!!!!!!  !! "
+"  !!!!!!!!   !! "
+"   !!!!!!    !! "
+;1234567890123456
+[end]
+
+[_point]
+type=0x02d
+subtype=0x19
+;GRMN_TYPE: //
+String1=0x01,
+String2=0x02,
+String3=0x04,Tickets
+String4=0x03,Tickets
+String5=0x09,
+String6=0x24,
+ExtendedLabels=Y
+FontStyle=NoLabel (invisible)
+CustomColor=No
+DayXpm="16 9 3 1"   Colormode=16
+"!	c #FFFFFF"
+"#	c #BD30B4"
+"  	c none"
+"################"
+"########  ######"
+"!#######  #####!"
+"!!######  ####!!"
+"!!######  ####!!"
+"!!######  ####!!"
+"!#######  #####!"
+"########  ######"
+"################"
+;1234567890123456
+[end]
+
+[_point]
+type=0x02d
+subtype=0x1a
+;GRMN_TYPE: //
+String1=0x01,
+String2=0x02,
+String3=0x04,Interior decoration
+String4=0x03,Interieur
+String5=0x09,
+String6=0x24,
+ExtendedLabels=Y
+FontStyle=NoLabel (invisible)
+CustomColor=No
+DayXpm="16 16 2 1"   Colormode=16
+"!	c #BD30B4"
+"  	c none"
+"  !!!!          "
+"  !!!!      !!  "
+" !!!!!!    !!!! "
+" !!!!!!   !!  !!"
+"!!!!!!!!  !!  !!"
+"   !!      !!!! "
+"   !!       !!  "
+"   !!       !!  "
+"   !!       !!  "
+"   !!       !!  "
+"   !!     !!!!!!"
+"   !!     !!!!!!"
+"   !!      !!!! "
+"   !!      !!!! "
+"   !!      !!!! "
+"  !!!!     !!!! "
+;1234567890123456
+[end]
+
+[_point]
+type=0x02d
+subtype=0x1b
+;GRMN_TYPE: //
+String1=0x01,
+String2=0x02,
+String3=0x04,Paint
+String4=0x03,Verf
+String5=0x09,
+String6=0x24,
+ExtendedLabels=Y
+FontStyle=NoLabel (invisible)
+CustomColor=No
+DayXpm="16 16 2 1"   Colormode=16
+"!	c #BD30B4"
+"  	c none"
+" !!!!!!!!!!!!   "
+"!!!!!!!!!!!!!!  "
+"!!!!!!!!!!!!!!!!"
+"!!!!!!!!!!!!!! !"
+" !!!!!!!!!!!!  !"
+"               !"
+"       !!!!!!!!!"
+"       !        "
+"      !!!       "
+"      !!!       "
+"      !!!       "
+"      !!!       "
+"      !!!       "
+"      !!!       "
+"      !!!       "
+"      !!!       "
+;1234567890123456
+[end]
+
+[_point]
+type=0x02e
+subtype=0x00
+;GRMN_TYPE: //
+String1=0x01,
+String2=0x02,
+String3=0x04,Secondhand store
+String4=0x03,Tweedehands
+String5=0x09,
+String6=0x24,
+ExtendedLabels=Y
+FontStyle=NoLabel (invisible)
+CustomColor=No
+DayXpm="14 17 2 1"   Colormode=16
+"!	c #BD30B4"
+"  	c none"
+"    !!!!!!    "
+"    !!!!!!    "
+"    !    !    "
+"    !    !    "
+"    !    !    "
+"!!!!!!!!!!!!!!"
+"!!!!!!!!!!!!!!"
+"!!!!!!   !!!!!"
+"!!   !!!  !!!!"
+"!!!  !!!!  !!!"
+"!! ! !!!!! !!!"
+"!! !!!!!!! !!!"
+"!! !!!!! ! !!!"
+"!!  !!!!  !!!!"
+"!!!  !!!   !!!"
+"!!!!   !!!!!!!"
+"!!!!!!!!!!!!!!"
+;12345678901234
+[end]
+
+[_point]
 type=0x02e
 subtype=0x01
 ;GRMN_TYPE: Business - Shopping/DEPARTMENT_STORE/Department store/Non NT
@@ -9039,24 +9553,27 @@ String6=0x24,
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
-DayXpm="12 14 2 1"   Colormode=16
+DayXpm="14 17 2 1"   Colormode=16
 "!	c #BD30B4"
 "  	c none"
-"    !!!!    "
-"   !!!!!!   "
-"  !!    !!  "
-" !!!    !!! "
-"!!!!!!!!!!!!"
-"!!!!!  !!!!!"
-"!!!! !! !!!!"
-"!!!! !  !!!!"
-"!!!!   !!!!!"
-"!!!  !!  !!!"
-"!!! !!!  !!!"
-"!!!       !!"
-"!!!!!!!!!!!!"
-"!!!!!!!!!!!!"
-;123456789012
+"    !!!!!!    "
+"    !!!!!!    "
+"    !    !    "
+"    !    !    "
+"    !    !    "
+"!!!!!!!!!!!!!!"
+"!!!!!!!!!!!!!!"
+"!!!!!!!!!!!!!!"
+"!!!!!!  !!!!!!"
+"!!!!! !! !!!!!"
+"!!!!! !  !!!!!"
+"!!!!!   !!!!!!"
+"!!!!  !!  !!!!"
+"!!!! !!!  !!!!"
+"!!!!       !!!"
+"!!!!!!!!!!!!!!"
+"!!!!!!!!!!!!!!"
+;12345678901234
 [end]
 
 [_point]
@@ -9093,7 +9610,7 @@ subtype=0x03
 String1=0x01,
 String2=0x02,Supermarkt
 String3=0x04,Generic store
-String4=0x03,Algemene winkel
+String4=0x03,Algemeen
 String5=0x09,
 String6=0x24,
 ExtendedLabels=Y
@@ -9153,32 +9670,33 @@ DayXpm="14 14 2 1"   Colormode=16
 type=0x02e
 subtype=0x05
 ;GRMN_TYPE: Business - Shopping/PHARMACY/Pharmacy/Non NT
-String1=0x01,
-String2=0x02,
-String3=0x04,Toys
-String4=0x03,Speelgoed
+String1=0x01,Pharmacie
+String2=0x02,Apotheke
+String3=0x04,Pharmacy
+String4=0x03,Apotheek
 String5=0x09,
 String6=0x24,
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
-DayXpm="14 13 2 1"   Colormode=16
-"!	c #BD30B4"
+DayXpm="10 14 2 1"   Colormode=16
+"!	c #DA0092"
 "  	c none"
-"  !!          "
-" !!!!         "
-"!!!!!!        "
-"!!!!!!!!!!!!! "
-"!!  !!!!!!  !!"
-"    !!!!!!   !"
-"    !!!!!!    "
-"   !!!  !!!   "
-"! !!!    !!! !"
-"!!!        !!!"
-" !!!!    !!!! "
-"   !!!!!!!!   "
-"     !!!!     "
-;12345678901234
+"  !!!!!!  "
+"  !!!!!!  "
+"  !!!!!!  "
+"          "
+" !!!!!!!! "
+"!!!!!!!!!!"
+"!!!!  !!!!"
+"!!!!  !!!!"
+"!!      !!"
+"!!      !!"
+"!!!!  !!!!"
+"!!!!  !!!!"
+"!!!!!!!!!!"
+"!!!!!!!!!!"
+;1234567890
 [end]
 
 [_point]
@@ -9221,7 +9739,7 @@ subtype=0x07
 String1=0x01,
 String2=0x02,Bekleidungsgeschäft
 String3=0x04,Clothing store
-String4=0x03,Kledingwinkel
+String4=0x03,Kleding
 String5=0x09,
 String6=0x24,
 ExtendedLabels=Y
@@ -9251,7 +9769,7 @@ subtype=0x08
 String1=0x01,
 String2=0x02,Gartencentrum
 String3=0x04,Garden center
-String4=0x03,Huis- en tuin winkel
+String4=0x03,Huis- en tuin
 String5=0x09,
 String6=0x24,
 ExtendedLabels=Y
@@ -9285,7 +9803,7 @@ subtype=0x09
 String1=0x01,
 String2=0x02,Möbelgeschäft
 String3=0x04,Furniture
-String4=0x03,Meubelwinkel
+String4=0x03,Meubels
 String5=0x09,
 String6=0x24,
 ExtendedLabels=Y
@@ -9474,7 +9992,7 @@ subtype=0x0f
 String1=0x01,
 String2=0x02,
 String3=0x04,Do it yourself
-String4=0x03,Doe het zelf winkel
+String4=0x03,Doe het zelf
 String5=0x09,
 String6=0x24,
 ExtendedLabels=Y
@@ -10060,28 +10578,36 @@ type=0x02f
 subtype=0x08
 ;GRMN_TYPE: Business - Services/GND_TRANSPORT/Ground transportation status, i.e. a bus station/Non NT
 String1=0x01,
-String2=0x02,
-String3=0x04,Slipway
-String4=0x03,Botenhelling
+String2=0x02,Bus
+String3=0x04,Busstation
+String4=0x03,Busstation
 String5=0x09,
 String6=0x24,
 ExtendedLabels=Y
-FontStyle=NoLabel (invisible)
-CustomColor=No
-DayXpm="14 10 2 1"   Colormode=16
+FontStyle=Default
+CustomColor=Day
+DaycustomColor:#0065FF
+DayXpm="21 16 3 1"   Colormode=16
 "!	c #0095FF"
+"#	c #F2EFE9"
 "  	c none"
-"!!!!          "
-" !!!!!        "
-"  !!!!!!      "
-"    !!!!!!    "
-"     !!!!!!!  "
-"     !! !!!!!!"
-"!!!!!!!   !!!!"
-"!!!!!!!!      "
-"!!!!!!!!!!!   "
-"!!!!!!!!!!!!!!"
-;12345678901234
+"!!!!!!!!!!!!!!!!     "
+"!!!!########!!!!     "
+"!!!###!!!!###!!!     "
+"!!############!!     "
+"!!##!!!!!!!!##!!     "
+"!!##!!!!!!!!##!!     "
+"!!##!!!!!!!!##!!     "
+"!!##!!!!!!!!##!!     "
+"!!############!!     "
+"!!############!!     "
+"!!#!!######!!#!!     "
+"!!#!!######!!#!!     "
+"!!############!!     "
+"!!!##!!!!!!##!!!     "
+"!!!##!!!!!!##!!!     "
+"!!!!!!!!!!!!!!!!     "
+;123456789012345678901
 [end]
 
 [_point]
@@ -10283,20 +10809,33 @@ type=0x02f
 subtype=0x0f
 ;GRMN_TYPE: Business - Services/GARMIN_DEALERS/Garmin dealer/Non NT
 String1=0x01,
-String2=0x02,Gebäude
-String3=0x04,Building
-String4=0x03,Gebouw
+String2=0x02,
+String3=0x04,Boatrental
+String4=0x03,Bootverhuur
 String5=0x09,
 String6=0x24,
 ExtendedLabels=Y
-FontStyle=SmallFont
-CustomColor=Day
-DaycustomColor:#5E5E5D
-DayXpm="1 1 2 1"   Colormode=16
-"!	c #009500"
+FontStyle=NoLabel (invisible)
+CustomColor=No
+DayXpm="15 15 2 1"   Colormode=16
+"!	c #0095FF"
 "  	c none"
-" "
-;1
+"    !!!        "
+"   !  !!!!!!   "
+"   !! !!!!!!!  "
+"    !!         "
+"               "
+"      !!!      "
+"      !!!      "
+"      !!!      "
+"!!!!!!!!!!!!!!!"
+" !!!!!!!!!!!!! "
+"  !!!!!!!!!!!  "
+"               "
+" !!!  !!!  !!! "
+"!!!!!!!!!!!!!!!"
+"!   !!   !!   !"
+;123456789012345
 [end]
 
 [_point]
@@ -10336,7 +10875,7 @@ DayXpm="14 14 2 1"   Colormode=16
 type=0x02f
 subtype=0x11
 ;GRMN_TYPE: Business - Services/SERVICES_BUSINESS/Business services/Non NT
-String1=0x01,
+String1=0x01,Boîte lettres
 String2=0x02,Briefkasten
 String3=0x04,Postbox
 String4=0x03,Brievenbus
@@ -10698,7 +11237,7 @@ subtype=0x1f
 String1=0x01,
 String2=0x02,
 String3=0x04,Shoes
-String4=0x03,Schoenenwinkel
+String4=0x03,Schoenen
 String5=0x09,
 String6=0x24,
 ExtendedLabels=Y
@@ -11096,33 +11635,32 @@ DayXpm="21 16 2 1"   Colormode=16
 type=0x030
 subtype=0x0e
 ;GRMN_TYPE: //
-String1=0x01,Pharmacie
-String2=0x02,Apotheke
-String3=0x04,Pharmacy
-String4=0x03,Apotheek
+String1=0x01,
+String2=0x02,
+String3=0x04,Toys
+String4=0x03,Speelgoed
 String5=0x09,
 String6=0x24,
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
-DayXpm="10 14 2 1"   Colormode=16
-"!	c #DA0092"
+DayXpm="14 13 2 1"   Colormode=16
+"!	c #BD30B4"
 "  	c none"
-"  !!!!!!  "
-"  !!!!!!  "
-"  !!!!!!  "
-"          "
-" !!!!!!!! "
-"!!!!!!!!!!"
-"!!!!  !!!!"
-"!!!!  !!!!"
-"!!      !!"
-"!!      !!"
-"!!!!  !!!!"
-"!!!!  !!!!"
-"!!!!!!!!!!"
-"!!!!!!!!!!"
-;1234567890
+"  !!          "
+" !!!!         "
+"!!!!!!        "
+"!!!!!!!!!!!!! "
+"!!  !!!!!!  !!"
+"    !!!!!!   !"
+"    !!!!!!    "
+"   !!!  !!!   "
+"! !!!    !!! !"
+"!!!        !!!"
+" !!!!    !!!! "
+"   !!!!!!!!   "
+"     !!!!     "
+;12345678901234
 [end]
 
 [_point]
@@ -11234,7 +11772,7 @@ subtype=0x12
 String1=0x01,
 String2=0x02,
 String3=0x04,Coffee
-String4=0x03,Koffiewinkel
+String4=0x03,Koffie
 String5=0x09,
 String6=0x24,
 ExtendedLabels=Y
@@ -11266,7 +11804,7 @@ subtype=0x13
 String1=0x01,
 String2=0x02,
 String3=0x04,Tea
-String4=0x03,Theewinkel
+String4=0x03,Thee
 String5=0x09,
 String6=0x24,
 ExtendedLabels=Y
@@ -11295,7 +11833,7 @@ subtype=0x14
 String1=0x01,
 String2=0x02,
 String3=0x04,Music
-String4=0x03,Muziekwinkel
+String4=0x03,Muziek
 String5=0x09,
 String6=0x24,
 ExtendedLabels=Y
@@ -11363,7 +11901,7 @@ subtype=0x16
 String1=0x01,
 String2=0x02,
 String3=0x04,Dairy products
-String4=0x03,Zuivelwinkel
+String4=0x03,Zuivel
 String5=0x09,
 String6=0x24,
 ExtendedLabels=Y
@@ -11433,7 +11971,7 @@ subtype=0x18
 String1=0x01,
 String2=0x02,
 String3=0x04,Bedshop
-String4=0x03,Beddenwinkel
+String4=0x03,Bedden en matrassen
 String5=0x09,
 String6=0x24,
 ExtendedLabels=Y
@@ -11456,6 +11994,41 @@ DayXpm="14 10 2 1"   Colormode=16
 [end]
 
 [_point]
+type=0x030
+subtype=0x19
+;GRMN_TYPE: //
+String1=0x01,
+String2=0x02,
+String3=0x04,
+String4=0x03,Video en dvd verhuur
+String5=0x09,
+String6=0x24,
+ExtendedLabels=Y
+FontStyle=NoLabel (invisible)
+CustomColor=No
+DayXpm="16 16 2 1"   Colormode=16
+"!	c #BD30B4"
+"  	c none"
+"!!!!!!!!!!!  !!!"
+"!!  !!      !!!!"
+"!!  !!     !!!  "
+"!!!!!!     !    "
+"!!!!!!    !!    "
+"!!  !!    !    !"
+"!!  !!   !!   !!"
+"!!!!!!!! !!   ! "
+"!!!!!!!! !!   ! "
+"!!  !!   !!   !!"
+"!!  !!    !    !"
+"!!!!!!    !!    "
+"!!!!!!     !    "
+"!!  !!     !!!  "
+"!!  !!      !!!!"
+"!!!!!!!!!!   !!!"
+;1234567890123456
+[end]
+
+[_point]
 type=0x03a
 subtype=0x01
 ;GRMN_TYPE: //
@@ -11475,6 +12048,42 @@ DayXpm="14 16 2 1"   Colormode=16
 "!  !!!!!!     "
 "!! !!!!!!!    "
 " !!           "
+"              "
+"        !     "
+"  !!!!  !!    "
+"    !!   !    "
+"    !!!!!!    "
+"   !!  !!     "
+" !!!!  !!!!!! "
+"!!  !!! !!  !!"
+"!    !  !    !"
+"!    !  !    !"
+"!!  !!  !!  !!"
+" !!!!    !!!! "
+;12345678901234
+[end]
+
+[_point]
+type=0x03a
+subtype=0x02
+;GRMN_TYPE: //
+String1=0x01,
+String2=0x02,
+String3=0x04,Bicycle repair station
+String4=0x03,Fietsenmaker
+String5=0x09,
+String6=0x24,
+ExtendedLabels=Y
+FontStyle=SmallFont
+CustomColor=Day
+DaycustomColor:#734A08
+DayXpm="14 16 2 1"   Colormode=16
+"!	c #734A08"
+"  	c none"
+" !!!     !!!  "
+"!  !!!!!!     "
+"!! !!!!!!!    "
+" !!      !!!  "
 "              "
 "        !     "
 "  !!!!  !!    "
@@ -11518,7 +12127,7 @@ subtype=0x04
 String1=0x01,
 String2=0x02,
 String3=0x04,Repair service
-String4=0x03,Fietsenwinkel
+String4=0x03,Fietsen
 String5=0x09,
 String6=0x24,
 ExtendedLabels=Y
@@ -11540,44 +12149,6 @@ DayXpm="16 11 2 1"   Colormode=16
 "!!  !!  !!  !!  "
 " !!!!    !!!!   "
 ;1234567890123456
-[end]
-
-[_point]
-type=0x03b
-subtype=0x05
-;GRMN_TYPE: //
-String1=0x01,
-String2=0x02,
-String3=0x04,Golf
-String4=0x03,Golfclub
-String5=0x09,
-String6=0x24,
-ExtendedLabels=Y
-FontStyle=SmallFont
-CustomColor=Day
-DaycustomColor:#009500
-DayXpm="19 18 2 1"   Colormode=16
-"!	c #009500"
-"  	c none"
-"        !!         "
-"!        !!        "
-"!!        !!       "
-"!!!        !!      "
-"!!!!    !!  !!     "
-"!!!!!  !!!! !!!    "
-"!!!     !!  !!     "
-"!!         !!      "
-"!       !!!        "
-"!       !!!!       "
-"!        !!!!      "
-"!        !!!!      "
-"!         !!!!     "
-"!        !! !!     "
-"!       !!  !!     "
-"!      !!   !!     "
-"!     !!   !!      "
-"!    !!   !!       "
-;1234567890123456789
 [end]
 
 [_point]
@@ -11770,10 +12341,41 @@ DayXpm="1 1 2 1"   Colormode=16
 [end]
 
 [_point]
+type=0x047
+subtype=0x00
+;GRMN_TYPE: Misc. Points of Interest/BOAT_RAMP/Boat ramp/Non NT, NT
+String1=0x01,
+String2=0x02,
+String3=0x04,Boat ramp
+String4=0x03,Botenhelling
+String5=0x09,
+String6=0x24,
+ExtendedLabels=Y
+FontStyle=NoLabel (invisible)
+CustomColor=No
+DayXpm="18 12 2 1"   Colormode=16
+"!	c #0095FF"
+"  	c none"
+"   !              "
+"   !!!!!          "
+"   !!!!!!!        "
+"!!   !!!!!!!!!    "
+"  !!!   !!!!!!!!! "
+"     !!!   !!!!!!!"
+"!!!!    !!!       "
+"!!!!!!  !!!!!!    "
+"!!!!!!!!!!    !!  "
+"!!!!!!!!!!!       "
+"!!!!!!!!!!!!!     "
+"!!!!!!!!!!!!!!!   "
+;123456789012345678
+[end]
+
+[_point]
 type=0x04a
 subtype=0x00
 ;GRMN_TYPE: Misc. Points of Interest/PICNIC_AREA/Picnic area/Non NT, NT
-String1=0x01,
+String1=0x01,Pique nique
 String2=0x02,
 String3=0x04,Picknick area
 String4=0x03,Picknick plaats
@@ -11981,7 +12583,7 @@ ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
 DayXpm="14 16 2 1"   Colormode=16
-"!	c #734A08"
+"!	c #525252"
 "  	c none"
 "      !!      "
 "      !!      "
@@ -12108,7 +12710,7 @@ DayXpm="16 16 2 1"   Colormode=16
 type=0x05a
 subtype=0x04
 ;GRMN_TYPE: //
-String1=0x01,Picnic
+String1=0x01,Pique nique
 String2=0x02,Piknikplatz
 String3=0x04,Picnic
 String4=0x03,Picknick tafel
@@ -12202,40 +12804,24 @@ DayXpm="14 14 2 1"   Colormode=16
 [end]
 
 [_point]
-type=0x05a
-subtype=0x08
-;GRMN_TYPE: //
+type=0x061
+subtype=0x00
+;GRMN_TYPE: Misc. Points of Interest/HOUSE/House/Non NT, NT
 String1=0x01,
-String2=0x02,Bus
-String3=0x04,Busstation
-String4=0x03,Busstation
+String2=0x02,Gebäude
+String3=0x04,Building
+String4=0x03,Gebouw
 String5=0x09,
 String6=0x24,
 ExtendedLabels=Y
-FontStyle=Default
+FontStyle=SmallFont
 CustomColor=Day
-DaycustomColor:#0065FF
-DayXpm="21 16 3 1"   Colormode=16
-"!	c #0095FF"
-"#	c #F2EFE9"
+DaycustomColor:#5E5E5D
+DayXpm="1 1 2 1"   Colormode=16
+"!	c #009500"
 "  	c none"
-"!!!!!!!!!!!!!!!!     "
-"!!!!########!!!!     "
-"!!!###!!!!###!!!     "
-"!!############!!     "
-"!!##!!!!!!!!##!!     "
-"!!##!!!!!!!!##!!     "
-"!!##!!!!!!!!##!!     "
-"!!##!!!!!!!!##!!     "
-"!!############!!     "
-"!!############!!     "
-"!!#!!######!!#!!     "
-"!!#!!######!!#!!     "
-"!!############!!     "
-"!!!##!!!!!!##!!!     "
-"!!!##!!!!!!##!!!     "
-"!!!!!!!!!!!!!!!!     "
-;123456789012345678901
+" "
+;1
 [end]
 
 [_point]
@@ -12480,33 +13066,33 @@ subtype=0x02
 ;GRMN_TYPE: Geographical Named Points of Interest - Water Related/SAND_BAR/Sand bar/Non NT, NT
 String1=0x01,
 String2=0x02,
-String3=0x04,Ferry terminal
-String4=0x03,Ferry terminal
+String3=0x04,Beachresort
+String4=0x03,Strandtent
 String5=0x09,
 String6=0x24,
 ExtendedLabels=Y
-FontStyle=Default
+FontStyle=SmallFont
 CustomColor=Day
-DaycustomColor:#4A58AD
-DayXpm="11 15 2 1"   Colormode=16
-"!	c #9E83CB"
+DaycustomColor:#009500
+DayXpm="16 15 2 1"   Colormode=16
+"!	c #009500"
 "  	c none"
-"    !!     "
-"   !!!!    "
-"   !!!!    "
-"    !!     "
-"    !!     "
-" !!!!!!!!  "
-" !!!!!!!!  "
-"    !!     "
-"    !!     "
-"!   !!   ! "
-"!!  !!  !! "
-"!!! !! !!! "
-" !!!!!!!!  "
-"  !!!!!!   "
-"    !!     "
-;12345678901
+"     !!!!       "
+"    !!!!!!!!    "
+"   !!!!!!!!!!   "
+"  !!!!!!!!!!!   "
+"  !!!!!!!!!!!   "
+"  !!!!!!        "
+"  !!!  !        "
+"  !    !!       "
+"        !       "
+"        !!      "
+"         !      "
+"         !!     "
+" !!    !!!!  !! "
+"!!!!!!!!!!!!!!!!"
+"!   !!    !!   !"
+;1234567890123456
 [end]
 
 [_point]
@@ -12769,6 +13355,174 @@ DayXpm="1 1 2 1"   Colormode=16
 [end]
 
 [_point]
+type=0x065
+subtype=0x15
+;GRMN_TYPE: //
+String1=0x01,
+String2=0x02,
+String3=0x04,Audioguide
+String4=0x03,Audioguide
+String5=0x09,
+String6=0x24,
+ExtendedLabels=Y
+FontStyle=NoLabel (invisible)
+CustomColor=No
+DayXpm="16 15 2 1"   Colormode=16
+"!	c #525252"
+"  	c none"
+"     !!!!!!     "
+"   !!!    !!!   "
+"   !        !   "
+"  !!   !!   !!  "
+"  !    !!    !  "
+"  !          !  "
+" !!          !! "
+"!!!   !!!    !!!"
+"!!!   !!!    !!!"
+"!!!    !!    !!!"
+"!!!    !!    !!!"
+"!!!    !!    !!!"
+"       !!       "
+"       !!       "
+"     !!!!!!     "
+;1234567890123456
+[end]
+
+[_point]
+type=0x065
+subtype=0x16
+;GRMN_TYPE: //
+String1=0x01,
+String2=0x02,
+String3=0x04,Informtionboard
+String4=0x03,Informatiebord
+String5=0x09,
+String6=0x24,
+ExtendedLabels=Y
+FontStyle=NoLabel (invisible)
+CustomColor=No
+DayXpm="10 12 2 1"   Colormode=16
+"!	c #525252"
+"  	c none"
+"!!!!!!!!!!"
+"!        !"
+"! !!!!!! !"
+"!        !"
+"! !!!!!! !"
+"!        !"
+"! !!!!!! !"
+"!        !"
+"!!!!!!!!!!"
+"!        !"
+"!        !"
+"!        !"
+;1234567890
+[end]
+
+[_point]
+type=0x065
+subtype=0x17
+;GRMN_TYPE: //
+String1=0x01,
+String2=0x02,
+String3=0x04,Map
+String4=0x03,Kaart
+String5=0x09,
+String6=0x24,
+ExtendedLabels=Y
+FontStyle=NoLabel (invisible)
+CustomColor=No
+DayXpm="13 13 2 1"   Colormode=16
+"!	c #525252"
+"  	c none"
+"    !       !"
+"   !!!     !!"
+" !! ! !! !! !"
+"!   !   !   !"
+"!   !   !   !"
+"!   !   !   !"
+"!   !   !   !"
+"!   !   !   !"
+"!   !   !   !"
+"!   !   !   !"
+"!  ! !  !  ! "
+"!!!   !!!!!  "
+"!       !    "
+;1234567890123
+[end]
+
+[_point]
+type=0x065
+subtype=0x18
+;GRMN_TYPE: //
+String1=0x01,
+String2=0x02,
+String3=0x04,Tourist office
+String4=0x03,Tourtisten kantoor
+String5=0x09,
+String6=0x24,
+ExtendedLabels=Y
+FontStyle=NoLabel (invisible)
+CustomColor=No
+DayXpm="16 16 2 1"   Colormode=16
+"!	c #734A08"
+"  	c none"
+"     !!!!!!     "
+"   !!      !!   "
+"  !    !!    !  "
+" !     !!     ! "
+" !            ! "
+"!              !"
+"!     !!!      !"
+"!     !!!      !"
+"!      !!      !"
+"!      !!      !"
+"!      !!      !"
+" !     !!     ! "
+" !     !!     ! "
+"  !   !!!!   !  "
+"   !!      !!   "
+"     !!!!!!     "
+;1234567890123456
+[end]
+
+[_point]
+type=0x065
+subtype=0x19
+;GRMN_TYPE: //
+String1=0x01,
+String2=0x02,
+String3=0x04,Infomation terminal
+String4=0x03,Informatie terminal
+String5=0x09,
+String6=0x24,
+ExtendedLabels=Y
+FontStyle=NoLabel (invisible)
+CustomColor=No
+DayXpm="8 17 2 1"   Colormode=16
+"!	c #525252"
+"  	c none"
+"!!!!!!!!"
+"!      !"
+"!  !!  !"
+"!  !!  !"
+"!      !"
+"!      !"
+"! !!!  !"
+"! !!!  !"
+"!  !!  !"
+"!  !!  !"
+"!  !!  !"
+"!  !!  !"
+"!  !!  !"
+"! !!!! !"
+"!      !"
+"!!!!!!!!"
+"!!!!!!!!"
+;12345678
+[end]
+
+[_point]
 type=0x066
 subtype=0x01
 ;GRMN_TYPE: Geographical Named Points of Interest - Land Related/ARCH/Arch/Non NT, NT
@@ -12897,7 +13651,7 @@ String6=0x24,
 ExtendedLabels=Y
 FontStyle=SmallFont
 CustomColor=Day
-DaycustomColor:#734A08
+DaycustomColor:#BD3000
 DayXpm="14 10 2 1"   Colormode=16
 "!	c #D40000"
 "  	c none"
@@ -12999,6 +13753,39 @@ DayXpm="1 1 2 1"   Colormode=16
 
 [_point]
 type=0x067
+subtype=0x01
+;GRMN_TYPE: //
+String1=0x01,
+String2=0x02,
+String3=0x04,Storagetank
+String4=0x03,Opslagtank
+String5=0x09,
+String6=0x24,
+ExtendedLabels=Y
+FontStyle=NoLabel (invisible)
+CustomColor=No
+DayXpm="14 14 2 1"   Colormode=16
+"!	c #525252"
+"  	c none"
+"    !!        "
+"  !!!!!!      "
+" !!!!!!!!   !!"
+"!!!!!!!!!!  !!"
+"!!!!!!!!!!  !!"
+"!!!!!!!!!!  !!"
+"!!!!!!!!!!!!!!"
+"!!!!!!!!!!  !!"
+"!!!!!!!!!!  !!"
+"!!!!!!!!!!  !!"
+"!!!!!!!!!!  !!"
+"!!!!!!!!!!  !!"
+"!!!!!!!!!!  !!"
+"!!!!!!!!!!  !!"
+;12345678901234
+[end]
+
+[_point]
+type=0x067
 subtype=0x02
 ;GRMN_TYPE: //
 String1=0x01,
@@ -13039,7 +13826,7 @@ subtype=0x03
 String1=0x01,
 String2=0x02,
 String3=0x04,Communications tower
-String4=0x03,Zendmast
+String4=0x03,Zendtoren
 String5=0x09,
 String6=0x24,
 ExtendedLabels=Y
@@ -13055,7 +13842,7 @@ DayXpm="12 14 2 1"   Colormode=16
 "! !  !!  ! !"
 "!  ! !! !  !"
 " !   !!   ! "
-"  ! !!!! !  "
+"  !  !!  !  "
 "     !!     "
 "     !!     "
 "     !!     "
@@ -13202,8 +13989,8 @@ DayXpm="12 14 2 1"   Colormode=16
 type=0x067
 subtype=0x08
 ;GRMN_TYPE: //
-String1=0x01,
-String2=0x02,
+String1=0x01,Moulin à vent
+String2=0x02,Windmühle
 String3=0x04,Windmill
 String4=0x03,Molen
 String5=0x09,
@@ -13404,6 +14191,289 @@ DayXpm="10 15 2 1"   Colormode=16
 [end]
 
 [_point]
+type=0x067
+subtype=0x0e
+;GRMN_TYPE: //
+String1=0x01,
+String2=0x02,
+String3=0x04,Dish
+String4=0x03,Schotelantenne
+String5=0x09,
+String6=0x24,
+ExtendedLabels=Y
+FontStyle=SmallFont
+CustomColor=Day
+DaycustomColor:#525252
+DayXpm="16 18 2 1"   Colormode=16
+"!	c #525252"
+"  	c none"
+"       !!!!!    "
+"           !!   "
+"            !!  "
+"       !!!   !! "
+" !!      !!   ! "
+" !!!      !!  ! "
+" !!!!      !  ! "
+" !!!!! !!  !  ! "
+" !!!!!!!!       "
+" !!!!!!!        "
+"  !!!!!!!       "
+"  !!!!!!!!      "
+"   !!!!!!!!     "
+"    !!!!!!!!    "
+" !!   !!!!!!    "
+" !!!!           "
+" !!!!!!!        "
+"!!!!!!!!!       "
+;1234567890123456
+[end]
+
+[_point]
+type=0x067
+subtype=0x11
+;GRMN_TYPE: //
+String1=0x01,
+String2=0x02,
+String3=0x04,Chimney
+String4=0x03,Schoorsteen
+String5=0x09,
+String6=0x24,
+ExtendedLabels=Y
+FontStyle=NoLabel (invisible)
+CustomColor=No
+DayXpm="13 16 3 1"   Colormode=16
+"!	c #FFFFFF"
+"#	c #525252"
+"  	c none"
+"   ###!!!!###"
+"  # ###!!##  "
+"     #####   "
+" ##   ###    "
+" ##          "
+" ##          "
+" ##          "
+" ##          "
+" ##          "
+" ##          "
+" ##          "
+" ##          "
+" ##          "
+" ##          "
+" ##          "
+"####         "
+;1234567890123
+[end]
+
+[_point]
+type=0x067
+subtype=0x12
+;GRMN_TYPE: //
+String1=0x01,
+String2=0x02,
+String3=0x04,Dome tower
+String4=0x03,Koepeltoren
+String5=0x09,
+String6=0x24,
+ExtendedLabels=Y
+FontStyle=SmallFont
+CustomColor=Day
+DaycustomColor:#525252
+DayXpm="10 16 2 1"   Colormode=16
+"!	c #525252"
+"  	c none"
+"  !!!!    "
+" !!!!!!   "
+" !!!!!!   "
+" !!!!!!   "
+"  !!!!    "
+"   !!     "
+"   !!     "
+"   !!     "
+"   !!     "
+"   !!     "
+"   !!     "
+"   !!     "
+"   !!     "
+"  !!!!    "
+"!!!!!!!!  "
+"!!!!!!!!  "
+;1234567890
+[end]
+
+[_point]
+type=0x067
+subtype=0x13
+;GRMN_TYPE: //
+String1=0x01,
+String2=0x02,
+String3=0x04,
+String4=0x03,Zendmast
+String5=0x09,
+String6=0x24,
+ExtendedLabels=Y
+FontStyle=NoLabel (invisible)
+CustomColor=No
+DayXpm="12 14 2 1"   Colormode=16
+"!	c #525252"
+"  	c none"
+"  !      !  "
+" !  !  !  ! "
+"!  !    !  !"
+"! !  !!  ! !"
+"! !  !!  ! !"
+"!  ! !! !  !"
+" !   !!   ! "
+"  ! !!!! !  "
+"    !!!!    "
+"   ! !! !   "
+"   ! !! !   "
+"  !  !!  !  "
+"  ! !!!! !  "
+"  ! !!!! !  "
+;123456789012
+[end]
+
+[_point]
+type=0x067
+subtype=0x14
+;GRMN_TYPE: //
+String1=0x01,
+String2=0x02,
+String3=0x04,
+String4=0x03,Zendmast (Staal)
+String5=0x09,
+String6=0x24,
+ExtendedLabels=Y
+FontStyle=NoLabel (invisible)
+CustomColor=No
+DayXpm="12 17 2 1"   Colormode=16
+"!	c #525252"
+"  	c none"
+"   !    !   "
+"  !      !  "
+" !   !!   ! "
+"!  ! !! !  !"
+"! !  !!  ! !"
+"! !  !!  ! !"
+"!    !!    !"
+" !  !!!!  ! "
+"  ! !  ! !  "
+"    !  !    "
+"   !!  !!   "
+"   ! !! !   "
+"   !!  !!   "
+"  !!    !!  "
+"  !!!!!!!!  "
+" !!!    !!! "
+" !!      !! "
+;123456789012
+[end]
+
+[_point]
+type=0x067
+subtype=0x15
+;GRMN_TYPE: //
+String1=0x01,
+String2=0x02,
+String3=0x04,
+String4=0x03,Lichtmast (Staal)
+String5=0x09,
+String6=0x24,
+ExtendedLabels=Y
+FontStyle=Default
+CustomColor=No
+DayXpm="10 15 2 1"   Colormode=16
+"!	c #525252"
+"  	c none"
+" !  !!  ! "
+"  ! !! !  "
+"!! !!!! !!"
+"  ! !! !  "
+" !  !!  ! "
+"   !!!!   "
+"   !  !   "
+"   !  !   "
+"  !!  !!  "
+"  ! !! !  "
+"  !!  !!  "
+" !!    !! "
+" !!!!!!!! "
+"!!!    !!!"
+"!!      !!"
+;1234567890
+[end]
+
+[_point]
+type=0x067
+subtype=0x16
+;GRMN_TYPE: //
+String1=0x01,
+String2=0x02,
+String3=0x04,
+String4=0x03,Zendtoren
+String5=0x09,
+String6=0x24,
+ExtendedLabels=Y
+FontStyle=SmallFont
+CustomColor=Day
+DaycustomColor:#525252
+DayXpm="12 16 2 1"   Colormode=16
+"!	c #525252"
+"  	c none"
+"  !  !!  !  "
+" !   !!   ! "
+"!    !!    !"
+"! ! !!!! ! !"
+"! ! !!!! ! !"
+"!   !!!!   !"
+" !   !!   ! "
+"  !  !!  !  "
+"     !!     "
+"     !!     "
+"     !!     "
+"     !!     "
+"     !!     "
+"    !!!!    "
+"   !!!!!!   "
+"  !!!!!!!!  "
+;123456789012
+[end]
+
+[_point]
+type=0x067
+subtype=0x17
+;GRMN_TYPE: //
+String1=0x01,
+String2=0x02,
+String3=0x04,
+String4=0x03,Lichttoren
+String5=0x09,
+String6=0x24,
+ExtendedLabels=Y
+FontStyle=SmallFont
+CustomColor=No
+DayXpm="10 15 2 1"   Colormode=16
+"!	c #525252"
+"  	c none"
+" !  !!  ! "
+"  ! !! !  "
+"!! !!!! !!"
+"  ! !! !  "
+" !  !!  ! "
+"    !!    "
+"    !!    "
+"    !!    "
+"    !!    "
+"    !!    "
+"    !!    "
+"    !!    "
+"   !!!!   "
+" !!!!!!!! "
+" !!!!!!!! "
+;1234567890
+[end]
+
+[_point]
 type=0x068
 subtype=0x01
 ;GRMN_TYPE: //
@@ -13574,6 +14644,42 @@ DayXpm="22 13 2 1"   Colormode=16
 
 [_point]
 type=0x110
+subtype=0x06
+;GRMN_TYPE: Business - Services/BANK(NT)/Bank/NT
+String1=0x01,
+String2=0x02,
+String3=0x04,Bureau de change
+String4=0x03,Wisselkantoor
+String5=0x09,
+String6=0x24,
+ExtendedLabels=Y
+FontStyle=NoLabel (invisible)
+CustomColor=No
+DayXpm="17 17 2 1"   Colormode=16
+"!	c #734A08"
+"  	c none"
+"  !!!!     !     "
+" !!!!!!   !!     "
+"!  !! !  !!!!!   "
+"!  !!     !!  !  "
+"!!!!!      !     "
+" !!!!!!          "
+"   !!!!!    !!!!!"
+"!  !!  !   !!!!!!"
+"!! !!  !  !!     "
+" !!!!!!   !!!!!! "
+"  !!!!    !!     "
+"          !!     "
+"    !     !!!!!! "
+" !  !!    !!     "
+"  !!!!!    !!!!!!"
+"    !!      !!!!!"
+"    !            "
+;12345678901234567
+[end]
+
+[_point]
+type=0x110
 subtype=0x14
 ;GRMN_TYPE: Business - Services/SOCIAL_SERVICES(NT)/Social services/NT
 String1=0x01,
@@ -13594,5 +14700,40 @@ DayXpm="11 5 2 1"   Colormode=16
 "!!!!!      "
 "!!!!!      "
 " !!!       "
+;12345678901
+[end]
+
+[_point]
+type=0x137
+subtype=0x02
+;GRMN_TYPE: Business - Services Extended/FERRY_TERMINAL(NT)/Ferry terminal/NT
+String1=0x01,
+String2=0x02,
+String3=0x04,Ferry terminal
+String4=0x03,Ferry terminal
+String5=0x09,
+String6=0x24,
+ExtendedLabels=Y
+FontStyle=Default
+CustomColor=Day
+DaycustomColor:#4A58AD
+DayXpm="11 15 2 1"   Colormode=16
+"!	c #9E83CB"
+"  	c none"
+"    !!     "
+"   !!!!    "
+"   !!!!    "
+"    !!     "
+"    !!     "
+" !!!!!!!!  "
+" !!!!!!!!  "
+"    !!     "
+"    !!     "
+"!   !!   ! "
+"!!  !!  !! "
+"!!! !! !!! "
+" !!!!!!!!  "
+"  !!!!!!   "
+"    !!     "
 ;12345678901
 [end]
