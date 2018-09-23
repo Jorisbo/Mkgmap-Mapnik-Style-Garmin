@@ -8,128 +8,128 @@ CodePage=1252
 [_comments]
 ;Joris Bovens
 ;Jorisbo@hotmail.com
-;Generated: 20180923 13:32
+;Generated: 20180923 17:25
 ;From master: JBM
 ;As subset: mapnik
 [End]
 
 [_drawOrder]
-Type=0x01,27
-Type=0x02,16
-Type=0x03,3
-Type=0x04,27
-Type=0x05,17
-Type=0x06,2
-Type=0x07,2
-Type=0x08,24
-Type=0x09,2
-Type=0x0a,7
-Type=0x0b,7
-Type=0x0c,4
-Type=0x0d,11
-Type=0x0e,26
-Type=0x0f,2
-Type=0x10,3
-Type=0x11,2
-Type=0x12,11
-Type=0x13,24
-Type=0x14,5
-Type=0x15,2
-Type=0x16,2
-Type=0x17,10
-Type=0x18,9
-Type=0x19,20
-Type=0x1a,16
-Type=0x1b,15
-Type=0x1c,2
-Type=0x1d,10
-Type=0x1e,6
-Type=0x1f,9
-Type=0x20,21
-Type=0x21,21
-Type=0x22,4
-Type=0x23,3
-Type=0x24,7
-Type=0x25,2
-Type=0x26,11
-Type=0x27,1
-Type=0x28,2
-Type=0x29,16
-Type=0x2a,8
-Type=0x2b,10
-Type=0x2c,14
-Type=0x2d,16
-Type=0x2e,12
-Type=0x2f,2
-Type=0x30,16
-Type=0x31,16
-Type=0x32,2
-Type=0x33,23
-Type=0x34,23
-Type=0x35,23
-Type=0x36,23
-Type=0x37,23
-Type=0x38,2
-Type=0x39,24
-Type=0x3a,15
-Type=0x3b,3
-Type=0x3c,22
-Type=0x3d,2
-Type=0x3e,22
-Type=0x3f,23
-Type=0x40,16
-Type=0x41,8
-Type=0x42,2
-Type=0x43,2
-Type=0x44,19
-Type=0x45,19
-Type=0x46,22
-Type=0x47,23
-Type=0x48,2
-Type=0x49,23
-Type=0x4a,1
-Type=0x4b,1
-Type=0x4c,3
-Type=0x4d,22
-Type=0x4e,10
-Type=0x4f,22
-Type=0x50,15
-Type=0x51,23
-Type=0x52,23
-Type=0x53,23
-Type=0x54,23
-Type=0x55,23
-Type=0x56,23
-Type=0x57,23
-Type=0x5a,12
-Type=0x5b,11
-Type=0x5c,11
-Type=0x5d,12
-Type=0x5e,4
-Type=0x5f,24
-Type=0x60,2
-Type=0x61,10
-Type=0x62,23
-Type=0x63,3
-Type=0x64,4
-Type=0x65,9
-Type=0x66,4
-Type=0x67,2
-Type=0x68,16
-Type=0x69,23
-Type=0x6a,18
-Type=0x6b,2
-Type=0x6c,18
-Type=0x6d,25
-Type=0x6e,15
-Type=0x6f,4
-Type=0x7a,20
-Type=0x7b,21
-Type=0x7c,7
-Type=0x7d,13
-Type=0x7e,18
-Type=0x7f,25
-[end]
+Type=0x027,1
+Type=0x04a,1
+Type=0x04b,1
+Type=0x006,2
+Type=0x007,2
+Type=0x009,2
+Type=0x00f,2
+Type=0x011,2
+Type=0x015,2
+Type=0x016,2
+Type=0x01c,2
+Type=0x025,2
+Type=0x028,2
+Type=0x02f,2
+Type=0x032,2
+Type=0x038,2
+Type=0x03d,2
+Type=0x042,2
+Type=0x043,2
+Type=0x048,2
+Type=0x060,2
+Type=0x067,2
+Type=0x06b,2
+Type=0x003,3
+Type=0x010,3
+Type=0x023,3
+Type=0x03b,3
+Type=0x04c,3
+Type=0x063,3
+Type=0x00c,4
+Type=0x022,4
+Type=0x05e,4
+Type=0x064,4
+Type=0x066,4
+Type=0x06f,4
+Type=0x014,5
+Type=0x01e,6
+Type=0x00a,7
+Type=0x00b,7
+Type=0x024,7
+Type=0x07c,7
+Type=0x02a,8
+Type=0x041,8
+Type=0x018,9
+Type=0x01f,9
+Type=0x065,9
+Type=0x017,10
+Type=0x01d,10
+Type=0x02b,10
+Type=0x04e,10
+Type=0x061,10
+Type=0x00d,11
+Type=0x012,11
+Type=0x026,11
+Type=0x05b,11
+Type=0x05c,11
+Type=0x02e,12
+Type=0x05a,12
+Type=0x05d,12
+Type=0x07d,13
+Type=0x02c,14
+Type=0x01b,15
+Type=0x03a,15
+Type=0x050,15
+Type=0x06e,15
+Type=0x002,16
+Type=0x01a,16
+Type=0x029,16
+Type=0x02d,16
+Type=0x030,16
+Type=0x031,16
+Type=0x040,16
+Type=0x068,16
+Type=0x005,17
+Type=0x06a,18
+Type=0x06c,18
+Type=0x07e,18
+Type=0x044,19
+Type=0x045,19
+Type=0x019,20
+Type=0x07a,20
+Type=0x020,21
+Type=0x021,21
+Type=0x07b,21
+Type=0x03c,22
+Type=0x03e,22
+Type=0x046,22
+Type=0x04d,22
+Type=0x04f,22
+Type=0x033,23
+Type=0x034,23
+Type=0x035,23
+Type=0x036,23
+Type=0x037,23
+Type=0x03f,23
+Type=0x047,23
+Type=0x051,23
+Type=0x052,23
+Type=0x053,23
+Type=0x054,23
+Type=0x055,23
+Type=0x056,23
+Type=0x057,23
+Type=0x062,23
+Type=0x069,23
+Type=0x039,24
+Type=0x049,24
+Type=0x008,25
+Type=0x013,25
+Type=0x05f,25
+Type=0x06d,26
+Type=0x07f,26
+Type=0x00e,27
+Type=0x001,28
+Type=0x004,28
+[End]
 
 [_polygon]
 type=0x01
@@ -3420,8 +3420,8 @@ Xpm="0 0 1 0"
 "1 c #AAD3DF"
 String1=0x01,
 String2=0x02,
-String3=0x04,Riiver, Canal, Stream
-String4=0x03,Rivier, Kanaal, Beek
+String3=0x04,Stream
+String4=0x03,Beek
 String5=0x09,
 String6=0x24,
 ExtendedLabels=Y
@@ -3541,13 +3541,13 @@ DaycustomColor:#BD30B4
 type=0x1f
 ;GRMN_TYPE: Water Features/RIVER/Large stream or river/Non NT
 UseOrientation=Y
-LineWidth=5
+LineWidth=7
 Xpm="0 0 1 0"
 "1 c #AAD3DF"
-String1=0x01,
-String2=0x02,
-String3=0x04,Riiver, Canal, Stream
-String4=0x03,Rivier, Kanaal, Beek
+String1=0x01,Canal
+String2=0x02,Fluﬂ
+String3=0x04,River, Canal
+String4=0x03,Rivier, Kanaal
 String5=0x09,
 String6=0x24,
 ExtendedLabels=Y
@@ -9070,24 +9070,24 @@ ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
 DayXpm="16 16 2 1"   Colormode=16
-"!	c #FFFFFF"
-"#	c #009500"
-"!!!!!!!##!!!!!!!"
-"!!!!!######!!!!!"
-"!!!##########!!!"
-"!##############!"
-"################"
-"!!!!!!!##!!!!!!!"
-"!!!!!!!##!!!!!!!"
-"##!!!!!##!!!!!##"
-"##!!!!!##!!!!!##"
-"##!!!!!##!!!!!##"
-"##!##########!##"
-"##!!!!!##!!!!!##"
-"##!!!!!##!!!!!##"
-"#####!!##!!#####"
-"##!##!!##!!##!##"
-"##!##!!##!!##!##"
+"!	c #009500"
+"  	c none"
+"       !!       "
+"     !!!!!!     "
+"   !!!!!!!!!!   "
+" !!!!!!!!!!!!!! "
+"!!!!!!!!!!!!!!!!"
+"       !!       "
+"       !!       "
+"!!     !!     !!"
+"!!     !!     !!"
+"!!     !!     !!"
+"!! !!!!!!!!!! !!"
+"!!     !!     !!"
+"!!     !!     !!"
+"!!!!!  !!  !!!!!"
+"!! !!  !!  !! !!"
+"!! !!  !!  !! !!"
 ;1234567890123456
 [end]
 
@@ -9998,23 +9998,23 @@ String6=0x24,
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
-DayXpm="13 13 2 1"   Colormode=16
+DayXpm="15 13 2 1"   Colormode=16
 "!	c #BD30B4"
 "  	c none"
-" !!!!! !    !"
-"!!!!!! !!  !!"
-"!!!!!! !!!!!!"
-"  !!    !!!! "
-"  !!     !!  "
-"  !!     !!  "
-"  !!     !!  "
-"  !!     !!  "
-"  !!     !!  "
-"  !!     !!  "
-"  !!     !!  "
-"  !!     !!  "
-"  !!     !!  "
-;1234567890123
+"  !!!!!! !    !"
+"!!!!!!!! !!  !!"
+"!!!!!!!! !!!!!!"
+"   !!     !!!! "
+"   !!      !!  "
+"   !!      !!  "
+"   !!      !!  "
+"   !!      !!  "
+"   !!      !!  "
+"   !!      !!  "
+"   !!      !!  "
+"   !!      !!  "
+"   !!      !!  "
+;123456789012345
 [end]
 
 [_point]
@@ -12535,6 +12535,66 @@ DayXpm="13 16 2 1"   Colormode=16
 
 [_point]
 type=0x059
+subtype=0x02
+;GRMN_TYPE: //
+String1=0x01,
+String2=0x02,
+String3=0x04,Nursing home
+String4=0x03,Verzorgingstehuis / Kinderopvang
+String5=0x09,
+String6=0x24,
+ExtendedLabels=Y
+FontStyle=SmallFont
+CustomColor=Day
+DaycustomColor:#62613D
+DayXpm="11 5 2 1"   Colormode=16
+"!	c #47471C"
+"  	c none"
+" !!!       "
+"!!!!!      "
+"!!!!!      "
+"!!!!!      "
+" !!!       "
+;12345678901
+[end]
+
+[_point]
+type=0x059
+subtype=0x03
+;GRMN_TYPE: //
+String1=0x01,
+String2=0x02,
+String3=0x04,Ferry terminal
+String4=0x03,Ferry terminal
+String5=0x09,
+String6=0x24,
+ExtendedLabels=Y
+FontStyle=Default
+CustomColor=Day
+DaycustomColor:#4A58AD
+DayXpm="11 15 2 1"   Colormode=16
+"!	c #9E83CB"
+"  	c none"
+"    !!     "
+"   !!!!    "
+"   !!!!    "
+"    !!     "
+"    !!     "
+" !!!!!!!!  "
+" !!!!!!!!  "
+"    !!     "
+"    !!     "
+"!   !!   ! "
+"!!  !!  !! "
+"!!! !! !!! "
+" !!!!!!!!  "
+"  !!!!!!   "
+"    !!     "
+;12345678901
+[end]
+
+[_point]
+type=0x059
 subtype=0x04
 ;GRMN_TYPE: //
 String1=0x01,
@@ -14676,64 +14736,4 @@ DayXpm="17 17 2 1"   Colormode=16
 "    !!      !!!!!"
 "    !            "
 ;12345678901234567
-[end]
-
-[_point]
-type=0x110
-subtype=0x14
-;GRMN_TYPE: Business - Services/SOCIAL_SERVICES(NT)/Social services/NT
-String1=0x01,
-String2=0x02,
-String3=0x04,Nursing home
-String4=0x03,Verzorgingstehuis / Kinderopvang
-String5=0x09,
-String6=0x24,
-ExtendedLabels=Y
-FontStyle=SmallFont
-CustomColor=Day
-DaycustomColor:#62613D
-DayXpm="11 5 2 1"   Colormode=16
-"!	c #47471C"
-"  	c none"
-" !!!       "
-"!!!!!      "
-"!!!!!      "
-"!!!!!      "
-" !!!       "
-;12345678901
-[end]
-
-[_point]
-type=0x137
-subtype=0x02
-;GRMN_TYPE: Business - Services Extended/FERRY_TERMINAL(NT)/Ferry terminal/NT
-String1=0x01,
-String2=0x02,
-String3=0x04,Ferry terminal
-String4=0x03,Ferry terminal
-String5=0x09,
-String6=0x24,
-ExtendedLabels=Y
-FontStyle=Default
-CustomColor=Day
-DaycustomColor:#4A58AD
-DayXpm="11 15 2 1"   Colormode=16
-"!	c #9E83CB"
-"  	c none"
-"    !!     "
-"   !!!!    "
-"   !!!!    "
-"    !!     "
-"    !!     "
-" !!!!!!!!  "
-" !!!!!!!!  "
-"    !!     "
-"    !!     "
-"!   !!   ! "
-"!!  !!  !! "
-"!!! !! !!! "
-" !!!!!!!!  "
-"  !!!!!!   "
-"    !!     "
-;12345678901
 [end]
