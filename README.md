@@ -1,4 +1,4 @@
-# 20180929 Implemented latest changes up to mapnik release 4.15.0
+# 20180925 Implemented changes up to mapnik release 4.15.0
 
 # Mkgmap-Mapnik-Style-Garmin
 ustom Style and TYP file for mkgmap, rendering Garmin Maps for Basecamp in the OSM Mapnik style
