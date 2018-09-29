@@ -1,5 +1,5 @@
 # 20180925 Implemented changes up to mapnik release 4.15.0
-(https://github.com/gravitystorm/openstreetmap-carto/compare/v4.14.0...v4.15.0)
+(https://github.com/gravitystorm/openstreetmap-carto/edit/master/CHANGELOG.md)
 
 # Mkgmap-Mapnik-Style-Garmin
 ustom Style and TYP file for mkgmap, rendering Garmin Maps for Basecamp in the OSM Mapnik style
