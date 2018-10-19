@@ -10,7 +10,7 @@ Original copy of mkgmap default style modified to look the same as mapnik layer 
 - jbm.txt   TYP file in TXT format
 - jbm.typ   TYP file
 
-# Style - mkgmap default (in progress)
+# Style - mkgmap default (experimental updated 20181019)
 - mkgmap.txt   TYP file in TXT format
 - mkgmap.typ   TYP file
 
