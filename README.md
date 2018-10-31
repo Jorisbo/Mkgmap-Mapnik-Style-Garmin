@@ -10,11 +10,13 @@ Original copy of mkgmap default style modified to look the same as mapnik layer 
 - jbm.txt   TYP file
 - jbm.typ   TYP file
 
-# Style - mkgmap default (experimental updated 20181019)
+# Style - mkgmap default
+experimental updated 20181019
 - mkgmap.txt   TYP file
 - mkgmap.typ   TYP file
 
-# Style - Lambertus Generic New (updated 20181019)
+# Style - Lambertus Generic New
+updated 20181019
 http://garmin.openstreetmap.nl
 - osm.txt   TYP file
 - osm.typ   TYP file
