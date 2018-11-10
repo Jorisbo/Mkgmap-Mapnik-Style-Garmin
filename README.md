@@ -2,7 +2,9 @@
 https://github.com/gravitystorm/openstreetmap-carto/blob/master/CHANGELOG.md
 
 # Mkgmap-Mapnik-Style-Garmin
-Custom Style and corresponding TYP file for mkgmap, rendering Garmin Maps for Basecamp in the OSM Mapnik style
+Custom style and corresponding TYP file for mkgmap, rendering Garmin Maps for Basecamp in the OSM Mapnik style
+Maps tested with Garmin Oregon 600
+https://www.openstreetmap.org
  
 # Style - Joris
 Original copy of mkgmap default style modified to look the same as mapnik layer on OSM
@@ -10,12 +12,12 @@ Original copy of mkgmap default style modified to look the same as mapnik layer 
 - jbm.txt   TYP file
 - jbm.typ   TYP file
 
-# Style - mkgmap default
+# Style - Mkgmap default
 experimental updated 20181019
 - mkgmap.txt   TYP file
 - mkgmap.typ   TYP file
 
-# Style - Lambertus Generic New
+# Style - Generic New
 updated 20181019
 http://garmin.openstreetmap.nl
 - osm.txt   TYP file
