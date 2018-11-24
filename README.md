@@ -1,4 +1,4 @@
-# 20181019 Implemented mapnik changes up to release 4.16.0
+# 20181124 Implemented mapnik changes up to release 4.17.0
 https://github.com/gravitystorm/openstreetmap-carto/blob/master/CHANGELOG.md
 
 # Mkgmap-Mapnik-Style-Garmin
@@ -22,4 +22,3 @@ updated 20181019
 http://garmin.openstreetmap.nl
 - osm.txt   TYP file
 - osm.typ   TYP file
-
