@@ -18,133 +18,133 @@ CodePage=1252
 ;MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
 ;General Public License for more details.
 ;
-;Auto generated: 20181222 10:56
+;Auto generated: 20181223 12:43
 ;From master: JBM
 ;As subset: mapnik
 ;
 [End]
 
 [_drawOrder]
-Type=0x027,1
-Type=0x04a,1
-Type=0x04b,1
-Type=0x003,2
-Type=0x006,2
-Type=0x007,2
-Type=0x00f,2
-Type=0x010,2
-Type=0x011,2
-Type=0x015,2
-Type=0x01c,2
-Type=0x025,2
-Type=0x028,2
-Type=0x032,2
-Type=0x038,2
-Type=0x03d,2
-Type=0x042,2
-Type=0x043,2
-Type=0x048,2
-Type=0x059,2
-Type=0x060,2
-Type=0x06b,2
-Type=0x071,2
-Type=0x009,3
-Type=0x02e,3
-Type=0x02f,3
-Type=0x03b,3
-Type=0x063,3
-Type=0x064,3
-Type=0x066,3
-Type=0x067,3
-Type=0x00c,4
-Type=0x014,4
-Type=0x06f,4
-Type=0x01e,5
-Type=0x05e,5
-Type=0x00a,6
-Type=0x00b,6
-Type=0x022,6
-Type=0x024,6
-Type=0x07c,6
-Type=0x016,7
-Type=0x02d,7
-Type=0x041,7
-Type=0x07d,7
-Type=0x018,8
-Type=0x065,8
-Type=0x017,9
-Type=0x02b,9
-Type=0x04e,9
-Type=0x061,9
-Type=0x012,10
-Type=0x026,10
-Type=0x04c,10
-Type=0x05b,10
-Type=0x02c,11
-Type=0x05c,11
-Type=0x01b,12
-Type=0x01d,12
-Type=0x03a,12
-Type=0x050,12
-Type=0x002,13
-Type=0x00d,13
-Type=0x01a,13
-Type=0x029,13
-Type=0x030,13
-Type=0x031,13
-Type=0x040,13
-Type=0x068,13
-Type=0x07a,13
-Type=0x005,14
-Type=0x021,14
-Type=0x05a,14
-Type=0x05d,14
-Type=0x06c,15
-Type=0x07e,15
-Type=0x044,16
-Type=0x045,16
-Type=0x019,17
-Type=0x07b,17
-Type=0x020,18
-Type=0x02a,18
-Type=0x03c,18
-Type=0x03e,18
-Type=0x046,18
-Type=0x04d,18
-Type=0x04f,18
-Type=0x01f,19
-Type=0x023,19
-Type=0x03f,19
-Type=0x047,19
-Type=0x051,19
-Type=0x052,19
-Type=0x053,19
-Type=0x054,19
-Type=0x055,19
-Type=0x056,19
-Type=0x057,19
-Type=0x058,19
-Type=0x062,19
-Type=0x069,19
-Type=0x06e,19
-Type=0x070,19
-Type=0x033,20
-Type=0x034,20
-Type=0x035,20
-Type=0x036,20
-Type=0x037,20
-Type=0x049,20
-Type=0x039,21
-Type=0x06a,22
-Type=0x008,23
-Type=0x013,23
-Type=0x05f,23
-Type=0x06d,24
-Type=0x07f,24
-Type=0x00e,25
-Type=0x001,26
-Type=0x004,26
-[End]
+Type=0x01,26
+Type=0x02,13
+Type=0x03,2
+Type=0x04,26
+Type=0x05,14
+Type=0x06,2
+Type=0x07,2
+Type=0x08,23
+Type=0x09,3
+Type=0x0a,6
+Type=0x0b,6
+Type=0x0c,4
+Type=0x0d,13
+Type=0x0e,25
+Type=0x0f,2
+Type=0x10,2
+Type=0x11,2
+Type=0x12,10
+Type=0x13,23
+Type=0x14,4
+Type=0x15,2
+Type=0x16,8
+Type=0x17,9
+Type=0x18,8
+Type=0x19,17
+Type=0x1a,13
+Type=0x1b,12
+Type=0x1c,2
+Type=0x1d,12
+Type=0x1e,5
+Type=0x1f,19
+Type=0x20,18
+Type=0x21,14
+Type=0x22,6
+Type=0x23,19
+Type=0x24,6
+Type=0x25,2
+Type=0x26,10
+Type=0x27,1
+Type=0x28,2
+Type=0x29,13
+Type=0x2a,18
+Type=0x2b,9
+Type=0x2c,11
+Type=0x2d,7
+Type=0x2e,3
+Type=0x2f,3
+Type=0x30,13
+Type=0x31,13
+Type=0x32,2
+Type=0x33,20
+Type=0x34,20
+Type=0x35,20
+Type=0x36,20
+Type=0x37,20
+Type=0x38,2
+Type=0x39,21
+Type=0x3a,12
+Type=0x3b,3
+Type=0x3c,18
+Type=0x3d,2
+Type=0x3e,18
+Type=0x3f,19
+Type=0x40,13
+Type=0x41,7
+Type=0x42,2
+Type=0x43,2
+Type=0x44,16
+Type=0x45,16
+Type=0x46,18
+Type=0x47,19
+Type=0x48,2
+Type=0x49,20
+Type=0x4a,1
+Type=0x4b,1
+Type=0x4c,10
+Type=0x4d,18
+Type=0x4e,9
+Type=0x4f,18
+Type=0x50,12
+Type=0x51,19
+Type=0x52,19
+Type=0x53,19
+Type=0x54,19
+Type=0x55,19
+Type=0x56,19
+Type=0x57,19
+Type=0x58,19
+Type=0x59,2
+Type=0x5a,14
+Type=0x5b,10
+Type=0x5c,11
+Type=0x5d,14
+Type=0x5e,5
+Type=0x5f,23
+Type=0x60,2
+Type=0x61,9
+Type=0x62,19
+Type=0x63,3
+Type=0x64,3
+Type=0x65,8
+Type=0x66,3
+Type=0x67,3
+Type=0x68,13
+Type=0x69,19
+Type=0x6a,22
+Type=0x6b,2
+Type=0x6c,15
+Type=0x6d,24
+Type=0x6e,19
+Type=0x6f,4
+Type=0x70,19
+Type=0x71,2
+Type=0x7a,13
+Type=0x7b,17
+Type=0x7c,6
+Type=0x7d,7
+Type=0x7e,15
+Type=0x7f,24
+[end]
 
 [_polygon]
 type=0x01
@@ -4813,7 +4813,7 @@ type=0x1010d
 UseOrientation=Y
 LineWidth=1
 Xpm="0 0 1 0"
-"1 c #FFD6D1"
+"1 c #E6BCB0"
 String1=0x01,
 String2=0x02,Gewerbegebiet (Rand)
 String3=0x04,Retail area (Outline)
@@ -5119,7 +5119,7 @@ type=0x10504
 UseOrientation=Y
 LineWidth=1
 Xpm="0 0 1 0"
-"1 c #F5DCBA"
+"1 c #E2C9A4"
 String1=0x01,Ferme
 String2=0x02,Bauernhof (Rand)
 String3=0x04,Farmyard (Outline)
@@ -10962,26 +10962,26 @@ String6=0x24,
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
-DayXpm="16 16 2 1"   Colormode=16
+DayXpm="17 16 2 1"   Colormode=16
 "!	c #BD30B4"
 "  	c none"
-"             !! "
-"            !!!!"
-"            !!!!"
-"!!!!!!!!!!! !!!!"
-"  !  !   !! !!!!"
-"  !!   !  ! !!!!"
-"  !!! !!! ! !!!!"
-"!!!!!!!!!!! !!!!"
-"  !  !   !! !!!!"
-"  !!   !  ! !!!!"
-"  !!! !!! ! !!!!"
-"!!!!!!!!!!! !!!!"
-"  !  !   !! !!!!"
-"  !!   !  ! !  !"
-"  !!! !!! ! !  !"
-"!!!!!!!!!!!  !! "
-;1234567890123456
+"              !! "
+"             !!!!"
+"             !!!!"
+"!!!!!!!!!!!  !!!!"
+"  !  !   !!  !!!!"
+"  !!   !  !  !!!!"
+"  !!! !!! !  !!!!"
+"!!!!!!!!!!!  !!!!"
+"  !  !   !!  !!!!"
+"  !!   !  !  !!!!"
+"  !!! !!! !  !!!!"
+"!!!!!!!!!!!  !!!!"
+"  !  !   !!  !!!!"
+"  !!   !  !  !  !"
+"  !!! !!! !  !  !"
+"!!!!!!!!!!!   !! "
+;12345678901234567
 [end]
 
 [_point]
@@ -13363,11 +13363,15 @@ ExtendedLabels=Y
 FontStyle=SmallFont
 CustomColor=Day
 DaycustomColor:#BF0000
-DayXpm="1 1 2 1"   Colormode=16
-"!	c #FFFFFF"
+DayXpm="10 5 2 1"   Colormode=16
+"!	c #BF0000"
 "  	c none"
-" "
-;1
+" !!!      "
+"!!!!!     "
+"!!!!!     "
+"!!!!!     "
+" !!!      "
+;1234567890
 [end]
 
 [_point]
