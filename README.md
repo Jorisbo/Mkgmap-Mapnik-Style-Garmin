@@ -6,18 +6,18 @@ This is a custom style and corresponding TYP file for mkgmap.
 It renders Garmin Maps for Basecamp and Mapsource in the OSM Mapnik style. 
 The result is a map identical to https://www.openstreetmap.org
 The maps are tested with a Garmin Oregon 600. 
-The mkgmap and generic new typ-files are automaticaaly generated and updated on every release. 
 
-# Style - Joris
-Original a copy of mkgmap default style but modified to look exactly the same as mapnik layer on https://www.openstreetmap.org
+# Style and typ-file Joris
+Original a copy of mkgmap default style but modified to look identical as the mapnik layer on https://www.openstreetmap.org
 - jbm.txt   TYP file
 - jbm.typ   TYP file
 
-# Style - Mkgmap default style typ-file
-- mkgmap.txt   TYP file
-- mkgmap.typ   TYP file
+# Typ-file for the mkgmap default style on http://www.mkgmap.org.uk/
+The typ-file isautomatically generated and updated to the latest mapnik release 
+- mkgmap.txt
+- mkgmap.typ
 
-# Style - Generic New style typ-file
-http://garmin.openstreetmap.nl
-- osm.txt   TYP file
-- osm.typ   TYP file
+# Typ-file for the Generic New style of http://garmin.openstreetmap.nl
+The typ-file isautomatically generated and updated to the latest mapnik release 
+- osm.txt
+- osm.typ
