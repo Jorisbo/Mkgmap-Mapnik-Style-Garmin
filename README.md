@@ -14,12 +14,14 @@ Original a copy of mkgmap default style but modified to look identical as the ma
 
 # Typ-file for the mkgmap default style
 http://www.mkgmap.org.uk/
+
 The typ-file isautomatically generated and updated to the latest mapnik release 
 - mkgmap.txt
 - mkgmap.typ
 
 # Typ-file for the Generic New style
 http://garmin.openstreetmap.nl
+
 The typ-file isautomatically generated and updated to the latest mapnik release 
 - osm.txt
 - osm.typ
