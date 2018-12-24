@@ -25,3 +25,5 @@ http://garmin.openstreetmap.nl
 The typ-file isautomatically generated and updated to the latest mapnik release 
 - osm.txt
 - osm.typ
+
+https://github.com/Jorisbo/Mkgmap-Mapnik-Style-Garmin/blob/master/Examples/Example%20area%204.png
