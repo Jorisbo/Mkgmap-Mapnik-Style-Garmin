@@ -34,3 +34,8 @@ The typ-file is automatically generated and updated to the latest mapnik release
 ![Screenshot](https://github.com/Jorisbo/Mkgmap-Mapnik-Style-Garmin/blob/master/Examples/Example%20area%205.png)
 ![Screenshot](https://github.com/Jorisbo/Mkgmap-Mapnik-Style-Garmin/blob/master/Examples/Example%20area%206.png)
 ![Screenshot](https://github.com/Jorisbo/Mkgmap-Mapnik-Style-Garmin/blob/master/Examples/Example%20area%207.png)
+![Screenshot](https://github.com/Jorisbo/Mkgmap-Mapnik-Style-Garmin/blob/master/Examples/Example%20area%208.png)
+![Screenshot](https://github.com/Jorisbo/Mkgmap-Mapnik-Style-Garmin/blob/master/Examples/Example%20area%209.png)
+![Screenshot](https://github.com/Jorisbo/Mkgmap-Mapnik-Style-Garmin/blob/master/Examples/Example%20area%2010.png)
+![Screenshot](https://github.com/Jorisbo/Mkgmap-Mapnik-Style-Garmin/blob/master/Examples/Example%20area%2011.png)
+
