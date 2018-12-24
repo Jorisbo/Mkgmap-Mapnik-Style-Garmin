@@ -1,8 +1,7 @@
 # 20181222 Implemented mapnik changes up to release 4.18.0
 Changes can be found on https://github.com/gravitystorm/openstreetmap-carto/blob/master/CHANGELOG.md
 
-# Mkgmap-Mapnik-Style-Garmin
-This is a custom style and corresponding typ file for mkgmap. 
+# Mkgmap style and type for rendering Garmin maps in the OSM Mapnik. 
 It renders Garmin Maps for Basecamp and Mapsource in the OSM Mapnik style. 
 The result is a map identical to https://www.openstreetmap.org
 The maps are tested with a Garmin Oregon 600. 
