@@ -15,15 +15,20 @@ Original a copy of mkgmap default style but modified to look identical as the ma
 # Typ-file for the mkgmap default style
 http://www.mkgmap.org.uk/
 
-The typ-file isautomatically generated and updated to the latest mapnik release 
+The typ-file is automatically generated and updated to the latest mapnik release 
 - mkgmap.txt
 - mkgmap.typ
 
 # Typ-file for the Generic New style
 http://garmin.openstreetmap.nl
 
-The typ-file isautomatically generated and updated to the latest mapnik release 
+The typ-file is automatically generated and updated to the latest mapnik release 
 - osm.txt
 - osm.typ
 
+# Examples
+See more in examples-folder
+![Screenshot](https://github.com/Jorisbo/Mkgmap-Mapnik-Style-Garmin/blob/master/Examples/Example%20area%201.png)
+![Screenshot](https://github.com/Jorisbo/Mkgmap-Mapnik-Style-Garmin/blob/master/Examples/Example%20area%203.png)
 ![Screenshot](https://github.com/Jorisbo/Mkgmap-Mapnik-Style-Garmin/blob/master/Examples/Example%20area%204.png)
+![Screenshot](https://github.com/Jorisbo/Mkgmap-Mapnik-Style-Garmin/blob/master/Examples/Example%20area%205.png)
