@@ -26,4 +26,4 @@ The typ-file isautomatically generated and updated to the latest mapnik release
 - osm.txt
 - osm.typ
 
-![Screenshot]\(https://github.com/Jorisbo/Mkgmap-Mapnik-Style-Garmin/blob/master/Examples/Example%20area%204.png)
+![Screenshot](https://github.com/Jorisbo/Mkgmap-Mapnik-Style-Garmin/blob/master/Examples/Example%20area%204.png)
