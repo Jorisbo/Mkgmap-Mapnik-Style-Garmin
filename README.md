@@ -2,7 +2,7 @@
 Changes can be found on https://github.com/gravitystorm/openstreetmap-carto/blob/master/CHANGELOG.md
 
 # Custom mkgmap style and typ-file 
-This style renders Garmin Maps for Basecamp and Mapsource in the Openstreetmap Mapnik layout. 
+This style renders routable Garmin Maps for Basecamp and Mapsource in the Openstreetmap Mapnik layout. 
 The result is a map identical to https://www.openstreetmap.org
 The maps are tested with a Garmin Oregon 600. 
 
