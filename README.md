@@ -25,7 +25,7 @@ The typ-file is automatically generated and updated to the latest mapnik release
 - osm.txt
 - osm.typ
 
-# Examples
+# Basecamp 4.6.2 Examples
 ![Screenshot](https://github.com/Jorisbo/Mkgmap-Mapnik-Style-Garmin/blob/master/Examples/Example%20area%201.png)
 ![Screenshot](https://github.com/Jorisbo/Mkgmap-Mapnik-Style-Garmin/blob/master/Examples/Example%20area%202.png)
 ![Screenshot](https://github.com/Jorisbo/Mkgmap-Mapnik-Style-Garmin/blob/master/Examples/Example%20area%203.png)
@@ -42,5 +42,6 @@ The typ-file is automatically generated and updated to the latest mapnik release
 ![Screenshot](https://github.com/Jorisbo/Mkgmap-Mapnik-Style-Garmin/blob/master/Examples/Example%20area%2014.png)
 ![Screenshot](https://github.com/Jorisbo/Mkgmap-Mapnik-Style-Garmin/blob/master/Examples/Example%20area%2015.png)
 ![Screenshot](https://github.com/Jorisbo/Mkgmap-Mapnik-Style-Garmin/blob/master/Examples/Example%20area%2016.png)
+With hillshading it looks like
 ![Screenshot](https://github.com/Jorisbo/Mkgmap-Mapnik-Style-Garmin/blob/master/Examples/Example%20area%2017.png)
 
