@@ -18,7 +18,7 @@ CodePage=1252
 ;MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
 ;General Public License for more details.
 ;
-;Auto generated: 20190113 11:13
+;Auto generated: 20190113 12:05
 ;From master: MKG
 ;As subset: mkgmap
 ;
@@ -507,40 +507,6 @@ Xpm="0 0 1 0"
 [end]
 
 [_polygon]
-type=0x41
-;GRMN_TYPE: Water Areas/LAKE_100MI/Lake less than 250 sq mi but greater or equal to 100 sq mi in area/Non NT
-String1=0x01,Eau
-String2=0x02,Wasser
-String3=0x04,Water
-String4=0x03,Water
-String5=0x09,
-String6=0x24,
-ExtendedLabels=Y
-FontStyle=SmallFont
-CustomColor=Day
-DaycustomColor:#4D80B3
-Xpm="0 0 1 0"
-"1 c #AAD3DF"
-[end]
-
-[_polygon]
-type=0x47
-;GRMN_TYPE: Water Areas/LAKE_100MI/Lake less than 250 sq mi but greater or equal to 100 sq mi in area/Non NT
-String1=0x01,Eau
-String2=0x02,Wasser
-String3=0x04,Water
-String4=0x03,Water
-String5=0x09,
-String6=0x24,
-ExtendedLabels=Y
-FontStyle=SmallFont
-CustomColor=Day
-DaycustomColor:#4D80B3
-Xpm="0 0 1 0"
-"1 c #AAD3DF"
-[end]
-
-[_polygon]
 type=0x3d
 ;GRMN_TYPE: //
 String1=0x01,
@@ -573,23 +539,7 @@ Xpm="0 0 1 0"
 [end]
 
 [_polygon]
-type=0x46
-;GRMN_TYPE: Water Areas/LAKE_10MI/Lake less than 30 sq mi but greater or equal to 10 sq mi in area/Non NT
-String1=0x01,Eau
-String2=0x02,Wasser
-String3=0x04,Water
-String4=0x03,Water
-String5=0x09,
-String6=0x24,
-ExtendedLabels=Y
-FontStyle=NoLabel (invisible)
-CustomColor=No
-Xpm="0 0 1 0"
-"1 c #AAD3DF"
-[end]
-
-[_polygon]
-type=0x48
+type=0x41
 ;GRMN_TYPE: Water Areas/LAKE_100MI/Lake less than 250 sq mi but greater or equal to 100 sq mi in area/Non NT
 String1=0x01,Eau
 String2=0x02,Wasser
@@ -606,7 +556,40 @@ Xpm="0 0 1 0"
 [end]
 
 [_polygon]
-type=0x4c
+type=0x46
+;GRMN_TYPE: Water Areas/LAKE_10MI/Lake less than 30 sq mi but greater or equal to 10 sq mi in area/Non NT
+String1=0x01,Eau
+String2=0x02,Wasser
+String3=0x04,Water
+String4=0x03,Water
+String5=0x09,
+String6=0x24,
+ExtendedLabels=Y
+FontStyle=NoLabel (invisible)
+CustomColor=No
+Xpm="0 0 1 0"
+"1 c #AAD3DF"
+[end]
+
+[_polygon]
+type=0x47
+;GRMN_TYPE: Water Areas/LAKE_100MI/Lake less than 250 sq mi but greater or equal to 100 sq mi in area/Non NT
+String1=0x01,Eau
+String2=0x02,Wasser
+String3=0x04,Water
+String4=0x03,Water
+String5=0x09,
+String6=0x24,
+ExtendedLabels=Y
+FontStyle=SmallFont
+CustomColor=Day
+DaycustomColor:#4D80B3
+Xpm="0 0 1 0"
+"1 c #AAD3DF"
+[end]
+
+[_polygon]
+type=0x48
 ;GRMN_TYPE: Water Areas/LAKE_100MI/Lake less than 250 sq mi but greater or equal to 100 sq mi in area/Non NT
 String1=0x01,Eau
 String2=0x02,Wasser
@@ -637,6 +620,23 @@ CustomColor=Day
 DaycustomColor:#00FFFF
 Xpm="0 0 1 0"
 "1 c #F2EFE9"
+[end]
+
+[_polygon]
+type=0x4c
+;GRMN_TYPE: Water Areas/LAKE_100MI/Lake less than 250 sq mi but greater or equal to 100 sq mi in area/Non NT
+String1=0x01,Eau
+String2=0x02,Wasser
+String3=0x04,Water
+String4=0x03,Water
+String5=0x09,
+String6=0x24,
+ExtendedLabels=Y
+FontStyle=SmallFont
+CustomColor=Day
+DaycustomColor:#4D80B3
+Xpm="0 0 1 0"
+"1 c #AAD3DF"
 [end]
 
 [_polygon]
@@ -685,8 +685,8 @@ ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
 Xpm="32 32 2 1"
-"! c #8ECE8F"
-"# c #B5E3B5"
+"! c #B0BE93"
+"# c #C8D7AB"
 "################################"
 "#######################!########"
 "#######################!########"
@@ -1215,24 +1215,6 @@ DaycustomColor:#4D80B3
 [end]
 
 [_line]
-type=0x30
-;GRMN_TYPE: //
-UseOrientation=Y
-LineWidth=7
-Xpm="0 0 1 0"
-"1 c #FFC0CB"
-String1=0x01,
-String2=0x02,Rennstrecke
-String3=0x04,Raceway
-String4=0x03,Circuit
-String5=0x09,
-String6=0x24,
-ExtendedLabels=Y
-FontStyle=NoLabel (invisible)
-CustomColor=No
-[end]
-
-[_line]
 type=0x1b
 ;GRMN_TYPE: Roads/FERRY/Water or rail ferry/Non NT, NT
 UseOrientation=N
@@ -1493,6 +1475,24 @@ String1=0x01,
 String2=0x02,Hochspannungskabel
 String3=0x04,Power cable
 String4=0x03,Hoogspanningskabel
+String5=0x09,
+String6=0x24,
+ExtendedLabels=Y
+FontStyle=NoLabel (invisible)
+CustomColor=No
+[end]
+
+[_line]
+type=0x30
+;GRMN_TYPE: //
+UseOrientation=Y
+LineWidth=7
+Xpm="0 0 1 0"
+"1 c #FFC0CB"
+String1=0x01,
+String2=0x02,Rennstrecke
+String3=0x04,Raceway
+String4=0x03,Circuit
 String5=0x09,
 String6=0x24,
 ExtendedLabels=Y
@@ -3221,6 +3221,31 @@ DayXpm="14 10 2 1"   Colormode=16
 [end]
 
 [_point]
+type=0x02c
+subtype=0x0d
+;GRMN_TYPE: //
+String1=0x01,
+String2=0x02,Touristenattraktion
+String3=0x04,Tourist attraction
+String4=0x03,Touristische attractie
+String5=0x09,
+String6=0x24,
+ExtendedLabels=Y
+FontStyle=SmallFont
+CustomColor=Day
+DaycustomColor:#660033
+DayXpm="10 5 2 1"   Colormode=16
+"!	c #660033"
+"  	c none"
+" !!!      "
+"!!!!!     "
+"!!!!!     "
+"!!!!!     "
+" !!!      "
+;1234567890
+[end]
+
+[_point]
 type=0x02d
 subtype=0x01
 ;GRMN_TYPE: Business - Entertainment/LIVE_THEATER/Live theater/Non NT
@@ -3544,6 +3569,42 @@ DayXpm="1 1 2 1"   Colormode=16
 "  	c none"
 " "
 ;1
+[end]
+
+[_point]
+type=0x02d
+subtype=0x0b
+;GRMN_TYPE: Business - Services/AIRPORT/Airport/Non NT
+String1=0x01,Aéroport
+String2=0x02,Flughafen
+String3=0x04,Airport
+String4=0x03,Luchthaven
+String5=0x09,
+String6=0x24,
+ExtendedLabels=Y
+FontStyle=NormalFont
+CustomColor=Day
+DaycustomColor:#8461C4
+DayXpm="16 16 2 1"   Colormode=16
+"!	c #8461C4"
+"  	c none"
+"       !!       "
+"       !!       "
+"       !!       "
+"       !!       "
+"       !!       "
+"      !!!!      "
+"    !!!!!!!!    "
+"  !!!!!!!!!!!!  "
+" !!!!!!!!!!!!!! "
+"!!!!   !!   !!!!"
+"       !!       "
+"       !!       "
+"       !!       "
+"      !!!!      "
+"    !!!!!!!!    "
+"   !!!!  !!!!   "
+;1234567890123456
 [end]
 
 [_point]
@@ -5070,67 +5131,6 @@ DayXpm="13 16 2 1"   Colormode=16
 [end]
 
 [_point]
-type=0x02d
-subtype=0x0b
-;GRMN_TYPE: Business - Services/AIRPORT/Airport/Non NT
-String1=0x01,Aéroport
-String2=0x02,Flughafen
-String3=0x04,Airport
-String4=0x03,Luchthaven
-String5=0x09,
-String6=0x24,
-ExtendedLabels=Y
-FontStyle=NormalFont
-CustomColor=Day
-DaycustomColor:#8461C4
-DayXpm="16 16 2 1"   Colormode=16
-"!	c #8461C4"
-"  	c none"
-"       !!       "
-"       !!       "
-"       !!       "
-"       !!       "
-"       !!       "
-"      !!!!      "
-"    !!!!!!!!    "
-"  !!!!!!!!!!!!  "
-" !!!!!!!!!!!!!! "
-"!!!!   !!   !!!!"
-"       !!       "
-"       !!       "
-"       !!       "
-"      !!!!      "
-"    !!!!!!!!    "
-"   !!!!  !!!!   "
-;1234567890123456
-[end]
-
-[_point]
-type=0x02c
-subtype=0x0d
-;GRMN_TYPE: //
-String1=0x01,
-String2=0x02,Touristenattraktion
-String3=0x04,Tourist attraction
-String4=0x03,Touristische attractie
-String5=0x09,
-String6=0x24,
-ExtendedLabels=Y
-FontStyle=SmallFont
-CustomColor=Day
-DaycustomColor:#660033
-DayXpm="10 5 2 1"   Colormode=16
-"!	c #660033"
-"  	c none"
-" !!!      "
-"!!!!!     "
-"!!!!!     "
-"!!!!!     "
-" !!!      "
-;1234567890
-[end]
-
-[_point]
 type=0x059
 subtype=0x04
 ;GRMN_TYPE: //
@@ -5244,6 +5244,35 @@ DayXpm="10 15 2 1"   Colormode=16
 
 [_point]
 type=0x065
+subtype=0x05
+;GRMN_TYPE: Geographical Named Points of Interest - Water Related/CANAL/Canal/Non NT, NT
+String1=0x01,Déversoir
+String2=0x02,Wehr
+String3=0x04,Weir
+String4=0x03,Stuw
+String5=0x09,
+String6=0x24,
+ExtendedLabels=Y
+FontStyle=SmallFont
+CustomColor=Day
+DaycustomColor:#5E5E5D
+DayXpm="9 9 2 1"   Colormode=16
+"!	c #A4A4A4"
+"  	c none"
+"  !!!!!  "
+" !!!!!!! "
+"!!!   !!!"
+"!!     !!"
+"!!     !!"
+"!!     !!"
+"!!!   !!!"
+" !!!!!!! "
+"  !!!!!  "
+;123456789
+[end]
+
+[_point]
+type=0x065
 subtype=0x08
 ;GRMN_TYPE: Geographical Named Points of Interest - Water Related/WATERFALL/Waterfall/Non NT, NT
 String1=0x01,Chute d'eau
@@ -5336,35 +5365,6 @@ DayXpm="1 1 2 1"   Colormode=16
 "  	c none"
 " "
 ;1
-[end]
-
-[_point]
-type=0x065
-subtype=0x05
-;GRMN_TYPE: Geographical Named Points of Interest - Water Related/CANAL/Canal/Non NT, NT
-String1=0x01,Déversoir
-String2=0x02,Wehr
-String3=0x04,Weir
-String4=0x03,Stuw
-String5=0x09,
-String6=0x24,
-ExtendedLabels=Y
-FontStyle=SmallFont
-CustomColor=Day
-DaycustomColor:#5E5E5D
-DayXpm="9 9 2 1"   Colormode=16
-"!	c #A4A4A4"
-"  	c none"
-"  !!!!!  "
-" !!!!!!! "
-"!!!   !!!"
-"!!     !!"
-"!!     !!"
-"!!     !!"
-"!!!   !!!"
-" !!!!!!! "
-"  !!!!!  "
-;123456789
 [end]
 
 [_point]
