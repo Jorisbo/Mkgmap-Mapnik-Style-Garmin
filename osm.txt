@@ -18,7 +18,7 @@ CodePage=1252
 ;MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
 ;General Public License for more details.
 ;
-;Auto generated: 20181223 16:09
+;Auto generated: 20190113 11:18
 ;From master: OSM
 ;As subset: osm
 ;
@@ -1426,7 +1426,7 @@ type=0x20
 ;GRMN_TYPE: Contour Lines/MINOR_CONTOUR/Minor land-based contour line/Non NT
 UseOrientation=N
 Xpm="32 1 2  1"
-"! c #BD6520"
+"! c #DBB793"
 "  c none"
 "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
 ;12345678901234567890123456789012
@@ -1437,9 +1437,8 @@ String4=0x03,Contour (20 m)
 String5=0x09,
 String6=0x24,
 ExtendedLabels=Y
-FontStyle=SmallFont
-CustomColor=Day
-DaycustomColor:#996633
+FontStyle=NoLabel (invisible)
+CustomColor=No
 [end]
 
 [_line]
@@ -1448,7 +1447,7 @@ type=0x21
 UseOrientation=N
 LineWidth=1
 Xpm="0 0 1 0"
-"1 c #BD6520"
+"1 c #D3A87C"
 String1=0x01,Contour (100 m)
 String2=0x02,Contour (100 m)
 String3=0x04,Contour (100 m)
@@ -1465,9 +1464,9 @@ DaycustomColor:#996633
 type=0x22
 ;GRMN_TYPE: Contour Lines/MAJOR_CONTOUR/Major contour (should be used for about every 10th contour line)/Non NT
 UseOrientation=N
-LineWidth=2
+LineWidth=1
 Xpm="0 0 1 0"
-"1 c #BD6520"
+"1 c #CC9966"
 String1=0x01,Contour (500 m)
 String2=0x02,Contour (500 m)
 String3=0x04,Contour (500 m)
@@ -1804,9 +1803,9 @@ Xpm="32 6 2  1"
 " !!  !!  !!  !!  !!  !!  !!  !! "
 ;12345678901234567890123456789012
 String1=0x01,
-String2=0x02,Graben (Periodisch)
-String3=0x04,Wadi
-String4=0x03,Sloot (Periodiek)
+String2=0x02,Fluß (Periodisch)
+String3=0x04,River, Wadi (Intermittent)
+String4=0x03,Rivier (Periodiek)
 String5=0x09,
 String6=0x24,
 ExtendedLabels=Y
@@ -2869,7 +2868,7 @@ ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
 DayXpm="16 16 2 1"   Colormode=16
-"!	c #734A08"
+"!	c #666666"
 "  	c none"
 "                "
 "    !      !    "
@@ -2895,33 +2894,35 @@ type=0x02b
 subtype=0x07
 ;GRMN_TYPE: //
 String1=0x01,
-String2=0x02,Berg Schutzhütte
-String3=0x04,Shelter
-String4=0x03,Bergschuilhut
+String2=0x02,
+String3=0x04,
+String4=0x03,VRIJ
 String5=0x09,
 String6=0x24,
 ExtendedLabels=Y
-FontStyle=SmallFont
-CustomColor=Day
-DaycustomColor:#0065D5
-DayXpm="14 14 2 1"   Colormode=16
-"!	c #0095FF"
+FontStyle=NoLabel (invisible)
+CustomColor=No
+DayXpm="16 16 3 1"   Colormode=16
+"!	c #FFFFFF"
+"#	c #006500"
 "  	c none"
-"        !!    "
-"        !!    "
-"     !!!!!    "
-"   !!!!!!!!   "
-" !!!!!  !!!!! "
-"!!!     !! !!!"
-"!!!     !! !!!"
-" !!     !! !! "
-" !!     !! !! "
-" !! !!!!!! !! "
-" !! !!!!!! !! "
-" !! !!  !! !! "
-" !! !!  !! !! "
-" !! !!!!!! !! "
-;12345678901234
+"!!!!!!!!!!!!!!!!"
+"!!!!!!!!!!!!!!!!"
+"!!!!!!!!!!!!!!!!"
+"!!!!!!!!!!!!!!!!"
+"!!!!!!!!!!!!#!#!"
+"!!!!!!!!!!!!!!!!"
+"!#!!!#!#   !#!#!"
+"!#!!!#!### !#!#!"
+"!!#!#!!#  #!#!#!"
+"!!#!#!!#   !#!#!"
+"!!!#!!!#   !#!#!"
+"!!!#!! #!  !#!#!"
+"!!!!!!!!!!!!!!#!"
+"!!!!!!!!!!!!###!"
+"!!!!!!!!!!!!!!!!"
+"!!!!!!!!!!!!!!!!"
+;1234567890123456
 [end]
 
 [_point]
@@ -4049,7 +4050,7 @@ DayXpm="10 14 2 1"   Colormode=16
 type=0x02f
 subtype=0x04
 ;GRMN_TYPE: Business - Services/AIRPORT/Airport/Non NT
-String1=0x01,Aeroport
+String1=0x01,Aéroport
 String2=0x02,Flughafen
 String3=0x04,Airport
 String4=0x03,Luchthaven
@@ -4530,7 +4531,7 @@ ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
 DayXpm="6 8 2 1"   Colormode=16
-"!	c #734A08"
+"!	c #666666"
 "  	c none"
 "  !!  "
 "!!!!!!"
@@ -5205,7 +5206,7 @@ String6=0x24,
 ExtendedLabels=Y
 FontStyle=SmallFont
 CustomColor=Day
-DaycustomColor:#000000
+DaycustomColor:#414141
 DayXpm="1 1 2 1"   Colormode=16
 "!	c #00FF4B"
 "  	c none"
@@ -5385,7 +5386,7 @@ ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
 DayXpm="5 5 2 1"   Colormode=16
-"!	c #818080"
+"!	c #3F3F3F"
 "  	c none"
 " !!! "
 "!!!!!"

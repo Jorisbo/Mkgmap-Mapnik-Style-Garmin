@@ -18,7 +18,7 @@ CodePage=1252
 ;MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
 ;General Public License for more details.
 ;
-;Auto generated: 20181223 16:09
+;Auto generated: 20190113 11:13
 ;From master: MKG
 ;As subset: mkgmap
 ;
@@ -61,6 +61,23 @@ Type=0x06a,8
 Type=0x06c,9
 Type=0x004,10
 [End]
+
+[_polygon]
+type=0x02
+;GRMN_TYPE: Urban Areas/TOWN/Urban area, less than 50 000 inhabitants/Non NT
+String1=0x01,Résidentiel
+String2=0x02,Wohngebiet
+String3=0x04,Residential
+String4=0x03,Bebouwing
+String5=0x09,
+String6=0x24,
+ExtendedLabels=Y
+FontStyle=NoLabel (invisible)
+CustomColor=No
+Xpm="0 0 2 0"
+"1 c #E0DFDF"
+"2 c #000000"
+[end]
 
 [_polygon]
 type=0x03
@@ -456,7 +473,41 @@ Xpm="0 0 1 0"
 [end]
 
 [_polygon]
+type=0x3b
+;GRMN_TYPE: Water Areas/LAKE_100MI/Lake less than 250 sq mi but greater or equal to 100 sq mi in area/Non NT
+String1=0x01,Eau
+String2=0x02,Wasser
+String3=0x04,Water
+String4=0x03,Water
+String5=0x09,
+String6=0x24,
+ExtendedLabels=Y
+FontStyle=SmallFont
+CustomColor=Day
+DaycustomColor:#4D80B3
+Xpm="0 0 1 0"
+"1 c #AAD3DF"
+[end]
+
+[_polygon]
 type=0x3c
+;GRMN_TYPE: Water Areas/LAKE_100MI/Lake less than 250 sq mi but greater or equal to 100 sq mi in area/Non NT
+String1=0x01,Eau
+String2=0x02,Wasser
+String3=0x04,Water
+String4=0x03,Water
+String5=0x09,
+String6=0x24,
+ExtendedLabels=Y
+FontStyle=SmallFont
+CustomColor=Day
+DaycustomColor:#4D80B3
+Xpm="0 0 1 0"
+"1 c #AAD3DF"
+[end]
+
+[_polygon]
+type=0x41
 ;GRMN_TYPE: Water Areas/LAKE_100MI/Lake less than 250 sq mi but greater or equal to 100 sq mi in area/Non NT
 String1=0x01,Eau
 String2=0x02,Wasser
@@ -539,6 +590,23 @@ Xpm="0 0 1 0"
 
 [_polygon]
 type=0x48
+;GRMN_TYPE: Water Areas/LAKE_100MI/Lake less than 250 sq mi but greater or equal to 100 sq mi in area/Non NT
+String1=0x01,Eau
+String2=0x02,Wasser
+String3=0x04,Water
+String4=0x03,Water
+String5=0x09,
+String6=0x24,
+ExtendedLabels=Y
+FontStyle=SmallFont
+CustomColor=Day
+DaycustomColor:#4D80B3
+Xpm="0 0 1 0"
+"1 c #AAD3DF"
+[end]
+
+[_polygon]
+type=0x4c
 ;GRMN_TYPE: Water Areas/LAKE_100MI/Lake less than 250 sq mi but greater or equal to 100 sq mi in area/Non NT
 String1=0x01,Eau
 String2=0x02,Wasser
@@ -1147,6 +1215,24 @@ DaycustomColor:#4D80B3
 [end]
 
 [_line]
+type=0x30
+;GRMN_TYPE: //
+UseOrientation=Y
+LineWidth=7
+Xpm="0 0 1 0"
+"1 c #FFC0CB"
+String1=0x01,
+String2=0x02,Rennstrecke
+String3=0x04,Raceway
+String4=0x03,Circuit
+String5=0x09,
+String6=0x24,
+ExtendedLabels=Y
+FontStyle=NoLabel (invisible)
+CustomColor=No
+[end]
+
+[_line]
 type=0x1b
 ;GRMN_TYPE: Roads/FERRY/Water or rail ferry/Non NT, NT
 UseOrientation=N
@@ -1277,7 +1363,7 @@ type=0x20
 ;GRMN_TYPE: Contour Lines/MINOR_CONTOUR/Minor land-based contour line/Non NT
 UseOrientation=N
 Xpm="32 1 2  1"
-"! c #BD6520"
+"! c #DBB793"
 "  c none"
 "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
 ;12345678901234567890123456789012
@@ -1288,9 +1374,8 @@ String4=0x03,Contour (20 m)
 String5=0x09,
 String6=0x24,
 ExtendedLabels=Y
-FontStyle=SmallFont
-CustomColor=Day
-DaycustomColor:#996633
+FontStyle=NoLabel (invisible)
+CustomColor=No
 [end]
 
 [_line]
@@ -1299,7 +1384,7 @@ type=0x21
 UseOrientation=N
 LineWidth=1
 Xpm="0 0 1 0"
-"1 c #BD6520"
+"1 c #D3A87C"
 String1=0x01,Contour (100 m)
 String2=0x02,Contour (100 m)
 String3=0x04,Contour (100 m)
@@ -1316,9 +1401,9 @@ DaycustomColor:#996633
 type=0x22
 ;GRMN_TYPE: Contour Lines/MAJOR_CONTOUR/Major contour (should be used for about every 10th contour line)/Non NT
 UseOrientation=N
-LineWidth=2
+LineWidth=1
 Xpm="0 0 1 0"
-"1 c #BD6520"
+"1 c #CC9966"
 String1=0x01,Contour (500 m)
 String2=0x02,Contour (500 m)
 String3=0x04,Contour (500 m)
@@ -1344,8 +1429,8 @@ Xpm="32 3 2  1"
 ;12345678901234567890123456789012
 String1=0x01,Canal
 String2=0x02,Fluß
-String3=0x04,River, Canal (Intermittent)
-String4=0x03,Rivier, Kanaal, Beek (Periodiek)
+String3=0x04,Stream (Intermittent)
+String4=0x03,Beek (Periodiek)
 String5=0x09,
 String6=0x24,
 ExtendedLabels=Y
@@ -1510,9 +1595,9 @@ Xpm="32 6 2  1"
 " !!  !!  !!  !!  !!  !!  !!  !! "
 ;12345678901234567890123456789012
 String1=0x01,
-String2=0x02,Graben (Periodisch)
-String3=0x04,Wadi
-String4=0x03,Sloot (Periodiek)
+String2=0x02,Fluß (Periodisch)
+String3=0x04,River, Wadi (Intermittent)
+String4=0x03,Rivier (Periodiek)
 String5=0x09,
 String6=0x24,
 ExtendedLabels=Y
@@ -2752,7 +2837,7 @@ ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
 DayXpm="16 16 2 1"   Colormode=16
-"!	c #734A08"
+"!	c #666666"
 "  	c none"
 "                "
 "    !      !    "
@@ -2778,33 +2863,35 @@ type=0x02b
 subtype=0x07
 ;GRMN_TYPE: //
 String1=0x01,
-String2=0x02,Berg Schutzhütte
-String3=0x04,Shelter
-String4=0x03,Bergschuilhut
+String2=0x02,
+String3=0x04,
+String4=0x03,VRIJ
 String5=0x09,
 String6=0x24,
 ExtendedLabels=Y
-FontStyle=SmallFont
-CustomColor=Day
-DaycustomColor:#0065D5
-DayXpm="14 14 2 1"   Colormode=16
-"!	c #0095FF"
+FontStyle=NoLabel (invisible)
+CustomColor=No
+DayXpm="16 16 3 1"   Colormode=16
+"!	c #FFFFFF"
+"#	c #006500"
 "  	c none"
-"        !!    "
-"        !!    "
-"     !!!!!    "
-"   !!!!!!!!   "
-" !!!!!  !!!!! "
-"!!!     !! !!!"
-"!!!     !! !!!"
-" !!     !! !! "
-" !!     !! !! "
-" !! !!!!!! !! "
-" !! !!!!!! !! "
-" !! !!  !! !! "
-" !! !!  !! !! "
-" !! !!!!!! !! "
-;12345678901234
+"!!!!!!!!!!!!!!!!"
+"!!!!!!!!!!!!!!!!"
+"!!!!!!!!!!!!!!!!"
+"!!!!!!!!!!!!!!!!"
+"!!!!!!!!!!!!#!#!"
+"!!!!!!!!!!!!!!!!"
+"!#!!!#!#   !#!#!"
+"!#!!!#!### !#!#!"
+"!!#!#!!#  #!#!#!"
+"!!#!#!!#   !#!#!"
+"!!!#!!!#   !#!#!"
+"!!!#!! #!  !#!#!"
+"!!!!!!!!!!!!!!#!"
+"!!!!!!!!!!!!###!"
+"!!!!!!!!!!!!!!!!"
+"!!!!!!!!!!!!!!!!"
+;1234567890123456
 [end]
 
 [_point]
@@ -3924,7 +4011,7 @@ DayXpm="10 14 2 1"   Colormode=16
 type=0x02f
 subtype=0x04
 ;GRMN_TYPE: Business - Services/AIRPORT/Airport/Non NT
-String1=0x01,Aeroport
+String1=0x01,Aéroport
 String2=0x02,Flughafen
 String3=0x04,Airport
 String4=0x03,Luchthaven
@@ -4986,7 +5073,7 @@ DayXpm="13 16 2 1"   Colormode=16
 type=0x02d
 subtype=0x0b
 ;GRMN_TYPE: Business - Services/AIRPORT/Airport/Non NT
-String1=0x01,Aeroport
+String1=0x01,Aéroport
 String2=0x02,Flughafen
 String3=0x04,Airport
 String4=0x03,Luchthaven
@@ -5032,11 +5119,15 @@ ExtendedLabels=Y
 FontStyle=SmallFont
 CustomColor=Day
 DaycustomColor:#660033
-DayXpm="1 1 2 1"   Colormode=16
-"!	c #FFFFFF"
+DayXpm="10 5 2 1"   Colormode=16
+"!	c #660033"
 "  	c none"
-" "
-;1
+" !!!      "
+"!!!!!     "
+"!!!!!     "
+"!!!!!     "
+" !!!      "
+;1234567890
 [end]
 
 [_point]
@@ -5218,7 +5309,7 @@ String6=0x24,
 ExtendedLabels=Y
 FontStyle=SmallFont
 CustomColor=Day
-DaycustomColor:#000000
+DaycustomColor:#414141
 DayXpm="1 1 2 1"   Colormode=16
 "!	c #00FF4B"
 "  	c none"
@@ -5468,7 +5559,7 @@ ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
 DayXpm="5 5 2 1"   Colormode=16
-"!	c #818080"
+"!	c #3F3F3F"
 "  	c none"
 " !!! "
 "!!!!!"
