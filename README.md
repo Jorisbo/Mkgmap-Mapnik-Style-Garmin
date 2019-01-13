@@ -1,4 +1,4 @@
-# 20181222 Implemented mapnik changes up to release 4.18.0
+# 20191301 Implemented mapnik changes up to release 4.19.0
 Changes can be found on https://github.com/gravitystorm/openstreetmap-carto/blob/master/CHANGELOG.md
 
 # Custom mkgmap style and typ-file 
@@ -6,10 +6,10 @@ This style renders routable Garmin Maps for Basecamp and Mapsource in the Openst
 The result is a map identical to https://www.openstreetmap.org
 The maps are tested with a Garmin Oregon 600. 
 
-# Style and typ-file Joris
+# Style and typ-file Jbm
 Original a copy of mkgmap default style but modified to look identical as the mapnik layer on https://www.openstreetmap.org
-- jbm.txt   TYP file
-- jbm.typ   TYP file
+- jbm.txt
+- jbm.typ
 
 # Typ-file for the mkgmap default style
 http://www.mkgmap.org.uk/
