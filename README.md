@@ -15,8 +15,8 @@ Original a copy of mkgmap default style but modified to look identical as the ma
 http://www.mkgmap.org.uk/
 
 The typ-file is automatically generated and updated to the latest mapnik release 
-- mkgmap.txt
-- mkgmap.typ
+- mapnik.txt
+- mapnik.typ
 
 # Typ-file for the Generic New style
 http://garmin.openstreetmap.nl
