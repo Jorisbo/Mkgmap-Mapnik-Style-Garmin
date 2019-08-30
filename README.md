@@ -1,4 +1,4 @@
-# 20191301 Implemented mapnik changes up to release 4.19.0
+# 20190830 Implemented mapnik changes up to release 4.22.0
 Changes can be found on https://github.com/gravitystorm/openstreetmap-carto/blob/master/CHANGELOG.md
 
 # Custom mkgmap style and typ-file 
@@ -25,7 +25,7 @@ The typ-file is automatically generated and updated to the latest mapnik release
 - osm.txt
 - osm.typ
 
-# Basecamp 4.6.2 Examples
+# Basecamp 4.6.2 Examples (Style version 24-12-2018)
 ![Screenshot](https://github.com/Jorisbo/Mkgmap-Mapnik-Style-Garmin/blob/master/Examples/Example%20area%201.png)
 ![Screenshot](https://github.com/Jorisbo/Mkgmap-Mapnik-Style-Garmin/blob/master/Examples/Example%20area%202.png)
 ![Screenshot](https://github.com/Jorisbo/Mkgmap-Mapnik-Style-Garmin/blob/master/Examples/Example%20area%203.png)
