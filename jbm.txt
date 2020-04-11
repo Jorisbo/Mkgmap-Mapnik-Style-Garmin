@@ -17,131 +17,12 @@ CodePage=65001
 ;MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
 ;General Public License for more details.
 ;
-;Auto generated: 20200323 17:03
+;Auto generated: 20200411 17:48
 ;From master: JBM
 ;As subset: mapnik
 ;
 [End]
 [_drawOrder]
-Type=0x01,27
-Type=0x02,12
-Type=0x03,2
-Type=0x04,27
-Type=0x05,14
-Type=0x06,2
-Type=0x07,2
-Type=0x08,24
-Type=0x09,3
-Type=0x0a,5
-Type=0x0b,5
-Type=0x0c,4
-Type=0x0d,12
-Type=0x0e,26
-Type=0x0f,2
-Type=0x10,2
-Type=0x11,2
-Type=0x12,10
-Type=0x13,24
-Type=0x14,5
-Type=0x15,2
-Type=0x16,9
-Type=0x17,8
-Type=0x18,7
-Type=0x19,17
-Type=0x1a,12
-Type=0x1b,11
-Type=0x1c,3
-Type=0x1d,11
-Type=0x1e,3
-Type=0x1f,19
-Type=0x20,18
-Type=0x21,13
-Type=0x22,4
-Type=0x23,21
-Type=0x24,4
-Type=0x25,2
-Type=0x26,9
-Type=0x27,1
-Type=0x28,2
-Type=0x29,12
-Type=0x2a,18
-Type=0x2b,8
-Type=0x2c,10
-Type=0x2d,6
-Type=0x2e,6
-Type=0x2f,3
-Type=0x30,12
-Type=0x31,12
-Type=0x32,2
-Type=0x33,21
-Type=0x34,21
-Type=0x35,21
-Type=0x36,21
-Type=0x37,21
-Type=0x38,2
-Type=0x39,22
-Type=0x3a,11
-Type=0x3b,3
-Type=0x3c,20
-Type=0x3d,2
-Type=0x3e,20
-Type=0x3f,19
-Type=0x40,13
-Type=0x41,6
-Type=0x42,2
-Type=0x43,2
-Type=0x44,16
-Type=0x45,16
-Type=0x46,20
-Type=0x47,21
-Type=0x48,2
-Type=0x49,22
-Type=0x4a,1
-Type=0x4b,1
-Type=0x4c,9
-Type=0x4d,18
-Type=0x4e,8
-Type=0x4f,18
-Type=0x50,11
-Type=0x51,21
-Type=0x52,21
-Type=0x53,21
-Type=0x54,21
-Type=0x55,21
-Type=0x56,21
-Type=0x57,21
-Type=0x58,19
-Type=0x59,2
-Type=0x5a,13
-Type=0x5b,9
-Type=0x5c,10
-Type=0x5d,13
-Type=0x5e,6
-Type=0x5f,24
-Type=0x60,2
-Type=0x61,8
-Type=0x62,21
-Type=0x63,3
-Type=0x64,3
-Type=0x65,7
-Type=0x66,3
-Type=0x67,4
-Type=0x68,12
-Type=0x69,21
-Type=0x6a,23
-Type=0x6b,2
-Type=0x6c,15
-Type=0x6d,25
-Type=0x6e,19
-Type=0x6f,5
-Type=0x70,19
-Type=0x71,2
-Type=0x7a,12
-Type=0x7b,17
-Type=0x7c,5
-Type=0x7d,7
-Type=0x7e,12
-Type=0x7f,25
 [end]
 [_polygon]
 type=0x01
@@ -1595,6 +1476,53 @@ Xpm="0 0 1 0"
 "1 c #CDEBB0"
 [end]
 [_polygon]
+type=0x42
+;GRMN_TYPE: Water Areas/LAKE_GT_1000MI, MAJOR_LAKE/Major regional lake, typically larger than 500 sq mi/Non NT
+String2=0x02,Salzsee
+String3=0x04,Saltpond
+String4=0x03,Zoutmeer
+ExtendedLabels=Y
+FontStyle=SmallFont
+CustomColor=Day
+DaycustomColor:#4D80B3
+Xpm="32 32 2 1"
+"! c #FFFFFF"
+"  c none"
+"  !               !             "
+" !!!             !!!            "
+"!!!!!           !!!!!           "
+"                                "
+"                                "
+"                                "
+"                                "
+"                                "
+"                                "
+"                                "
+"                                "
+"                                "
+"                                "
+"                                "
+"                                "
+"                                "
+"          !               !     "
+"         !!!             !!!    "
+"        !!!!!           !!!!!   "
+"                                "
+"                                "
+"                                "
+"                                "
+"                                "
+"                                "
+"                                "
+"                                "
+"                                "
+"                                "
+"                                "
+"                                "
+"                                "
+;12345678901234567890123456789012
+[end]
+[_polygon]
 type=0x43
 ;GRMN_TYPE: Water Areas/LAKE_500MI/Lake less than 1000 sq mi but greater or equal to 500 sq mi  in area/Non NT
 String1=0x01,Broussailles
@@ -2256,7 +2184,7 @@ Xpm="32 32 2 1"
 "################################"
 "################################"
 "################################"
-"#!#######!########!#######!#####"
+"#!#######!#######!#######!######"
 "################################"
 "################################"
 "################################"
@@ -2264,7 +2192,7 @@ Xpm="32 32 2 1"
 "################################"
 "################################"
 "################################"
-"#!#######!#######!########!#####"
+"#!#######!#######!#######!######"
 "################################"
 "################################"
 "################################"
@@ -2272,15 +2200,15 @@ Xpm="32 32 2 1"
 "################################"
 "################################"
 "################################"
-"#########!#######!########!#####"
-"#!##############################"
+"#!#######!#######!#######!######"
+"################################"
 "################################"
 "################################"
 "#####!#######!#######!#######!##"
 "################################"
 "################################"
 "################################"
-"#!#######!#######!########!#####"
+"#!#######!#######!#######!######"
 "################################"
 "################################"
 "################################"
@@ -3530,12 +3458,12 @@ type=0x28
 ;GRMN_TYPE: Misc. Line Types/PIPELINE/Oil or water pipeline/Non NT
 UseOrientation=Y
 Xpm="32 5 2  1"
-"! c #626262"
+"! c #B4B4B4"
 "  c none"
-" !            !  !            ! "
 " !            !  !            ! "
 " !!!!!!!!!!!!!!  !!!!!!!!!!!!!! "
 " !            !  !            ! "
+" !!!!!!!!!!!!!!  !!!!!!!!!!!!!! "
 " !            !  !            ! "
 ;12345678901234567890123456789012
 String1=0x01,Pipeline
@@ -4677,6 +4605,134 @@ String3=0x04,Farmyard (Outline)
 String4=0x03,Boerenbedrijf (Rand)
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
+CustomColor=No
+[end]
+[_line]
+type=0x10508
+;GRMN_TYPE: //
+UseOrientation=Y
+Xpm="32 30 2  1"
+"! c #949494"
+"  c none"
+"  !   !      !                  "
+"          !                     "
+"     !  !                       "
+"       !  !                     "
+"     !      !                   "
+"        !                       "
+"          !                     "
+"                                "
+"       !                        "
+"     !  ! !                     "
+"    !  !           !       !    "
+"      ! ! ! !                   "
+" !    !    !   !   !  !  !   !  "
+"    !    !  !             ! !   "
+" !   ! !!        !   !        ! "
+"      !  !  !           !       "
+"     !     !  !  ! !            "
+"   !  ! !!                      "
+"       !                     !  "
+"           !    !         !     "
+"       ! !                      "
+"          !                     "
+"                                "
+"       !    !          !        "
+"         !                      "
+"     !                          "
+"       !   ! !                  "
+"                                "
+"  !  !           !              "
+"         ! !       !            "
+;12345678901234567890123456789012
+String1=0x01,Arête
+String2=0x02,Grat
+String3=0x04,Arête
+String4=0x03,Graat
+ExtendedLabels=Y
+FontStyle=SmallFont
+CustomColor=No
+[end]
+[_line]
+type=0x10509
+;GRMN_TYPE: //
+UseOrientation=Y
+Xpm="32 16 2  1"
+"! c #949494"
+"  c none"
+"  !             !               "
+"                    !         ! "
+"     !     !                    "
+"                             !  "
+"   !                            "
+"        !    !        !    !    "
+"  !            !             !  "
+"!  !   ! ! ! !   !  !  ! ! ! ! !"
+" !          !  !   !      !     "
+"    !    !       !  !  !      ! "
+"  !        !  !    !     !  !   "
+"    !        !   !          !   "
+"  !    !                        "
+"         !                      "
+"                    !          !"
+"     !                    !     "
+;12345678901234567890123456789012
+String1=0x01,Crête
+String2=0x02,Grat
+String3=0x04,Ridge
+String4=0x03,Kam
+String8=0x10,Serra
+String13=0x08,Sierra
+ExtendedLabels=Y
+FontStyle=SmallFont
+CustomColor=No
+[end]
+[_line]
+type=0x1050a
+;GRMN_TYPE: //
+UseOrientation=Y
+Xpm="32 30 2  1"
+"! c #949494"
+"  c none"
+"!        !                      "
+"               !         !      "
+"     !                          "
+"                                "
+"         !   !  !            !  "
+"                       !        "
+"                                "
+"      !           !          !  "
+"  !                             "
+"              !          !      "
+"                 !    !         "
+"   !        !          !  !  !  "
+"   !  ! !  !      !             "
+"! !   !   !   ! !!  !   !  !   !"
+"!! !!  ! ! ! ! ! !! !! !!! ! ! !"
+"     !!!    !! !   !      !     "
+"    !    !       !  !  !      ! "
+"  !        !  !    !     !  !   "
+"    !        !   !          !   "
+"  !    !                        "
+"         !                      "
+"                    !          !"
+"     !                    !     "
+"  !             !               "
+"                    !           "
+"     !     !                    "
+"                             !  "
+"   !                            "
+"        !                       "
+"               !         !      "
+;12345678901234567890123456789012
+String1=0x01,Crête
+String2=0x02,Grat
+String3=0x04,Ridge
+String4=0x03,Kam
+String8=0x10,Serra
+String13=0x08,Sierra
+ExtendedLabels=Y
+FontStyle=SmallFont
 CustomColor=No
 [end]
 [_line]
@@ -6220,26 +6276,27 @@ String4=0x03,IJs
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
-DayXpm="12 16 2 1"   Colormode=16
-"!	c #BD30B4"
+DayXpm="16 16 3 1"   Colormode=16
+"!	c #FFFFFF"
+"#	c #006500"
 "  	c none"
-"   !!  !!!  "
-" !!!!! !!!! "
-" !!!!!! !!!!"
-"!!!!!!! !!!!"
-"!!!!!!!  !!!"
-"            "
-"  !!!!!!!!! "
-"   !!!!!!!  "
-"   !!!!!!!  "
-"    !!!!!   "
-"    !!!!!   "
-"    !!!!!   "
-"     !!!    "
-"     !!!    "
-"      !     "
-"      !     "
-;123456789012
+"!!!!!!!!!!!!!!!!"
+"!!!!!!!!!!!!!!!!"
+"!!!!!!!!!!!!!!!!"
+"!!!!!!!!!!!!!!!!"
+"!!!!!!!!!!!!#!#!"
+"!!!!!!!!!!!!!!!!"
+"!#!!!#!#   !#!#!"
+"!#!!!#!### !#!#!"
+"!!#!#!!#  #!#!#!"
+"!!#!#!!#   !#!#!"
+"!!!#!!!#   !#!#!"
+"!!!#!! #!  !#!#!"
+"!!!!!!!!!!!!!!#!"
+"!!!!!!!!!!!!###!"
+"!!!!!!!!!!!!!!!!"
+"!!!!!!!!!!!!!!!!"
+;1234567890123456
 [end]
 [_point]
 type=0x02a
@@ -12039,27 +12096,6 @@ DayXpm="1 1 2 1"   Colormode=16
 ;1
 [end]
 [_point]
-type=0x04e
-subtype=0x04
-;GRMN_TYPE: //
-String1=0x01,Gesundheitswesen
-String3=0x04,Healthcare
-String4=0x03,Gezondheidszorg
-ExtendedLabels=Y
-FontStyle=SmallFont
-CustomColor=Day
-DaycustomColor:#BF0000
-DayXpm="10 5 2 1"   Colormode=16
-"!	c #BF0000"
-"  	c none"
-" !!!      "
-"!!!!!     "
-"!!!!!     "
-"!!!!!     "
-" !!!      "
-;1234567890
-[end]
-[_point]
 type=0x050
 subtype=0x00
 ;GRMN_TYPE: Misc. Points of Interest/DRINKING_WATER/Drinking water/Non NT, NT
@@ -12127,6 +12163,27 @@ DayXpm="19 14 2 1"   Colormode=16
 "  !!!!!!!!!!       "
 "    !!!!!!         "
 ;1234567890123456789
+[end]
+[_point]
+type=0x050
+subtype=0x02
+;GRMN_TYPE: //
+String1=0x01,Gesundheitswesen
+String3=0x04,Healthcare
+String4=0x03,Gezondheidszorg
+ExtendedLabels=Y
+FontStyle=SmallFont
+CustomColor=Day
+DaycustomColor:#BF0000
+DayXpm="10 5 2 1"   Colormode=16
+"!	c #BF0000"
+"  	c none"
+" !!!      "
+"!!!!!     "
+"!!!!!     "
+"!!!!!     "
+" !!!      "
+;1234567890
 [end]
 [_point]
 type=0x059
