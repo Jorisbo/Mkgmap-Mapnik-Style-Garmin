@@ -17,10 +17,10 @@ CodePage=65001
 ;MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
 ;General Public License for more details.
 ;
-;Auto generated: 20191209 18:13
+;Auto generated: 20200417 15:15
 ;From master: MKG
 ;As subset: mkgmap
-;Based on mkgmap default style version: r4262
+;Based on mkgmap default style version: r4386
 ;
 [End]
 [_drawOrder]

@@ -1,4 +1,4 @@
-# 20200323 Implemented mapnik changes up to release 5.00
+# 20200417 Implemented mapnik changes up to release 5.10
 Changes can be found on https://github.com/gravitystorm/openstreetmap-carto/blob/master/CHANGELOG.md
 
 # Custom mkgmap style and typ-file 
