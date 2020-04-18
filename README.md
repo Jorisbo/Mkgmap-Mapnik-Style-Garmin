@@ -1,5 +1,6 @@
 # 20200417 Implemented mapnik changes up to release 5.1.0
-Changes can be found on https://github.com/gravitystorm/openstreetmap-carto/blob/master/CHANGELOG.md
+Visual changes can be found on https://github.com/gravitystorm/openstreetmap-carto/blob/master/CHANGELOG.md
+Releasenotes for all latest style and typ changes can be found in de styl info file within the style zip
 
 # Custom mkgmap style and typ-file 
 This style renders routable Garmin Maps for Basecamp and Mapsource in the Openstreetmap Mapnik layout. 
