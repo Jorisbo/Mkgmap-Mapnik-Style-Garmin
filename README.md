@@ -1,4 +1,4 @@
-# 20200417 Implemented mapnik changes up to release 5.1.0
+# 20200419 Implemented mapnik changes up to release 5.1.0
 Visual changes can be found on https://github.com/gravitystorm/openstreetmap-carto/blob/master/CHANGELOG.md
 Releasenotes for all latest style and typ changes can be found in de style info file within the style zip
 
