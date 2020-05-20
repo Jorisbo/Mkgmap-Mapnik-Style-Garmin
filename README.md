@@ -3,7 +3,7 @@ Visual changes can be found on https://github.com/gravitystorm/openstreetmap-car
 Releasenotes for all latest style and typ changes can be found in de style info file within the style zip
 - Major improvements for routing and acces handling
 - Major improvemnets for layout based on the new mkgmap feautures
-- Options for overlay of local, regional and international bicyle routes
+- Options for overlay of local, regional and international bicycle routes
 
 # Custom mkgmap style and typ-file 
 This style renders routable Garmin Maps for Basecamp and Mapsource in the current Openstreetmap Mapnik layout. 
