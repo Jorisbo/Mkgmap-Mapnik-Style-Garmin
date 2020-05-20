@@ -1,8 +1,8 @@
 # 20200520 Implemented mapnik changes up to release 5.2.0
-Visual changes can be found on https://github.com/gravitystorm/openstreetmap-carto/blob/master/CHANGELOG.md
-Releasenotes for all latest style and typ changes can be found in de style info file within the style zip
+Openstreetmap visual changes can be found on https://github.com/gravitystorm/openstreetmap-carto/blob/master/CHANGELOG.md
+Releasenotes for all latest style- and typ changes can be found in de style info-file within the style zip
 - Major improvements for routing and acces handling
-- Major improvemnets for layout based on the new mkgmap feautures
+- Major improvements for layout based on the new mkgmap feautures
 - Options for overlay of local, regional and international bicycle routes
 
 # Custom mkgmap style and typ-file 
