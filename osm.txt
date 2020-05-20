@@ -17,7 +17,7 @@ CodePage=65001
 ;MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
 ;General Public License for more details.
 ;
-;Auto generated: 20200417 15:37
+;Auto generated: 20200505 12:34
 ;From master: OSM
 ;As subset: osm
 ;
@@ -1195,7 +1195,7 @@ String9=0x05,Traghetto
 ExtendedLabels=Y
 FontStyle=SmallFont
 CustomColor=Day
-DaycustomColor:#0065D5
+DaycustomColor:#3965B4
 [end]
 [_line]
 type=0x1c
@@ -1390,12 +1390,12 @@ type=0x28
 ;GRMN_TYPE: Misc. Line Types/PIPELINE/Oil or water pipeline/Non NT
 UseOrientation=Y
 Xpm="32 5 2  1"
-"! c #626262"
+"! c #B4B4B4"
 "  c none"
-" !            !  !            ! "
 " !            !  !            ! "
 " !!!!!!!!!!!!!!  !!!!!!!!!!!!!! "
 " !            !  !            ! "
+" !!!!!!!!!!!!!!  !!!!!!!!!!!!!! "
 " !            !  !            ! "
 ;12345678901234567890123456789012
 String1=0x01,Pipeline
@@ -3969,7 +3969,7 @@ subtype=0x0c
 String1=0x01,Office du Tourisme
 String2=0x02,Touristeninformation
 String3=0x04,Tourist information
-String4=0x03,Touristen informatie
+String4=0x03,Toeristen informatie
 String8=0x10,Informações turísticas
 String9=0x05,Informazioni turistiche
 ExtendedLabels=Y
@@ -3996,13 +3996,11 @@ DayXpm="6 13 2 1"   Colormode=16
 [_point]
 type=0x02f
 subtype=0x0d
-;GRMN_TYPE: Political Entities/CITY_10M/Large city with >10 million inhabitants/Non NT
+;GRMN_TYPE: //
 String2=0x02,Automobilclub
 String3=0x04,Automobile club
 String4=0x03,Auto club
-ExtendedLabels=Y
-FontStyle=NoLabel (invisible)
-CustomColor=No
+ExtendedLabels=N
 DayXpm="1 1 2 1"   Colormode=16
 "!	c #00FF4B"
 "  	c none"
@@ -4488,18 +4486,33 @@ DayXpm="18 15 2 1"   Colormode=16
 [_point]
 type=0x030
 subtype=0x06
-;GRMN_TYPE: Political Entities/CITY_10M/Large city with >10 million inhabitants/Non NT
+;GRMN_TYPE: Business - Emergency and Government/POLICE_STATION/Police station/Non NT
 String2=0x02,Zoll
 String3=0x04,Bordercontrol
 String4=0x03,Douane
 ExtendedLabels=Y
-FontStyle=NoLabel (invisible)
-CustomColor=No
-DayXpm="1 1 2 1"   Colormode=16
-"!	c #00FF4B"
+FontStyle=SmallFont
+CustomColor=Day
+DaycustomColor:#734A08
+DayXpm="15 15 2 1"   Colormode=16
+"!	c #734A08"
 "  	c none"
-" "
-;1
+"  !!!!!!       "
+"  !!!!!!       "
+"               "
+"  !!!!!!       "
+"  !!!!!!       "
+"   !!!!        "
+"               "
+" !!!!!!!!      "
+"!!!!!!! !!     "
+"!!!!!! !!!     "
+"!!!!! !!!!     "
+"!!!! !!!!!     "
+"!!! !!!!!!     "
+"!! !!!!!!!     "
+"! !!!!!!!!     "
+;123456789012345
 [end]
 [_point]
 type=0x030
@@ -4826,14 +4839,12 @@ DayXpm="15 14 2 1"   Colormode=16
 [_point]
 type=0x065
 subtype=0x0a
-;GRMN_TYPE: Political Entities/CITY_10M/Large city with >10 million inhabitants/Non NT
+;GRMN_TYPE: //
 String1=0x01,Glacier
 String2=0x02,Gletscher
 String3=0x04,Gletcher
 String4=0x03,Gletsjer
-ExtendedLabels=Y
-FontStyle=NoLabel (invisible)
-CustomColor=No
+ExtendedLabels=N
 DayXpm="1 1 2 1"   Colormode=16
 "!	c #00FF4B"
 "  	c none"
@@ -4990,13 +5001,11 @@ DayXpm="1 1 2 1"   Colormode=16
 [_point]
 type=0x066
 subtype=0x07
-;GRMN_TYPE: Political Entities/CITY_10M/Large city with >10 million inhabitants/Non NT
+;GRMN_TYPE: //
 String2=0x02,Klippe
 String3=0x04,Cliff
 String4=0x03,Klif
-ExtendedLabels=Y
-FontStyle=NoLabel (invisible)
-CustomColor=No
+ExtendedLabels=N
 DayXpm="1 1 2 1"   Colormode=16
 "!	c #00FF4B"
 "  	c none"

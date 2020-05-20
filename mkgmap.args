@@ -1,17 +1,17 @@
-#Arg file created 20200417 14:49:57
+#Arg file created 20200520 17:36:58
 
 #Map name
 #--------------------------------------------------------------------------------
 style-file: C:\Data\Dropbox\Garmin\Build\Style - Jbm
 copyright-message: Map data © openstreetmap.org, Map layout © Jorisbo@hotmail.com
 product-id: 1
-family-id: 8993
-description: JBM - Antwerpen (17-4-2020)
-series-name: JBM - Antwerpen (17-4-2020)
-family-name: JBM - Antwerpen
-area-name: Antwerpen
-country-name: Antwerpen
-country-abbr: A
+family-id: 8510
+description: JBM - Interlaken (20-5-2020 17u36)
+series-name: JBM - Interlaken (20-5-2020 17u36)
+family-name: JBM - Interlaken
+area-name: Interlaken
+country-name: Schweizz
+country-abbr: CH
 draw-priority: 20
 
 #Processing options
@@ -21,7 +21,10 @@ check-styles
 tdbfile
 #preserve-element-order
 #order-by-decreasing-area
+
+#Create gmapsupp.img file
 #gmapsupp
+#hide-gmapsupp-on-pc
 
 #Generate sea and bounds
 #--------------------------------------------------------------------------------
@@ -43,6 +46,7 @@ link-pois-to-ways
 index
 make-poi-index
 x-split-name-index
+nearby-poi-rules-config=C:\Data\Dropbox\Garmin\Build\Style - Jbm\nearbypoi_config
 
 #Map routing
 #--------------------------------------------------------------------------------
@@ -53,14 +57,14 @@ add-boundary-nodes-at-admin-boundaries=4
 
 #Map optimization
 #--------------------------------------------------------------------------------
-#reduce-point-density=4
-#reduce-point-density-polygon=8
 merge-lines
-#min-size-polygon: 20
-polygon-size-limits=24:0, 23:0, 22:0, 21:8, 20:8, 19:8, 18:8, 17:6, 16:6, 15:6, 14:0, 13:0, 12:0
+polygon-size-limits=24:0, 23:0, 22:0, 21:0, 20:0, 19:0, 18:0, 17:8, 16:8, 15:8, 14:8, 13:0, 12:0
 
 #Nsis installer
 #--------------------------------------------------------------------------------
 remove-ovm-work-files
 nsis
 
+#Additional style options
+#--------------------------------------------------------------------------------
+style-option=jbmoptiondebug=true;jbmoptionpersonal;jbmoptionfixme=false;jbmoptionbicycle=false

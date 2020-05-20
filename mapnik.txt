@@ -17,7 +17,7 @@ CodePage=65001
 ;MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
 ;General Public License for more details.
 ;
-;Auto generated: 20200417 15:15
+;Auto generated: 20200514 17:07
 ;From master: MKG
 ;As subset: mkgmap
 ;Based on mkgmap default style version: r4386
@@ -80,7 +80,7 @@ Type=0x004,9
 [End]
 [_polygon]
 type=0x02
-;GRMN_TYPE: Urban Areas/SMALL_CITY/Small urban area, less than 200 000 inhabitants/Non NT
+;GRMN_TYPE: Urban Areas/TOWN/Urban area, less than 50 000 inhabitants/Non NT
 String1=0x01,Résidentiel
 String2=0x02,Wohngebiet
 String3=0x04,Residential
@@ -210,7 +210,7 @@ Xpm="0 0 1 0"
 [end]
 [_polygon]
 type=0x08
-;GRMN_TYPE: Large Manmade Areas/SHOPPING_AREA/Shopping area/Non NT
+;GRMN_TYPE: //
 String1=0x01,Zone commerciale
 String2=0x02,Gewerbegebiet
 String3=0x04,Commercial area
@@ -226,7 +226,7 @@ Xpm="0 0 1 0"
 [end]
 [_polygon]
 type=0x09
-;GRMN_TYPE: Large Manmade Areas/MARINA/Marina area/Non NT
+;GRMN_TYPE: //
 String1=0x01,Piscine
 String2=0x02,Schwimmbad
 String3=0x04,Swimmingpool
@@ -290,7 +290,7 @@ Xpm="0 0 1 0"
 [end]
 [_polygon]
 type=0x0e
-;GRMN_TYPE: Large Manmade Areas/AIRPORT_RUNWAYS/Airport runway area/Non NT
+;GRMN_TYPE: //
 String1=0x01,Aérodrome
 String2=0x02,Flugfeld
 String3=0x04,Aeroway
@@ -322,7 +322,7 @@ Xpm="0 0 1 0"
 [end]
 [_polygon]
 type=0x10
-;GRMN_TYPE: //
+;GRMN_TYPE: Urban Areas/TOWN/Urban area, less than 50 000 inhabitants/Non NT
 String1=0x01,Résidentiel
 String2=0x02,Wohngebiet
 String3=0x04,Residential
@@ -340,7 +340,7 @@ Xpm="0 0 1 0"
 type=0x11
 ;GRMN_TYPE: //
 String1=0x01,Domaine militair
-String2=0x02,Militärisches Sperrgebiet
+String2=0x02,Militärisches gelände
 String3=0x04,Military dangerzone
 String4=0x03,Miltaire gevarenzone
 ExtendedLabels=Y
@@ -414,7 +414,7 @@ Xpm="0 0 1 0"
 [end]
 [_polygon]
 type=0x15
-;GRMN_TYPE: Park Areas/NATIONAL_PARK/National park/Non NT
+;GRMN_TYPE: //
 String1=0x01,Espace vert
 String2=0x02,Grün
 String3=0x04,Village green
@@ -427,7 +427,7 @@ Xpm="0 0 1 0"
 [end]
 [_polygon]
 type=0x16
-;GRMN_TYPE: Park Areas/NATIONAL_PARK_OTHER/Small or misc sized national park/Non NT
+;GRMN_TYPE: Water Areas/RIVER_100FT, SMALL_RIVER/Minor river, typically less than 700 ft in width/Non NT
 String1=0x01,Espace vert
 String2=0x02,Grün
 String3=0x04,Green area
@@ -443,7 +443,7 @@ Xpm="0 0 1 0"
 [end]
 [_polygon]
 type=0x17
-;GRMN_TYPE: Park Areas/URBAN_PARK/Small urban park, typically only a few square blocks in size/Non NT
+;GRMN_TYPE: Park Areas/NATIONAL_PARK_OTHER/Small or misc sized national park/Non NT
 String1=0x01,Parc
 String2=0x02,Park
 String3=0x04,Park
@@ -541,7 +541,7 @@ Xpm="32 32 2 1"
 [end]
 [_polygon]
 type=0x1c
-;GRMN_TYPE: //
+;GRMN_TYPE: Water Areas/LAKE_LT_1MI, SMALL_LAKE/Small lake, typically less than 5 sq mi in area/Non NT
 String2=0x02,Wiese
 String3=0x04,Meadow
 String4=0x03,Weide
@@ -553,7 +553,7 @@ Xpm="0 0 1 0"
 [end]
 [_polygon]
 type=0x1d
-;GRMN_TYPE: //
+;GRMN_TYPE: Park Areas/NATIONAL_PARK_OTHER/Small or misc sized national park/Non NT
 String1=0x01,Parc
 String2=0x02,Park
 String3=0x04,Park
@@ -569,7 +569,7 @@ Xpm="0 0 1 0"
 [end]
 [_polygon]
 type=0x20
-;GRMN_TYPE: Park Areas/STATE_PARK_OTHER/Small or misc sized state park/Non NT
+;GRMN_TYPE: //
 String1=0x01,Jardin
 String2=0x02,Garten
 String3=0x04,Garden
@@ -643,7 +643,7 @@ Xpm="0 0 1 0"
 [end]
 [_polygon]
 type=0x23
-;GRMN_TYPE: //
+;GRMN_TYPE: Large Manmade Areas/GENERIC_MANMADE/Other or generic manmade area, such as a building/Non NT
 String1=0x01,Bâtiment
 String2=0x02,Gebäude
 String3=0x04,Building
@@ -661,7 +661,7 @@ Xpm="0 0 1 0"
 type=0x24
 ;GRMN_TYPE: //
 String2=0x02,Konstruktion
-String3=0x04,Construction
+String3=0x04,Man made
 String4=0x03,Constructie
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
@@ -671,7 +671,7 @@ Xpm="0 0 1 0"
 [end]
 [_polygon]
 type=0x25
-;GRMN_TYPE: //
+;GRMN_TYPE: Large Manmade Areas/AIRPORT_RUNWAYS/Airport runway area/Non NT
 String1=0x01,Zone piétonne
 String2=0x02,Fußgängerzone
 String3=0x04,Pedestrians
@@ -717,7 +717,7 @@ Xpm="0 0 1 0"
 [end]
 [_polygon]
 type=0x3b
-;GRMN_TYPE: //
+;GRMN_TYPE: Water Areas/LAKE_100MI/Lake less than 250 sq mi but greater or equal to 100 sq mi in area/Non NT
 String1=0x01,Eau
 String2=0x02,Wasser
 String3=0x04,Water
@@ -751,7 +751,7 @@ Xpm="0 0 1 0"
 [end]
 [_polygon]
 type=0x3d
-;GRMN_TYPE: Water Areas/LAKE_30MI, LARGE_LAKE/Large lake, typically between 30 and 500 sq mi in area/Non NT
+;GRMN_TYPE: //
 String1=0x01,Baie
 String2=0x02,Bucht
 String3=0x04,Bay
@@ -767,7 +767,7 @@ Xpm="0 0 1 0"
 [end]
 [_polygon]
 type=0x3f
-;GRMN_TYPE: Water Areas/LAKE, LAKE_5MI/Medium sized lake, typically between 5 and 30 sq mi in area/Non NT
+;GRMN_TYPE: Water Areas/LAKE_10MI/Lake less than 30 sq mi but greater or equal to 10 sq mi in area/Non NT
 String1=0x01,Eau
 String2=0x02,Wasser
 String3=0x04,Water
@@ -783,7 +783,7 @@ Xpm="0 0 1 0"
 [end]
 [_polygon]
 type=0x41
-;GRMN_TYPE: Water Areas/LAKE_LT_1MI, SMALL_LAKE/Small lake, typically less than 5 sq mi in area/Non NT
+;GRMN_TYPE: Water Areas/LAKE_100MI/Lake less than 250 sq mi but greater or equal to 100 sq mi in area/Non NT
 String1=0x01,Eau
 String2=0x02,Wasser
 String3=0x04,Water
@@ -800,7 +800,7 @@ Xpm="0 0 1 0"
 [end]
 [_polygon]
 type=0x46
-;GRMN_TYPE: Water Areas/LARGE_RIVER/Major river, typically at least 700 ft in width/Non NT
+;GRMN_TYPE: Water Areas/LAKE_10MI/Lake less than 30 sq mi but greater or equal to 10 sq mi in area/Non NT
 String1=0x01,Eau
 String2=0x02,Wasser
 String3=0x04,Water
@@ -816,7 +816,7 @@ Xpm="0 0 1 0"
 [end]
 [_polygon]
 type=0x47
-;GRMN_TYPE: Water Areas/RIVER_GT_700FT/Major river greater or equal to 700 ft in width/Non NT
+;GRMN_TYPE: Water Areas/LAKE_100MI/Lake less than 250 sq mi but greater or equal to 100 sq mi in area/Non NT
 String1=0x01,Eau
 String2=0x02,Wasser
 String3=0x04,Water
@@ -833,7 +833,7 @@ Xpm="0 0 1 0"
 [end]
 [_polygon]
 type=0x48
-;GRMN_TYPE: Water Areas/RIVER_100FT, SMALL_RIVER/Minor river, typically less than 700 ft in width/Non NT
+;GRMN_TYPE: Water Areas/LAKE_100MI/Lake less than 250 sq mi but greater or equal to 100 sq mi in area/Non NT
 String1=0x01,Eau
 String2=0x02,Wasser
 String3=0x04,Water
@@ -867,7 +867,7 @@ Xpm="0 0 1 0"
 [end]
 [_polygon]
 type=0x4c
-;GRMN_TYPE: Water Areas/INTERMITTENT_LAKE/An intermittent or dry lake/Non NT
+;GRMN_TYPE: Water Areas/LAKE_100MI/Lake less than 250 sq mi but greater or equal to 100 sq mi in area/Non NT
 String1=0x01,Eau
 String2=0x02,Wasser
 String3=0x04,Water
@@ -1067,7 +1067,7 @@ Xpm="32 32 2 1"
 [end]
 [_polygon]
 type=0x52
-;GRMN_TYPE: Surface Cover Areas/TUNDRA/Area of nearly always freezing soil/Non NT
+;GRMN_TYPE: //
 String3=0x04,Tundra
 String4=0x03,Toendra
 ExtendedLabels=Y
@@ -1078,7 +1078,7 @@ Xpm="0 0 1 0"
 [end]
 [_polygon]
 type=0x53
-;GRMN_TYPE: Surface Cover Areas/FLAT/Sand, tidal, mud, etc. flat area/Non NT
+;GRMN_TYPE: //
 String1=0x01,Terre
 String2=0x02,Land
 String3=0x04,Land
@@ -1106,11 +1106,11 @@ ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
 Xpm="0 0 1 0"
-"1 c #AF9C8D"
+"1 c #C4B6AB"
 [end]
 [_polygon]
 type=0x6b
-;GRMN_TYPE: //
+;GRMN_TYPE: Large Manmade Areas/AIRPORT_RUNWAYS/Airport runway area/Non NT
 String1=0x01,Zone piétonne
 String2=0x02,Fußgängerzone
 String3=0x04,Pedestrians
@@ -1283,7 +1283,7 @@ DaycustomColor:#626262
 [end]
 [_line]
 type=0x08
-;GRMN_TYPE: Roads/LOW_SPEED_RAMP/Highway ramp which is to be driven at low speeds/Non NT, NT
+;GRMN_TYPE: Roads/MAJOR_CONNECTOR/Major highway connector/Non NT, NT
 UseOrientation=Y
 LineWidth=5
 BorderWidth=1
@@ -1323,7 +1323,7 @@ CustomColor=No
 [end]
 [_line]
 type=0x0a
-;GRMN_TYPE: Roads/UNPAVED_ROAD/Gravel or dirt road/Non NT, NT
+;GRMN_TYPE: //
 UseOrientation=Y
 Xpm="32 2 2  1"
 "! c #BD6500"
@@ -1344,7 +1344,7 @@ CustomColor=No
 [end]
 [_line]
 type=0x0b
-;GRMN_TYPE: Roads/MAJOR_CONNECTOR/Major highway connector/Non NT, NT
+;GRMN_TYPE: Roads/HIGH_SPEED_RAMP, RAMP/Highway ramp which is to be driven at high speeds/Non NT, NT
 UseOrientation=N
 LineWidth=5
 BorderWidth=1
@@ -1364,7 +1364,7 @@ CustomColor=No
 [end]
 [_line]
 type=0x0c
-;GRMN_TYPE: Roads/ROUNDABOUT/Roundabout/Non NT, NT
+;GRMN_TYPE: Roads/RESIDENTIAL/Residential street, these are typically the most numerous roads in a detailed city map and do not show up until the user is zoomed in quite far/Non NT, NT
 UseOrientation=N
 LineWidth=7
 BorderWidth=1
@@ -1428,7 +1428,7 @@ CustomColor=No
 [end]
 [_line]
 type=0x15
-;GRMN_TYPE: Misc. Line Types/SHORELINE/Shoreline of water body (typically only used when a water area is not available)/Non NT
+;GRMN_TYPE: //
 UseOrientation=N
 Xpm="32 1 2  1"
 "! c #000000"
@@ -1443,9 +1443,8 @@ String7=0x15,Wybrzeże
 String8=0x10,Litoral / Costal
 String9=0x05,Costa
 ExtendedLabels=Y
-FontStyle=SmallFont
-CustomColor=Day
-DaycustomColor:#838383
+FontStyle=NoLabel (invisible)
+CustomColor=No
 [end]
 [_line]
 type=0x16
@@ -1501,7 +1500,7 @@ DaycustomColor:#4D80B3
 [end]
 [_line]
 type=0x1a
-;GRMN_TYPE: Roads/INTERNATIONAL_FERRY/Major water or rail ferry/Non NT, NT
+;GRMN_TYPE: Roads/FERRY/Water or rail ferry/Non NT, NT
 UseOrientation=N
 Xpm="32 1 2  1"
 "! c #0030FF"
@@ -1518,7 +1517,7 @@ String9=0x05,Traghetto
 ExtendedLabels=Y
 FontStyle=SmallFont
 CustomColor=Day
-DaycustomColor:#0065D5
+DaycustomColor:#3965B4
 [end]
 [_line]
 type=0x1b
@@ -1539,7 +1538,7 @@ String9=0x05,Traghetto
 ExtendedLabels=Y
 FontStyle=SmallFont
 CustomColor=Day
-DaycustomColor:#0065D5
+DaycustomColor:#3965B4
 [end]
 [_line]
 type=0x1c
@@ -1750,12 +1749,12 @@ type=0x28
 ;GRMN_TYPE: Misc. Line Types/PIPELINE/Oil or water pipeline/Non NT
 UseOrientation=Y
 Xpm="32 5 2  1"
-"! c #626262"
+"! c #B4B4B4"
 "  c none"
-" !            !  !            ! "
 " !            !  !            ! "
 " !!!!!!!!!!!!!!  !!!!!!!!!!!!!! "
 " !            !  !            ! "
+" !!!!!!!!!!!!!!  !!!!!!!!!!!!!! "
 " !            !  !            ! "
 ;12345678901234567890123456789012
 String1=0x01,Pipeline
@@ -1808,7 +1807,7 @@ CustomColor=No
 [end]
 [_line]
 type=0x10801
-;GRMN_TYPE: //
+;GRMN_TYPE: Roads/HIGH_SPEED_RAMP, RAMP/Highway ramp which is to be driven at high speeds/Non NT, NT
 UseOrientation=N
 LineWidth=5
 BorderWidth=1
@@ -1828,7 +1827,7 @@ CustomColor=No
 [end]
 [_line]
 type=0x10802
-;GRMN_TYPE: //
+;GRMN_TYPE: Customizable Line Types/CUSTOMIZABLE_ROUTE_LINE_1/Routable customizable line/Non NT, NT
 UseOrientation=N
 LineWidth=5
 BorderWidth=1
@@ -1848,7 +1847,7 @@ CustomColor=No
 [end]
 [_line]
 type=0x10803
-;GRMN_TYPE: //
+;GRMN_TYPE: Roads/MAJOR_CONNECTOR/Major highway connector/Non NT, NT
 UseOrientation=Y
 LineWidth=5
 BorderWidth=1
@@ -1868,7 +1867,7 @@ CustomColor=No
 [end]
 [_line]
 type=0x10804
-;GRMN_TYPE: //
+;GRMN_TYPE: Roads/COLLECTOR/Secondary city thoroughfare/Non NT, NT
 UseOrientation=N
 LineWidth=8
 BorderWidth=1
@@ -1960,7 +1959,7 @@ CustomColor=No
 [_point]
 type=0x001
 subtype=0x00
-;GRMN_TYPE: Political Entities/CITY_10M/Large city with >10 million inhabitants/Non NT
+;GRMN_TYPE: Political Entities/CITY_1M/Large city with a range of (1, 2] million inhabitants/Non NT
 String1=0x01,Capitale
 String2=0x02,Hauptstadt
 String3=0x04,Capital
@@ -1991,7 +1990,7 @@ DayXpm="11 11 2 1"   Colormode=16
 [_point]
 type=0x002
 subtype=0x00
-;GRMN_TYPE: Political Entities/CITY_5M, LARGE_CITY/Large city center, typically 1M+ inhabitants/Non NT
+;GRMN_TYPE: Political Entities/CITY_1M/Large city with a range of (1, 2] million inhabitants/Non NT
 String1=0x01,Capitale
 String2=0x02,Hauptstadt
 String3=0x04,Capital
@@ -2022,7 +2021,7 @@ DayXpm="11 11 2 1"   Colormode=16
 [_point]
 type=0x003
 subtype=0x00
-;GRMN_TYPE: Political Entities/CITY_2M/Large city with a range of (2, 5] million inhabitants/Non NT
+;GRMN_TYPE: Political Entities/CITY_200K/City with the range of (200, 500] thousand inhabitants/Non NT
 String1=0x01,Ville (>200k)
 String2=0x02,Stadt (200t)
 String3=0x04,City (>200k)
@@ -2051,7 +2050,7 @@ DayXpm="9 9 2 1"   Colormode=16
 [_point]
 type=0x004
 subtype=0x00
-;GRMN_TYPE: Political Entities/CITY_1M/Large city with a range of (1, 2] million inhabitants/Non NT
+;GRMN_TYPE: Political Entities/CITY_200K/City with the range of (200, 500] thousand inhabitants/Non NT
 String1=0x01,Ville (>200k)
 String2=0x02,Stadt (200t)
 String3=0x04,City (>200k)
@@ -2080,7 +2079,7 @@ DayXpm="9 9 2 1"   Colormode=16
 [_point]
 type=0x005
 subtype=0x00
-;GRMN_TYPE: Political Entities/CITY_500K/City with the range of (0.5, 1] million inhabitants/Non NT
+;GRMN_TYPE: Political Entities/CITY_200K/City with the range of (200, 500] thousand inhabitants/Non NT
 String1=0x01,Ville (>200k)
 String2=0x02,Stadt (200t)
 String3=0x04,City (>200k)
@@ -2109,7 +2108,7 @@ DayXpm="9 9 2 1"   Colormode=16
 [_point]
 type=0x006
 subtype=0x00
-;GRMN_TYPE: Political Entities/CITY_200K/City with the range of (200, 500] thousand inhabitants/Non NT
+;GRMN_TYPE: Political Entities/CITY_50K, MEDIUM_CITY/Medium city center, typically 50K-1M inhabitants/Non NT
 String1=0x01,Ville (>50k)
 String2=0x02,Stadt (50t)
 String3=0x04,City (>50k)
@@ -2138,7 +2137,7 @@ DayXpm="9 9 2 1"   Colormode=16
 [_point]
 type=0x007
 subtype=0x00
-;GRMN_TYPE: Political Entities/CITY_100K/City with the range of (100, 200] thousand inhabitants/Non NT
+;GRMN_TYPE: Political Entities/CITY_20K/City with the range of (20, 50] thousand inhabitants/Non NT
 String1=0x01,Ville (>10k)
 String2=0x02,Stadt (10t)
 String3=0x04,City (>10k)
@@ -2159,7 +2158,7 @@ DayXpm="1 1 2 1"   Colormode=16
 [_point]
 type=0x008
 subtype=0x00
-;GRMN_TYPE: Political Entities/CITY_50K, MEDIUM_CITY/Medium city center, typically 50K-1M inhabitants/Non NT
+;GRMN_TYPE: Political Entities/CITY_10K/City with the range of (10, 20] thousand inhabitants/Non NT
 String1=0x01,Village (>5k)
 String2=0x02,Dorf (>5t)
 String3=0x04,Village (>5k)
@@ -2180,7 +2179,7 @@ DayXpm="1 1 2 1"   Colormode=16
 [_point]
 type=0x009
 subtype=0x00
-;GRMN_TYPE: Political Entities/CITY_20K/City with the range of (20, 50] thousand inhabitants/Non NT
+;GRMN_TYPE: Political Entities/CITY_10K/City with the range of (10, 20] thousand inhabitants/Non NT
 String1=0x01,Village (>5k)
 String2=0x02,Dorf (>5t)
 String3=0x04,Village (>5k)
@@ -2201,7 +2200,7 @@ DayXpm="1 1 2 1"   Colormode=16
 [_point]
 type=0x00a
 subtype=0x00
-;GRMN_TYPE: Political Entities/CITY_10K/City with the range of (10, 20] thousand inhabitants/Non NT
+;GRMN_TYPE: Political Entities/CITY_LT5K, SMALL_CITY/Small city or town center, typically less than 50K inhabitants/Non NT
 String1=0x01,Hameau
 String2=0x02,Ort, Weiler
 String3=0x04,Hamlet
@@ -2222,7 +2221,7 @@ DayXpm="1 1 2 1"   Colormode=16
 [_point]
 type=0x00b
 subtype=0x00
-;GRMN_TYPE: Political Entities/CITY_5K/City with the range of (5, 10] thousand inhabitants/Non NT
+;GRMN_TYPE: Political Entities/CITY_UNKNOWN/City of unknown population/Non NT
 String1=0x01,Nom
 String2=0x02,Name
 String3=0x04,Name
@@ -2327,7 +2326,7 @@ DayXpm="15 16 3 1"   Colormode=16
 [_point]
 type=0x02a
 subtype=0x01
-;GRMN_TYPE: Business - Food and Drink/RESTAURANT_AMERICAN/American cuisine/Non NT
+;GRMN_TYPE: Business - Food and Drink/RESTAURANT/General restaurant of unknown genre/Non NT
 String1=0x01,Restaurant (Américain)
 String2=0x02,Restaurant
 String3=0x04,Restaurant (American)
@@ -2363,7 +2362,7 @@ DayXpm="15 16 3 1"   Colormode=16
 [_point]
 type=0x02a
 subtype=0x02
-;GRMN_TYPE: Business - Food and Drink/RESTAURANT_ASIAN/Asian cuisine/Non NT
+;GRMN_TYPE: Business - Food and Drink/RESTAURANT/General restaurant of unknown genre/Non NT
 String1=0x01,Restaurant (Asiatique)
 String2=0x02,Restaurant (Asiatisch)
 String3=0x04,Restaurant (Asia)
@@ -2399,7 +2398,7 @@ DayXpm="15 16 3 1"   Colormode=16
 [_point]
 type=0x02a
 subtype=0x03
-;GRMN_TYPE: Business - Food and Drink/RESTAURANT_BARBECUE/Barbecue cuisine/Non NT
+;GRMN_TYPE: Business - Food and Drink/RESTAURANT/General restaurant of unknown genre/Non NT
 String1=0x01,Restaurant (Grill)
 String2=0x02,Restaurant
 String3=0x04,Restaurant (BBQ)
@@ -2435,7 +2434,7 @@ DayXpm="15 16 3 1"   Colormode=16
 [_point]
 type=0x02a
 subtype=0x04
-;GRMN_TYPE: Business - Food and Drink/RESTAURANT_CHINESE/Chinese cuisine/Non NT
+;GRMN_TYPE: Business - Food and Drink/RESTAURANT/General restaurant of unknown genre/Non NT
 String1=0x01,Restaurant (Chinois)
 String2=0x02,Restaurant (Chinesisch)
 String3=0x04,Restaurant (Chinese)
@@ -2471,7 +2470,7 @@ DayXpm="15 16 3 1"   Colormode=16
 [_point]
 type=0x02a
 subtype=0x05
-;GRMN_TYPE: Business - Food and Drink/RESTAURANT_DELI/Deli or sandwich shop/Non NT
+;GRMN_TYPE: Business - Food and Drink/RESTAURANT/General restaurant of unknown genre/Non NT
 String1=0x01,Restaurant (Grec)
 String2=0x02,Restaurant (Griechisch)
 String3=0x04,Restaurant (Greek)
@@ -2507,7 +2506,7 @@ DayXpm="15 16 3 1"   Colormode=16
 [_point]
 type=0x02a
 subtype=0x06
-;GRMN_TYPE: Business - Food and Drink/RESTAURANT_INTRNTNL/International cuisine/Non NT
+;GRMN_TYPE: Business - Food and Drink/RESTAURANT/General restaurant of unknown genre/Non NT
 String1=0x01,Restaurant (International)
 String2=0x02,Restaurant
 String3=0x04,Restaurant (International)
@@ -2543,7 +2542,7 @@ DayXpm="15 16 3 1"   Colormode=16
 [_point]
 type=0x02a
 subtype=0x07
-;GRMN_TYPE: Business - Food and Drink/RESTAURANT_FAST_FOOD/Fast food establishment, i.e. McDonalds/Non NT
+;GRMN_TYPE: Business - Food and Drink/RESTAURANT_AMERICAN/American cuisine/Non NT
 String1=0x01,Restauration rapide
 String2=0x02,Restaurant (Fastfood)
 String3=0x04,Restaurant (Fastfood)
@@ -2572,7 +2571,7 @@ DayXpm="14 9 3 1"   Colormode=16
 [_point]
 type=0x02a
 subtype=0x08
-;GRMN_TYPE: Business - Food and Drink/RESTAURANT_ITALIAN/Italian cuisine/Non NT
+;GRMN_TYPE: Business - Food and Drink/RESTAURANT/General restaurant of unknown genre/Non NT
 String1=0x01,Restaurant (Italien)
 String2=0x02,Restaurant (Italienisch)
 String3=0x04,Restaurant (Italian)
@@ -2608,7 +2607,7 @@ DayXpm="15 16 3 1"   Colormode=16
 [_point]
 type=0x02a
 subtype=0x09
-;GRMN_TYPE: Business - Food and Drink/RESTAURANT_MEXICAN/Mexican cuisine/Non NT
+;GRMN_TYPE: Business - Food and Drink/RESTAURANT/General restaurant of unknown genre/Non NT
 String1=0x01,Restaurant (Mexicain)
 String2=0x02,Restaurant (Mexikanisch)
 String3=0x04,Restaurant (Mexican)
@@ -2644,7 +2643,7 @@ DayXpm="15 16 3 1"   Colormode=16
 [_point]
 type=0x02a
 subtype=0x0a
-;GRMN_TYPE: Business - Food and Drink/RESTAURANT_PIZZA/Pizzeria/Non NT
+;GRMN_TYPE: Business - Food and Drink/RESTAURANT/General restaurant of unknown genre/Non NT
 String1=0x01,Pizzeria
 String2=0x02,Restaurant (Pizza)
 String3=0x04,Restaurant (Pizza)
@@ -2680,7 +2679,7 @@ DayXpm="15 16 3 1"   Colormode=16
 [_point]
 type=0x02a
 subtype=0x0b
-;GRMN_TYPE: Business - Food and Drink/RESTAURANT_SEAFOOD/Seafood restaurant/Non NT
+;GRMN_TYPE: Business - Food and Drink/RESTAURANT/General restaurant of unknown genre/Non NT
 String1=0x01,Restaurant (Poissons/Fruits de mer)
 String2=0x02,Restaurant (Fisch)
 String3=0x04,Restaurant (Fisch)
@@ -2716,7 +2715,7 @@ DayXpm="15 16 3 1"   Colormode=16
 [_point]
 type=0x02a
 subtype=0x0c
-;GRMN_TYPE: Business - Food and Drink/RESTAURANT_STEAK/Grill and steak brew pub restaurant/Non NT
+;GRMN_TYPE: Business - Food and Drink/RESTAURANT/General restaurant of unknown genre/Non NT
 String1=0x01,Restaurant (Steak)
 String2=0x02,Restaurant (Steak)
 String3=0x04,Restaurant (Steak)
@@ -2752,7 +2751,7 @@ DayXpm="15 16 3 1"   Colormode=16
 [_point]
 type=0x02a
 subtype=0x0d
-;GRMN_TYPE: Business - Food and Drink/RESTAURANT_DONUTS/Donut shop/Non NT
+;GRMN_TYPE: Business - Food and Drink/RESTAURANT_ASIAN/Asian cuisine/Non NT
 String1=0x01,Restaurant (Beignets)
 String2=0x02,Restaurant (Bagel)
 String3=0x04,Restaurant (Donuts)
@@ -2784,7 +2783,7 @@ DayXpm="13 12 3 1"   Colormode=16
 [_point]
 type=0x02a
 subtype=0x0e
-;GRMN_TYPE: Business - Food and Drink/RESTAURANT_CAFES/Cafe or coffee shop/Non NT
+;GRMN_TYPE: Business - Food and Drink/RESTAURANT_ASIAN/Asian cuisine/Non NT
 String1=0x01,Café
 String2=0x02,Cafe
 String3=0x04,Cafe
@@ -2816,7 +2815,7 @@ DayXpm="13 12 3 1"   Colormode=16
 [_point]
 type=0x02a
 subtype=0x0f
-;GRMN_TYPE: Business - Food and Drink/RESTAURANT_FRENCH/French cuisine/Non NT
+;GRMN_TYPE: Business - Food and Drink/RESTAURANT/General restaurant of unknown genre/Non NT
 String1=0x01,Restaurant (Français)
 String2=0x02,Restaurant
 String3=0x04,Restaurant (French)
@@ -2852,7 +2851,7 @@ DayXpm="15 16 3 1"   Colormode=16
 [_point]
 type=0x02a
 subtype=0x10
-;GRMN_TYPE: Business - Food and Drink/RESTAURANT_GERMAN/German cuisine/Non NT
+;GRMN_TYPE: Business - Food and Drink/RESTAURANT/General restaurant of unknown genre/Non NT
 String1=0x01,Restaurant (Allemand)
 String2=0x02,Restaurant (Deutsch)
 String3=0x04,Restaurant (German)
@@ -2888,7 +2887,7 @@ DayXpm="15 16 3 1"   Colormode=16
 [_point]
 type=0x02a
 subtype=0x11
-;GRMN_TYPE: Business - Food and Drink/RESTAURANT_BRITISH/British cuisine/Non NT
+;GRMN_TYPE: Business - Food and Drink/RESTAURANT/General restaurant of unknown genre/Non NT
 String1=0x01,Restaurant (Anglais)
 String2=0x02,Restaurant
 String3=0x04,Restaurant (British)
@@ -2924,7 +2923,7 @@ DayXpm="15 16 3 1"   Colormode=16
 [_point]
 type=0x02a
 subtype=0x12
-;GRMN_TYPE: //
+;GRMN_TYPE: Business - Food and Drink/RESTAURANT/General restaurant of unknown genre/Non NT
 String1=0x01,Restaurant (Spécialités)
 String2=0x02,Restaurant
 String3=0x04,Restaurant (Special)
@@ -2960,7 +2959,7 @@ DayXpm="15 16 3 1"   Colormode=16
 [_point]
 type=0x02a
 subtype=0x13
-;GRMN_TYPE: //
+;GRMN_TYPE: Business - Food and Drink/RESTAURANT/General restaurant of unknown genre/Non NT
 String1=0x01,Restaurant (Végétarien)
 String2=0x02,Restaurant (Vegetarisch)
 String3=0x04,Restaurant (Vegetarian)
@@ -2996,7 +2995,7 @@ DayXpm="15 16 3 1"   Colormode=16
 [_point]
 type=0x02a
 subtype=0x14
-;GRMN_TYPE: //
+;GRMN_TYPE: Business - Food and Drink/RESTAURANT/General restaurant of unknown genre/Non NT
 String1=0x01,Restaurant (Régional)
 String2=0x02,Restaurant
 String3=0x04,Restaurant (Regional)
@@ -3201,7 +3200,7 @@ DayXpm="14 14 2 1"   Colormode=16
 [_point]
 type=0x02c
 subtype=0x01
-;GRMN_TYPE: Business - Attractions/THEME_PARK/Amusement or theme park, i.e. Disneyland/Non NT
+;GRMN_TYPE: //
 String1=0x01,Parc d'attractions
 String2=0x02,Freizeitpark
 String3=0x04,Themepark
@@ -3287,7 +3286,7 @@ DayXpm="20 12 2 1"   Colormode=16
 [_point]
 type=0x02c
 subtype=0x04
-;GRMN_TYPE: Business - Attractions/LANDMARK/Landmark/Non NT
+;GRMN_TYPE: //
 String1=0x01,Point de vue, œuvre d'art, attraction
 String2=0x02,Aussichtspunkt, Kunstwerk, Attraktion
 String3=0x04,Artwork,Attraction, Viewpoint
@@ -3324,7 +3323,7 @@ DayXpm="12 17 2 1"   Colormode=16
 [_point]
 type=0x02c
 subtype=0x05
-;GRMN_TYPE: Business - Attractions/SCHOOL/School/Non NT
+;GRMN_TYPE: //
 String1=0x01,École
 String2=0x02,Schule
 String3=0x04,Education
@@ -3381,7 +3380,7 @@ DayXpm="18 17 2 1"   Colormode=16
 [_point]
 type=0x02c
 subtype=0x07
-;GRMN_TYPE: Business - Attractions/ZOO/Zoo/Non NT
+;GRMN_TYPE: //
 String1=0x01,Zoo
 String2=0x02,Zoo
 String3=0x04,Zoo
@@ -3402,7 +3401,7 @@ DayXpm="1 1 2 1"   Colormode=16
 [_point]
 type=0x02c
 subtype=0x08
-;GRMN_TYPE: Business - Attractions/ARENA/Arena or track/Non NT
+;GRMN_TYPE: //
 String1=0x01,Sport
 String2=0x02,Sport
 String3=0x04,Sport
@@ -3423,7 +3422,7 @@ DayXpm="1 1 2 1"   Colormode=16
 [_point]
 type=0x02c
 subtype=0x09
-;GRMN_TYPE: Business - Attractions/HALL/Auditorium or hall/Non NT
+;GRMN_TYPE: //
 String1=0x01,Auditorium
 String2=0x02,Konferenzzentrum
 String3=0x04,Conference
@@ -3431,9 +3430,7 @@ String4=0x03,Conferentiecentrum
 String7=0x15,Centrum konferencyjne
 String8=0x10,Conferência
 String9=0x05,Fiera
-ExtendedLabels=Y
-FontStyle=NoLabel (invisible)
-CustomColor=No
+ExtendedLabels=N
 DayXpm="1 1 2 1"   Colormode=16
 "!	c #00FF4B"
 "  	c none"
@@ -3443,7 +3440,7 @@ DayXpm="1 1 2 1"   Colormode=16
 [_point]
 type=0x02c
 subtype=0x0a
-;GRMN_TYPE: Business - Attractions/WINERY/Winery/Non NT
+;GRMN_TYPE: //
 String1=0x01,Cave à vin
 String2=0x02,Weinkeller
 String3=0x04,Winery
@@ -3451,9 +3448,7 @@ String4=0x03,Wijnmaker
 String7=0x15,Winiarnia
 String8=0x10,Adega
 String9=0x05,Cantina
-ExtendedLabels=Y
-FontStyle=NoLabel (invisible)
-CustomColor=No
+ExtendedLabels=N
 DayXpm="1 1 2 1"   Colormode=16
 "!	c #00FF4B"
 "  	c none"
@@ -3498,7 +3493,7 @@ DayXpm="12 15 2 1"   Colormode=16
 [_point]
 type=0x02c
 subtype=0x0c
-;GRMN_TYPE: //
+;GRMN_TYPE: Geographical Named Points of Interest - Land Related/SLOPE/Slope/Non NT, NT
 String1=0x01,Volcan
 String2=0x02,Vulkan
 String3=0x04,Vulcano
@@ -3528,7 +3523,7 @@ DayXpm="14 10 2 1"   Colormode=16
 [_point]
 type=0x02c
 subtype=0x0d
-;GRMN_TYPE: Business - Attractions/POW_MOSQUE/Religious place of worship/Non NT
+;GRMN_TYPE: //
 String1=0x01,Attraction touristique
 String2=0x02,Touristenattraktion
 String3=0x04,Tourist attraction
@@ -3586,7 +3581,7 @@ DayXpm="18 13 2 1"   Colormode=16
 [_point]
 type=0x02d
 subtype=0x02
-;GRMN_TYPE: Business - Entertainment/BAR/Bar or club/Non NT
+;GRMN_TYPE: Business - Food and Drink/RESTAURANT_CHINESE/Chinese cuisine/Non NT
 String1=0x01,Bar
 String2=0x02,Bar
 String3=0x04,Bar
@@ -3685,7 +3680,7 @@ DayXpm="16 15 2 1"   Colormode=16
 [_point]
 type=0x02d
 subtype=0x05
-;GRMN_TYPE: Business - Entertainment/GOLF_COURSE/Golf course/Non NT
+;GRMN_TYPE: //
 String1=0x01,Golf
 String2=0x02,Golfplatz
 String3=0x04,Golf course
@@ -3858,7 +3853,7 @@ DayXpm="19 13 2 1"   Colormode=16
 [_point]
 type=0x02d
 subtype=0x0a
-;GRMN_TYPE: Business - Entertainment/FITNESS_CENTER/Fitness center or gym/Non NT
+;GRMN_TYPE: //
 String1=0x01,Centre sportif
 String2=0x02,Sportzentrum
 String3=0x04,Sports centre
@@ -3879,7 +3874,7 @@ DayXpm="1 1 2 1"   Colormode=16
 [_point]
 type=0x02d
 subtype=0x0b
-;GRMN_TYPE: Business - Entertainment/SPORT_AIRPORT/Sport or R-C airport/Non NT
+;GRMN_TYPE: Business - Services/AIRPORT/Airport/Non NT
 String1=0x01,Aéroport
 String2=0x02,Flughafen
 String3=0x04,Airport
@@ -4008,7 +4003,7 @@ DayXpm="13 11 2 1"   Colormode=16
 [_point]
 type=0x02e
 subtype=0x04
-;GRMN_TYPE: Business - Shopping/SHOPPING_CENTER/Shopping center or mall/Non NT
+;GRMN_TYPE: Business - Shopping/DEPARTMENT_STORE/Department store/Non NT
 String1=0x01,Centre commercial
 String2=0x02,Einkaufszentrum
 String3=0x04,Shopping center
@@ -4077,7 +4072,7 @@ DayXpm="10 14 2 1"   Colormode=16
 [_point]
 type=0x02e
 subtype=0x06
-;GRMN_TYPE: Business - Shopping/CONVENIENCE_STORE/Convenience store/Non NT
+;GRMN_TYPE: //
 String1=0x01,Station-service
 String2=0x02,Tankstellenshop
 String3=0x04,Gasstation shop
@@ -4194,7 +4189,7 @@ DayXpm="14 10 2 1"   Colormode=16
 [_point]
 type=0x02e
 subtype=0x0a
-;GRMN_TYPE: Business - Shopping/SPECIALTY_RETAIL/Specialty store/Non NT
+;GRMN_TYPE: //
 String1=0x01,Magasin
 String2=0x02,Geschäft
 String3=0x04,Shop
@@ -4502,7 +4497,7 @@ DayXpm="13 10 2 1"   Colormode=16
 [_point]
 type=0x02f
 subtype=0x08
-;GRMN_TYPE: Business - Services/GND_TRANSPORT/Ground transportation status, i.e. a bus station/Non NT
+;GRMN_TYPE: //
 String1=0x01,Gare routière
 String2=0x02,Busbahnhof
 String3=0x04,Busstation
@@ -4539,7 +4534,7 @@ DayXpm="21 16 3 1"   Colormode=16
 [_point]
 type=0x02f
 subtype=0x09
-;GRMN_TYPE: Business - Services/MARINA/Marina/Non NT
+;GRMN_TYPE: //
 String1=0x01,Magasin accastillage et bateaux
 String2=0x02,Bootsgeschäft
 String3=0x04,Yacht shop
@@ -4563,7 +4558,7 @@ DayXpm="5 5 2 1"   Colormode=16
 [_point]
 type=0x02f
 subtype=0x0a
-;GRMN_TYPE: Business - Services/WRECKER_SERVICE/Wrecker service/Non NT
+;GRMN_TYPE: //
 String1=0x01,Dépanneuse
 String2=0x02,Schleppdienst
 String3=0x04,Wrecker service
@@ -4620,7 +4615,7 @@ DayXpm="15 13 2 1"   Colormode=16
 [_point]
 type=0x02f
 subtype=0x0c
-;GRMN_TYPE: Business - Services/REST_AREA_TOURIST_INFO/Rest area, Tourist information/Non NT
+;GRMN_TYPE: Business - Food and Drink/RESTAURANT_DONUTS/Donut shop/Non NT
 String1=0x01,WC
 String2=0x02,WC
 String3=0x04,WC
@@ -4653,7 +4648,7 @@ DayXpm="15 14 2 1"   Colormode=16
 [_point]
 type=0x02f
 subtype=0x0d
-;GRMN_TYPE: Business - Services/AUTO_CLUB/Automobile club/Non NT
+;GRMN_TYPE: //
 String1=0x01,Club automobile
 String2=0x02,Automobilclub
 String3=0x04,Automobile club
@@ -4661,9 +4656,7 @@ String4=0x03,Auto club
 String7=0x15,Klub samochodowy
 String8=0x10,Clube automobilístico
 String9=0x05,Amministrazione veicoli
-ExtendedLabels=Y
-FontStyle=NoLabel (invisible)
-CustomColor=No
+ExtendedLabels=N
 DayXpm="1 1 2 1"   Colormode=16
 "!	c #00FF4B"
 "  	c none"
@@ -4769,7 +4762,7 @@ DayXpm="11 11 2 1"   Colormode=16
 [_point]
 type=0x02f
 subtype=0x13
-;GRMN_TYPE: Business - Services/REPAIR_SERVICE/Repair service/Non NT
+;GRMN_TYPE: //
 String1=0x01,Vélo
 String2=0x02,Rad
 String3=0x04,Bicycle
@@ -4836,7 +4829,7 @@ DayXpm="19 16 2 1"   Colormode=16
 [_point]
 type=0x02f
 subtype=0x15
-;GRMN_TYPE: Business - Services/UTILITY/Utility (gas, electric, water) services/Non NT
+;GRMN_TYPE: Business - Food and Drink/RESTAURANT_CAFES/Cafe or coffee shop/Non NT
 String1=0x01,Déchetterie
 String2=0x02,Recycling
 String3=0x04,Recycling
@@ -4872,7 +4865,7 @@ DayXpm="17 17 2 1"   Colormode=16
 [_point]
 type=0x02f
 subtype=0x16
-;GRMN_TYPE: Business - Services/TRUCK_STOP/Truck stop/Non NT
+;GRMN_TYPE: Business - Services/GAS_STATION/Gas, fuel station/Non NT
 String1=0x01,Station-essence
 String2=0x02,Tankstelle
 String3=0x04,Gas station
@@ -4973,7 +4966,7 @@ DayXpm="15 15 2 1"   Colormode=16
 [_point]
 type=0x030
 subtype=0x02
-;GRMN_TYPE: Business - Emergency and Government/HOSPITAL/Hospital/Non NT
+;GRMN_TYPE: //
 String1=0x01,Hôpital
 String2=0x02,Krankenhaus
 String3=0x04,Hospital
@@ -5111,7 +5104,7 @@ DayXpm="18 15 2 1"   Colormode=16
 [_point]
 type=0x030
 subtype=0x06
-;GRMN_TYPE: Business - Emergency and Government/BORDER_CROSSING/Border crossing/Non NT
+;GRMN_TYPE: Business - Emergency and Government/POLICE_STATION/Police station/Non NT
 String1=0x01,Douane
 String2=0x02,Zoll
 String3=0x04,Bordercontrol
@@ -5120,18 +5113,33 @@ String7=0x15,Kontrola graniczna
 String8=0x10,Alfândega
 String9=0x05,Dogana
 ExtendedLabels=Y
-FontStyle=NoLabel (invisible)
-CustomColor=No
-DayXpm="1 1 2 1"   Colormode=16
-"!	c #00FF4B"
+FontStyle=SmallFont
+CustomColor=Day
+DaycustomColor:#734A08
+DayXpm="15 15 2 1"   Colormode=16
+"!	c #734A08"
 "  	c none"
-" "
-;1
+"  !!!!!!       "
+"  !!!!!!       "
+"               "
+"  !!!!!!       "
+"  !!!!!!       "
+"   !!!!        "
+"               "
+" !!!!!!!!      "
+"!!!!!!! !!     "
+"!!!!!! !!!     "
+"!!!!! !!!!     "
+"!!!! !!!!!     "
+"!!! !!!!!!     "
+"!! !!!!!!!     "
+"! !!!!!!!!     "
+;123456789012345
 [end]
 [_point]
 type=0x030
 subtype=0x07
-;GRMN_TYPE: Business - Emergency and Government/GOV_OFFICE/Government Office/Non NT
+;GRMN_TYPE: //
 String1=0x01,Prison
 String2=0x02,Gefängnis
 String3=0x04,Prison
@@ -5247,7 +5255,7 @@ DayXpm="1 1 2 1"   Colormode=16
 [_point]
 type=0x043
 subtype=0x01
-;GRMN_TYPE: //
+;GRMN_TYPE: Geographical Named Points of Interest - Water Related/ARROYO/Arroyo/Non NT, NT
 String1=0x01,Gare
 String2=0x02,Bahnhof
 String3=0x04,Trainstation
@@ -5274,7 +5282,7 @@ DayXpm="12 7 2 1"   Colormode=16
 [_point]
 type=0x043
 subtype=0x02
-;GRMN_TYPE: //
+;GRMN_TYPE: Geographical Named Points of Interest - Water Related/BAY/Bay/Non NT, NT
 String1=0x01,Tramway
 String2=0x02,Straßenbahn
 String3=0x04,Tram / Metro
@@ -5362,11 +5370,11 @@ DayXpm="13 10 2 1"   Colormode=16
 [_point]
 type=0x04c
 subtype=0x00
-;GRMN_TYPE: Misc. Points of Interest/INFORMATION/Information/Non NT, NT
+;GRMN_TYPE: Business - Services/REST_AREA_TOURIST_INFO/Rest area, Tourist information/Non NT
 String1=0x01,Office du Tourisme
 String2=0x02,Touristeninformation
 String3=0x04,Tourist information
-String4=0x03,Touristen informatie
+String4=0x03,Toeristen informatie
 String7=0x15,Informacja turystyczna
 String8=0x10,Informações turísticas
 String9=0x05,Informazioni turistiche
@@ -5394,7 +5402,7 @@ DayXpm="6 13 2 1"   Colormode=16
 [_point]
 type=0x04e
 subtype=0x00
-;GRMN_TYPE: Misc. Points of Interest/RESTROOMS/Restrooms/Non NT, NT
+;GRMN_TYPE: Business - Food and Drink/RESTAURANT_DONUTS/Donut shop/Non NT
 String1=0x01,WC
 String2=0x02,WC
 String3=0x04,WC
@@ -5540,7 +5548,7 @@ DayXpm="1 1 2 1"   Colormode=16
 [_point]
 type=0x064
 subtype=0x11
-;GRMN_TYPE: Geographical Named Points of Interest/TOWER/Tower/Non NT, NT
+;GRMN_TYPE: //
 String1=0x01,Tour/Pylône
 String2=0x02,Turm
 String3=0x04,Tower
@@ -5637,7 +5645,7 @@ DayXpm="15 14 2 1"   Colormode=16
 [_point]
 type=0x065
 subtype=0x0a
-;GRMN_TYPE: Geographical Named Points of Interest - Water Related/GLACIER/Glacier/Non NT, NT
+;GRMN_TYPE: //
 String1=0x01,Glacier
 String2=0x02,Gletscher
 String3=0x04,Gletcher
@@ -5645,9 +5653,7 @@ String4=0x03,Gletsjer
 String7=0x15,Lodowiec
 String8=0x10,Geleira
 String9=0x05,Ghiacciaio
-ExtendedLabels=Y
-FontStyle=NoLabel (invisible)
-CustomColor=No
+ExtendedLabels=N
 DayXpm="1 1 2 1"   Colormode=16
 "!	c #00FF4B"
 "  	c none"
@@ -5678,7 +5684,7 @@ DayXpm="1 1 2 1"   Colormode=16
 [_point]
 type=0x065
 subtype=0x0f
-;GRMN_TYPE: Geographical Named Points of Interest - Water Related/RESERVOIR/Reservoir/Non NT, NT
+;GRMN_TYPE: Geographical Named Points of Interest - Water Related/LAKE/Lake/Non NT, NT
 String1=0x01,Eau
 String2=0x02,Wasser
 String3=0x04,Water
@@ -5728,7 +5734,7 @@ DayXpm="9 9 2 1"   Colormode=16
 [_point]
 type=0x065
 subtype=0x12
-;GRMN_TYPE: Geographical Named Points of Interest - Water Related/STREAM/Stream/Non NT, NT
+;GRMN_TYPE: Geographical Named Points of Interest - Water Related/LAKE/Lake/Non NT, NT
 String1=0x01,Eau
 String2=0x02,Wasser
 String3=0x04,Water
@@ -5749,7 +5755,7 @@ DayXpm="1 1 2 1"   Colormode=16
 [_point]
 type=0x065
 subtype=0x13
-;GRMN_TYPE: Geographical Named Points of Interest - Water Related/SWAMP/Swamp/Non NT, NT
+;GRMN_TYPE: Geographical Named Points of Interest - Water Related/LAKE/Lake/Non NT, NT
 String1=0x01,Marais
 String2=0x02,Sumpf
 String3=0x04,Swamp
@@ -5795,7 +5801,7 @@ DayXpm="11 6 2 1"   Colormode=16
 [_point]
 type=0x066
 subtype=0x03
-;GRMN_TYPE: Geographical Named Points of Interest - Land Related/BASIN/Basin/Non NT, NT
+;GRMN_TYPE: Geographical Named Points of Interest - Water Related/LAKE/Lake/Non NT, NT
 String1=0x01,Eau
 String2=0x02,Wasser
 String3=0x04,Water
@@ -5837,7 +5843,7 @@ DayXpm="1 1 2 1"   Colormode=16
 [_point]
 type=0x066
 subtype=0x06
-;GRMN_TYPE: Geographical Named Points of Interest - Land Related/CAPE/Cape/Non NT, NT
+;GRMN_TYPE: //
 String1=0x01,Cap
 String2=0x02,Kap
 String3=0x04,Cape
@@ -5845,9 +5851,7 @@ String4=0x03,Kaap
 String7=0x15,Przylądek
 String8=0x10,Cabo
 String9=0x05,Capo
-ExtendedLabels=Y
-FontStyle=NoLabel (invisible)
-CustomColor=No
+ExtendedLabels=N
 DayXpm="1 1 2 1"   Colormode=16
 "!	c #00FF4B"
 "  	c none"
@@ -5857,7 +5861,7 @@ DayXpm="1 1 2 1"   Colormode=16
 [_point]
 type=0x066
 subtype=0x07
-;GRMN_TYPE: Geographical Named Points of Interest - Land Related/CLIFF/Cliff/Non NT, NT
+;GRMN_TYPE: //
 String1=0x01,Falaise
 String2=0x02,Klippe
 String3=0x04,Cliff
@@ -5865,9 +5869,7 @@ String4=0x03,Klif
 String7=0x15,Klif
 String8=0x10,Penhasco
 String9=0x05,Dirupo
-ExtendedLabels=Y
-FontStyle=NoLabel (invisible)
-CustomColor=No
+ExtendedLabels=N
 DayXpm="1 1 2 1"   Colormode=16
 "!	c #00FF4B"
 "  	c none"
