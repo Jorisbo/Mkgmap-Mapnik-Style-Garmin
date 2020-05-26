@@ -17,7 +17,7 @@ CodePage=65001
 ;MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
 ;General Public License for more details.
 ;
-;Auto generated: 20200520 20:02
+;Auto generated: 20200526 13:07
 ;From master: JBM
 ;As subset: hidebike
 ;
@@ -33,6 +33,7 @@ Type=0x00f,2
 Type=0x010,2
 Type=0x011,2
 Type=0x015,2
+Type=0x017,2
 Type=0x025,2
 Type=0x028,2
 Type=0x032,2
@@ -41,7 +42,9 @@ Type=0x03d,2
 Type=0x043,2
 Type=0x048,2
 Type=0x060,2
+Type=0x068,2
 Type=0x06b,2
+Type=0x06e,2
 Type=0x072,2
 Type=0x073,2
 Type=0x10001,2
@@ -50,6 +53,7 @@ Type=0x01c,3
 Type=0x01e,3
 Type=0x02f,3
 Type=0x03b,3
+Type=0x04c,3
 Type=0x063,3
 Type=0x064,3
 Type=0x066,3
@@ -67,9 +71,9 @@ Type=0x02e,6
 Type=0x041,6
 Type=0x05e,6
 Type=0x018,7
+Type=0x05c,7
 Type=0x065,7
 Type=0x07d,7
-Type=0x017,8
 Type=0x02b,8
 Type=0x04e,8
 Type=0x059,8
@@ -77,28 +81,25 @@ Type=0x061,8
 Type=0x012,9
 Type=0x016,9
 Type=0x026,9
-Type=0x04c,9
 Type=0x05b,9
 Type=0x02c,10
-Type=0x05c,10
 Type=0x01b,11
 Type=0x01d,11
 Type=0x03a,11
 Type=0x050,11
+Type=0x071,11
 Type=0x002,12
 Type=0x00d,12
 Type=0x01a,12
 Type=0x029,12
 Type=0x030,12
 Type=0x031,12
-Type=0x068,12
 Type=0x07a,12
 Type=0x07e,12
 Type=0x021,13
 Type=0x040,13
 Type=0x05a,13
 Type=0x05d,13
-Type=0x071,13
 Type=0x005,14
 Type=0x06c,15
 Type=0x044,16
@@ -112,7 +113,6 @@ Type=0x04f,18
 Type=0x01f,19
 Type=0x03f,19
 Type=0x058,19
-Type=0x06e,19
 Type=0x070,19
 Type=0x03c,20
 Type=0x03e,20
@@ -2610,19 +2610,6 @@ Xpm="0 0 1 0"
 "1 c #ADD19E"
 [end]
 [_polygon]
-type=0x68
-;GRMN_TYPE: //
-String1=0x01,Marais
-String2=0x02,Sumpf
-String3=0x04,Marsh, Fen
-String4=0x03,Nat grasgebied
-ExtendedLabels=Y
-FontStyle=NoLabel (invisible)
-CustomColor=No
-Xpm="0 0 1 0"
-"1 c #CDEBB0"
-[end]
-[_polygon]
 type=0x69
 ;GRMN_TYPE: //
 String1=0x01,Port
@@ -2691,18 +2678,6 @@ FontStyle=NoLabel (invisible)
 CustomColor=No
 Xpm="0 0 1 0"
 "1 c #BBBBBB"
-[end]
-[_polygon]
-type=0x6e
-;GRMN_TYPE: //
-String2=0x02,Haag
-String3=0x04,Hedge
-String4=0x03,Haag / Bomenrij
-ExtendedLabels=Y
-FontStyle=NoLabel (invisible)
-CustomColor=No
-Xpm="0 0 1 0"
-"1 c #ADD19E"
 [end]
 [_polygon]
 type=0x6f
@@ -3278,7 +3253,7 @@ type=0x16
 ;GRMN_TYPE: Roads/TRAIL/Walkway or trail/Non NT, NT
 UseOrientation=N
 Xpm="32 1 2  1"
-"! c #FF0000"
+"! c #FF656A"
 "  c none"
 "  !!!!!   !!!!!   !!!!!   !!!!! "
 ;12345678901234567890123456789012
@@ -3747,8 +3722,8 @@ Xpm="32 16 2  1"
 ;12345678901234567890123456789012
 String1=0x01,Direction
 String2=0x02,Richtung
-String3=0x04,Direction
-String4=0x03,Richting
+String3=0x04,Oneway
+String4=0x03,Enkel richting
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
@@ -4350,7 +4325,7 @@ Xpm="0 0 1 0"
 String1=0x01,Ecole
 String2=0x02,Schule (Rand)
 String3=0x04,School (Outline)
-String4=0x03,School, Sportcentrum (Rand)
+String4=0x03,School (Rand)
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
@@ -4589,11 +4564,9 @@ CustomColor=No
 type=0x10114
 ;GRMN_TYPE: //
 UseOrientation=N
-Xpm="32 5 2  1"
+Xpm="32 3 2  1"
 "! c #949494"
 "  c none"
-"  !!              !!            "
-"  !!              !!            "
 "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
 "!!              !!              "
 "!!              !!              "
@@ -4929,11 +4902,9 @@ CustomColor=No
 type=0x10a02
 ;GRMN_TYPE: Water Features/INTERMITTENT_STREAM(NT)/Intermittent or dry stream, creek, or ditch/NT
 UseOrientation=Y
-Xpm="32 6 2  1"
+Xpm="32 4 2  1"
 "! c #AAD3DF"
 "  c none"
-" !!  !!  !!  !!  !!  !!  !!  !! "
-" !!  !!  !!  !!  !!  !!  !!  !! "
 " !!  !!  !!  !!  !!  !!  !!  !! "
 " !!  !!  !!  !!  !!  !!  !!  !! "
 " !!  !!  !!  !!  !!  !!  !!  !! "
@@ -5064,23 +5035,6 @@ String3=0x04,Retaining wall
 String4=0x03,Keermuur
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
-CustomColor=No
-[end]
-[_line]
-type=0x10a0f
-;GRMN_TYPE: //
-UseOrientation=Y
-LineWidth=6
-BorderWidth=1
-Xpm="0 0 2 0"
-"1 c #DDDDDD"
-"2 c #A4A4A4"
-String1=0x01,Rue
-String2=0x02,Straße
-String3=0x04,Street
-String4=0x03,Weg
-ExtendedLabels=Y
-FontStyle=SmallFont
 CustomColor=No
 [end]
 [_line]
@@ -5729,11 +5683,9 @@ CustomColor=No
 type=0x10d01
 ;GRMN_TYPE: //
 UseOrientation=Y
-LineWidth=3
-BorderWidth=1
-Xpm="0 0 2 0"
+LineWidth=5
+Xpm="0 0 1 0"
 "1 c #E892A2"
-"2 c #FF008B"
 String1=0x01,Autoroute
 String2=0x02,Autobahn
 String3=0x04,Motorway
@@ -5746,13 +5698,10 @@ CustomColor=No
 type=0x10d02
 ;GRMN_TYPE: //
 UseOrientation=Y
-LineWidth=3
-BorderWidth=1
-Xpm="0 0 4 0"
+LineWidth=4
+Xpm="0 0 2 0"
 "1 c #F9B29C"
-"2 c #D87559"
-"3 c #000000"
-"4 c #FFFFFF"
+"2 c #000000"
 String1=0x01,Voie rapide
 String2=0x02,Schnellstraße
 String3=0x04,Trunk
@@ -5783,10 +5732,8 @@ type=0x10d04
 ;GRMN_TYPE: //
 UseOrientation=Y
 LineWidth=2
-BorderWidth=1
-Xpm="0 0 2 0"
-"1 c #F7FABF"
-"2 c #BBC279"
+Xpm="0 0 1 0"
+"1 c #B4B4B4"
 String1=0x01,Route secondaire
 String2=0x02,Bundesstraße
 String3=0x04,Secundary
@@ -5901,7 +5848,7 @@ CustomColor=No
 type=0x10d0b
 ;GRMN_TYPE: //
 UseOrientation=Y
-LineWidth=4
+LineWidth=3
 BorderWidth=1
 Xpm="0 0 2 0"
 "1 c #DDDDE8"
@@ -5918,13 +5865,47 @@ CustomColor=No
 type=0x10d0c
 ;GRMN_TYPE: //
 UseOrientation=Y
-LineWidth=7
+LineWidth=5
 Xpm="0 0 1 0"
 "1 c #DDDDE8"
 String1=0x01,Zone piétonne
 String2=0x02,Fußgängerzone
 String3=0x04,Pedestrians
 String4=0x03,Voetgangersgebied
+ExtendedLabels=Y
+FontStyle=SmallFont
+CustomColor=No
+[end]
+[_line]
+type=0x10d0d
+;GRMN_TYPE: //
+UseOrientation=Y
+LineWidth=3
+BorderWidth=1
+Xpm="0 0 2 0"
+"1 c #EDEDED"
+"2 c #C5C5C5"
+String1=0x01,Quartier résidentiel
+String2=0x02,Wohngebiet
+String3=0x04,Living area
+String4=0x03,Woonerf
+ExtendedLabels=Y
+FontStyle=SmallFont
+CustomColor=No
+[end]
+[_line]
+type=0x10d0e
+;GRMN_TYPE: //
+UseOrientation=Y
+LineWidth=6
+BorderWidth=1
+Xpm="0 0 2 0"
+"1 c #DDDDDD"
+"2 c #A4A4A4"
+String1=0x01,Rue
+String2=0x02,Straße
+String3=0x04,Street
+String4=0x03,Weg
 ExtendedLabels=Y
 FontStyle=SmallFont
 CustomColor=No
@@ -6162,6 +6143,40 @@ String1=0x01,Autoroute
 String2=0x02,Autobahn
 String3=0x04,Motorway
 String4=0x03,Snelweg
+ExtendedLabels=Y
+FontStyle=NoLabel (invisible)
+CustomColor=No
+[end]
+[_line]
+type=0x10e06
+;GRMN_TYPE: Customizable Line Types/CUSTOMIZABLE_LINE_7/Non-routable customizable line/Non NT, NT
+UseOrientation=Y
+LineWidth=4
+Xpm="0 0 1 0"
+"1 c #E892A2"
+String1=0x01,Autoroute
+String2=0x02,Autobahn
+String3=0x04,Motorway
+String4=0x03,Snelweg
+ExtendedLabels=Y
+FontStyle=NoLabel (invisible)
+CustomColor=No
+[end]
+[_line]
+type=0x10e07
+;GRMN_TYPE: Customizable Line Types/CUSTOMIZABLE_LINE_8/Non-routable customizable line/Non NT, NT
+UseOrientation=Y
+LineWidth=1
+BorderWidth=1
+Xpm="0 0 4 0"
+"1 c #F9B29C"
+"2 c #D87559"
+"3 c #000000"
+"4 c #FFFFFF"
+String1=0x01,Voie rapide
+String2=0x02,Schnellstraße
+String3=0x04,Trunk
+String4=0x03,Autoweg
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
@@ -6515,8 +6530,8 @@ DayXpm="1 1 2 1"   Colormode=16
 ;1
 [end]
 [_point]
-type=0x020
-subtype=0x00
+type=0x028
+subtype=0x02
 ;GRMN_TYPE: //
 String1=0x01,Sortie
 String2=0x02,Ausfahrt
@@ -13184,7 +13199,7 @@ String7=0x15,Terminal promowy
 String8=0x10,Terminal de balsa
 String9=0x05,Terminal
 ExtendedLabels=Y
-FontStyle=Default
+FontStyle=SmallFont
 CustomColor=Day
 DaycustomColor:#8461C4
 DayXpm="11 15 2 1"   Colormode=16
@@ -15708,6 +15723,41 @@ DayXpm="18 15 2 1"   Colormode=16
 "    !!!!!!!!!     "
 "   !!!!!!!!!!!    "
 ;123456789012345678
+[end]
+[_point]
+type=0x068
+subtype=0x0e
+;GRMN_TYPE: //
+String1=0x01,Terminal Ferry
+String2=0x02,Fährhafen
+String3=0x04,Ferry terminal
+String4=0x03,Ferry terminal
+String7=0x15,Terminal promowy
+String8=0x10,Terminal de balsa
+String9=0x05,Terminal
+ExtendedLabels=Y
+FontStyle=Default
+CustomColor=Day
+DaycustomColor:#8461C4
+DayXpm="11 15 2 1"   Colormode=16
+"!	c #8A68C6"
+"  	c none"
+"    !!     "
+"   !!!!    "
+"   !!!!    "
+"    !!     "
+"    !!     "
+" !!!!!!!!  "
+" !!!!!!!!  "
+"    !!     "
+"    !!     "
+"!   !!   ! "
+"!!  !!  !! "
+"!!! !! !!! "
+" !!!!!!!!  "
+"  !!!!!!   "
+"    !!     "
+;12345678901
 [end]
 [_point]
 type=0x069

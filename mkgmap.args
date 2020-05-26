@@ -1,18 +1,18 @@
-#Arg file created 20200520 17:36:58
+#Arg file created 20200526 13:18:14
 
 #Map name
 #--------------------------------------------------------------------------------
-style-file: C:\Data\Dropbox\Garmin\Build\Style - Jbm
-copyright-message: Map data © openstreetmap.org, Map layout © Jorisbo@hotmail.com
-product-id: 1
-family-id: 8510
-description: JBM - Interlaken (20-5-2020 17u36)
-series-name: JBM - Interlaken (20-5-2020 17u36)
-family-name: JBM - Interlaken
-area-name: Interlaken
-country-name: Schweizz
-country-abbr: CH
-draw-priority: 20
+style-file=C:\Data\Dropbox\Garmin\Build\Style - Jbm
+copyright-message=Map data © openstreetmap.org, Map layout © Jorisbo@hotmail.com
+product-id=1
+family-id=8510
+description=JBM - Interlaken (26-5-2020 13u18)
+series-name=JBM - Interlaken (26-5-2020 13u18)
+family-name=JBM - Interlaken
+area-name=Interlaken
+country-name=Schweizz
+country-abbr=CH
+draw-priority=20
 
 #Processing options
 #--------------------------------------------------------------------------------
@@ -28,25 +28,25 @@ tdbfile
 
 #Generate sea and bounds
 #--------------------------------------------------------------------------------
-precomp-sea: C:\Garmin\Sources\sea-latest.zip
-bounds: C:\Garmin\Sources\bounds-latest.zip
-generate-sea: land-tag=natural=background
+precomp-sea=C:\Garmin\Sources\sea-latest.zip
+bounds=C:\Garmin\Sources\bounds-latest.zip
+generate-sea=land-tag=natural=background
 #floodblocker
 
 #Poi and indexing options
 #--------------------------------------------------------------------------------
-code-page: 65001
-name-tag-list: name,int_name,name:nl,name:fr,name:de,place_name
-location-autofill: is_in,nearest
+code-page=65001
+name-tag-list=name,int_name,name:nl,name:uk,name:de,name:fr
+location-autofill=is_in,nearest
 housenumbers
 add-pois-to-areas
 pois-to-areas-placement=always=middle
 add-pois-to-lines
 link-pois-to-ways
 index
-make-poi-index
 x-split-name-index
-nearby-poi-rules-config=C:\Data\Dropbox\Garmin\Build\Style - Jbm\nearbypoi_config
+poi-excl-index=0x2a00-0x661f
+nearby-poi-rules-config=C:\Data\Dropbox\Garmin\Build\Style - Jbm\config.nearbypoi
 
 #Map routing
 #--------------------------------------------------------------------------------
