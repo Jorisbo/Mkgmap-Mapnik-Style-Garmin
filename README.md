@@ -16,7 +16,7 @@ Original a copy of mkgmap default style but modified to look identical as the ma
 - jbm.typ
 
 # Style and typ-file Jbmhb (hide bike)
-Same as the jbm-typ file but with transparent symbols for the optional bicycle overlays which allow you to build a map with the bicycle routes but made invisble by the style.
+Same as the jbm-typ file but with transparent symbols for the optional bicycle overlays which allow you to build a map with the bicycle routes but made invisble by the typ.
 - jbmhb.txt
 - jbmhb.typ
 
