@@ -1,206 +1,97 @@
+; contour.typ
+; Longueur: 1368 octets
+; Fichier TYP compilé     04-06-2020     14:43:08
+; Décompilé le 4-6-2020 à 14:43:11
 
 [_id]
 ProductCode=1
 FID=8000
-CodePage=1252
-[End]
+CodePage=65001
+ [End]
 
+;=========== COMMENTAIRES ======
 [_comments]
-;https://github.com/Jorisbo/Mkgmap-Mapnik-Style-Garmin
-;Jorisbo@hotmail.com
-;
-;This program is free software; you can redistribute it and/or modify
-;it under the terms of the GNU General Public License version 3 or
-;version 2 as published by the Free Software Foundation.
-;
-;This program is distributed in the hope that it will be useful, but
-;WITHOUT ANY WARRANTY; without even the implied warranty of
-;MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
-;General Public License for more details.
-;
-;Auto generated: 20181215 01:35
-;From master: JBM
-;As subset: contour
-;
 [End]
 
+
+
+
+;=========== POLYGONES : PRIORITE DANS L'AFFICHAGE ======
 [_drawOrder]
-Type=0x027,1
-Type=0x04a,1
-Type=0x04b,1
-Type=0x003,2
-Type=0x006,2
-Type=0x007,2
-Type=0x00f,2
-Type=0x010,2
-Type=0x011,2
-Type=0x015,2
-Type=0x01c,2
-Type=0x025,2
-Type=0x028,2
-Type=0x032,2
-Type=0x038,2
-Type=0x03d,2
-Type=0x042,2
-Type=0x043,2
-Type=0x048,2
-Type=0x059,2
-Type=0x060,2
-Type=0x06b,2
-Type=0x071,2
-Type=0x009,3
-Type=0x02e,3
-Type=0x02f,3
-Type=0x03b,3
-Type=0x063,3
-Type=0x064,3
-Type=0x066,3
-Type=0x067,3
-Type=0x00c,4
-Type=0x014,4
-Type=0x06f,4
-Type=0x01e,5
-Type=0x05e,5
-Type=0x00a,6
-Type=0x00b,6
-Type=0x022,6
-Type=0x024,6
-Type=0x07c,6
-Type=0x016,7
-Type=0x02d,7
-Type=0x041,7
-Type=0x07d,7
-Type=0x018,8
-Type=0x065,8
-Type=0x017,9
-Type=0x02b,9
-Type=0x04e,9
-Type=0x061,9
-Type=0x012,10
-Type=0x026,10
-Type=0x04c,10
-Type=0x05b,10
-Type=0x02c,11
-Type=0x05c,11
-Type=0x01b,12
-Type=0x01d,12
-Type=0x03a,12
-Type=0x050,12
-Type=0x002,13
-Type=0x00d,13
-Type=0x01a,13
-Type=0x029,13
-Type=0x030,13
-Type=0x031,13
-Type=0x040,13
-Type=0x068,13
-Type=0x07a,13
-Type=0x005,14
-Type=0x021,14
-Type=0x05a,14
-Type=0x05d,14
-Type=0x04d,15
-Type=0x06c,15
-Type=0x07e,15
-Type=0x044,16
-Type=0x045,16
-Type=0x019,17
-Type=0x07b,17
-Type=0x020,18
-Type=0x02a,18
-Type=0x03c,18
-Type=0x03e,18
-Type=0x046,18
-Type=0x04f,18
-Type=0x01f,19
-Type=0x023,19
-Type=0x03f,19
-Type=0x047,19
-Type=0x051,19
-Type=0x052,19
-Type=0x053,19
-Type=0x054,19
-Type=0x055,19
-Type=0x056,19
-Type=0x057,19
-Type=0x058,19
-Type=0x062,19
-Type=0x069,19
-Type=0x06e,19
-Type=0x070,19
-Type=0x033,20
-Type=0x034,20
-Type=0x035,20
-Type=0x036,20
-Type=0x037,20
-Type=0x049,20
-Type=0x008,21
-Type=0x039,21
-Type=0x05f,21
-Type=0x06a,22
-Type=0x07f,22
-Type=0x013,23
-Type=0x06d,23
-Type=0x00e,24
-Type=0x001,25
-Type=0x004,25
 [End]
+
+
+
+
+
+;===================== POLYGONES ========================
+
+
+;====================== LINES ===========================
+
 
 [_line]
-type=0x20
+Type=0x20
 ;GRMN_TYPE: Contour Lines/MINOR_CONTOUR/Minor land-based contour line/Non NT
 UseOrientation=N
 Xpm="32 1 2  1"
-"! c #BD6520"
+"! c #DBB793"
 "  c none"
 "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
 ;12345678901234567890123456789012
-String1=0x01,Contour (20 m)
-String2=0x02,Contour (20 m)
+String1=0x01,Courbe de niveau (20 m)
+String2=0x02,Höhenlinie (20 m)
 String3=0x04,Contour (20 m)
 String4=0x03,Contour (20 m)
-String5=0x09,
-String6=0x24,
+String5=0x15,Warstwica (20 m)
+String6=0x10,Contorno (20 m)
+String7=0x05,Curva di livello (20 m)
 ExtendedLabels=Y
-FontStyle=SmallFont
-CustomColor=Day
-DaycustomColor:#996633
+FontStyle=NoLabel (invisible)
+CustomColor=No
 [end]
 
+
 [_line]
-type=0x21
+Type=0x21
 ;GRMN_TYPE: Contour Lines/INT_CONTOUR/Intermediate contour (should be used for about every 5th contour line)/Non NT
 UseOrientation=N
 LineWidth=1
 Xpm="0 0 1 0"
-"1 c #BD6520"
-String1=0x01,Contour (100 m)
-String2=0x02,Contour (100 m)
+"1 c #D3A87C"
+String1=0x01,Courbe de niveau (100 m)
+String2=0x02,Höhenlinie(100 m)
 String3=0x04,Contour (100 m)
 String4=0x03,Contour (100 m)
-String5=0x09,
-String6=0x24,
+String5=0x15,Warstwica (100 m)
+String6=0x10,Contorno (100 m)
+String7=0x05,Curva di livello (100 m)
 ExtendedLabels=Y
 FontStyle=SmallFont
 CustomColor=Day
 DaycustomColor:#996633
 [end]
 
+
 [_line]
-type=0x22
+Type=0x22
 ;GRMN_TYPE: Contour Lines/MAJOR_CONTOUR/Major contour (should be used for about every 10th contour line)/Non NT
 UseOrientation=N
-LineWidth=2
+LineWidth=1
 Xpm="0 0 1 0"
-"1 c #BD6520"
-String1=0x01,Contour (500 m)
-String2=0x02,Contour (500 m)
+"1 c #CC9966"
+String1=0x01,Courbe de niveau (500 m)
+String2=0x02,Höhenlinie (500 m)
 String3=0x04,Contour (500 m)
 String4=0x03,Contour (500 m)
-String5=0x09,
-String6=0x24,
+String5=0x15,Warstwica (500 m)
+String6=0x10,Contorno (500 m)
+String7=0x05,Curva di livello (500 m)
 ExtendedLabels=Y
 FontStyle=SmallFont
 CustomColor=Day
 DaycustomColor:#996633
 [end]
+
+
+;====================== POINTS ==========================

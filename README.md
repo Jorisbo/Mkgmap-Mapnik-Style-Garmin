@@ -1,4 +1,4 @@
-# 20200607 Implemented mapnik changes up to release 5.2.0c
+# 20200622 Implemented mapnik changes up to release 5.2.0d
 Openstreetmap visual changes can be found on https://github.com/gravitystorm/openstreetmap-carto/blob/master/CHANGELOG.md
 Releasenotes for all latest style- and typ changes can be found in de style info-file within the style zip
 - Major improvements for routing and access handling
@@ -14,7 +14,7 @@ The maps are tested with a Garmin Oregon 600.
 Original a copy of mkgmap default style but modified to look identical as the mapnik layer on https://www.openstreetmap.org
 
 # Style and typ-file Jbmhb (hide bike)
-Same as the jbm-typ file but with transparent symbols for the optional bicycle overlays which allow you to build a map with the bicycle routes but made invisble by the typ.
+Same as the jbm-typ file but with transparent symbols for the optional bicycle overlays which allow you to build a map with the bicycle routes but made invisible by the typ.
 
 # Typ-file for the mkgmap default style (up to version 4485)
 http://www.mkgmap.org.uk/

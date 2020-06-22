@@ -17,7 +17,7 @@ CodePage=65001
 ;MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
 ;General Public License for more details.
 ;
-;Auto generated: 20200505 12:34
+;Auto generated: 20200603 12:03
 ;From master: OSM
 ;As subset: osm
 ;
@@ -377,15 +377,12 @@ Xpm="0 0 1 0"
 [_polygon]
 type=0x17
 ;GRMN_TYPE: Park Areas/URBAN_PARK/Small urban park, typically only a few square blocks in size/Non NT
-String1=0x01,Prairie
-String2=0x02,Wiese
-String3=0x04,Grassland
-String4=0x03,Natuurlijk gras
+String4=0x03,VRIJ
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
 Xpm="0 0 1 0"
-"1 c #CDEBB0"
+"1 c #00FF00"
 [end]
 [_polygon]
 type=0x18
@@ -844,9 +841,11 @@ type=0x01
 UseOrientation=N
 LineWidth=8
 BorderWidth=1
-Xpm="0 0 2 0"
+Xpm="0 0 4 0"
 "1 c #E892A2"
 "2 c #FF008B"
+"3 c #E892A2"
+"4 c #FF008B"
 String1=0x01,Autoroute
 String2=0x02,Autobahn
 String3=0x04,Motorway
@@ -863,9 +862,11 @@ type=0x02
 UseOrientation=N
 LineWidth=8
 BorderWidth=1
-Xpm="0 0 2 0"
+Xpm="0 0 4 0"
 "1 c #F9B29C"
 "2 c #D87559"
+"3 c #F9B29C"
+"4 c #D87559"
 String1=0x01,Voie rapide
 String2=0x02,Schnellstraße
 String3=0x04,Trunk
@@ -882,9 +883,11 @@ type=0x03
 UseOrientation=N
 LineWidth=8
 BorderWidth=1
-Xpm="0 0 2 0"
+Xpm="0 0 4 0"
 "1 c #FCD6A4"
 "2 c #C5A363"
+"3 c #FCD6A4"
+"4 c #C5A363"
 String1=0x01,Route primaire
 String2=0x02,Bundesstraße
 String3=0x04,Primary
@@ -901,9 +904,11 @@ type=0x04
 UseOrientation=N
 LineWidth=8
 BorderWidth=1
-Xpm="0 0 2 0"
+Xpm="0 0 4 0"
 "1 c #F7FABF"
 "2 c #BBC279"
+"3 c #F7FABF"
+"4 c #BBC279"
 String1=0x01,Route secondaire
 String2=0x02,Bundesstraße
 String3=0x04,Secondary
@@ -920,9 +925,11 @@ type=0x05
 UseOrientation=N
 LineWidth=8
 BorderWidth=1
-Xpm="0 0 2 0"
+Xpm="0 0 4 0"
 "1 c #FFFFFF"
 "2 c #C5C5C5"
+"3 c #FFFFFF"
+"4 c #C5C5C5"
 String1=0x01,Route tertiaire
 String2=0x02,Straße
 String3=0x04,Tertiary
@@ -939,9 +946,11 @@ type=0x06
 UseOrientation=N
 LineWidth=7
 BorderWidth=1
-Xpm="0 0 2 0"
+Xpm="0 0 4 0"
 "1 c #FFFFFF"
 "2 c #C5C5C5"
+"3 c #FFFFFF"
+"4 c #C5C5C5"
 String1=0x01,Rue
 String2=0x02,Straße
 String3=0x04,Residential
@@ -958,9 +967,11 @@ type=0x07
 UseOrientation=N
 LineWidth=3
 BorderWidth=1
-Xpm="0 0 2 0"
+Xpm="0 0 4 0"
 "1 c #FFFFFF"
 "2 c #C5C5C5"
+"3 c #FFFFFF"
+"4 c #C5C5C5"
 String1=0x01,Rue
 String2=0x02,Straße
 String3=0x04,Street
@@ -978,9 +989,11 @@ type=0x08
 UseOrientation=Y
 LineWidth=5
 BorderWidth=1
-Xpm="0 0 2 0"
+Xpm="0 0 4 0"
 "1 c #F7FABF"
 "2 c #BBC279"
+"3 c #F7FABF"
+"4 c #BBC279"
 String1=0x01,Voie d’accès
 String2=0x02,Bundesstraße (Verbindung)
 String3=0x04,Secondary (Link)
@@ -997,9 +1010,11 @@ type=0x09
 UseOrientation=N
 LineWidth=5
 BorderWidth=1
-Xpm="0 0 2 0"
+Xpm="0 0 4 0"
 "1 c #E892A2"
 "2 c #FF008B"
+"3 c #E892A2"
+"4 c #FF008B"
 String2=0x02,Autobahn (Verbindung)
 String3=0x04,Motorway (Link)
 String4=0x03,Snelweg (Verbinding)
@@ -1024,7 +1039,7 @@ String4=0x03,Veldweg (Onbekend)
 String8=0x10,Estrada agrícola
 String9=0x05,Sentiero carrabile
 ExtendedLabels=Y
-FontStyle=NoLabel (invisible)
+FontStyle=SmallFont
 CustomColor=No
 [end]
 [_line]
@@ -1048,9 +1063,11 @@ CustomColor=No
 type=0x10
 ;GRMN_TYPE: Customizable Line Types/CUSTOMIZABLE_ROUTE_LINE_5/Routable customizable line/Non NT, NT
 UseOrientation=N
-Xpm="32 2 2  1"
+Xpm="32 2 4  1"
 "! c #0030FF"
 "  c none"
+"3 c #0030FF"
+"4 c none"
 "  !!!!    !!!!    !!!!    !!!!  "
 "  !!!!    !!!!    !!!!    !!!!  "
 ;12345678901234567890123456789012
@@ -1069,11 +1086,13 @@ DaycustomColor:#0030FF
 type=0x11
 ;GRMN_TYPE: Customizable Line Types/CUSTOMIZABLE_ROUTE_LINE_3/Routable customizable line/Non NT, NT
 UseOrientation=N
-LineWidth=8
+LineWidth=6
 BorderWidth=1
-Xpm="0 0 2 0"
+Xpm="0 0 4 0"
 "1 c #DDDDE8"
 "2 c #A4A4A4"
+"3 c #DDDDE8"
+"4 c #A4A4A4"
 String1=0x01,Zone piétonne
 String2=0x02,Fußgängerzone
 String3=0x04,Pedestrians
@@ -1086,9 +1105,11 @@ CustomColor=No
 type=0x12
 ;GRMN_TYPE: Customizable Line Types/CUSTOMIZABLE_ROUTE_LINE_6/Routable customizable line/Non NT, NT
 UseOrientation=N
-Xpm="32 2 2  1"
+Xpm="32 2 4  1"
 "! c #0030FF"
 "  c none"
+"3 c #0030FF"
+"4 c none"
 "  !!!!!!    !!    !!!!!!    !!  "
 "  !!!!!!    !!    !!!!!!    !!  "
 ;12345678901234567890123456789012
@@ -1104,9 +1125,11 @@ CustomColor=No
 type=0x13
 ;GRMN_TYPE: Customizable Line Types/CUSTOMIZABLE_ROUTE_LINE_7/Routable customizable line/Non NT, NT
 UseOrientation=Y
-Xpm="32 3 2  1"
+Xpm="32 3 4  1"
 "! c #FF0000"
 "# c #E6E6E6"
+"3 c #FF0000"
+"4 c #E6E6E6"
 "#!###!###!###!###!###!###!###!##"
 "#!###!###!###!###!###!###!###!##"
 "#!###!###!###!###!###!###!###!##"
@@ -1145,7 +1168,7 @@ type=0x16
 ;GRMN_TYPE: Roads/TRAIL/Walkway or trail/Non NT, NT
 UseOrientation=N
 Xpm="32 1 2  1"
-"! c #FF0000"
+"! c #FF656A"
 "  c none"
 "  !!!!!   !!!!!   !!!!!   !!!!! "
 ;12345678901234567890123456789012
@@ -1201,18 +1224,10 @@ DaycustomColor:#3965B4
 type=0x1c
 ;GRMN_TYPE: Political Borders/MJR_PLTCL_BDRY/Major political boundary (typically used for state, provincial borders)/Non NT
 UseOrientation=N
-Xpm="32 9 2  1"
+Xpm="32 1 2  1"
 "! c #BD95D5"
 "  c none"
-"  !!!!    !!!!    !!!!    !!!!  "
-"  !!!!    !!!!    !!!!    !!!!  "
-"                                "
-"                                "
-"                                "
-"                                "
-"                                "
-"                                "
-"                                "
+"   !!!   !!!   !!!   !!!!!!!!!!!"
 ;12345678901234567890123456789012
 String1=0x01,Limite communale
 String2=0x02,Grenze
@@ -1228,18 +1243,11 @@ CustomColor=No
 type=0x1d
 ;GRMN_TYPE: Political Borders/MNR_PLTCL_BDRY/Minor political boundary (typically used for county/parish borders)
 UseOrientation=N
-Xpm="32 9 2  1"
+Xpm="32 2 2  1"
 "! c #BD95D5"
 "  c none"
-"!!!!!!!!!!!!!!        !!        "
-"!!!!!!!!!!!!!!        !!        "
-"                                "
-"                                "
-"                                "
-"                                "
-"                                "
-"                                "
-"                                "
+"   !!!   !!!!!!!!!!!!!!!!!!!!!!!"
+"   !!!   !!!!!!!!!!!!!!!!!!!!!!!"
 ;12345678901234567890123456789012
 String1=0x01,Limite départementale
 String2=0x02,Landesgrenze
@@ -1256,15 +1264,14 @@ DaycustomColor:#BD30B4
 type=0x1e
 ;GRMN_TYPE: Political Borders/INTRN_PLTCL_BDRY/International boundary/Non NT
 UseOrientation=N
-Xpm="32 9 2  1"
+Xpm="32 8 2  1"
 "! c #BD95D5"
 "# c #FFFFFF"
-"!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
-"!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
 "#!#!#!#!#!#!#!#!#!#!#!#!#!#!#!#!"
 "!#!#!#!#!#!#!#!#!#!#!#!#!#!#!#!#"
 "#!#!#!#!#!#!#!#!#!#!#!#!#!#!#!#!"
-"!#!#!#!#!#!#!#!#!#!#!#!#!#!#!#!#"
+"!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+"!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
 "#!#!#!#!#!#!#!#!#!#!#!#!#!#!#!#!"
 "!#!#!#!#!#!#!#!#!#!#!#!#!#!#!#!#"
 "#!#!#!#!#!#!#!#!#!#!#!#!#!#!#!#!"
@@ -1389,14 +1396,15 @@ CustomColor=No
 type=0x28
 ;GRMN_TYPE: Misc. Line Types/PIPELINE/Oil or water pipeline/Non NT
 UseOrientation=Y
-Xpm="32 5 2  1"
+Xpm="32 6 2  1"
 "! c #B4B4B4"
 "  c none"
-" !            !  !            ! "
-" !!!!!!!!!!!!!!  !!!!!!!!!!!!!! "
-" !            !  !            ! "
-" !!!!!!!!!!!!!!  !!!!!!!!!!!!!! "
-" !            !  !            ! "
+"  !                          !  "
+"  !!!!!!!!!!!!!!!!!!!!!!!!!!!!  "
+"  !                          !  "
+"  !                          !  "
+"  !!!!!!!!!!!!!!!!!!!!!!!!!!!!  "
+"  !                          !  "
 ;12345678901234567890123456789012
 String1=0x01,Pipeline
 String2=0x02,Rohr
@@ -1483,8 +1491,8 @@ Xpm="32 16 2  1"
 ;12345678901234567890123456789012
 String1=0x01,Direction
 String2=0x02,Richtung
-String3=0x04,Direction
-String4=0x03,Richting
+String3=0x04,Oneway
+String4=0x03,Enkel richting
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
@@ -1501,7 +1509,7 @@ String2=0x02,Straße
 String3=0x04,Street
 String4=0x03,Weg
 ExtendedLabels=Y
-FontStyle=NoLabel (invisible)
+FontStyle=SmallFont
 CustomColor=No
 [end]
 [_line]
@@ -1510,9 +1518,11 @@ type=0x10007
 UseOrientation=N
 LineWidth=5
 BorderWidth=1
-Xpm="0 0 2 0"
+Xpm="0 0 4 0"
 "1 c #FCD6A4"
 "2 c #C5A363"
+"3 c #FCD6A4"
+"4 c #C5A363"
 String1=0x01,Voie d’accès
 String2=0x02,Bundesstraße (Verbindung)
 String3=0x04,Primary (Link)
@@ -1588,9 +1598,11 @@ Xpm="32 1 2  1"
 "  !!!!    !!!!    !!!!    !!!!  "
 ;12345678901234567890123456789012
 String1=0x01,Ferry
-String2=0x02,Ferry
+String2=0x02,Fähre
 String3=0x04,Ferry
 String4=0x03,Ferry
+String8=0x10,Balsa
+String9=0x05,Traghetto
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
@@ -1632,16 +1644,14 @@ CustomColor=No
 [_line]
 type=0x10a02
 ;GRMN_TYPE: Water Features/INTERMITTENT_STREAM(NT)/Intermittent or dry stream, creek, or ditch/NT
-UseOrientation=Y
-Xpm="32 6 2  1"
+UseOrientation=N
+Xpm="32 4 2  1"
 "! c #AAD3DF"
 "  c none"
-" !!  !!  !!  !!  !!  !!  !!  !! "
-" !!  !!  !!  !!  !!  !!  !!  !! "
-" !!  !!  !!  !!  !!  !!  !!  !! "
-" !!  !!  !!  !!  !!  !!  !!  !! "
-" !!  !!  !!  !!  !!  !!  !!  !! "
-" !!  !!  !!  !!  !!  !!  !!  !! "
+"  !!!!    !!!!    !!!!    !!!!  "
+"  !!!!    !!!!    !!!!    !!!!  "
+"  !!!!    !!!!    !!!!    !!!!  "
+"  !!!!    !!!!    !!!!    !!!!  "
 ;12345678901234567890123456789012
 String1=0x01,Cours d’eau (intermittent)
 String2=0x02,Fluß (Periodisch)
@@ -1790,7 +1800,7 @@ String4=0x03,Land
 ExtendedLabels=Y
 FontStyle=NormalFont
 CustomColor=Day
-DaycustomColor:#BD65FF
+DaycustomColor:#BD65D5
 DayXpm="1 1 2 1"   Colormode=16
 "!	c #00FF4B"
 "  	c none"
@@ -3136,28 +3146,28 @@ ExtendedLabels=Y
 FontStyle=SmallFont
 CustomColor=Day
 DaycustomColor:#009500
-DayXpm="19 18 2 1"   Colormode=16
+DayXpm="15 18 2 1"   Colormode=16
 "!	c #009500"
 "  	c none"
-"         !!        "
-"!         !!       "
-"!!         !!      "
-"!!!     !!  !!     "
-"!!!!   !!!!  !!    "
-"!!!!!  !!!!  !!    "
-"!!!!    !!  !!     "
-"!!!        !!      "
-"!!      !!!!       "
-"!       !!!!       "
-"!        !!!!      "
-"!        !!!!      "
-"!         !!!!     "
-"!        !! !!     "
-"!       !!  !!     "
-"!      !!   !!     "
-"!     !!   !!      "
-"!    !!   !!       "
-;1234567890123456789
+"         !!    "
+"!         !!   "
+"!!         !!  "
+"!!!     !!  !! "
+"!!!!   !!!!  !!"
+"!!!!!  !!!!  !!"
+"!!!!    !!  !! "
+"!!!        !!  "
+"!!      !!!!   "
+"!       !!!!   "
+"!        !!!!  "
+"!        !!!!  "
+"!         !!!! "
+"!        !! !! "
+"!       !!  !! "
+"!      !!   !! "
+"!     !!   !!  "
+"!    !!   !!   "
+;123456789012345
 [end]
 [_point]
 type=0x02d
@@ -3304,7 +3314,7 @@ String9=0x05,Centro sportivo
 ExtendedLabels=Y
 FontStyle=Default
 CustomColor=Day
-DaycustomColor:#006500
+DaycustomColor:#60A46A
 DayXpm="1 1 2 1"   Colormode=16
 "!	c #009500"
 "  	c none"
@@ -4000,7 +4010,9 @@ subtype=0x0d
 String2=0x02,Automobilclub
 String3=0x04,Automobile club
 String4=0x03,Auto club
-ExtendedLabels=N
+ExtendedLabels=Y
+FontStyle=NoLabel (invisible)
+CustomColor=No
 DayXpm="1 1 2 1"   Colormode=16
 "!	c #00FF4B"
 "  	c none"
@@ -4396,24 +4408,24 @@ ExtendedLabels=Y
 FontStyle=SmallFont
 CustomColor=Day
 DaycustomColor:#734A08
-DayXpm="16 14 2 1"   Colormode=16
+DayXpm="12 14 2 1"   Colormode=16
 "!	c #734A08"
 "  	c none"
-"     !!!!!!     "
-"     !!!!       "
-"     !!!!!!     "
-"     !!         "
-"     !!         "
-"   !!!!!!       "
-" !!!!!!!!!!     "
-"                "
-"!!!!!!!!!!!!    "
-" !!!!  !!!!     "
-" !!!    !!!     "
-" !!!    !!!     "
-" !!!    !!!     "
-"!!!!!!!!!!!!    "
-;1234567890123456
+"     !!!!!! "
+"     !!!!   "
+"     !!!!!! "
+"     !!     "
+"     !!     "
+"   !!!!!!   "
+" !!!!!!!!!! "
+"            "
+"!!!!!!!!!!!!"
+" !!!!  !!!! "
+" !!!    !!! "
+" !!!    !!! "
+" !!!    !!! "
+"!!!!!!!!!!!!"
+;123456789012
 [end]
 [_point]
 type=0x030
@@ -4844,7 +4856,9 @@ String1=0x01,Glacier
 String2=0x02,Gletscher
 String3=0x04,Gletcher
 String4=0x03,Gletsjer
-ExtendedLabels=N
+ExtendedLabels=Y
+FontStyle=NoLabel (invisible)
+CustomColor=No
 DayXpm="1 1 2 1"   Colormode=16
 "!	c #00FF4B"
 "  	c none"
@@ -5005,7 +5019,9 @@ subtype=0x07
 String2=0x02,Klippe
 String3=0x04,Cliff
 String4=0x03,Klif
-ExtendedLabels=N
+ExtendedLabels=Y
+FontStyle=NoLabel (invisible)
+CustomColor=No
 DayXpm="1 1 2 1"   Colormode=16
 "!	c #00FF4B"
 "  	c none"
@@ -5046,11 +5062,11 @@ String4=0x03,Natuurgebied
 String8=0x10,Reserva natural
 String9=0x05,Riserva
 ExtendedLabels=Y
-FontStyle=Default
+FontStyle=SmallFont
 CustomColor=Day
 DaycustomColor:#006500
 DayXpm="1 1 2 1"   Colormode=16
-"!	c #009500"
+"!	c #00FF4B"
 "  	c none"
 " "
 ;1

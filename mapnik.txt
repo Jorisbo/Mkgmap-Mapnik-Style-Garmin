@@ -17,7 +17,7 @@ CodePage=65001
 ;MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
 ;General Public License for more details.
 ;
-;Auto generated: 20200514 17:07
+;Auto generated: 20200603 12:02
 ;From master: MKG
 ;As subset: mkgmap
 ;Based on mkgmap default style version: r4386
@@ -1146,9 +1146,11 @@ type=0x01
 UseOrientation=N
 LineWidth=8
 BorderWidth=1
-Xpm="0 0 2 0"
+Xpm="0 0 4 0"
 "1 c #E892A2"
 "2 c #FF008B"
+"3 c #E892A2"
+"4 c #FF008B"
 String1=0x01,Autoroute
 String2=0x02,Autobahn
 String3=0x04,Motorway
@@ -1166,9 +1168,11 @@ type=0x02
 UseOrientation=N
 LineWidth=8
 BorderWidth=1
-Xpm="0 0 2 0"
+Xpm="0 0 4 0"
 "1 c #F9B29C"
 "2 c #D87559"
+"3 c #F9B29C"
+"4 c #D87559"
 String1=0x01,Voie rapide
 String2=0x02,Schnellstraße
 String3=0x04,Trunk
@@ -1186,9 +1190,11 @@ type=0x03
 UseOrientation=N
 LineWidth=8
 BorderWidth=1
-Xpm="0 0 2 0"
+Xpm="0 0 4 0"
 "1 c #FCD6A4"
 "2 c #C5A363"
+"3 c #FCD6A4"
+"4 c #C5A363"
 String1=0x01,Route primaire
 String2=0x02,Bundesstraße
 String3=0x04,Primary
@@ -1206,9 +1212,11 @@ type=0x04
 UseOrientation=N
 LineWidth=8
 BorderWidth=1
-Xpm="0 0 2 0"
+Xpm="0 0 4 0"
 "1 c #F7FABF"
 "2 c #BBC279"
+"3 c #F7FABF"
+"4 c #BBC279"
 String1=0x01,Route secondaire
 String2=0x02,Bundesstraße
 String3=0x04,Secondary
@@ -1226,9 +1234,11 @@ type=0x05
 UseOrientation=N
 LineWidth=8
 BorderWidth=1
-Xpm="0 0 2 0"
+Xpm="0 0 4 0"
 "1 c #FFFFFF"
 "2 c #C5C5C5"
+"3 c #FFFFFF"
+"4 c #C5C5C5"
 String1=0x01,Route tertiaire
 String2=0x02,Straße
 String3=0x04,Tertiary
@@ -1246,9 +1256,11 @@ type=0x06
 UseOrientation=N
 LineWidth=7
 BorderWidth=1
-Xpm="0 0 2 0"
+Xpm="0 0 4 0"
 "1 c #FFFFFF"
 "2 c #C5C5C5"
+"3 c #FFFFFF"
+"4 c #C5C5C5"
 String1=0x01,Rue
 String2=0x02,Straße
 String3=0x04,Residential
@@ -1266,9 +1278,11 @@ type=0x07
 UseOrientation=N
 LineWidth=3
 BorderWidth=1
-Xpm="0 0 2 0"
+Xpm="0 0 4 0"
 "1 c #FFFFFF"
 "2 c #C5C5C5"
+"3 c #FFFFFF"
+"4 c #C5C5C5"
 String1=0x01,Rue
 String2=0x02,Straße
 String3=0x04,Street
@@ -1287,9 +1301,11 @@ type=0x08
 UseOrientation=Y
 LineWidth=5
 BorderWidth=1
-Xpm="0 0 2 0"
+Xpm="0 0 4 0"
 "1 c #F7FABF"
 "2 c #BBC279"
+"3 c #F7FABF"
+"4 c #BBC279"
 String1=0x01,Voie d’accès
 String2=0x02,Bundesstraße (Verbindung)
 String3=0x04,Secondary (Link)
@@ -1307,9 +1323,11 @@ type=0x09
 UseOrientation=N
 LineWidth=5
 BorderWidth=1
-Xpm="0 0 2 0"
+Xpm="0 0 4 0"
 "1 c #F9B29C"
 "2 c #D87559"
+"3 c #F9B29C"
+"4 c #D87559"
 String1=0x01,Voie d’accès
 String2=0x02,Schnellstraße (verbindung)
 String3=0x04,Trunk (Link)
@@ -1339,7 +1357,7 @@ String7=0x15,Droga gruntowa (klasa nieznana)
 String8=0x10,Estrada agrícola
 String9=0x05,Sentiero carrabile
 ExtendedLabels=Y
-FontStyle=NoLabel (invisible)
+FontStyle=SmallFont
 CustomColor=No
 [end]
 [_line]
@@ -1348,9 +1366,11 @@ type=0x0b
 UseOrientation=N
 LineWidth=5
 BorderWidth=1
-Xpm="0 0 2 0"
+Xpm="0 0 4 0"
 "1 c #F9B29C"
 "2 c #D87559"
+"3 c #F9B29C"
+"4 c #D87559"
 String1=0x01,Voie d’accès
 String2=0x02,Schnellstraße (verbindung)
 String3=0x04,Trunk (Link)
@@ -1368,9 +1388,11 @@ type=0x0c
 UseOrientation=N
 LineWidth=7
 BorderWidth=1
-Xpm="0 0 2 0"
+Xpm="0 0 4 0"
 "1 c #FFFFFF"
 "2 c #C5C5C5"
+"3 c #FFFFFF"
+"4 c #C5C5C5"
 String1=0x01,Rond point
 String2=0x02,Kreisverkehr
 String3=0x04,Roundabout
@@ -1386,9 +1408,11 @@ CustomColor=No
 type=0x11
 ;GRMN_TYPE: Customizable Line Types/CUSTOMIZABLE_ROUTE_LINE_5/Routable customizable line/Non NT, NT
 UseOrientation=N
-Xpm="32 2 2  1"
+Xpm="32 2 4  1"
 "! c #0030FF"
 "  c none"
+"3 c #0030FF"
+"4 c none"
 "  !!!!    !!!!    !!!!    !!!!  "
 "  !!!!    !!!!    !!!!    !!!!  "
 ;12345678901234567890123456789012
@@ -1451,7 +1475,7 @@ type=0x16
 ;GRMN_TYPE: Roads/TRAIL/Walkway or trail/Non NT, NT
 UseOrientation=N
 Xpm="32 1 2  1"
-"! c #FF0000"
+"! c #FF656A"
 "  c none"
 "  !!!!!   !!!!!   !!!!!   !!!!! "
 ;12345678901234567890123456789012
@@ -1544,18 +1568,10 @@ DaycustomColor:#3965B4
 type=0x1c
 ;GRMN_TYPE: Political Borders/MJR_PLTCL_BDRY/Major political boundary (typically used for state, provincial borders)/Non NT
 UseOrientation=N
-Xpm="32 9 2  1"
+Xpm="32 1 2  1"
 "! c #BD95D5"
 "  c none"
-"  !!!!    !!!!    !!!!    !!!!  "
-"  !!!!    !!!!    !!!!    !!!!  "
-"                                "
-"                                "
-"                                "
-"                                "
-"                                "
-"                                "
-"                                "
+"   !!!   !!!   !!!   !!!!!!!!!!!"
 ;12345678901234567890123456789012
 String1=0x01,Limite communale
 String2=0x02,Grenze
@@ -1572,18 +1588,11 @@ CustomColor=No
 type=0x1d
 ;GRMN_TYPE: Political Borders/MNR_PLTCL_BDRY/Minor political boundary (typically used for county/parish borders)
 UseOrientation=N
-Xpm="32 9 2  1"
+Xpm="32 2 2  1"
 "! c #BD95D5"
 "  c none"
-"!!!!!!!!!!!!!!        !!        "
-"!!!!!!!!!!!!!!        !!        "
-"                                "
-"                                "
-"                                "
-"                                "
-"                                "
-"                                "
-"                                "
+"   !!!   !!!!!!!!!!!!!!!!!!!!!!!"
+"   !!!   !!!!!!!!!!!!!!!!!!!!!!!"
 ;12345678901234567890123456789012
 String1=0x01,Limite départementale
 String2=0x02,Landesgrenze
@@ -1601,15 +1610,14 @@ DaycustomColor:#BD30B4
 type=0x1e
 ;GRMN_TYPE: Political Borders/INTRN_PLTCL_BDRY/International boundary/Non NT
 UseOrientation=N
-Xpm="32 9 2  1"
+Xpm="32 8 2  1"
 "! c #BD95D5"
 "# c #FFFFFF"
-"!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
-"!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
 "#!#!#!#!#!#!#!#!#!#!#!#!#!#!#!#!"
 "!#!#!#!#!#!#!#!#!#!#!#!#!#!#!#!#"
 "#!#!#!#!#!#!#!#!#!#!#!#!#!#!#!#!"
-"!#!#!#!#!#!#!#!#!#!#!#!#!#!#!#!#"
+"!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+"!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
 "#!#!#!#!#!#!#!#!#!#!#!#!#!#!#!#!"
 "!#!#!#!#!#!#!#!#!#!#!#!#!#!#!#!#"
 "#!#!#!#!#!#!#!#!#!#!#!#!#!#!#!#!"
@@ -1748,14 +1756,15 @@ CustomColor=No
 type=0x28
 ;GRMN_TYPE: Misc. Line Types/PIPELINE/Oil or water pipeline/Non NT
 UseOrientation=Y
-Xpm="32 5 2  1"
+Xpm="32 6 2  1"
 "! c #B4B4B4"
 "  c none"
-" !            !  !            ! "
-" !!!!!!!!!!!!!!  !!!!!!!!!!!!!! "
-" !            !  !            ! "
-" !!!!!!!!!!!!!!  !!!!!!!!!!!!!! "
-" !            !  !            ! "
+"  !                          !  "
+"  !!!!!!!!!!!!!!!!!!!!!!!!!!!!  "
+"  !                          !  "
+"  !                          !  "
+"  !!!!!!!!!!!!!!!!!!!!!!!!!!!!  "
+"  !                          !  "
 ;12345678901234567890123456789012
 String1=0x01,Pipeline
 String2=0x02,Rohr
@@ -1811,9 +1820,11 @@ type=0x10801
 UseOrientation=N
 LineWidth=5
 BorderWidth=1
-Xpm="0 0 2 0"
+Xpm="0 0 4 0"
 "1 c #F9B29C"
 "2 c #D87559"
+"3 c #F9B29C"
+"4 c #D87559"
 String1=0x01,Voie d’accès
 String2=0x02,Schnellstraße (verbindung)
 String3=0x04,Trunk (Link)
@@ -1831,9 +1842,11 @@ type=0x10802
 UseOrientation=N
 LineWidth=5
 BorderWidth=1
-Xpm="0 0 2 0"
+Xpm="0 0 4 0"
 "1 c #FCD6A4"
 "2 c #C5A363"
+"3 c #FCD6A4"
+"4 c #C5A363"
 String1=0x01,Voie d’accès
 String2=0x02,Bundesstraße (Verbindung)
 String3=0x04,Primary (Link)
@@ -1851,9 +1864,11 @@ type=0x10803
 UseOrientation=Y
 LineWidth=5
 BorderWidth=1
-Xpm="0 0 2 0"
+Xpm="0 0 4 0"
 "1 c #F7FABF"
 "2 c #BBC279"
+"3 c #F7FABF"
+"4 c #BBC279"
 String1=0x01,Voie d’accès
 String2=0x02,Bundesstraße (Verbindung)
 String3=0x04,Secondary (Link)
@@ -1871,9 +1886,11 @@ type=0x10804
 UseOrientation=N
 LineWidth=8
 BorderWidth=1
-Xpm="0 0 2 0"
+Xpm="0 0 4 0"
 "1 c #FFFFFF"
 "2 c #C5C5C5"
+"3 c #FFFFFF"
+"4 c #C5C5C5"
 String1=0x01,Route tertiaire
 String2=0x02,Straße
 String3=0x04,Tertiary
@@ -1888,16 +1905,14 @@ CustomColor=No
 [_line]
 type=0x10a02
 ;GRMN_TYPE: Water Features/INTERMITTENT_STREAM(NT)/Intermittent or dry stream, creek, or ditch/NT
-UseOrientation=Y
-Xpm="32 6 2  1"
+UseOrientation=N
+Xpm="32 4 2  1"
 "! c #AAD3DF"
 "  c none"
-" !!  !!  !!  !!  !!  !!  !!  !! "
-" !!  !!  !!  !!  !!  !!  !!  !! "
-" !!  !!  !!  !!  !!  !!  !!  !! "
-" !!  !!  !!  !!  !!  !!  !!  !! "
-" !!  !!  !!  !!  !!  !!  !!  !! "
-" !!  !!  !!  !!  !!  !!  !!  !! "
+"  !!!!    !!!!    !!!!    !!!!  "
+"  !!!!    !!!!    !!!!    !!!!  "
+"  !!!!    !!!!    !!!!    !!!!  "
+"  !!!!    !!!!    !!!!    !!!!  "
 ;12345678901234567890123456789012
 String1=0x01,Cours d’eau (intermittent)
 String2=0x02,Fluß (Periodisch)
@@ -3430,7 +3445,9 @@ String4=0x03,Conferentiecentrum
 String7=0x15,Centrum konferencyjne
 String8=0x10,Conferência
 String9=0x05,Fiera
-ExtendedLabels=N
+ExtendedLabels=Y
+FontStyle=NoLabel (invisible)
+CustomColor=No
 DayXpm="1 1 2 1"   Colormode=16
 "!	c #00FF4B"
 "  	c none"
@@ -3448,7 +3465,9 @@ String4=0x03,Wijnmaker
 String7=0x15,Winiarnia
 String8=0x10,Adega
 String9=0x05,Cantina
-ExtendedLabels=N
+ExtendedLabels=Y
+FontStyle=NoLabel (invisible)
+CustomColor=No
 DayXpm="1 1 2 1"   Colormode=16
 "!	c #00FF4B"
 "  	c none"
@@ -3535,15 +3554,11 @@ ExtendedLabels=Y
 FontStyle=SmallFont
 CustomColor=Day
 DaycustomColor:#660033
-DayXpm="10 5 2 1"   Colormode=16
-"!	c #660033"
+DayXpm="1 1 2 1"   Colormode=16
+"!	c #009500"
 "  	c none"
-" !!!      "
-"!!!!!     "
-"!!!!!     "
-"!!!!!     "
-" !!!      "
-;1234567890
+" "
+;1
 [end]
 [_point]
 type=0x02d
@@ -3692,28 +3707,28 @@ ExtendedLabels=Y
 FontStyle=SmallFont
 CustomColor=Day
 DaycustomColor:#009500
-DayXpm="19 18 2 1"   Colormode=16
+DayXpm="15 18 2 1"   Colormode=16
 "!	c #009500"
 "  	c none"
-"         !!        "
-"!         !!       "
-"!!         !!      "
-"!!!     !!  !!     "
-"!!!!   !!!!  !!    "
-"!!!!!  !!!!  !!    "
-"!!!!    !!  !!     "
-"!!!        !!      "
-"!!      !!!!       "
-"!       !!!!       "
-"!        !!!!      "
-"!        !!!!      "
-"!         !!!!     "
-"!        !! !!     "
-"!       !!  !!     "
-"!      !!   !!     "
-"!     !!   !!      "
-"!    !!   !!       "
-;1234567890123456789
+"         !!    "
+"!         !!   "
+"!!         !!  "
+"!!!     !!  !! "
+"!!!!   !!!!  !!"
+"!!!!!  !!!!  !!"
+"!!!!    !!  !! "
+"!!!        !!  "
+"!!      !!!!   "
+"!       !!!!   "
+"!        !!!!  "
+"!        !!!!  "
+"!         !!!! "
+"!        !! !! "
+"!       !!  !! "
+"!      !!   !! "
+"!     !!   !!  "
+"!    !!   !!   "
+;123456789012345
 [end]
 [_point]
 type=0x02d
@@ -3864,7 +3879,7 @@ String9=0x05,Centro sportivo
 ExtendedLabels=Y
 FontStyle=Default
 CustomColor=Day
-DaycustomColor:#006500
+DaycustomColor:#60A46A
 DayXpm="1 1 2 1"   Colormode=16
 "!	c #009500"
 "  	c none"
@@ -4656,7 +4671,9 @@ String4=0x03,Auto club
 String7=0x15,Klub samochodowy
 String8=0x10,Clube automobilístico
 String9=0x05,Amministrazione veicoli
-ExtendedLabels=N
+ExtendedLabels=Y
+FontStyle=NoLabel (invisible)
+CustomColor=No
 DayXpm="1 1 2 1"   Colormode=16
 "!	c #00FF4B"
 "  	c none"
@@ -5012,24 +5029,24 @@ ExtendedLabels=Y
 FontStyle=SmallFont
 CustomColor=Day
 DaycustomColor:#734A08
-DayXpm="16 14 2 1"   Colormode=16
+DayXpm="12 14 2 1"   Colormode=16
 "!	c #734A08"
 "  	c none"
-"     !!!!!!     "
-"     !!!!       "
-"     !!!!!!     "
-"     !!         "
-"     !!         "
-"   !!!!!!       "
-" !!!!!!!!!!     "
-"                "
-"!!!!!!!!!!!!    "
-" !!!!  !!!!     "
-" !!!    !!!     "
-" !!!    !!!     "
-" !!!    !!!     "
-"!!!!!!!!!!!!    "
-;1234567890123456
+"     !!!!!! "
+"     !!!!   "
+"     !!!!!! "
+"     !!     "
+"     !!     "
+"   !!!!!!   "
+" !!!!!!!!!! "
+"            "
+"!!!!!!!!!!!!"
+" !!!!  !!!! "
+" !!!    !!! "
+" !!!    !!! "
+" !!!    !!! "
+"!!!!!!!!!!!!"
+;123456789012
 [end]
 [_point]
 type=0x030
@@ -5267,17 +5284,16 @@ ExtendedLabels=Y
 FontStyle=Default
 CustomColor=Day
 DaycustomColor:#4A58AD
-DayXpm="12 7 2 1"   Colormode=16
+DayXpm="7 7 1 1"   Colormode=0
 "!	c #7981B0"
-"  	c none"
-"!!!!!!!     "
-"!!!!!!!     "
-"!!!!!!!     "
-"!!!!!!!     "
-"!!!!!!!     "
-"!!!!!!!     "
-"!!!!!!!     "
-;123456789012
+"!!!!!!!"
+"!!!!!!!"
+"!!!!!!!"
+"!!!!!!!"
+"!!!!!!!"
+"!!!!!!!"
+"!!!!!!!"
+;1234567
 [end]
 [_point]
 type=0x043
@@ -5294,14 +5310,13 @@ ExtendedLabels=Y
 FontStyle=SmallFont
 CustomColor=Day
 DaycustomColor:#4A58AD
-DayXpm="8 4 2 1"   Colormode=16
+DayXpm="4 4 1 1"   Colormode=0
 "!	c #7981B0"
-"  	c none"
-"!!!!    "
-"!!!!    "
-"!!!!    "
-"!!!!    "
-;12345678
+"!!!!"
+"!!!!"
+"!!!!"
+"!!!!"
+;1234
 [end]
 [_point]
 type=0x043
@@ -5315,7 +5330,7 @@ String7=0x15,Terminal promowy
 String8=0x10,Terminal de balsa
 String9=0x05,Terminal
 ExtendedLabels=Y
-FontStyle=Default
+FontStyle=SmallFont
 CustomColor=Day
 DaycustomColor:#8461C4
 DayXpm="11 15 2 1"   Colormode=16
@@ -5653,7 +5668,9 @@ String4=0x03,Gletsjer
 String7=0x15,Lodowiec
 String8=0x10,Geleira
 String9=0x05,Ghiacciaio
-ExtendedLabels=N
+ExtendedLabels=Y
+FontStyle=NoLabel (invisible)
+CustomColor=No
 DayXpm="1 1 2 1"   Colormode=16
 "!	c #00FF4B"
 "  	c none"
@@ -5851,7 +5868,9 @@ String4=0x03,Kaap
 String7=0x15,Przylądek
 String8=0x10,Cabo
 String9=0x05,Capo
-ExtendedLabels=N
+ExtendedLabels=Y
+FontStyle=NoLabel (invisible)
+CustomColor=No
 DayXpm="1 1 2 1"   Colormode=16
 "!	c #00FF4B"
 "  	c none"
@@ -5869,7 +5888,9 @@ String4=0x03,Klif
 String7=0x15,Klif
 String8=0x10,Penhasco
 String9=0x05,Dirupo
-ExtendedLabels=N
+ExtendedLabels=Y
+FontStyle=NoLabel (invisible)
+CustomColor=No
 DayXpm="1 1 2 1"   Colormode=16
 "!	c #00FF4B"
 "  	c none"
@@ -5888,11 +5909,11 @@ String7=0x15,Rezerwat przyrody
 String8=0x10,Reserva natural
 String9=0x05,Riserva
 ExtendedLabels=Y
-FontStyle=Default
+FontStyle=SmallFont
 CustomColor=Day
 DaycustomColor:#006500
 DayXpm="1 1 2 1"   Colormode=16
-"!	c #009500"
+"!	c #00FF4B"
 "  	c none"
 " "
 ;1
