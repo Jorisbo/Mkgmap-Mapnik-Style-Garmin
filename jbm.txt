@@ -17,7 +17,7 @@ CodePage=65001
 ;MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
 ;General Public License for more details.
 ;
-;Auto generated: 20200622 21:49
+;Auto generated: 20200626 10:55
 ;From master: JBM
 ;As subset: mapnik
 ;
@@ -31,7 +31,7 @@ Type=0x05,14
 Type=0x06,2
 Type=0x07,2
 Type=0x08,2
-Type=0x09,6
+Type=0x09,13
 Type=0x0a,4
 Type=0x0b,4
 Type=0x0c,3
@@ -47,14 +47,14 @@ Type=0x15,2
 Type=0x16,10
 Type=0x17,2
 Type=0x18,7
-Type=0x19,12
+Type=0x19,14
 Type=0x1a,12
 Type=0x1b,11
 Type=0x1c,5
 Type=0x1d,11
 Type=0x1e,3
 Type=0x1f,16
-Type=0x20,13
+Type=0x20,15
 Type=0x21,13
 Type=0x22,4
 Type=0x23,21
@@ -67,7 +67,7 @@ Type=0x29,12
 Type=0x2a,15
 Type=0x2b,8
 Type=0x2c,10
-Type=0x2d,5
+Type=0x2d,12
 Type=0x2e,6
 Type=0x2f,3
 Type=0x30,12
@@ -99,7 +99,7 @@ Type=0x49,22
 Type=0x4a,1
 Type=0x4b,1
 Type=0x4c,3
-Type=0x4d,14
+Type=0x4d,15
 Type=0x4e,8
 Type=0x4f,20
 Type=0x50,11
@@ -1540,16 +1540,15 @@ Xpm="0 0 1 0"
 [_polygon]
 type=0x3f
 ;GRMN_TYPE: Water Areas/LAKE, LAKE_5MI/Medium sized lake, typically between 5 and 30 sq mi in area/Non NT
-String1=0x01,Basin, Reservoir
-String2=0x02,Wasser
-String3=0x04,Water
-String4=0x03,Basin, Reservoir
+String1=0x01,Boue
+String2=0x02,Trockenfallend
+String3=0x04,Tidalflat
+String4=0x03,Droogvallend (Zee)
 ExtendedLabels=Y
-FontStyle=SmallFont
-CustomColor=Day
-DaycustomColor:#4D80B3
+FontStyle=NoLabel (invisible)
+CustomColor=No
 Xpm="0 0 1 0"
-"1 c #AAD3DF"
+"1 c #B4C8CB"
 [end]
 [_polygon]
 type=0x40
@@ -1824,7 +1823,7 @@ type=0x4c
 String1=0x01,Boue
 String2=0x02,Trockenfallend
 String3=0x04,Tidalflat
-String4=0x03,Droogvallend
+String4=0x03,Droogvallend (Land)
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
@@ -6384,6 +6383,28 @@ String2=0x02,Treppen (Kein zugang)
 String3=0x04,Steps (No access)
 String4=0x03,Trappen (Beperte toegang)
 ExtendedLabels=N
+[end]
+[_line]
+type=0x10e00
+;GRMN_TYPE: Customizable Line Types/CUSTOMIZABLE_LINE_1/Non-routable customizable line/Non NT, NT
+UseOrientation=Y
+Xpm="32 6 2  1"
+"! c #EDEDED"
+"# c #C8C8C8"
+"!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+"!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+"!!####!!!!####!!!!####!!!!####!!"
+"!!####!!!!####!!!!####!!!!####!!"
+"!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+"!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+;12345678901234567890123456789012
+String1=0x01,Quartier résidentiel
+String2=0x02,Wohngebiet
+String3=0x04,Living area (Mo access)
+String4=0x03,Woonerf (Beperkte toegang)
+ExtendedLabels=Y
+FontStyle=SmallFont
+CustomColor=No
 [end]
 [_line]
 type=0x10e01
@@ -14346,6 +14367,31 @@ DayXpm="11 11 3 1"   Colormode=16
 " #!!!!!!!# "
 "  #!!!!!#  "
 "   #####   "
+;12345678901
+[end]
+[_point]
+type=0x064
+subtype=0x1c
+;GRMN_TYPE: //
+String4=0x03,Mini rotonde
+ExtendedLabels=Y
+FontStyle=NoLabel (invisible)
+CustomColor=No
+DayXpm="11 11 3 1"   Colormode=16
+"!	c #C4C4C4"
+"#	c #EDEDED"
+"  	c none"
+"   !!!!!   "
+"  !#####!  "
+" !#######! "
+"!#########!"
+"!#########!"
+"!#########!"
+"!#########!"
+"!#########!"
+" !#######! "
+"  !#####!  "
+"   !!!!!   "
 ;12345678901
 [end]
 [_point]
