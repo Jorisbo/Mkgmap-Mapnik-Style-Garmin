@@ -17,7 +17,7 @@ CodePage=65001
 ;MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
 ;General Public License for more details.
 ;
-;Auto generated: 20210131 15:26
+;Auto generated: 20210223 18:31
 ;From master: JBM
 ;As subset: hidebike
 ;
@@ -6502,7 +6502,7 @@ String7=0x15,Stolica
 String8=0x10,Capital
 String9=0x05,Metropoli
 ExtendedLabels=Y
-FontStyle=NormalFont
+FontStyle=LargeFont
 CustomColor=Day
 DaycustomColor:#414141
 DayXpm="11 11 2 1"   Colormode=16
@@ -6572,22 +6572,30 @@ DayXpm="9 9 2 1"   Colormode=16
 type=0x007
 subtype=0x00
 ;GRMN_TYPE: Political Entities/CITY_100K/City with the range of (100, 200] thousand inhabitants/Non NT
-String1=0x01,Hameau
-String2=0x02,Ort, Weiler
-String3=0x04,Hamlet
-String4=0x03,Gehucht
-String7=0x15,Wioska
-String8=0x10,Lugarejo
-String9=0x05,Paese
+String1=0x01,Ville (>50k)
+String2=0x02,Stadt (50t)
+String3=0x04,City (>50k)
+String4=0x03,Woonplaats (>50k)
+String7=0x15,Miasto (>50 tys.)
+String8=0x10,Cidade (>50k)
+String9=0x05,Città
 ExtendedLabels=Y
-FontStyle=LargeFont
+FontStyle=NormalFont
 CustomColor=Day
-DaycustomColor:#737373
-DayXpm="1 1 2 1"   Colormode=16
-"!	c #00FF4B"
+DaycustomColor:#414141
+DayXpm="9 9 2 1"   Colormode=16
+"!	c #737373"
 "  	c none"
-" "
-;1
+"  !!!!!  "
+" !     ! "
+"!       !"
+"!       !"
+"!       !"
+"!       !"
+"!       !"
+" !     ! "
+"  !!!!!  "
+;123456789
 [end]
 [_point]
 type=0x008
@@ -6601,7 +6609,7 @@ String7=0x15,Miasto (>50 tys.)
 String8=0x10,Cidade (>50k)
 String9=0x05,Città
 ExtendedLabels=Y
-FontStyle=LargeFont
+FontStyle=SmallFont
 CustomColor=Day
 DaycustomColor:#414141
 DayXpm="9 9 2 1"   Colormode=16
@@ -6630,7 +6638,7 @@ String7=0x15,Miasto (>10 tys.)
 String8=0x10,Cidade (>10k)
 String9=0x05,Città
 ExtendedLabels=Y
-FontStyle=Default
+FontStyle=LargeFont
 CustomColor=Day
 DaycustomColor:#414141
 DayXpm="1 1 2 1"   Colormode=16
@@ -6651,7 +6659,7 @@ String7=0x15,Wieś (>5 tys.)
 String8=0x10,Povoado (>5k)
 String9=0x05,Cittadina
 ExtendedLabels=Y
-FontStyle=Default
+FontStyle=NormalFont
 CustomColor=Day
 DaycustomColor:#414141
 DayXpm="1 1 2 1"   Colormode=16
@@ -6669,7 +6677,7 @@ String2=0x02,Dorf (>1000)
 String3=0x04,Village (>1000)
 String4=0x03,Dorp (>1000)
 ExtendedLabels=Y
-FontStyle=NormalFont
+FontStyle=SmallFont
 CustomColor=Day
 DaycustomColor:#414141
 DayXpm="1 1 2 1"   Colormode=16
@@ -6820,7 +6828,8 @@ String3=0x04,Street, Square, Apron
 String4=0x03,Straat, Plein, Apron
 ExtendedLabels=Y
 FontStyle=SmallFont
-CustomColor=No
+CustomColor=Day
+DaycustomColor:#414141
 DayXpm="1 1 2 1"   Colormode=16
 "!	c #00FF4B"
 "  	c none"
