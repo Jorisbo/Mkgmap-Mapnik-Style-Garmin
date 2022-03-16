@@ -17,7 +17,7 @@ CodePage=65001
 ;MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
 ;General Public License for more details.
 ;
-;Auto generated: 20210223 18:31
+;Auto generated: 20220112 13:49
 ;From master: JBM
 ;As subset: hidebike
 ;
@@ -546,7 +546,7 @@ ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
 Xpm="0 0 1 0"
-"1 c #B5E3B5"
+"1 c #E2F5C1"
 [end]
 [_polygon]
 type=0x19
@@ -685,7 +685,7 @@ ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
 Xpm="0 0 1 0"
-"1 c #B5E3B5"
+"1 c #E2F5C1"
 [end]
 [_polygon]
 type=0x1e
@@ -4287,6 +4287,20 @@ String4=0x03,Natuurgebied
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+[end]
+[_line]
+type=0x1001f
+;GRMN_TYPE: //
+UseOrientation=Y
+LineWidth=1
+Xpm="0 0 1 0"
+"1 c #737373"
+String3=0x04,Golf hole
+String4=0x03,Golf hole
+ExtendedLabels=Y
+FontStyle=SmallFont
+CustomColor=Day
+DaycustomColor:#737373
 [end]
 [_line]
 type=0x10101
@@ -9299,6 +9313,40 @@ DayXpm="9 17 2 1"   Colormode=16
 [end]
 [_point]
 type=0x02c
+subtype=0x1b
+;GRMN_TYPE: //
+String1=0x01,Pin
+String2=0x02,Pin
+String3=0x04,Pin
+String4=0x03,Pin
+ExtendedLabels=Y
+FontStyle=SmallFont
+CustomColor=No
+DayXpm="15 18 2 1"   Colormode=16
+"!	c #626262"
+"  	c none"
+"      !        "
+"      !!       "
+"      !!!      "
+"      !!!!     "
+"      !!!!!    "
+"      !!!!     "
+"      !!!      "
+"      !!       "
+"      !        "
+"      !        "
+"      !        "
+"      !        "
+"      !        "
+"      !        "
+"      !        "
+"      !        "
+"    !!!!!      "
+"   !!!!!!!     "
+;123456789012345
+[end]
+[_point]
+type=0x02c
 subtype=0x1f
 ;GRMN_TYPE: //
 String1=0x01,Pierre
@@ -10999,8 +11047,9 @@ String7=0x15,Wypożyczalnia samochodów
 String8=0x10,Aluguel de carro
 String9=0x05,Noleggio veicoli
 ExtendedLabels=Y
-FontStyle=NoLabel (invisible)
-CustomColor=No
+FontStyle=SmallFont
+CustomColor=Day
+DaycustomColor:#0065D5
 DayXpm="10 14 2 1"   Colormode=16
 "!	c #0095FF"
 "  	c none"
@@ -13942,7 +13991,7 @@ subtype=0x08
 ;GRMN_TYPE: //
 String1=0x01,Ambassade
 String2=0x02,Botschaft
-String3=0x04,Ambassy
+String3=0x04,Embassy
 String4=0x03,Ambassade
 ExtendedLabels=Y
 FontStyle=SmallFont
