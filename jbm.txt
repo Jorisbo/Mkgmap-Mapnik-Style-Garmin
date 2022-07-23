@@ -17,7 +17,7 @@ CodePage=65001
 ;MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
 ;General Public License for more details.
 ;
-;Auto generated: 20220112 13:49
+;Auto generated: 20220722 20:30
 ;From master: JBM
 ;As subset: mapnik
 ;
@@ -157,6 +157,7 @@ ExtendedLabels=Y
 FontStyle=Default
 CustomColor=Day
 DaycustomColor:#FF0041
+ContourColor=No
 Xpm="32 32 2 1"
 "! c #FF958B"
 "  c none"
@@ -204,6 +205,7 @@ String4=0x03,Bebouwing
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 Xpm="0 0 1 0"
 "1 c #E0DFDF"
 [end]
@@ -220,6 +222,7 @@ String9=0x05,Area residenziale
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 Xpm="0 0 1 0"
 "1 c #E0DFDF"
 [end]
@@ -236,6 +239,7 @@ String9=0x05,Area militare
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 Xpm="32 32 2 1"
 "! c #FF958B"
 "  c none"
@@ -286,6 +290,7 @@ String9=0x05,Parcheggio
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 Xpm="0 0 1 0"
 "1 c #EEEEEE"
 [end]
@@ -302,6 +307,7 @@ String9=0x05,Garage
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 Xpm="0 0 1 0"
 "1 c #DFDDCE"
 [end]
@@ -318,6 +324,7 @@ String9=0x05,Aerodromo
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 Xpm="0 0 1 0"
 "1 c #E9E7E2"
 [end]
@@ -331,6 +338,7 @@ String4=0x03,Religieus gebied
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 Xpm="0 0 1 0"
 "1 c #D0D0D0"
 [end]
@@ -347,6 +355,7 @@ String9=0x05,Scuola
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 Xpm="0 0 1 0"
 "1 c #FFFFE5"
 [end]
@@ -363,6 +372,7 @@ String9=0x05,Scuola
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 Xpm="0 0 1 0"
 "1 c #FFFFE5"
 [end]
@@ -379,6 +389,7 @@ String9=0x05,Ospedale
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 Xpm="0 0 1 0"
 "1 c #FFFFE5"
 [end]
@@ -395,6 +406,7 @@ String9=0x05,Area industriale
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 Xpm="0 0 1 0"
 "1 c #EBDBE8"
 [end]
@@ -408,6 +420,7 @@ String4=0x03,In ontwikkeling
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 Xpm="0 0 1 0"
 "1 c #C7C7B4"
 [end]
@@ -424,6 +437,7 @@ String9=0x05,Area pedonale
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 Xpm="0 0 1 0"
 "1 c #DDDDE8"
 [end]
@@ -437,6 +451,7 @@ String4=0x03,Bebouwing
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 Xpm="0 0 1 0"
 "1 c #D3D3D3"
 [end]
@@ -450,6 +465,7 @@ String4=0x03,Groeve
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 Xpm="32 32 2 1"
 "! c #E6E6E6"
 "# c #C5C3C3"
@@ -500,6 +516,7 @@ String9=0x05,Edificio
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 Xpm="0 0 1 0"
 "1 c #D9D0C9"
 [end]
@@ -513,6 +530,7 @@ String4=0x03,Recreatie gebied
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 Xpm="0 0 1 0"
 "1 c #DFFCE2"
 [end]
@@ -529,6 +547,7 @@ String9=0x05,Parco
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 Xpm="0 0 1 0"
 "1 c #C8FACC"
 [end]
@@ -545,6 +564,7 @@ String9=0x05,Campo da golf
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 Xpm="0 0 1 0"
 "1 c #E2F5C1"
 [end]
@@ -561,6 +581,7 @@ String9=0x05,Campo sportivo
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 Xpm="0 0 1 0"
 "1 c #AAE0CB"
 [end]
@@ -577,6 +598,7 @@ String9=0x05,Cimitero
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 Xpm="32 32 2 1"
 "! c #88B78E"
 "# c #AACBAF"
@@ -624,6 +646,7 @@ String4=0x03,Wijngaard
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 Xpm="32 32 2 1"
 "! c #9AC78F"
 "# c #AEDFA3"
@@ -671,6 +694,7 @@ String4=0x03,Snelweg rustplaats
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 Xpm="0 0 1 0"
 "1 c #EFC8C8"
 [end]
@@ -684,6 +708,7 @@ String4=0x03,Minigolf
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 Xpm="0 0 1 0"
 "1 c #E2F5C1"
 [end]
@@ -700,6 +725,7 @@ String9=0x05,Parco
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 Xpm="0 0 1 0"
 "1 c #C8FACC"
 [end]
@@ -713,6 +739,7 @@ String4=0x03,Honden park
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 Xpm="32 32 2 1"
 "! c #B7E8BC"
 "# c #DFFCE2"
@@ -760,6 +787,7 @@ String4=0x03,Zand
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 Xpm="32 32 2 1"
 "! c #C5C5C5"
 "  c none"
@@ -807,6 +835,7 @@ String4=0x03,Steenslag / Gravel
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 Xpm="32 32 2 1"
 "! c #B4B4B4"
 "  c none"
@@ -857,6 +886,7 @@ String9=0x05,Area commerciale
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 Xpm="0 0 1 0"
 "1 c #F2DAD9"
 [end]
@@ -870,6 +900,7 @@ String4=0x03,Golfbreker
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 Xpm="0 0 1 0"
 "1 c #AAAAAA"
 [end]
@@ -883,6 +914,7 @@ String4=0x03,Kunstencentrum
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 Xpm="0 0 1 0"
 "1 c #FFFFE5"
 [end]
@@ -896,6 +928,7 @@ String4=0x03,Steenvlakte
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 Xpm="0 0 1 0"
 "1 c #EEE5DC"
 [end]
@@ -909,6 +942,7 @@ String4=0x03,Gevangenis
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 Xpm="32 32 2 1"
 "! c #C8C7C3"
 "  c none"
@@ -959,6 +993,7 @@ String9=0x05,Terra
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 Xpm="0 0 1 0"
 "1 c #F2EFE9"
 [end]
@@ -972,6 +1007,7 @@ String4=0x03,Begraafplaats (Moslim)
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 Xpm="32 32 2 1"
 "! c #88B78E"
 "# c #AACBAF"
@@ -1019,6 +1055,7 @@ String4=0x03,Stadsgroen
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 Xpm="0 0 1 0"
 "1 c #CDEBB0"
 [end]
@@ -1032,6 +1069,7 @@ String4=0x03,Heide
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 Xpm="0 0 1 0"
 "1 c #D6D99F"
 [end]
@@ -1045,6 +1083,7 @@ String4=0x03,Grasland
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 Xpm="0 0 1 0"
 "1 c #CDEBB0"
 [end]
@@ -1058,6 +1097,7 @@ String4=0x03,Tuin
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 Xpm="32 32 2 1"
 "! c #8CB873"
 "# c #CDEBB0"
@@ -1105,6 +1145,7 @@ String4=0x03,Strand
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 Xpm="0 0 1 0"
 "1 c #FFF1BA"
 [end]
@@ -1118,6 +1159,7 @@ String4=0x03,Politie / Brandweer
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 Xpm="0 0 1 0"
 "1 c #F3E3DD"
 [end]
@@ -1131,6 +1173,7 @@ String4=0x03,Begraafplaats (Christelijk)
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 Xpm="32 32 2 1"
 "! c #88B78E"
 "# c #AACBAF"
@@ -1178,6 +1221,7 @@ String4=0x03,Begraafplaats (Joods)
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 Xpm="32 32 2 1"
 "! c #88B78E"
 "# c #AACBAF"
@@ -1229,6 +1273,7 @@ ExtendedLabels=Y
 FontStyle=NormalFont
 CustomColor=Day
 DaycustomColor:#4D80B3
+ContourColor=No
 Xpm="0 0 1 0"
 "1 c #AAD3DF"
 [end]
@@ -1242,6 +1287,7 @@ String4=0x03,Bomen (Gemengd)
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 Xpm="32 32 2 1"
 "! c #8AB379"
 "  c none"
@@ -1289,6 +1335,7 @@ String4=0x03,Bomen (Loofbos)
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 Xpm="32 32 2 1"
 "! c #8AB379"
 "  c none"
@@ -1336,6 +1383,7 @@ String4=0x03,Bomen (Dennenbos)
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 Xpm="32 32 2 1"
 "! c #8AB379"
 "  c none"
@@ -1383,6 +1431,7 @@ String4=0x03,Bomen
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 Xpm="32 32 2 1"
 "! c #8AB379"
 "  c none"
@@ -1430,6 +1479,7 @@ String4=0x03,Bomen (Bladloos)
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 Xpm="32 32 2 1"
 "! c #8AB379"
 "  c none"
@@ -1476,6 +1526,7 @@ String4=0x03,Constructie
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 Xpm="0 0 1 0"
 "1 c #B8B8B8"
 [end]
@@ -1489,6 +1540,7 @@ String4=0x03,Apron
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 Xpm="0 0 1 0"
 "1 c #DADAE0"
 [end]
@@ -1501,6 +1553,7 @@ String4=0x03,Terminal
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 Xpm="0 0 1 0"
 "1 c #C4B6AB"
 [end]
@@ -1518,6 +1571,7 @@ ExtendedLabels=Y
 FontStyle=SmallFont
 CustomColor=Day
 DaycustomColor:#4D80B3
+ContourColor=No
 Xpm="0 0 1 0"
 "1 c #AAD3DF"
 [end]
@@ -1534,6 +1588,7 @@ String9=0x05,Acqua
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 Xpm="0 0 1 0"
 "1 c #AAD3DF"
 [end]
@@ -1547,6 +1602,7 @@ String4=0x03,Droogvallend (Zee)
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 Xpm="0 0 1 0"
 "1 c #B4C8CB"
 [end]
@@ -1560,6 +1616,7 @@ String4=0x03,Recyclagepark / Vuilstort
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 Xpm="0 0 1 0"
 "1 c #B6B592"
 [end]
@@ -1572,6 +1629,7 @@ String4=0x03,Weide
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 Xpm="0 0 1 0"
 "1 c #CDEBB0"
 [end]
@@ -1585,6 +1643,7 @@ ExtendedLabels=Y
 FontStyle=SmallFont
 CustomColor=Day
 DaycustomColor:#4D80B3
+ContourColor=No
 Xpm="32 32 2 1"
 "! c #FFFFFF"
 "  c none"
@@ -1632,6 +1691,7 @@ String4=0x03,Kreupelbos
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 Xpm="0 0 1 0"
 "1 c #C8D7AB"
 [end]
@@ -1645,6 +1705,7 @@ String4=0x03,Kreupelbos
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 Xpm="0 0 1 0"
 "1 c #C8D7AB"
 [end]
@@ -1661,6 +1722,7 @@ String9=0x05,Piscina
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 Xpm="0 0 1 0"
 "1 c #AAD3DF"
 [end]
@@ -1674,6 +1736,7 @@ String4=0x03,Water (Periodiek)
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 Xpm="32 32 2 1"
 "! c #AAD3DF"
 "  c none"
@@ -1721,6 +1784,7 @@ String4=0x03,Rif
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 Xpm="32 32 2 1"
 "! c #3965D5"
 "  c none"
@@ -1771,6 +1835,7 @@ String9=0x05,Area naturale
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 Xpm="0 0 1 0"
 "1 c #DBF1C6"
 [end]
@@ -1784,6 +1849,7 @@ String4=0x03,Pier
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 Xpm="0 0 1 0"
 "1 c #F2EFE9"
 [end]
@@ -1797,6 +1863,7 @@ String4=0x03,Achtergrond
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 Xpm="0 0 1 0"
 "1 c #F2EFE9"
 [end]
@@ -1814,6 +1881,7 @@ ExtendedLabels=Y
 FontStyle=LargeFont
 CustomColor=Day
 DaycustomColor:#00FFFF
+ContourColor=No
 Xpm="0 0 1 0"
 "1 c #F2EFE9"
 [end]
@@ -1827,6 +1895,7 @@ String4=0x03,Droogvallend (Land)
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 Xpm="0 0 1 0"
 "1 c #E6DCD2"
 [end]
@@ -1844,6 +1913,7 @@ ExtendedLabels=Y
 FontStyle=SmallFont
 CustomColor=Day
 DaycustomColor:#4DA0D7
+ContourColor=No
 Xpm="0 0 1 0"
 "1 c #DDECEC"
 [end]
@@ -1860,6 +1930,7 @@ String9=0x05,Terreno coltivato
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 Xpm="0 0 1 0"
 "1 c #EEF0D5"
 [end]
@@ -1873,6 +1944,7 @@ String4=0x03,Kreupelbos
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 Xpm="32 32 2 1"
 "! c #B0BE93"
 "  c none"
@@ -1920,6 +1992,7 @@ String4=0x03,Bos
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 Xpm="0 0 1 0"
 "1 c #ADD19E"
 [end]
@@ -1936,6 +2009,7 @@ String9=0x05,Palude
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 Xpm="32 32 2 1"
 "! c #49A6FA"
 "  c none"
@@ -1983,6 +2057,7 @@ String4=0x03,Nat gebied
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 Xpm="32 32 2 1"
 "! c #49A6FA"
 "  c none"
@@ -2030,6 +2105,7 @@ String4=0x03,Nat gebied
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 Xpm="32 32 2 1"
 "! c #93C29F"
 "  c none"
@@ -2077,6 +2153,7 @@ String4=0x03,Riet
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 Xpm="32 32 2 1"
 "! c #93C29F"
 "  c none"
@@ -2124,6 +2201,7 @@ String4=0x03,Veen
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 Xpm="32 32 2 1"
 "! c #93C29F"
 "  c none"
@@ -2171,6 +2249,7 @@ String4=0x03,Moeras
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 Xpm="32 32 2 1"
 "! c #8AB379"
 "  c none"
@@ -2218,6 +2297,7 @@ String4=0x03,Mangrove
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 Xpm="32 32 2 1"
 "! c #8AB379"
 "  c none"
@@ -2265,6 +2345,7 @@ String4=0x03,Bos
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 Xpm="0 0 1 0"
 "1 c #ADD19E"
 [end]
@@ -2278,6 +2359,7 @@ String4=0x03,IJsbaan
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 Xpm="0 0 1 0"
 "1 c #DDECEC"
 [end]
@@ -2291,6 +2373,7 @@ String4=0x03,Kwekerij
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 Xpm="32 32 2 1"
 "! c #759E6C"
 "# c #AEDFA3"
@@ -2338,6 +2421,7 @@ String4=0x03,Boerenbedrijf
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 Xpm="0 0 1 0"
 "1 c #F5DCBA"
 [end]
@@ -2351,6 +2435,7 @@ String4=0x03,Zand
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 Xpm="0 0 1 0"
 "1 c #F5E9C6"
 [end]
@@ -2364,6 +2449,7 @@ String4=0x03,Boomgaard
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 Xpm="32 32 2 1"
 "! c #759E6C"
 "# c #AEDFA3"
@@ -2411,6 +2497,7 @@ ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=Day
 DaycustomColor:#D32711
+ContourColor=No
 Xpm="0 0 1 0"
 "1 c #FFD6D1"
 [end]
@@ -2424,6 +2511,7 @@ String4=0x03,Religieus gebouw
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 Xpm="0 0 1 0"
 "1 c #C4B6AB"
 [end]
@@ -2437,6 +2525,7 @@ String4=0x03,Miltaire gevarenzone
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 Xpm="32 32 2 1"
 "! c #FFFFFF"
 "# c #FCD8DB"
@@ -2483,6 +2572,7 @@ String4=0x03,Bunker
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 Xpm="0 0 1 0"
 "1 c #F5E9C6"
 [end]
@@ -2496,6 +2586,7 @@ String4=0x03,Service
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 Xpm="0 0 1 0"
 "1 c #FFFFFF"
 [end]
@@ -2509,6 +2600,7 @@ String4=0x03,Rotsen
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 Xpm="32 32 2 1"
 "! c #C5C5C5"
 "  c none"
@@ -2556,6 +2648,7 @@ String4=0x03,In ontwikkeling
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 Xpm="0 0 1 0"
 "1 c #C7C7B4"
 [end]
@@ -2569,6 +2662,7 @@ String4=0x03,Camping
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 Xpm="0 0 1 0"
 "1 c #DEF6C0"
 [end]
@@ -2582,6 +2676,7 @@ String4=0x03,Religieus gebied
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 Xpm="0 0 1 0"
 "1 c #CDCCC9"
 [end]
@@ -2595,6 +2690,7 @@ String4=0x03,Bos
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 Xpm="0 0 1 0"
 "1 c #ADD19E"
 [end]
@@ -2611,6 +2707,7 @@ String9=0x05,Area industriale
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 Xpm="0 0 1 0"
 "1 c #EBDBE8"
 [end]
@@ -2624,6 +2721,7 @@ String4=0x03,Ferry terminal
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 Xpm="0 0 1 0"
 "1 c #E9E7E2"
 [end]
@@ -2640,6 +2738,7 @@ String9=0x05,Stazione
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 Xpm="0 0 1 0"
 "1 c #C4B6AB"
 [end]
@@ -2652,6 +2751,7 @@ String4=0x03,Bus terminal
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 Xpm="0 0 1 0"
 "1 c #E9E7E2"
 [end]
@@ -2665,6 +2765,7 @@ String4=0x03,Speelplaats
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 Xpm="0 0 1 0"
 "1 c #DFFCE2"
 [end]
@@ -2681,6 +2782,7 @@ String9=0x05,Banchina
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 Xpm="0 0 1 0"
 "1 c #BBBBBB"
 [end]
@@ -2694,6 +2796,7 @@ String4=0x03,Picknick
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 Xpm="0 0 1 0"
 "1 c #DEF6C0"
 [end]
@@ -2707,6 +2810,7 @@ String4=0x03,Sportveld
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 Xpm="0 0 1 0"
 "1 c #AAE0CB"
 [end]
@@ -2720,6 +2824,7 @@ String4=0x03,Heide
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 Xpm="0 0 1 0"
 "1 c #D6D99F"
 [end]
@@ -2733,6 +2838,7 @@ String4=0x03,Steenvlakte
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 Xpm="0 0 1 0"
 "1 c #EEE5DC"
 [end]
@@ -2746,6 +2852,7 @@ String4=0x03,Rotsen
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 Xpm="32 32 2 1"
 "! c #C5C5C5"
 "  c none"
@@ -2792,6 +2899,7 @@ String4=0x03,Volkstuinen
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 Xpm="32 32 2 1"
 "! c #F2FAEB"
 "# c #C9E1BF"
@@ -2839,6 +2947,7 @@ String4=0x03,Sportcentrum
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 Xpm="0 0 1 0"
 "1 c #DFFCE2"
 [end]
@@ -2851,6 +2960,7 @@ String4=0x03,Electriciteitsstation
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 Xpm="0 0 1 0"
 "1 c #E2CBDE"
 [end]
@@ -2867,6 +2977,7 @@ String9=0x05,Pista di aviazione
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 Xpm="0 0 1 0"
 "1 c #BBBBCC"
 [end]
@@ -2891,6 +3002,7 @@ String9=0x05,Autostrada
 ExtendedLabels=Y
 FontStyle=SmallFont
 CustomColor=No
+ContourColor=No
 [end]
 [_line]
 type=0x02
@@ -2913,6 +3025,7 @@ String9=0x05,Superstrada
 ExtendedLabels=Y
 FontStyle=SmallFont
 CustomColor=No
+ContourColor=No
 [end]
 [_line]
 type=0x03
@@ -2935,6 +3048,7 @@ String9=0x05,Strada principale
 ExtendedLabels=Y
 FontStyle=SmallFont
 CustomColor=No
+ContourColor=No
 [end]
 [_line]
 type=0x04
@@ -2957,6 +3071,7 @@ String9=0x05,Strada principale
 ExtendedLabels=Y
 FontStyle=SmallFont
 CustomColor=No
+ContourColor=No
 [end]
 [_line]
 type=0x05
@@ -2979,6 +3094,7 @@ String9=0x05,Strada
 ExtendedLabels=Y
 FontStyle=SmallFont
 CustomColor=No
+ContourColor=No
 [end]
 [_line]
 type=0x06
@@ -3001,6 +3117,7 @@ String9=0x05,Strada residenziale
 ExtendedLabels=Y
 FontStyle=SmallFont
 CustomColor=No
+ContourColor=No
 [end]
 [_line]
 type=0x07
@@ -3024,6 +3141,7 @@ ExtendedLabels=Y
 FontStyle=SmallFont
 CustomColor=Day
 DaycustomColor:#626262
+ContourColor=No
 [end]
 [_line]
 type=0x08
@@ -3042,6 +3160,7 @@ String4=0x03,Snelweg (Verbinding)
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 [end]
 [_line]
 type=0x09
@@ -3064,6 +3183,7 @@ String9=0x05,Superstrada (collegamento)
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 [end]
 [_line]
 type=0x0a
@@ -3081,6 +3201,7 @@ String4=0x03,Routable overlay
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 [end]
 [_line]
 type=0x0b
@@ -3103,6 +3224,7 @@ String9=0x05,Strada principale (collegamento)
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 [end]
 [_line]
 type=0x0c
@@ -3120,6 +3242,7 @@ String4=0x03,Rotonde
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 [end]
 [_line]
 type=0x0d
@@ -3142,6 +3265,7 @@ String9=0x05,Strada principale (collegamento)
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 [end]
 [_line]
 type=0x0e
@@ -3161,6 +3285,7 @@ String4=0x03,Woonerf
 ExtendedLabels=Y
 FontStyle=SmallFont
 CustomColor=No
+ContourColor=No
 [end]
 [_line]
 type=0x0f
@@ -3180,6 +3305,7 @@ String4=0x03,Voetgangersgebied
 ExtendedLabels=Y
 FontStyle=SmallFont
 CustomColor=No
+ContourColor=No
 [end]
 [_line]
 type=0x10
@@ -3197,6 +3323,7 @@ String4=0x03,Routable overlay
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 [end]
 [_line]
 type=0x11
@@ -3221,6 +3348,7 @@ ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=Day
 DaycustomColor:#0030FF
+ContourColor=No
 [end]
 [_line]
 type=0x12
@@ -3241,6 +3369,7 @@ String4=0x03,Fietspad (Onverhard)
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 [end]
 [_line]
 type=0x13
@@ -3262,6 +3391,7 @@ String4=0x03,Trappen
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 [end]
 [_line]
 type=0x14
@@ -3284,6 +3414,7 @@ String9=0x05,Ferrovia
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 [end]
 [_line]
 type=0x16
@@ -3304,6 +3435,7 @@ String9=0x05,Sentiero
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 [end]
 [_line]
 type=0x18
@@ -3323,6 +3455,7 @@ ExtendedLabels=Y
 FontStyle=SmallFont
 CustomColor=Day
 DaycustomColor:#4D80B3
+ContourColor=No
 [end]
 [_line]
 type=0x1a
@@ -3344,6 +3477,7 @@ ExtendedLabels=Y
 FontStyle=SmallFont
 CustomColor=Day
 DaycustomColor:#3965B4
+ContourColor=No
 [end]
 [_line]
 type=0x1b
@@ -3365,6 +3499,7 @@ ExtendedLabels=Y
 FontStyle=SmallFont
 CustomColor=Day
 DaycustomColor:#3965B4
+ContourColor=No
 [end]
 [_line]
 type=0x1c
@@ -3385,6 +3520,7 @@ String9=0x05,Confine
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 [end]
 [_line]
 type=0x1d
@@ -3407,6 +3543,7 @@ ExtendedLabels=Y
 FontStyle=SmallFont
 CustomColor=Day
 DaycustomColor:#BD30B4
+ContourColor=No
 [end]
 [_line]
 type=0x1e
@@ -3435,6 +3572,7 @@ ExtendedLabels=Y
 FontStyle=NormalFont
 CustomColor=Day
 DaycustomColor:#BD30B4
+ContourColor=No
 [end]
 [_line]
 type=0x1f
@@ -3454,6 +3592,7 @@ ExtendedLabels=Y
 FontStyle=SmallFont
 CustomColor=Day
 DaycustomColor:#4D80B3
+ContourColor=No
 [end]
 [_line]
 type=0x20
@@ -3474,6 +3613,7 @@ String9=0x05,Curva di livello (20 m)
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 [end]
 [_line]
 type=0x21
@@ -3493,6 +3633,7 @@ ExtendedLabels=Y
 FontStyle=SmallFont
 CustomColor=Day
 DaycustomColor:#996633
+ContourColor=No
 [end]
 [_line]
 type=0x22
@@ -3512,6 +3653,7 @@ ExtendedLabels=Y
 FontStyle=SmallFont
 CustomColor=Day
 DaycustomColor:#996633
+ContourColor=No
 [end]
 [_line]
 type=0x23
@@ -3528,6 +3670,7 @@ ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=Day
 DaycustomColor:#4D80B3
+ContourColor=No
 [end]
 [_line]
 type=0x24
@@ -3565,6 +3708,7 @@ ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=Day
 DaycustomColor:#4D80B3
+ContourColor=No
 [end]
 [_line]
 type=0x26
@@ -3588,6 +3732,7 @@ ExtendedLabels=Y
 FontStyle=SmallFont
 CustomColor=Day
 DaycustomColor:#4D80B3
+ContourColor=No
 [end]
 [_line]
 type=0x27
@@ -3606,6 +3751,7 @@ String9=0x05,Pista di aviazione
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 [end]
 [_line]
 type=0x28
@@ -3631,6 +3777,7 @@ String9=0x05,Conduttura
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 [end]
 [_line]
 type=0x29
@@ -3650,6 +3797,7 @@ String9=0x05,Linea elettrica
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 [end]
 [_line]
 type=0x2a
@@ -3678,6 +3826,7 @@ String4=0x03,Brug
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 [end]
 [_line]
 type=0x2b
@@ -3700,6 +3849,7 @@ String4=0x03,Brug
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 [end]
 [_line]
 type=0x2e
@@ -3717,6 +3867,7 @@ String4=0x03,Via ferrata
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 [end]
 [_line]
 type=0x10000
@@ -3749,6 +3900,7 @@ String4=0x03,Enkel richting
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 [end]
 [_line]
 type=0x10001
@@ -3764,6 +3916,7 @@ String4=0x03,Weg
 ExtendedLabels=Y
 FontStyle=SmallFont
 CustomColor=No
+ContourColor=No
 [end]
 [_line]
 type=0x10002
@@ -3782,6 +3935,7 @@ String4=0x03,Veldweg (Graad 2)
 ExtendedLabels=Y
 FontStyle=SmallFont
 CustomColor=No
+ContourColor=No
 [end]
 [_line]
 type=0x10003
@@ -3800,6 +3954,7 @@ String4=0x03,Veldweg (Graad 3)
 ExtendedLabels=Y
 FontStyle=SmallFont
 CustomColor=No
+ContourColor=No
 [end]
 [_line]
 type=0x10004
@@ -3818,6 +3973,7 @@ String4=0x03,Veldweg (Graad 4)
 ExtendedLabels=Y
 FontStyle=SmallFont
 CustomColor=No
+ContourColor=No
 [end]
 [_line]
 type=0x10005
@@ -3836,6 +3992,7 @@ String4=0x03,Veldweg (Graad 5)
 ExtendedLabels=Y
 FontStyle=SmallFont
 CustomColor=No
+ContourColor=No
 [end]
 [_line]
 type=0x10006
@@ -3857,6 +4014,7 @@ String9=0x05,Sentiero carrabile
 ExtendedLabels=Y
 FontStyle=SmallFont
 CustomColor=No
+ContourColor=No
 [end]
 [_line]
 type=0x10007
@@ -3877,6 +4035,7 @@ String9=0x05,Traghetto
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 [end]
 [_line]
 type=0x10008
@@ -3894,6 +4053,7 @@ String4=0x03,Ruiterpad
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 [end]
 [_line]
 type=0x10009
@@ -3913,6 +4073,7 @@ String4=0x03,Busbaan
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 [end]
 [_line]
 type=0x1000a
@@ -3945,6 +4106,7 @@ String4=0x03,Enkel richting
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 [end]
 [_line]
 type=0x1000b
@@ -3977,6 +4139,7 @@ String4=0x03,Enkel richting
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 [end]
 [_line]
 type=0x1000c
@@ -4009,6 +4172,7 @@ String4=0x03,Enkel richting
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 [end]
 [_line]
 type=0x1000d
@@ -4041,6 +4205,7 @@ String4=0x03,Enkel richting
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 [end]
 [_line]
 type=0x1000f
@@ -4060,6 +4225,7 @@ String4=0x03,Spoor (Historisch)
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 [end]
 [_line]
 type=0x10010
@@ -4078,6 +4244,7 @@ String4=0x03,Miniatuur trein
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 [end]
 [_line]
 type=0x10011
@@ -4097,6 +4264,7 @@ String4=0x03,Spoorweg (Tunnel)
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 [end]
 [_line]
 type=0x10012
@@ -4114,6 +4282,7 @@ String4=0x03,Tram, Metro (Tunnel)
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 [end]
 [_line]
 type=0x10013
@@ -4129,6 +4298,7 @@ String4=0x03,Metro
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 [end]
 [_line]
 type=0x10014
@@ -4143,6 +4313,7 @@ String4=0x03,Spoorweg
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 [end]
 [_line]
 type=0x10015
@@ -4158,6 +4329,7 @@ String4=0x03,Tramspoor
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 [end]
 [_line]
 type=0x10016
@@ -4175,6 +4347,7 @@ String4=0x03,Spoor (Buiten gebruik)
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 [end]
 [_line]
 type=0x10017
@@ -4193,6 +4366,7 @@ String4=0x03,Monorail
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 [end]
 [_line]
 type=0x10018
@@ -4212,6 +4386,7 @@ String4=0x03,Nevenspoor
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 [end]
 [_line]
 type=0x10019
@@ -4227,6 +4402,7 @@ String4=0x03,Spoorelement
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 [end]
 [_line]
 type=0x1001a
@@ -4250,6 +4426,7 @@ String4=0x03,Tramspoor
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 [end]
 [_line]
 type=0x1001c
@@ -4272,6 +4449,7 @@ String4=0x03,Natuurgebied
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 [end]
 [_line]
 type=0x1001d
@@ -4287,6 +4465,7 @@ String4=0x03,Natuurgebied
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 [end]
 [_line]
 type=0x1001f
@@ -4301,6 +4480,7 @@ ExtendedLabels=Y
 FontStyle=SmallFont
 CustomColor=Day
 DaycustomColor:#737373
+ContourColor=No
 [end]
 [_line]
 type=0x10101
@@ -4315,6 +4495,7 @@ String4=0x03,Voetgangersgebied (Rand)
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 [end]
 [_line]
 type=0x10102
@@ -4329,6 +4510,7 @@ String4=0x03,Sportveld (Rand)
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 [end]
 [_line]
 type=0x10103
@@ -4344,6 +4526,7 @@ String4=0x03,School (Rand)
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 [end]
 [_line]
 type=0x10104
@@ -4358,6 +4541,7 @@ String4=0x03,Recreatie (Rand)
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 [end]
 [_line]
 type=0x10105
@@ -4372,6 +4556,7 @@ String4=0x03,Groeve (Rand)
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 [end]
 [_line]
 type=0x10106
@@ -4386,6 +4571,7 @@ String4=0x03,Vliegveld (Rand)
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 [end]
 [_line]
 type=0x10107
@@ -4400,6 +4586,7 @@ String4=0x03,Electriciteitsstation (Rand)
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 [end]
 [_line]
 type=0x10108
@@ -4415,6 +4602,7 @@ String4=0x03,Militair domein (Rand)
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 [end]
 [_line]
 type=0x10109
@@ -4430,6 +4618,7 @@ String4=0x03,Gevangenis (Rand)
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 [end]
 [_line]
 type=0x1010a
@@ -4444,6 +4633,7 @@ String4=0x03,Parkeerplaats (Rand)
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 [end]
 [_line]
 type=0x1010b
@@ -4458,6 +4648,7 @@ String4=0x03,Industriegebied (Rand)
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 [end]
 [_line]
 type=0x1010c
@@ -4472,6 +4663,7 @@ String4=0x03,Commercieel gebied (Rand)
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 [end]
 [_line]
 type=0x1010d
@@ -4486,6 +4678,7 @@ String4=0x03,Handelsgebied (Rand)
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 [end]
 [_line]
 type=0x1010e
@@ -4501,6 +4694,7 @@ String4=0x03,Boerenbedrijf (Rand)
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 [end]
 [_line]
 type=0x1010f
@@ -4515,6 +4709,7 @@ String4=0x03,Haven (Rand)
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 [end]
 [_line]
 type=0x10110
@@ -4529,6 +4724,7 @@ String4=0x03,Service (Rand)
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 [end]
 [_line]
 type=0x10111
@@ -4544,6 +4740,7 @@ String4=0x03,Hek
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 [end]
 [_line]
 type=0x10112
@@ -4558,6 +4755,7 @@ String4=0x03,Stadsmuur
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 [end]
 [_line]
 type=0x10113
@@ -4572,6 +4770,7 @@ String4=0x03,Droge greppel
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 [end]
 [_line]
 type=0x10114
@@ -4590,6 +4789,7 @@ String4=0x03,Dijk
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 [end]
 [_line]
 type=0x10115
@@ -4610,6 +4810,7 @@ String4=0x03,Klif
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 [end]
 [_line]
 type=0x10116
@@ -4624,6 +4825,7 @@ String4=0x03,Muur
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 [end]
 [_line]
 type=0x10117
@@ -4638,6 +4840,7 @@ String4=0x03,Keermuur
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 [end]
 [_line]
 type=0x10401
@@ -4662,6 +4865,7 @@ String4=0x03,Snelweg (Tunnel)
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 [end]
 [_line]
 type=0x10402
@@ -4686,6 +4890,7 @@ String4=0x03,Autoweg (Tunnel)
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 [end]
 [_line]
 type=0x10403
@@ -4710,6 +4915,7 @@ String4=0x03,Primair (Tunnel)
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 [end]
 [_line]
 type=0x10404
@@ -4734,6 +4940,7 @@ String4=0x03,Secundair (Tunnel)
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 [end]
 [_line]
 type=0x10405
@@ -4758,6 +4965,7 @@ String4=0x03,Tertiair (Tunnel
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 [end]
 [_line]
 type=0x10406
@@ -4785,6 +4993,7 @@ String9=0x05,Strada
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 [end]
 [_line]
 type=0x10407
@@ -4812,6 +5021,7 @@ String9=0x05,Strada
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 [end]
 [_line]
 type=0x10408
@@ -4835,6 +5045,7 @@ String9=0x05,Strada residenziale
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 [end]
 [_line]
 type=0x10502
@@ -4849,6 +5060,7 @@ String4=0x03,Taxibaan
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 [end]
 [_line]
 type=0x10503
@@ -4864,6 +5076,7 @@ String4=0x03,Weg
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 [end]
 [_line]
 type=0x10504
@@ -4881,6 +5094,7 @@ String4=0x03,Veldweg (Zoomlevel)
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 [end]
 [_line]
 type=0x10505
@@ -4897,6 +5111,7 @@ String4=0x03,Fietspad
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 [end]
 [_line]
 type=0x10508
@@ -4943,6 +5158,7 @@ String4=0x03,Graat
 ExtendedLabels=Y
 FontStyle=SmallFont
 CustomColor=No
+ContourColor=No
 [end]
 [_line]
 type=0x10509
@@ -4977,6 +5193,7 @@ String13=0x08,Sierra
 ExtendedLabels=Y
 FontStyle=SmallFont
 CustomColor=No
+ContourColor=No
 [end]
 [_line]
 type=0x1050a
@@ -5025,6 +5242,7 @@ String13=0x08,Sierra
 ExtendedLabels=Y
 FontStyle=SmallFont
 CustomColor=No
+ContourColor=No
 [end]
 [_line]
 type=0x1050b
@@ -5047,6 +5265,7 @@ String4=0x03,Zoo / Attractiepark
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 [end]
 [_line]
 type=0x1050c
@@ -5061,6 +5280,7 @@ String4=0x03,Attractiepark
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 [end]
 [_line]
 type=0x1050d
@@ -5075,6 +5295,7 @@ String4=0x03,Attractiepark
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 [end]
 [_line]
 type=0x1051e
@@ -5090,6 +5311,7 @@ String4=0x03,Landsgrens
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 [end]
 [_line]
 type=0x1051f
@@ -5105,6 +5327,7 @@ String4=0x03,Landsgrens
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 [end]
 [_line]
 type=0x10a01
@@ -5120,6 +5343,7 @@ String4=0x03,Bomenrij
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 [end]
 [_line]
 type=0x10a02
@@ -5143,6 +5367,7 @@ String9=0x05,Fiume (discontinuo)
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 [end]
 [_line]
 type=0x10a03
@@ -5158,6 +5383,7 @@ String4=0x03,Haag
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 [end]
 [_line]
 type=0x10a04
@@ -5173,6 +5399,7 @@ String4=0x03,Dam
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 [end]
 [_line]
 type=0x10a05
@@ -5190,6 +5417,7 @@ String4=0x03,Stuw
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 [end]
 [_line]
 type=0x10a06
@@ -5210,6 +5438,7 @@ String9=0x05,Piattaforma
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 [end]
 [_line]
 type=0x10a07
@@ -5228,6 +5457,7 @@ String9=0x05,Pista
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 [end]
 [_line]
 type=0x10a08
@@ -5245,6 +5475,7 @@ String4=0x03,Waterglijbaan
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 [end]
 [_line]
 type=0x10a09
@@ -5262,6 +5493,7 @@ String4=0x03,Piste
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 [end]
 [_line]
 type=0x10a0a
@@ -5278,6 +5510,7 @@ String4=0x03,Waterweg
 ExtendedLabels=Y
 FontStyle=SmallFont
 CustomColor=No
+ContourColor=No
 [end]
 [_line]
 type=0x10a10
@@ -5292,6 +5525,7 @@ String4=0x03,Sloot
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 [end]
 [_line]
 type=0x10a12
@@ -5314,6 +5548,7 @@ String4=0x03,Kanaal, Beek, Rivier (Tunnel)
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 [end]
 [_line]
 type=0x10a13
@@ -5333,6 +5568,7 @@ String4=0x03,Sloot (Tunnel)
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 [end]
 [_line]
 type=0x10a14
@@ -5348,6 +5584,7 @@ String4=0x03,Golfbreker
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 [end]
 [_line]
 type=0x10a15
@@ -5363,6 +5600,7 @@ String4=0x03,Pier
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 [end]
 [_line]
 type=0x10a16
@@ -5386,6 +5624,7 @@ String4=0x03,Pier
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 [end]
 [_line]
 type=0x10a18
@@ -5400,6 +5639,7 @@ String4=0x03,Jachthaven (Land)
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 [end]
 [_line]
 type=0x10a19
@@ -5414,6 +5654,7 @@ String4=0x03,Jachthaven
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 [end]
 [_line]
 type=0x10b01
@@ -5430,6 +5671,7 @@ String4=0x03,Sluis
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 [end]
 [_line]
 type=0x10b03
@@ -5452,6 +5694,7 @@ ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=Day
 DaycustomColor:#000000
+ContourColor=No
 [end]
 [_line]
 type=0x10b04
@@ -5469,6 +5712,7 @@ String4=0x03,Hoogspaningsportaal
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 [end]
 [_line]
 type=0x10c01
@@ -5491,6 +5735,7 @@ String4=0x03,Snelweg (In aanleg)
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 [end]
 [_line]
 type=0x10c02
@@ -5513,6 +5758,7 @@ String4=0x03,Autoweg (In aanleg)
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 [end]
 [_line]
 type=0x10c03
@@ -5535,6 +5781,7 @@ String4=0x03,Primair (In aanleg)
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 [end]
 [_line]
 type=0x10c04
@@ -5557,6 +5804,7 @@ String4=0x03,Secundair (In aanleg)
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 [end]
 [_line]
 type=0x10c05
@@ -5579,6 +5827,7 @@ String4=0x03,Weg (In aanleg)
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 [end]
 [_line]
 type=0x10c06
@@ -5605,6 +5854,7 @@ String9=0x05,Strada in costruzione
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 [end]
 [_line]
 type=0x10c07
@@ -5622,6 +5872,7 @@ String4=0x03,Trappen, Fiets- of voetpad (In aanleg)
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 [end]
 [_line]
 type=0x10c08
@@ -5639,6 +5890,7 @@ String4=0x03,Spoorweg (In aanleg)
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 [end]
 [_line]
 type=0x10c09
@@ -5656,6 +5908,7 @@ String4=0x03,Nevenspoor (Tunnel)
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 [end]
 [_line]
 type=0x10c0a
@@ -5678,6 +5931,7 @@ ExtendedLabels=Y
 FontStyle=SmallFont
 CustomColor=Day
 DaycustomColor:#838383
+ContourColor=No
 [end]
 [_line]
 type=0x10c0b
@@ -5697,6 +5951,7 @@ ExtendedLabels=Y
 FontStyle=SmallFont
 CustomColor=Day
 DaycustomColor:#838383
+ContourColor=No
 [end]
 [_line]
 type=0x10c0c
@@ -5716,6 +5971,7 @@ ExtendedLabels=Y
 FontStyle=SmallFont
 CustomColor=Day
 DaycustomColor:#838383
+ContourColor=No
 [end]
 [_line]
 type=0x10c0d
@@ -5731,6 +5987,7 @@ String4=0x03,Transportband
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 [end]
 [_line]
 type=0x10c10
@@ -5763,6 +6020,7 @@ String4=0x03,Local cycle network overlay
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 [end]
 [_line]
 type=0x10c11
@@ -5796,6 +6054,7 @@ ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=Day
 DaycustomColor:#7B008B
+ContourColor=No
 [end]
 [_line]
 type=0x10c12
@@ -5828,6 +6087,7 @@ String4=0x03,National cycle network overlay
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 [end]
 [_line]
 type=0x10c13
@@ -5860,6 +6120,7 @@ String4=0x03,International cycle network overlay
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 [end]
 [_line]
 type=0x10c14
@@ -5876,6 +6137,7 @@ ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=Day
 DaycustomColor:#006500
+ContourColor=No
 [end]
 [_line]
 type=0x10c15
@@ -5892,6 +6154,7 @@ ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=Day
 DaycustomColor:#FF008B
+ContourColor=No
 [end]
 [_line]
 type=0x10c16
@@ -5908,6 +6171,7 @@ ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=Day
 DaycustomColor:#FF9500
+ContourColor=No
 [end]
 [_line]
 type=0x10c17
@@ -5924,6 +6188,7 @@ ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=Day
 DaycustomColor:#00306A
+ContourColor=No
 [end]
 [_line]
 type=0x10c18
@@ -5940,6 +6205,7 @@ ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=Day
 DaycustomColor:#FF9500
+ContourColor=No
 [end]
 [_line]
 type=0x10c19
@@ -5956,6 +6222,7 @@ ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=Day
 DaycustomColor:#00306A
+ContourColor=No
 [end]
 [_line]
 type=0x10d01
@@ -5971,6 +6238,7 @@ String4=0x03,Snelweg
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 [end]
 [_line]
 type=0x10d02
@@ -5987,6 +6255,7 @@ String4=0x03,Autoweg
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 [end]
 [_line]
 type=0x10d03
@@ -6004,6 +6273,7 @@ String4=0x03,Primair
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 [end]
 [_line]
 type=0x10d04
@@ -6019,6 +6289,7 @@ String4=0x03,Secundair
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 [end]
 [_line]
 type=0x10d05
@@ -6036,6 +6307,7 @@ String4=0x03,Snelweg
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 [end]
 [_line]
 type=0x10d06
@@ -6053,6 +6325,7 @@ String4=0x03,Autoweg
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 [end]
 [_line]
 type=0x10d07
@@ -6070,6 +6343,7 @@ String4=0x03,Primair
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 [end]
 [_line]
 type=0x10d08
@@ -6087,6 +6361,7 @@ String4=0x03,Secundair
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 [end]
 [_line]
 type=0x10d09
@@ -6104,6 +6379,7 @@ String4=0x03,Weg
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 [end]
 [_line]
 type=0x10d0a
@@ -6121,6 +6397,7 @@ String4=0x03,Weg
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 [end]
 [_line]
 type=0x10d0b
@@ -6138,6 +6415,7 @@ String4=0x03,Weg
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 [end]
 [_line]
 type=0x10d0c
@@ -6153,6 +6431,7 @@ String4=0x03,Voetgangersgebied
 ExtendedLabels=Y
 FontStyle=SmallFont
 CustomColor=No
+ContourColor=No
 [end]
 [_line]
 type=0x10d0d
@@ -6170,6 +6449,7 @@ String4=0x03,Woonerf
 ExtendedLabels=Y
 FontStyle=SmallFont
 CustomColor=No
+ContourColor=No
 [end]
 [_line]
 type=0x10d0e
@@ -6187,6 +6467,7 @@ String4=0x03,Weg
 ExtendedLabels=Y
 FontStyle=SmallFont
 CustomColor=No
+ContourColor=No
 [end]
 [_line]
 type=0x10d0f
@@ -6204,6 +6485,7 @@ String4=0x03,Voetgangersgebied
 ExtendedLabels=Y
 FontStyle=SmallFont
 CustomColor=No
+ContourColor=No
 [end]
 [_line]
 type=0x10d10
@@ -6226,6 +6508,7 @@ String4=0x03,Snelweg (Beperkte toegang)
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 [end]
 [_line]
 type=0x10d11
@@ -6248,6 +6531,7 @@ String4=0x03,Autoweg (Beperkte toegang)
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 [end]
 [_line]
 type=0x10d12
@@ -6270,6 +6554,7 @@ String4=0x03,Primair (Beperkte toegang)
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 [end]
 [_line]
 type=0x10d13
@@ -6313,6 +6598,7 @@ ExtendedLabels=Y
 FontStyle=SmallFont
 CustomColor=Day
 DaycustomColor:#626262
+ContourColor=No
 [end]
 [_line]
 type=0x10d15
@@ -6334,6 +6620,7 @@ String4=0x03,Weg (Beperkte toegang)
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 [end]
 [_line]
 type=0x10d16
@@ -6350,6 +6637,7 @@ String4=0x03,Voetpad (Beperkte toegang)
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 [end]
 [_line]
 type=0x10d17
@@ -6364,6 +6652,7 @@ String4=0x03,Veldweg (Beperkte toegang)
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 [end]
 [_line]
 type=0x10d18
@@ -6380,6 +6669,7 @@ String4=0x03,Veldweg (Beperkte toegang)
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 [end]
 [_line]
 type=0x10d19
@@ -6419,6 +6709,7 @@ String4=0x03,Woonerf (Beperkte toegang)
 ExtendedLabels=Y
 FontStyle=SmallFont
 CustomColor=No
+ContourColor=No
 [end]
 [_line]
 type=0x10e01
@@ -6434,6 +6725,7 @@ String4=0x03,Snelweg
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 [end]
 [_line]
 type=0x10e02
@@ -6450,6 +6742,7 @@ String4=0x03,Autoweg
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 [end]
 [_line]
 type=0x10e03
@@ -6465,6 +6758,7 @@ String4=0x03,Primair
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 [end]
 [_line]
 type=0x10e05
@@ -6480,6 +6774,7 @@ String4=0x03,Snelweg
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 [end]
 [_line]
 type=0x10e06
@@ -6495,6 +6790,7 @@ String4=0x03,Snelweg
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 [end]
 [_line]
 type=0x10e07
@@ -6514,6 +6810,7 @@ String4=0x03,Autoweg
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 [end]
 [_line]
 type=0x10e1c
@@ -6529,6 +6826,7 @@ String4=0x03,Brandgang
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 [end]
 [_line]
 type=0x10e1d
@@ -6544,6 +6842,7 @@ String4=0x03,Brandgang
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 [end]
 [_point]
 type=0x001
@@ -6553,6 +6852,7 @@ String4=0x03,Stad (Overlay)
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 DayXpm="1 1 2 1"   Colormode=16
 "!	c #00FF4B"
 "  	c none"
@@ -6574,6 +6874,7 @@ ExtendedLabels=Y
 FontStyle=LargeFont
 CustomColor=Day
 DaycustomColor:#414141
+ContourColor=No
 DayXpm="11 11 2 1"   Colormode=16
 "!	c #737373"
 "  	c none"
@@ -6602,6 +6903,7 @@ ExtendedLabels=Y
 FontStyle=NormalFont
 CustomColor=Day
 DaycustomColor:#00006A
+ContourColor=No
 DayXpm="1 1 2 1"   Colormode=16
 "!	c #00FF4B"
 "  	c none"
@@ -6623,6 +6925,7 @@ ExtendedLabels=Y
 FontStyle=LargeFont
 CustomColor=Day
 DaycustomColor:#414141
+ContourColor=No
 DayXpm="9 9 2 1"   Colormode=16
 "!	c #737373"
 "  	c none"
@@ -6652,6 +6955,7 @@ ExtendedLabels=Y
 FontStyle=NormalFont
 CustomColor=Day
 DaycustomColor:#414141
+ContourColor=No
 DayXpm="9 9 2 1"   Colormode=16
 "!	c #737373"
 "  	c none"
@@ -6681,6 +6985,7 @@ ExtendedLabels=Y
 FontStyle=SmallFont
 CustomColor=Day
 DaycustomColor:#414141
+ContourColor=No
 DayXpm="9 9 2 1"   Colormode=16
 "!	c #737373"
 "  	c none"
@@ -6710,6 +7015,7 @@ ExtendedLabels=Y
 FontStyle=LargeFont
 CustomColor=Day
 DaycustomColor:#414141
+ContourColor=No
 DayXpm="1 1 2 1"   Colormode=16
 "!	c #00FF4B"
 "  	c none"
@@ -6731,6 +7037,7 @@ ExtendedLabels=Y
 FontStyle=NormalFont
 CustomColor=Day
 DaycustomColor:#414141
+ContourColor=No
 DayXpm="1 1 2 1"   Colormode=16
 "!	c #00FF4B"
 "  	c none"
@@ -6749,6 +7056,7 @@ ExtendedLabels=Y
 FontStyle=SmallFont
 CustomColor=Day
 DaycustomColor:#414141
+ContourColor=No
 DayXpm="1 1 2 1"   Colormode=16
 "!	c #00FF4B"
 "  	c none"
@@ -6770,6 +7078,7 @@ ExtendedLabels=Y
 FontStyle=NormalFont
 CustomColor=Day
 DaycustomColor:#737373
+ContourColor=No
 DayXpm="1 1 2 1"   Colormode=16
 "!	c #00FF4B"
 "  	c none"
@@ -6791,6 +7100,7 @@ ExtendedLabels=Y
 FontStyle=SmallFont
 CustomColor=Day
 DaycustomColor:#737373
+ContourColor=No
 DayXpm="1 1 2 1"   Colormode=16
 "!	c #00FF4B"
 "  	c none"
@@ -6809,6 +7119,7 @@ ExtendedLabels=Y
 FontStyle=NormalFont
 CustomColor=Day
 DaycustomColor:#BD65D5
+ContourColor=No
 DayXpm="1 1 2 1"   Colormode=16
 "!	c #00FF4B"
 "  	c none"
@@ -6827,6 +7138,7 @@ ExtendedLabels=Y
 FontStyle=LargeFont
 CustomColor=Day
 DaycustomColor:#414141
+ContourColor=No
 DayXpm="1 1 2 1"   Colormode=16
 "!	c #00FF4B"
 "  	c none"
@@ -6845,6 +7157,7 @@ ExtendedLabels=Y
 FontStyle=NormalFont
 CustomColor=Day
 DaycustomColor:#BD30B4
+ContourColor=No
 DayXpm="1 1 2 1"   Colormode=16
 "!	c #00FF4B"
 "  	c none"
@@ -6863,6 +7176,7 @@ ExtendedLabels=Y
 FontStyle=LargeFont
 CustomColor=Day
 DaycustomColor:#006500
+ContourColor=No
 DayXpm="1 1 2 1"   Colormode=16
 "!	c #00FF4B"
 "  	c none"
@@ -6881,6 +7195,7 @@ ExtendedLabels=Y
 FontStyle=SmallFont
 CustomColor=Day
 DaycustomColor:#414141
+ContourColor=No
 DayXpm="1 1 2 1"   Colormode=16
 "!	c #00FF4B"
 "  	c none"
@@ -6899,6 +7214,7 @@ ExtendedLabels=Y
 FontStyle=SmallFont
 CustomColor=Day
 DaycustomColor:#414141
+ContourColor=No
 DayXpm="1 1 2 1"   Colormode=16
 "!	c #00FF4B"
 "  	c none"
@@ -6919,6 +7235,7 @@ ExtendedLabels=Y
 FontStyle=SmallFont
 CustomColor=Day
 DaycustomColor:#006500
+ContourColor=No
 DayXpm="1 1 2 1"   Colormode=16
 "!	c #00FF4B"
 "  	c none"
@@ -6940,6 +7257,7 @@ ExtendedLabels=Y
 FontStyle=NormalFont
 CustomColor=Day
 DaycustomColor:#006500
+ContourColor=No
 DayXpm="1 1 2 1"   Colormode=16
 "!	c #00FF4B"
 "  	c none"
@@ -6961,6 +7279,7 @@ ExtendedLabels=Y
 FontStyle=SmallFont
 CustomColor=Day
 DaycustomColor:#BD3000
+ContourColor=No
 DayXpm="4 4 2 1"   Colormode=16
 "!	c #BD3000"
 "  	c none"
@@ -6981,6 +7300,7 @@ String4=0x03,Uitzichtpunt
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 DayXpm="16 14 2 1"   Colormode=16
 "!	c #734A08"
 "  	c none"
@@ -7015,6 +7335,7 @@ ExtendedLabels=Y
 FontStyle=NormalFont
 CustomColor=Day
 DaycustomColor:#006500
+ContourColor=No
 DayXpm="1 1 2 1"   Colormode=16
 "!	c #00FF4B"
 "  	c none"
@@ -7036,6 +7357,7 @@ ExtendedLabels=Y
 FontStyle=SmallFont
 CustomColor=Day
 DaycustomColor:#4D80B3
+ContourColor=No
 DayXpm="1 1 2 1"   Colormode=16
 "!	c #00FF4B"
 "  	c none"
@@ -7057,6 +7379,7 @@ ExtendedLabels=Y
 FontStyle=NormalFont
 CustomColor=Day
 DaycustomColor:#4D80B3
+ContourColor=No
 DayXpm="1 1 2 1"   Colormode=16
 "!	c #00FF4B"
 "  	c none"
@@ -7078,6 +7401,7 @@ ExtendedLabels=Y
 FontStyle=NormalFont
 CustomColor=Day
 DaycustomColor:#4D80B3
+ContourColor=No
 DayXpm="1 1 2 1"   Colormode=16
 "!	c #00FF4B"
 "  	c none"
@@ -7098,6 +7422,7 @@ String9=0x05,Ristorante
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 DayXpm="14 16 3 1"   Colormode=16
 "!	c #C77400"
 "#	c #BD956A"
@@ -7131,6 +7456,7 @@ String4=0x03,Fastfood
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 DayXpm="14 9 3 1"   Colormode=16
 "!	c #C77400"
 "#	c #CD9649"
@@ -7157,6 +7483,7 @@ String4=0x03,Cafe
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 DayXpm="13 12 3 1"   Colormode=16
 "!	c #CD9344"
 "#	c #C77400"
@@ -7186,6 +7513,7 @@ String4=0x03,Biergarten
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 DayXpm="13 14 3 1"   Colormode=16
 "!	c #CFA060"
 "#	c #C77400"
@@ -7220,6 +7548,7 @@ String9=0x05,Bar
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 DayXpm="13 12 2 1"   Colormode=16
 "!	c #C77400"
 "  	c none"
@@ -7247,6 +7576,7 @@ String4=0x03,Pub
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 DayXpm="10 13 2 1"   Colormode=16
 "!	c #C77400"
 "  	c none"
@@ -7275,6 +7605,7 @@ String4=0x03,Nachtclub
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 DayXpm="13 14 2 1"   Colormode=16
 "!	c #734A08"
 "  	c none"
@@ -7304,6 +7635,7 @@ String4=0x03,IJssalon
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 DayXpm="12 16 2 1"   Colormode=16
 "!	c #C77400"
 "  	c none"
@@ -7336,6 +7668,7 @@ String4=0x03,Bankje
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 DayXpm="15 6 2 1"   Colormode=16
 "!	c #666666"
 "  	c none"
@@ -7357,6 +7690,7 @@ String4=0x03,Boeken uitleen
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 DayXpm="15 15 2 1"   Colormode=16
 "!	c #734A08"
 "  	c none"
@@ -7387,6 +7721,7 @@ String4=0x03,Vuilbak
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 DayXpm="6 8 2 1"   Colormode=16
 "!	c #666666"
 "  	c none"
@@ -7410,6 +7745,7 @@ String4=0x03,Vuilcontainer
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 DayXpm="9 13 2 1"   Colormode=16
 "!	c #666666"
 "  	c none"
@@ -7442,6 +7778,7 @@ String9=0x05,Servizi igienici
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 DayXpm="15 14 2 1"   Colormode=16
 "!	c #734A08"
 "  	c none"
@@ -7475,6 +7812,7 @@ String9=0x05,Punto di raccolta
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 DayXpm="17 17 2 1"   Colormode=16
 "!	c #734A08"
 "  	c none"
@@ -7508,6 +7846,7 @@ String4=0x03,Vuurplaats
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 DayXpm="13 16 2 1"   Colormode=16
 "!	c #734A08"
 "  	c none"
@@ -7540,6 +7879,7 @@ String4=0x03,BBQ
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 DayXpm="14 16 2 1"   Colormode=16
 "!	c #734A08"
 "  	c none"
@@ -7572,6 +7912,7 @@ String4=0x03,Kaart
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 DayXpm="13 13 2 1"   Colormode=16
 "!	c #666666"
 "  	c none"
@@ -7601,6 +7942,7 @@ String4=0x03,Informatiebord
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 DayXpm="10 12 2 1"   Colormode=16
 "!	c #666666"
 "  	c none"
@@ -7629,6 +7971,7 @@ String4=0x03,Autolaadpaal
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 DayXpm="15 14 3 1"   Colormode=16
 "!	c #0095FF"
 "#	c #F2EFE9"
@@ -7663,6 +8006,7 @@ String9=0x05,Ostacolo
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 DayXpm="5 5 2 1"   Colormode=16
 "!	c #3F3F3F"
 "  	c none"
@@ -7684,6 +8028,7 @@ String4=0x03,Hek, Poort
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 DayXpm="8 8 2 1"   Colormode=16
 "!	c #3F3F3F"
 "  	c none"
@@ -7708,6 +8053,7 @@ String4=0x03,Verkeerslicht
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 DayXpm="6 16 2 1"   Colormode=16
 "!	c #666666"
 "  	c none"
@@ -7740,6 +8086,7 @@ String4=0x03,Wisselkantoor
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 DayXpm="17 17 2 1"   Colormode=16
 "!	c #734A08"
 "  	c none"
@@ -7773,6 +8120,7 @@ String4=0x03,Opslagtank
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 DayXpm="12 16 2 1"   Colormode=16
 "!	c #666666"
 "  	c none"
@@ -7804,6 +8152,7 @@ String4=0x03,Botenhelling
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 DayXpm="18 16 2 1"   Colormode=16
 "!	c #0095FF"
 "  	c none"
@@ -7840,6 +8189,7 @@ ExtendedLabels=Y
 FontStyle=SmallFont
 CustomColor=Day
 DaycustomColor:#0065D5
+ContourColor=No
 DayXpm="16 10 2 1"   Colormode=16
 "!	c #0095FF"
 "  	c none"
@@ -7870,6 +8220,7 @@ ExtendedLabels=Y
 FontStyle=SmallFont
 CustomColor=Day
 DaycustomColor:#0065D5
+ContourColor=No
 DayXpm="17 16 3 1"   Colormode=16
 "!	c #0095FF"
 "#	c #7BCAFF"
@@ -7903,6 +8254,7 @@ String4=0x03,Boom
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 DayXpm="11 11 3 1"   Colormode=16
 "!	c #8CD58F"
 "#	c #BD958B"
@@ -7930,6 +8282,7 @@ String4=0x03,Reclamezuil
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 DayXpm="8 16 3 1"   Colormode=16
 "!	c #0A0A0A"
 "#	c #B5AFAA"
@@ -7963,6 +8316,7 @@ String4=0x03,Douche
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 DayXpm="16 16 2 1"   Colormode=16
 "!	c #734A08"
 "  	c none"
@@ -7998,6 +8352,7 @@ String9=0x05,Rifugio
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 DayXpm="13 15 2 1"   Colormode=16
 "!	c #666666"
 "  	c none"
@@ -8029,6 +8384,7 @@ ExtendedLabels=Y
 FontStyle=SmallFont
 CustomColor=Day
 DaycustomColor:#0065D5
+ContourColor=No
 DayXpm="16 16 2 1"   Colormode=16
 "!	c #0095FF"
 "  	c none"
@@ -8061,6 +8417,7 @@ ExtendedLabels=Y
 FontStyle=SmallFont
 CustomColor=Day
 DaycustomColor:#0065D5
+ContourColor=No
 DayXpm="16 16 2 1"   Colormode=16
 "!	c #0095FF"
 "  	c none"
@@ -8093,6 +8450,7 @@ ExtendedLabels=Y
 FontStyle=SmallFont
 CustomColor=Day
 DaycustomColor:#0065D5
+ContourColor=No
 DayXpm="16 16 3 1"   Colormode=16
 "!	c #0095FF"
 "#	c #7BCAFF"
@@ -8126,6 +8484,7 @@ String4=0x03,Fietsenstalling (Prive)
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 DayXpm="16 14 2 1"   Colormode=16
 "!	c #92BBCF"
 "  	c none"
@@ -8157,6 +8516,7 @@ ExtendedLabels=Y
 FontStyle=SmallFont
 CustomColor=Day
 DaycustomColor:#92BBCF
+ContourColor=No
 DayXpm="9 13 2 1"   Colormode=16
 "!	c #92BBCF"
 "  	c none"
@@ -8186,6 +8546,7 @@ String4=0x03,Boeken
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 DayXpm="15 12 2 1"   Colormode=16
 "!	c #BD30B4"
 "  	c none"
@@ -8213,6 +8574,7 @@ String4=0x03,Auto onderdelen
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 DayXpm="16 12 2 1"   Colormode=16
 "!	c #BD30B4"
 "  	c none"
@@ -8240,6 +8602,7 @@ String4=0x03,Schoonheidssalon
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 DayXpm="16 13 2 1"   Colormode=16
 "!	c #BD30B4"
 "  	c none"
@@ -8268,6 +8631,7 @@ String4=0x03,Budget
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 DayXpm="14 17 2 1"   Colormode=16
 "!	c #BD30B4"
 "  	c none"
@@ -8300,6 +8664,7 @@ String4=0x03,Vis
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 DayXpm="16 10 2 1"   Colormode=16
 "!	c #BD30B4"
 "  	c none"
@@ -8326,6 +8691,7 @@ String4=0x03,Parfumerie
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 DayXpm="16 16 2 1"   Colormode=16
 "!	c #BD30B4"
 "  	c none"
@@ -8358,6 +8724,7 @@ String4=0x03,Copyshop
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 DayXpm="14 16 2 1"   Colormode=16
 "!	c #BD30B4"
 "  	c none"
@@ -8390,6 +8757,7 @@ String4=0x03,Kunstgalerie
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 DayXpm="15 15 2 1"   Colormode=16
 "!	c #734A08"
 "  	c none"
@@ -8421,6 +8789,7 @@ String4=0x03,Telefoonwinkel
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 DayXpm="7 14 2 1"   Colormode=16
 "!	c #BD30B4"
 "  	c none"
@@ -8451,6 +8820,7 @@ String4=0x03,Computer
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 DayXpm="15 15 2 1"   Colormode=16
 "!	c #BD30B4"
 "  	c none"
@@ -8482,6 +8852,7 @@ String4=0x03,Hifi
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 DayXpm="12 16 2 1"   Colormode=16
 "!	c #BD30B4"
 "  	c none"
@@ -8514,6 +8885,7 @@ String4=0x03,Bookmaker
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 DayXpm="17 16 7 1"   Colormode=16
 "!	c #ECE5EC"
 "#	c #ECE7EC"
@@ -8551,6 +8923,7 @@ String4=0x03,Handel
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 DayXpm="16 16 2 1"   Colormode=16
 "!	c #BD30B4"
 "  	c none"
@@ -8583,6 +8956,7 @@ String4=0x03,Kunstgalerie
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 DayXpm="15 15 2 1"   Colormode=16
 "!	c #BD30B4"
 "  	c none"
@@ -8614,6 +8988,7 @@ String4=0x03,Goede doelen winkel
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 DayXpm="14 17 2 1"   Colormode=16
 "!	c #BD30B4"
 "  	c none"
@@ -8647,6 +9022,7 @@ String4=0x03,Tassen
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 DayXpm="16 14 2 1"   Colormode=16
 "!	c #BD30B4"
 "  	c none"
@@ -8676,6 +9052,7 @@ String4=0x03,Video games
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 DayXpm="15 16 2 1"   Colormode=16
 "!	c #BD30B4"
 "  	c none"
@@ -8712,6 +9089,7 @@ ExtendedLabels=Y
 FontStyle=SmallFont
 CustomColor=Day
 DaycustomColor:#734A08
+ContourColor=No
 DayXpm="16 13 2 1"   Colormode=16
 "!	c #734A08"
 "  	c none"
@@ -8745,6 +9123,7 @@ ExtendedLabels=Y
 FontStyle=SmallFont
 CustomColor=Day
 DaycustomColor:#734A08
+ContourColor=No
 DayXpm="15 12 2 1"   Colormode=16
 "!	c #734A08"
 "  	c none"
@@ -8774,6 +9153,7 @@ ExtendedLabels=Y
 FontStyle=SmallFont
 CustomColor=Day
 DaycustomColor:#734A08
+ContourColor=No
 DayXpm="15 15 2 1"   Colormode=16
 "!	c #734A08"
 "  	c none"
@@ -8803,6 +9183,7 @@ String4=0x03,Sportvissen
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 DayXpm="16 16 2 1"   Colormode=16
 "!	c #009500"
 "  	c none"
@@ -8838,6 +9219,7 @@ String9=0x05,Parco giochi
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 DayXpm="18 17 2 1"   Colormode=16
 "!	c #009500"
 "  	c none"
@@ -8870,6 +9252,7 @@ String4=0x03,Vogelkijkhut
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 DayXpm="14 15 2 1"   Colormode=16
 "!	c #009500"
 "  	c none"
@@ -8901,6 +9284,7 @@ String4=0x03,Lift
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 DayXpm="14 12 2 1"   Colormode=16
 "!	c #0095FF"
 "  	c none"
@@ -8933,6 +9317,7 @@ ExtendedLabels=Y
 FontStyle=SmallFont
 CustomColor=Day
 DaycustomColor:#000000
+ContourColor=No
 DayXpm="12 15 2 1"   Colormode=16
 "!	c #000000"
 "  	c none"
@@ -8965,6 +9350,7 @@ ExtendedLabels=Y
 FontStyle=SmallFont
 CustomColor=Day
 DaycustomColor:#000000
+ContourColor=No
 DayXpm="14 12 2 1"   Colormode=16
 "!	c #000000"
 "  	c none"
@@ -8994,6 +9380,7 @@ ExtendedLabels=Y
 FontStyle=SmallFont
 CustomColor=Day
 DaycustomColor:#000000
+ContourColor=No
 DayXpm="10 14 2 1"   Colormode=16
 "!	c #000000"
 "  	c none"
@@ -9025,6 +9412,7 @@ ExtendedLabels=Y
 FontStyle=SmallFont
 CustomColor=Day
 DaycustomColor:#000000
+ContourColor=No
 DayXpm="14 14 2 1"   Colormode=16
 "!	c #000000"
 "  	c none"
@@ -9056,6 +9444,7 @@ ExtendedLabels=Y
 FontStyle=SmallFont
 CustomColor=Day
 DaycustomColor:#000000
+ContourColor=No
 DayXpm="12 13 2 1"   Colormode=16
 "!	c #000000"
 "  	c none"
@@ -9085,6 +9474,7 @@ ExtendedLabels=Y
 FontStyle=SmallFont
 CustomColor=Day
 DaycustomColor:#000000
+ContourColor=No
 DayXpm="14 14 2 1"   Colormode=16
 "!	c #000000"
 "  	c none"
@@ -9115,6 +9505,7 @@ ExtendedLabels=Y
 FontStyle=SmallFont
 CustomColor=Day
 DaycustomColor:#000000
+ContourColor=No
 DayXpm="12 16 2 1"   Colormode=16
 "!	c #000000"
 "  	c none"
@@ -9147,6 +9538,7 @@ String4=0x03,Taoistische tempel
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 DayXpm="14 14 2 1"   Colormode=16
 "!	c #000000"
 "  	c none"
@@ -9177,6 +9569,7 @@ ExtendedLabels=Y
 FontStyle=SmallFont
 CustomColor=Day
 DaycustomColor:#000000
+ContourColor=No
 DayXpm="14 12 2 1"   Colormode=16
 "!	c #000000"
 "  	c none"
@@ -9204,6 +9597,7 @@ String4=0x03,Wegkruis
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 DayXpm="5 8 2 1"   Colormode=16
 "!	c #101010"
 "  	c none"
@@ -9227,6 +9621,7 @@ String4=0x03,Wegkapel
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 DayXpm="7 14 2 1"   Colormode=16
 "!	c #666666"
 "  	c none"
@@ -9257,6 +9652,7 @@ ExtendedLabels=Y
 FontStyle=SmallFont
 CustomColor=Day
 DaycustomColor:#734A08
+ContourColor=No
 DayXpm="12 13 2 1"   Colormode=16
 "!	c #734A08"
 "  	c none"
@@ -9286,6 +9682,7 @@ ExtendedLabels=Y
 FontStyle=SmallFont
 CustomColor=Day
 DaycustomColor:#734A08
+ContourColor=No
 DayXpm="12 9 2 1"   Colormode=16
 "!	c #734A08"
 "  	c none"
@@ -9311,6 +9708,7 @@ ExtendedLabels=Y
 FontStyle=SmallFont
 CustomColor=Day
 DaycustomColor:#734A08
+ContourColor=No
 DayXpm="8 17 2 1"   Colormode=16
 "!	c #734A08"
 "  	c none"
@@ -9344,6 +9742,7 @@ ExtendedLabels=Y
 FontStyle=SmallFont
 CustomColor=Day
 DaycustomColor:#734A08
+ContourColor=No
 DayXpm="9 17 2 1"   Colormode=16
 "!	c #734A08"
 "  	c none"
@@ -9377,6 +9776,7 @@ String4=0x03,Pin
 ExtendedLabels=Y
 FontStyle=SmallFont
 CustomColor=No
+ContourColor=No
 DayXpm="15 18 2 1"   Colormode=16
 "!	c #626262"
 "  	c none"
@@ -9412,6 +9812,7 @@ ExtendedLabels=Y
 FontStyle=SmallFont
 CustomColor=Day
 DaycustomColor:#734A08
+ContourColor=No
 DayXpm="14 9 2 1"   Colormode=16
 "!	c #734A08"
 "  	c none"
@@ -9437,6 +9838,7 @@ ExtendedLabels=Y
 FontStyle=SmallFont
 CustomColor=Day
 DaycustomColor:#734A08
+ContourColor=No
 DayXpm="8 16 2 1"   Colormode=16
 "!	c #734A08"
 "  	c none"
@@ -9473,6 +9875,7 @@ ExtendedLabels=Y
 FontStyle=SmallFont
 CustomColor=Day
 DaycustomColor:#734A08
+ContourColor=No
 DayXpm="14 13 2 1"   Colormode=16
 "!	c #734A08"
 "  	c none"
@@ -9503,6 +9906,7 @@ ExtendedLabels=Y
 FontStyle=SmallFont
 CustomColor=Day
 DaycustomColor:#734A08
+ContourColor=No
 DayXpm="12 14 2 1"   Colormode=16
 "!	c #734A08"
 "  	c none"
@@ -9537,6 +9941,7 @@ ExtendedLabels=Y
 FontStyle=SmallFont
 CustomColor=Day
 DaycustomColor:#734A08
+ContourColor=No
 DayXpm="12 13 2 1"   Colormode=16
 "!	c #734A08"
 "  	c none"
@@ -9570,6 +9975,7 @@ ExtendedLabels=Y
 FontStyle=SmallFont
 CustomColor=Day
 DaycustomColor:#734A08
+ContourColor=No
 DayXpm="16 15 2 1"   Colormode=16
 "!	c #734A08"
 "  	c none"
@@ -9602,6 +10008,7 @@ ExtendedLabels=Y
 FontStyle=SmallFont
 CustomColor=Day
 DaycustomColor:#009500
+ContourColor=No
 DayXpm="17 18 2 1"   Colormode=16
 "!	c #009500"
 "  	c none"
@@ -9640,6 +10047,7 @@ ExtendedLabels=Y
 FontStyle=SmallFont
 CustomColor=Day
 DaycustomColor:#009500
+ContourColor=No
 DayXpm="16 16 2 1"   Colormode=16
 "!	c #009500"
 "  	c none"
@@ -9672,6 +10080,7 @@ String4=0x03,Sauna
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 DayXpm="16 16 2 1"   Colormode=16
 "!	c #009500"
 "  	c none"
@@ -9708,6 +10117,7 @@ ExtendedLabels=Y
 FontStyle=SmallFont
 CustomColor=Day
 DaycustomColor:#009500
+ContourColor=No
 DayXpm="15 13 2 1"   Colormode=16
 "!	c #009500"
 "  	c none"
@@ -9737,6 +10147,7 @@ String4=0x03,Hondenuitlaatplaats
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 DayXpm="14 14 2 1"   Colormode=16
 "!	c #009500"
 "  	c none"
@@ -9767,6 +10178,7 @@ String4=0x03,Fitness
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 DayXpm="14 16 2 1"   Colormode=16
 "!	c #009500"
 "  	c none"
@@ -9798,6 +10210,7 @@ String4=0x03,Spoorwegovergang
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 DayXpm="9 9 2 1"   Colormode=16
 "!	c #313131"
 "  	c none"
@@ -9822,6 +10235,7 @@ String4=0x03,Buiten zitplaats
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 DayXpm="16 16 2 1"   Colormode=16
 "!	c #009500"
 "  	c none"
@@ -9854,6 +10268,7 @@ String4=0x03,Massage salon
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 DayXpm="16 16 2 1"   Colormode=16
 "!	c #009500"
 "  	c none"
@@ -9885,6 +10300,7 @@ String4=0x03,Amusementscentrum
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 DayXpm="16 15 2 1"   Colormode=16
 "!	c #009500"
 "  	c none"
@@ -9916,6 +10332,7 @@ String4=0x03,Ingang
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 DayXpm="5 5 1 1"   Colormode=0
 "!	c #B9A99C"
 "!!!!!"
@@ -9936,6 +10353,7 @@ String4=0x03,Ingang
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 DayXpm="5 5 1 1"   Colormode=0
 "!	c #9A826F"
 "!!!!!"
@@ -9956,6 +10374,7 @@ String4=0x03,Ingang (Service)
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 DayXpm="5 5 2 1"   Colormode=16
 "!	c #9A826F"
 "  	c none"
@@ -9978,6 +10397,7 @@ ExtendedLabels=Y
 FontStyle=SmallFont
 CustomColor=Day
 DaycustomColor:#576DDF
+ContourColor=No
 DayXpm="12 14 2 1"   Colormode=16
 "!	c #576DDF"
 "  	c none"
@@ -10008,6 +10428,7 @@ String4=0x03,Kantoorboekhandel
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 DayXpm="7 16 2 1"   Colormode=16
 "!	c #BD30B4"
 "  	c none"
@@ -10040,6 +10461,7 @@ String4=0x03,Dranken
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 DayXpm="13 14 2 1"   Colormode=16
 "!	c #BD30B4"
 "  	c none"
@@ -10070,6 +10492,7 @@ String4=0x03,Bandencentrale
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 DayXpm="13 16 2 1"   Colormode=16
 "!	c #BD30B4"
 "  	c none"
@@ -10102,6 +10525,7 @@ String4=0x03,Keuken en koken
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 DayXpm="16 17 2 1"   Colormode=16
 "!	c #BD30B4"
 "  	c none"
@@ -10135,6 +10559,7 @@ String4=0x03,Tickets
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 DayXpm="16 9 3 1"   Colormode=16
 "!	c #FFFFFF"
 "#	c #BD30B4"
@@ -10161,6 +10586,7 @@ String4=0x03,Interieur
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 DayXpm="16 16 2 1"   Colormode=16
 "!	c #BD30B4"
 "  	c none"
@@ -10193,6 +10619,7 @@ String4=0x03,Verf
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 DayXpm="16 16 2 1"   Colormode=16
 "!	c #BD30B4"
 "  	c none"
@@ -10224,6 +10651,7 @@ String4=0x03,Tweedehands
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 DayXpm="14 17 2 1"   Colormode=16
 "!	c #BD30B4"
 "  	c none"
@@ -10260,6 +10688,7 @@ String9=0x05,Grande magazzino
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 DayXpm="14 17 2 1"   Colormode=16
 "!	c #BD30B4"
 "  	c none"
@@ -10296,6 +10725,7 @@ String9=0x05,Alimentari/Drogheria
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 DayXpm="14 8 2 1"   Colormode=16
 "!	c #BD30B4"
 "  	c none"
@@ -10323,6 +10753,7 @@ String9=0x05,Supermercato
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 DayXpm="13 11 2 1"   Colormode=16
 "!	c #BD30B4"
 "  	c none"
@@ -10349,6 +10780,7 @@ String4=0x03,Sportwinkel
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 DayXpm="14 16 2 1"   Colormode=16
 "!	c #BD30B4"
 "  	c none"
@@ -10384,6 +10816,7 @@ String9=0x05,Farmacia
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 DayXpm="10 14 2 1"   Colormode=16
 "!	c #BF0000"
 "  	c none"
@@ -10413,6 +10846,7 @@ String4=0x03,Alcohol en dranken
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 DayXpm="14 14 2 1"   Colormode=16
 "!	c #BD30B4"
 "  	c none"
@@ -10446,6 +10880,7 @@ String9=0x05,Negozio di abbigliamento
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 DayXpm="14 11 2 1"   Colormode=16
 "!	c #BD30B4"
 "  	c none"
@@ -10476,6 +10911,7 @@ String9=0x05,Negozio di giardinaggio
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 DayXpm="16 15 2 1"   Colormode=16
 "!	c #BD30B4"
 "  	c none"
@@ -10510,6 +10946,7 @@ String9=0x05,Negozio di arredamento
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 DayXpm="14 10 2 1"   Colormode=16
 "!	c #BD30B4"
 "  	c none"
@@ -10535,6 +10972,7 @@ String4=0x03,Delicatessen
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 DayXpm="10 14 2 1"   Colormode=16
 "!	c #BD30B4"
 "  	c none"
@@ -10568,6 +11006,7 @@ String9=0x05,Negozio di elettronica
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 DayXpm="14 14 2 1"   Colormode=16
 "!	c #BD30B4"
 "  	c none"
@@ -10601,6 +11040,7 @@ String9=0x05,Negozio
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 DayXpm="5 5 2 1"   Colormode=16
 "!	c #BD30B4"
 "  	c none"
@@ -10621,6 +11061,7 @@ String4=0x03,Drogist
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 DayXpm="13 16 2 1"   Colormode=16
 "!	c #BD30B4"
 "  	c none"
@@ -10653,6 +11094,7 @@ String4=0x03,Slager
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 DayXpm="15 16 2 1"   Colormode=16
 "!	c #BD30B4"
 "  	c none"
@@ -10686,6 +11128,7 @@ ExtendedLabels=Y
 FontStyle=SmallFont
 CustomColor=Day
 DaycustomColor:#BD30B4
+ContourColor=No
 DayXpm="15 13 2 1"   Colormode=16
 "!	c #BD30B4"
 "  	c none"
@@ -10714,6 +11157,7 @@ String4=0x03,Wassalon
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 DayXpm="12 14 2 1"   Colormode=16
 "!	c #BD30B4"
 "  	c none"
@@ -10743,6 +11187,7 @@ String4=0x03,Dierenwinkel
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 DayXpm="14 14 2 1"   Colormode=16
 "!	c #BD30B4"
 "  	c none"
@@ -10772,6 +11217,7 @@ String4=0x03,Juwelier
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 DayXpm="10 16 2 1"   Colormode=16
 "!	c #BD30B4"
 "  	c none"
@@ -10803,6 +11249,7 @@ String4=0x03,Chocolade / Snoepwinkel
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 DayXpm="14 16 2 1"   Colormode=16
 "!	c #BD30B4"
 "  	c none"
@@ -10835,6 +11282,7 @@ String4=0x03,Opticien
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 DayXpm="14 8 2 1"   Colormode=16
 "!	c #BD30B4"
 "  	c none"
@@ -10858,6 +11306,7 @@ String4=0x03,Cadeaus
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 DayXpm="10 14 2 1"   Colormode=16
 "!	c #BD30B4"
 "  	c none"
@@ -10887,6 +11336,7 @@ String4=0x03,Kiosk
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 DayXpm="13 14 2 1"   Colormode=16
 "!	c #BD30B4"
 "  	c none"
@@ -10916,6 +11366,7 @@ String4=0x03,Bloemist
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 DayXpm="12 15 2 1"   Colormode=16
 "!	c #BD30B4"
 "  	c none"
@@ -10946,6 +11397,7 @@ String4=0x03,Fotowinkel
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 DayXpm="14 14 2 1"   Colormode=16
 "!	c #BD30B4"
 "  	c none"
@@ -10975,6 +11427,7 @@ String4=0x03,Groentenboer
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 DayXpm="12 13 2 1"   Colormode=16
 "!	c #BD30B4"
 "  	c none"
@@ -11003,6 +11456,7 @@ String4=0x03,Stoffen
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 DayXpm="16 17 2 1"   Colormode=16
 "!	c #BD30B4"
 "  	c none"
@@ -11034,6 +11488,7 @@ String4=0x03,Tapijten
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 DayXpm="17 16 2 1"   Colormode=16
 "!	c #BD30B4"
 "  	c none"
@@ -11070,6 +11525,7 @@ ExtendedLabels=Y
 FontStyle=SmallFont
 CustomColor=Day
 DaycustomColor:#3E8BFD
+ContourColor=No
 DayXpm="12 14 3 1"   Colormode=16
 "!	c #0095FF"
 "#	c #F2EFE9"
@@ -11105,6 +11561,7 @@ ExtendedLabels=Y
 FontStyle=SmallFont
 CustomColor=Day
 DaycustomColor:#0065D5
+ContourColor=No
 DayXpm="10 14 2 1"   Colormode=16
 "!	c #0095FF"
 "  	c none"
@@ -11138,6 +11595,7 @@ String9=0x05,Riparazione veicoli
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 DayXpm="10 14 2 1"   Colormode=16
 "!	c #734A08"
 "  	c none"
@@ -11172,6 +11630,7 @@ ExtendedLabels=Y
 FontStyle=NormalFont
 CustomColor=Day
 DaycustomColor:#8461C4
+ContourColor=No
 DayXpm="16 16 2 1"   Colormode=16
 "!	c #8461C4"
 "  	c none"
@@ -11207,6 +11666,7 @@ String9=0x05,Poste
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 DayXpm="14 10 2 1"   Colormode=16
 "!	c #734A08"
 "  	c none"
@@ -11237,6 +11697,7 @@ ExtendedLabels=Y
 FontStyle=SmallFont
 CustomColor=Day
 DaycustomColor:#734A08
+ContourColor=No
 DayXpm="14 11 2 1"   Colormode=16
 "!	c #734A08"
 "  	c none"
@@ -11268,6 +11729,7 @@ ExtendedLabels=Y
 FontStyle=SmallFont
 CustomColor=Day
 DaycustomColor:#BD30B4
+ContourColor=No
 DayXpm="13 10 2 1"   Colormode=16
 "!	c #BD30B4"
 "  	c none"
@@ -11294,6 +11756,7 @@ String4=0x03,Informatieterminal
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 DayXpm="8 17 2 1"   Colormode=16
 "!	c #666666"
 "  	c none"
@@ -11327,6 +11790,7 @@ String4=0x03,Metro ingang
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 DayXpm="10 12 3 1"   Colormode=0
 "!	c #0095FF"
 "#	c #7BCAFF"
@@ -11360,6 +11824,7 @@ ExtendedLabels=Y
 FontStyle=SmallFont
 CustomColor=Day
 DaycustomColor:#3E8BFD
+ContourColor=No
 DayXpm="9 13 2 1"   Colormode=16
 "!	c #0095FF"
 "  	c none"
@@ -11392,6 +11857,7 @@ String9=0x05,Informazioni turistiche
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 DayXpm="6 13 2 1"   Colormode=16
 "!	c #666666"
 "  	c none"
@@ -11421,6 +11887,7 @@ String4=0x03,Taxi
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 DayXpm="10 11 2 1"   Colormode=16
 "!	c #0095FF"
 "  	c none"
@@ -11451,6 +11918,7 @@ String9=0x05,Lavaggio veicoli
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 DayXpm="10 14 2 1"   Colormode=16
 "!	c #734A08"
 "  	c none"
@@ -11480,6 +11948,7 @@ String4=0x03,Bootverhuur
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 DayXpm="15 15 2 1"   Colormode=16
 "!	c #0095FF"
 "  	c none"
@@ -11514,6 +11983,7 @@ String9=0x05,Servizi per la persona
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 DayXpm="14 14 2 1"   Colormode=16
 "!	c #BD30B4"
 "  	c none"
@@ -11544,6 +12014,7 @@ String4=0x03,Brievenbus
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 DayXpm="11 13 2 1"   Colormode=16
 "!	c #734A08"
 "  	c none"
@@ -11573,6 +12044,7 @@ String4=0x03,Telefoon
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 DayXpm="14 15 2 1"   Colormode=16
 "!	c #734A08"
 "  	c none"
@@ -11603,6 +12075,7 @@ String4=0x03,Noodtelefoon
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 DayXpm="15 13 2 1"   Colormode=16
 "!	c #734A08"
 "  	c none"
@@ -11636,6 +12109,7 @@ ExtendedLabels=Y
 FontStyle=SmallFont
 CustomColor=Day
 DaycustomColor:#734A08
+ContourColor=No
 DayXpm="14 16 2 1"   Colormode=16
 "!	c #734A08"
 "  	c none"
@@ -11668,6 +12142,7 @@ ExtendedLabels=Y
 FontStyle=SmallFont
 CustomColor=Day
 DaycustomColor:#734A08
+ContourColor=No
 DayXpm="15 16 2 1"   Colormode=16
 "!	c #734A08"
 "  	c none"
@@ -11700,6 +12175,7 @@ String4=0x03,Internetcafe
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 DayXpm="13 13 2 1"   Colormode=16
 "!	c #734A08"
 "  	c none"
@@ -11732,6 +12208,7 @@ String9=0x05,Fermata mezzi pubblici
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 DayXpm="9 11 3 1"   Colormode=16
 "!	c #0095FF"
 "#	c #F2EFE9"
@@ -11760,6 +12237,7 @@ String4=0x03,Fietsenstalling
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 DayXpm="16 14 2 1"   Colormode=16
 "!	c #0095FF"
 "  	c none"
@@ -11791,6 +12269,7 @@ ExtendedLabels=Y
 FontStyle=SmallFont
 CustomColor=Day
 DaycustomColor:#734A08
+ContourColor=No
 DayXpm="13 15 2 1"   Colormode=16
 "!	c #734A08"
 "  	c none"
@@ -11822,6 +12301,7 @@ ExtendedLabels=Y
 FontStyle=SmallFont
 CustomColor=Day
 DaycustomColor:#734A08
+ContourColor=No
 DayXpm="10 13 2 1"   Colormode=16
 "!	c #734A08"
 "  	c none"
@@ -11851,6 +12331,7 @@ ExtendedLabels=Y
 FontStyle=SmallFont
 CustomColor=Day
 DaycustomColor:#4863A0
+ContourColor=No
 DayXpm="5 5 2 1"   Colormode=16
 "!	c #4863A0"
 "  	c none"
@@ -11872,6 +12353,7 @@ String4=0x03,Parking inrit
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 DayXpm="10 16 2 1"   Colormode=16
 "!	c #0095FF"
 "  	c none"
@@ -11902,6 +12384,7 @@ String4=0x03,Ticketautomaat
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 DayXpm="16 17 2 1"   Colormode=16
 "!	c #734A08"
 "  	c none"
@@ -11935,6 +12418,7 @@ String4=0x03,Reisbureau
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 DayXpm="16 16 2 1"   Colormode=16
 "!	c #BD30B4"
 "  	c none"
@@ -11967,6 +12451,7 @@ String4=0x03,Schoenen
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 DayXpm="14 8 2 1"   Colormode=16
 "!	c #BD30B4"
 "  	c none"
@@ -11991,6 +12476,7 @@ String4=0x03,Supermarkt
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 DayXpm="16 16 2 1"   Colormode=16
 "!	c #BD30B4"
 "  	c none"
@@ -12027,6 +12513,7 @@ ExtendedLabels=Y
 FontStyle=SmallFont
 CustomColor=Day
 DaycustomColor:#734A08
+ContourColor=No
 DayXpm="10 15 2 1"   Colormode=16
 "!	c #734A08"
 "  	c none"
@@ -12062,6 +12549,7 @@ ExtendedLabels=Y
 FontStyle=SmallFont
 CustomColor=Day
 DaycustomColor:#734A08
+ContourColor=No
 DayXpm="12 14 2 1"   Colormode=16
 "!	c #734A08"
 "  	c none"
@@ -12096,6 +12584,7 @@ ExtendedLabels=Y
 FontStyle=SmallFont
 CustomColor=Day
 DaycustomColor:#734A08
+ContourColor=No
 DayXpm="18 15 2 1"   Colormode=16
 "!	c #734A08"
 "  	c none"
@@ -12131,6 +12620,7 @@ ExtendedLabels=Y
 FontStyle=SmallFont
 CustomColor=Day
 DaycustomColor:#734A08
+ContourColor=No
 DayXpm="15 15 2 1"   Colormode=16
 "!	c #734A08"
 "  	c none"
@@ -12161,6 +12651,7 @@ String4=0x03,Motorfiest parkeerplaats
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 DayXpm="16 14 2 1"   Colormode=16
 "!	c #0095FF"
 "  	c none"
@@ -12195,6 +12686,7 @@ ExtendedLabels=Y
 FontStyle=SmallFont
 CustomColor=Day
 DaycustomColor:#734A08
+ContourColor=No
 DayXpm="13 17 2 1"   Colormode=16
 "!	c #734A08"
 "  	c none"
@@ -12229,6 +12721,7 @@ ExtendedLabels=Y
 FontStyle=SmallFont
 CustomColor=Day
 DaycustomColor:#734A08
+ContourColor=No
 DayXpm="10 16 2 1"   Colormode=16
 "!	c #734A08"
 "  	c none"
@@ -12261,6 +12754,7 @@ String4=0x03,Huisartsenpraktijk
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 DayXpm="14 12 2 1"   Colormode=16
 "!	c #BF0000"
 "  	c none"
@@ -12288,6 +12782,7 @@ String4=0x03,Tandarts
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 DayXpm="9 13 2 1"   Colormode=16
 "!	c #BF0000"
 "  	c none"
@@ -12317,6 +12812,7 @@ String4=0x03,Dierenarts
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 DayXpm="14 14 2 1"   Colormode=16
 "!	c #BF0000"
 "  	c none"
@@ -12348,6 +12844,7 @@ ExtendedLabels=Y
 FontStyle=SmallFont
 CustomColor=Day
 DaycustomColor:#BD30B4
+ContourColor=No
 DayXpm="16 16 2 1"   Colormode=16
 "!	c #BD30B4"
 "  	c none"
@@ -12379,6 +12876,7 @@ String4=0x03,Speelgoed
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 DayXpm="14 13 2 1"   Colormode=16
 "!	c #BD30B4"
 "  	c none"
@@ -12407,6 +12905,7 @@ String4=0x03,Rookwaren
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 DayXpm="16 16 2 1"   Colormode=16
 "!	c #BD30B4"
 "  	c none"
@@ -12439,6 +12938,7 @@ ExtendedLabels=Y
 FontStyle=SmallFont
 CustomColor=Day
 DaycustomColor:#BD30B4
+ContourColor=No
 DayXpm="14 16 2 1"   Colormode=16
 "!	c #BD30B4"
 "  	c none"
@@ -12470,6 +12970,7 @@ String4=0x03,Muziekinstrumenten
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 DayXpm="16 12 2 1"   Colormode=16
 "!	c #BD30B4"
 "  	c none"
@@ -12498,6 +12999,7 @@ String4=0x03,Koffie
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 DayXpm="14 13 2 1"   Colormode=16
 "!	c #BD30B4"
 "  	c none"
@@ -12527,6 +13029,7 @@ String4=0x03,Thee
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 DayXpm="15 10 2 1"   Colormode=16
 "!	c #BD30B4"
 "  	c none"
@@ -12553,6 +13056,7 @@ String4=0x03,Muziek
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 DayXpm="16 16 2 1"   Colormode=16
 "!	c #BD30B4"
 "  	c none"
@@ -12584,6 +13088,7 @@ String4=0x03,Motorfietsenwinkel
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 DayXpm="16 14 2 1"   Colormode=16
 "!	c #BD30B4"
 "  	c none"
@@ -12613,6 +13118,7 @@ String4=0x03,Zuivel
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 DayXpm="16 16 2 1"   Colormode=16
 "!	c #BD30B4"
 "  	c none"
@@ -12644,6 +13150,7 @@ String4=0x03,Medische hulpmiddelen
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 DayXpm="16 16 2 1"   Colormode=16
 "!	c #BD30B4"
 "  	c none"
@@ -12676,6 +13183,7 @@ String4=0x03,Bedden en matrassen
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 DayXpm="14 10 2 1"   Colormode=16
 "!	c #BD30B4"
 "  	c none"
@@ -12702,6 +13210,7 @@ String4=0x03,Video en dvd verhuur
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 DayXpm="16 16 2 1"   Colormode=16
 "!	c #BD30B4"
 "  	c none"
@@ -12733,6 +13242,7 @@ String4=0x03,Fietsenverhuur
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 DayXpm="14 16 2 1"   Colormode=16
 "!	c #0095FF"
 "  	c none"
@@ -12765,6 +13275,7 @@ ExtendedLabels=Y
 FontStyle=SmallFont
 CustomColor=Day
 DaycustomColor:#734A08
+ContourColor=No
 DayXpm="14 16 2 1"   Colormode=16
 "!	c #734A08"
 "  	c none"
@@ -12798,6 +13309,7 @@ ExtendedLabels=Y
 FontStyle=SmallFont
 CustomColor=Day
 DaycustomColor:#000000
+ContourColor=No
 DayXpm="14 12 2 1"   Colormode=16
 "!	c #000000"
 "  	c none"
@@ -12827,6 +13339,7 @@ ExtendedLabels=Y
 FontStyle=SmallFont
 CustomColor=Day
 DaycustomColor:#000000
+ContourColor=No
 DayXpm="10 14 2 1"   Colormode=16
 "!	c #000000"
 "  	c none"
@@ -12858,6 +13371,7 @@ ExtendedLabels=Y
 FontStyle=SmallFont
 CustomColor=Day
 DaycustomColor:#000000
+ContourColor=No
 DayXpm="14 14 2 1"   Colormode=16
 "!	c #000000"
 "  	c none"
@@ -12889,6 +13403,7 @@ ExtendedLabels=Y
 FontStyle=SmallFont
 CustomColor=Day
 DaycustomColor:#000000
+ContourColor=No
 DayXpm="12 13 2 1"   Colormode=16
 "!	c #000000"
 "  	c none"
@@ -12918,6 +13433,7 @@ ExtendedLabels=Y
 FontStyle=SmallFont
 CustomColor=Day
 DaycustomColor:#000000
+ContourColor=No
 DayXpm="14 14 2 1"   Colormode=16
 "!	c #000000"
 "  	c none"
@@ -12948,6 +13464,7 @@ ExtendedLabels=Y
 FontStyle=SmallFont
 CustomColor=Day
 DaycustomColor:#000000
+ContourColor=No
 DayXpm="12 16 2 1"   Colormode=16
 "!	c #000000"
 "  	c none"
@@ -12980,6 +13497,7 @@ String4=0x03,Taoistische tempel
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 DayXpm="14 14 2 1"   Colormode=16
 "!	c #000000"
 "  	c none"
@@ -13010,6 +13528,7 @@ ExtendedLabels=Y
 FontStyle=SmallFont
 CustomColor=Day
 DaycustomColor:#000000
+ContourColor=No
 DayXpm="14 12 2 1"   Colormode=16
 "!	c #000000"
 "  	c none"
@@ -13039,6 +13558,7 @@ ExtendedLabels=Y
 FontStyle=SmallFont
 CustomColor=Day
 DaycustomColor:#B63737
+ContourColor=No
 DayXpm="1 1 2 1"   Colormode=16
 "!	c #FFFFFF"
 "  	c none"
@@ -13060,6 +13580,7 @@ ExtendedLabels=Y
 FontStyle=SmallFont
 CustomColor=Day
 DaycustomColor:#BD30B4
+ContourColor=No
 DayXpm="14 11 2 1"   Colormode=16
 "!	c #BD30B4"
 "  	c none"
@@ -13088,6 +13609,7 @@ ExtendedLabels=Y
 FontStyle=SmallFont
 CustomColor=Day
 DaycustomColor:#638E3C
+ContourColor=No
 DayXpm="1 1 2 1"   Colormode=16
 "!	c #FFFFFF"
 "  	c none"
@@ -13109,6 +13631,7 @@ ExtendedLabels=Y
 FontStyle=SmallFont
 CustomColor=Day
 DaycustomColor:#697EE2
+ContourColor=No
 DayXpm="1 1 2 1"   Colormode=16
 "!	c #FFFFFF"
 "  	c none"
@@ -13127,6 +13650,7 @@ ExtendedLabels=Y
 FontStyle=SmallFont
 CustomColor=Day
 DaycustomColor:#BD9520
+ContourColor=No
 DayXpm="1 1 2 1"   Colormode=16
 "!	c #FFFFFF"
 "  	c none"
@@ -13145,6 +13669,7 @@ ExtendedLabels=Y
 FontStyle=SmallFont
 CustomColor=Day
 DaycustomColor:#9B6419
+ContourColor=No
 DayXpm="1 1 2 1"   Colormode=16
 "!	c #FFFFFF"
 "  	c none"
@@ -13163,6 +13688,7 @@ ExtendedLabels=Y
 FontStyle=SmallFont
 CustomColor=Day
 DaycustomColor:#CA8D37
+ContourColor=No
 DayXpm="1 1 2 1"   Colormode=16
 "!	c #FFFFFF"
 "  	c none"
@@ -13180,6 +13706,7 @@ ExtendedLabels=Y
 FontStyle=SmallFont
 CustomColor=Day
 DaycustomColor:#558229
+ContourColor=No
 DayXpm="1 1 2 1"   Colormode=16
 "!	c #009500"
 "  	c none"
@@ -13201,6 +13728,7 @@ ExtendedLabels=Y
 FontStyle=SmallFont
 CustomColor=Day
 DaycustomColor:#3D9171
+ContourColor=No
 DayXpm="1 1 2 1"   Colormode=16
 "!	c #009500"
 "  	c none"
@@ -13216,6 +13744,7 @@ ExtendedLabels=Y
 FontStyle=NormalFont
 CustomColor=Day
 DaycustomColor:#7B008B
+ContourColor=No
 DayXpm="10 9 2 1"   Colormode=16
 "!	c #7B008B"
 "  	c none"
@@ -13242,6 +13771,7 @@ ExtendedLabels=Y
 FontStyle=SmallFont
 CustomColor=Day
 DaycustomColor:#006500
+ContourColor=No
 DayXpm="1 1 2 1"   Colormode=16
 "!	c #00FF4B"
 "  	c none"
@@ -13260,6 +13790,7 @@ ExtendedLabels=Y
 FontStyle=SmallFont
 CustomColor=Day
 DaycustomColor:#7B008B
+ContourColor=No
 DayXpm="1 1 2 1"   Colormode=16
 "!	c #00FF4B"
 "  	c none"
@@ -13278,6 +13809,7 @@ ExtendedLabels=Y
 FontStyle=SmallFont
 CustomColor=Day
 DaycustomColor:#FF6541
+ContourColor=No
 DayXpm="1 1 2 1"   Colormode=16
 "!	c #00FF4B"
 "  	c none"
@@ -13296,6 +13828,7 @@ ExtendedLabels=Y
 FontStyle=SmallFont
 CustomColor=Day
 DaycustomColor:#00306A
+ContourColor=No
 DayXpm="1 1 2 1"   Colormode=16
 "!	c #00FF4B"
 "  	c none"
@@ -13313,6 +13846,7 @@ ExtendedLabels=Y
 FontStyle=SmallFont
 CustomColor=Day
 DaycustomColor:#660033
+ContourColor=No
 DayXpm="1 1 2 1"   Colormode=16
 "!	c #009500"
 "  	c none"
@@ -13334,6 +13868,7 @@ ExtendedLabels=Y
 FontStyle=SmallFont
 CustomColor=Day
 DaycustomColor:#660033
+ContourColor=No
 DayXpm="1 1 2 1"   Colormode=16
 "!	c #009500"
 "  	c none"
@@ -13351,6 +13886,7 @@ ExtendedLabels=Y
 FontStyle=NormalFont
 CustomColor=Day
 DaycustomColor:#660033
+ContourColor=No
 DayXpm="1 1 2 1"   Colormode=16
 "!	c #009500"
 "  	c none"
@@ -13369,6 +13905,7 @@ ExtendedLabels=Y
 FontStyle=SmallFont
 CustomColor=Day
 DaycustomColor:#603658
+ContourColor=No
 DayXpm="1 1 2 1"   Colormode=16
 "!	c #FFFFFF"
 "  	c none"
@@ -13390,6 +13927,7 @@ ExtendedLabels=Y
 FontStyle=NormalFont
 CustomColor=Day
 DaycustomColor:#4D4D00
+ContourColor=No
 DayXpm="1 1 2 1"   Colormode=16
 "!	c #009500"
 "  	c none"
@@ -13408,6 +13946,7 @@ ExtendedLabels=Y
 FontStyle=SmallFont
 CustomColor=Day
 DaycustomColor:#4D4D00
+ContourColor=No
 DayXpm="1 1 2 1"   Colormode=16
 "!	c #009500"
 "  	c none"
@@ -13425,6 +13964,7 @@ ExtendedLabels=Y
 FontStyle=NormalFont
 CustomColor=Day
 DaycustomColor:#D63621
+ContourColor=No
 DayXpm="1 1 2 1"   Colormode=16
 "!	c #FFFFFF"
 "  	c none"
@@ -13442,6 +13982,7 @@ ExtendedLabels=Y
 FontStyle=SmallFont
 CustomColor=Day
 DaycustomColor:#722A27
+ContourColor=No
 DayXpm="1 1 2 1"   Colormode=16
 "!	c #FFFFFF"
 "  	c none"
@@ -13459,6 +14000,7 @@ ExtendedLabels=Y
 FontStyle=SmallFont
 CustomColor=Day
 DaycustomColor:#D63621
+ContourColor=No
 DayXpm="1 1 2 1"   Colormode=16
 "!	c #FFFFFF"
 "  	c none"
@@ -13477,6 +14019,7 @@ ExtendedLabels=Y
 FontStyle=SmallFont
 CustomColor=Day
 DaycustomColor:#D63621
+ContourColor=No
 DayXpm="1 1 2 1"   Colormode=16
 "!	c #FFFFFF"
 "  	c none"
@@ -13497,6 +14040,7 @@ String9=0x05,Area picnic
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 DayXpm="13 10 2 1"   Colormode=16
 "!	c #009500"
 "  	c none"
@@ -13524,6 +14068,7 @@ ExtendedLabels=Y
 FontStyle=NormalFont
 CustomColor=Day
 DaycustomColor:#603658
+ContourColor=No
 DayXpm="1 1 2 1"   Colormode=16
 "!	c #FFFFFF"
 "  	c none"
@@ -13541,6 +14086,7 @@ ExtendedLabels=Y
 FontStyle=SmallFont
 CustomColor=Day
 DaycustomColor:#925486
+ContourColor=No
 DayXpm="1 1 2 1"   Colormode=16
 "!	c #FFFFFF"
 "  	c none"
@@ -13558,6 +14104,7 @@ ExtendedLabels=Y
 FontStyle=SmallFont
 CustomColor=Day
 DaycustomColor:#606050
+ContourColor=No
 DayXpm="1 1 2 1"   Colormode=16
 "!	c #009500"
 "  	c none"
@@ -13576,6 +14123,7 @@ ExtendedLabels=Y
 FontStyle=SmallFont
 CustomColor=Day
 DaycustomColor:#603658
+ContourColor=No
 DayXpm="1 1 2 1"   Colormode=16
 "!	c #FFFFFF"
 "  	c none"
@@ -13596,6 +14144,7 @@ String9=0x05,Acqua potabile
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 DayXpm="13 16 2 1"   Colormode=16
 "!	c #734A08"
 "  	c none"
@@ -13632,6 +14181,7 @@ ExtendedLabels=Y
 FontStyle=SmallFont
 CustomColor=Day
 DaycustomColor:#BF0000
+ContourColor=No
 DayXpm="14 14 2 1"   Colormode=16
 "!	c #BF0000"
 "  	c none"
@@ -13662,6 +14212,7 @@ ExtendedLabels=Y
 FontStyle=SmallFont
 CustomColor=Day
 DaycustomColor:#BF0000
+ContourColor=No
 DayXpm="5 5 2 1"   Colormode=16
 "!	c #BF0000"
 "  	c none"
@@ -13686,6 +14237,7 @@ String9=0x05,Luogo di culto
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 DayXpm="5 5 2 1"   Colormode=16
 "!	c #000000"
 "  	c none"
@@ -13707,6 +14259,7 @@ ExtendedLabels=Y
 FontStyle=SmallFont
 CustomColor=Day
 DaycustomColor:#4863A0
+ContourColor=No
 DayXpm="5 5 2 1"   Colormode=16
 "!	c #4863A0"
 "  	c none"
@@ -13728,6 +14281,7 @@ ExtendedLabels=Y
 FontStyle=SmallFont
 CustomColor=Day
 DaycustomColor:#4C4C00
+ContourColor=No
 DayXpm="5 5 2 1"   Colormode=16
 "!	c #4C4C00"
 "  	c none"
@@ -13753,6 +14307,7 @@ ExtendedLabels=Y
 FontStyle=SmallFont
 CustomColor=Day
 DaycustomColor:#8461C4
+ContourColor=No
 DayXpm="10 15 2 1"   Colormode=16
 "!	c #8A68C6"
 "  	c none"
@@ -13787,6 +14342,7 @@ String9=0x05,Eliporto
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 DayXpm="18 17 2 1"   Colormode=16
 "!	c #8461C4"
 "  	c none"
@@ -13821,6 +14377,7 @@ ExtendedLabels=Y
 FontStyle=SmallFont
 CustomColor=Day
 DaycustomColor:#8461C4
+ContourColor=No
 DayXpm="1 1 2 1"   Colormode=16
 "!	c #009500"
 "  	c none"
@@ -13842,6 +14399,7 @@ ExtendedLabels=Y
 FontStyle=Default
 CustomColor=Day
 DaycustomColor:#0065FF
+ContourColor=No
 DayXpm="21 16 3 1"   Colormode=16
 "!	c #0095FF"
 "#	c #F2EFE9"
@@ -13876,6 +14434,7 @@ ExtendedLabels=Y
 FontStyle=SmallFont
 CustomColor=Day
 DaycustomColor:#525252
+ContourColor=No
 DayXpm="14 16 2 1"   Colormode=16
 "!	c #666666"
 "  	c none"
@@ -13909,6 +14468,7 @@ ExtendedLabels=Y
 FontStyle=SmallFont
 CustomColor=Day
 DaycustomColor:#0095FF
+ContourColor=No
 DayXpm="14 14 2 1"   Colormode=16
 "!	c #0095FF"
 "  	c none"
@@ -13943,6 +14503,7 @@ ExtendedLabels=Y
 FontStyle=SmallFont
 CustomColor=Day
 DaycustomColor:#0095FF
+ContourColor=No
 DayXpm="22 13 2 1"   Colormode=16
 "!	c #0095FF"
 "  	c none"
@@ -13972,6 +14533,7 @@ String4=0x03,Picknick tafel
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 DayXpm="13 10 2 1"   Colormode=16
 "!	c #666666"
 "  	c none"
@@ -14002,6 +14564,7 @@ ExtendedLabels=Y
 FontStyle=SmallFont
 CustomColor=Day
 DaycustomColor:#734A08
+ContourColor=No
 DayXpm="14 14 2 1"   Colormode=16
 "!	c #734A08"
 "  	c none"
@@ -14031,6 +14594,7 @@ String4=0x03,Autokeuring
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 DayXpm="10 14 2 1"   Colormode=16
 "!	c #734A08"
 "  	c none"
@@ -14062,6 +14626,7 @@ ExtendedLabels=Y
 FontStyle=SmallFont
 CustomColor=Day
 DaycustomColor:#4863A0
+ContourColor=No
 DayXpm="10 14 2 1"   Colormode=16
 "!	c #4864A0"
 "  	c none"
@@ -14091,6 +14656,7 @@ ExtendedLabels=Y
 FontStyle=SmallFont
 CustomColor=Day
 DaycustomColor:#4863A0
+ContourColor=No
 DayXpm="10 14 2 1"   Colormode=16
 "!	c #4864A0"
 "  	c none"
@@ -14122,6 +14688,7 @@ ExtendedLabels=Y
 FontStyle=SmallFont
 CustomColor=Day
 DaycustomColor:#5E5E5D
+ContourColor=No
 DayXpm="1 1 2 1"   Colormode=16
 "!	c #009500"
 "  	c none"
@@ -14143,6 +14710,7 @@ ExtendedLabels=Y
 FontStyle=Default
 CustomColor=Day
 DaycustomColor:#495E48
+ContourColor=No
 DayXpm="1 1 2 1"   Colormode=16
 "!	c #009500"
 "  	c none"
@@ -14164,6 +14732,7 @@ ExtendedLabels=Y
 FontStyle=SmallFont
 CustomColor=Day
 DaycustomColor:#8B0606
+ContourColor=No
 DayXpm="1 1 2 1"   Colormode=16
 "!	c #009500"
 "  	c none"
@@ -14182,6 +14751,7 @@ ExtendedLabels=Y
 FontStyle=SmallFont
 CustomColor=Day
 DaycustomColor:#000000
+ContourColor=No
 DayXpm="1 1 2 1"   Colormode=16
 "!	c #009500"
 "  	c none"
@@ -14203,6 +14773,7 @@ ExtendedLabels=Y
 FontStyle=SmallFont
 CustomColor=Day
 DaycustomColor:#4A58AD
+ContourColor=No
 DayXpm="7 7 1 1"   Colormode=0
 "!	c #7981B0"
 "!!!!!!!"
@@ -14226,6 +14797,7 @@ ExtendedLabels=Y
 FontStyle=SmallFont
 CustomColor=Day
 DaycustomColor:#525252
+ContourColor=No
 DayXpm="10 15 2 1"   Colormode=16
 "!	c #666666"
 "  	c none"
@@ -14257,6 +14829,7 @@ String4=0x03,Isolator
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 DayXpm="7 7 2 1"   Colormode=16
 "!	c #666666"
 "  	c none"
@@ -14280,6 +14853,7 @@ String4=0x03,Mini rotonde
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 DayXpm="11 11 3 1"   Colormode=16
 "!	c #FFFFFF"
 "#	c #C4C4C4"
@@ -14308,6 +14882,7 @@ String4=0x03,Hoogspanningsmast
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 DayXpm="7 7 3 1"   Colormode=16
 "!	c #949494"
 "#	c #FFFFFF"
@@ -14332,6 +14907,7 @@ String4=0x03,Electriciteitspaal
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 DayXpm="3 3 1 1"   Colormode=0
 "!	c #949494"
 "!!!"
@@ -14351,6 +14927,7 @@ ExtendedLabels=Y
 FontStyle=SmallFont
 CustomColor=Day
 DaycustomColor:#247CFB
+ContourColor=No
 DayXpm="21 16 3 1"   Colormode=16
 "!	c #0095FF"
 "#	c #FFFFFF"
@@ -14388,6 +14965,7 @@ ExtendedLabels=Y
 FontStyle=SmallFont
 CustomColor=Day
 DaycustomColor:#0065D5
+ContourColor=No
 DayXpm="14 14 2 1"   Colormode=16
 "!	c #0095FF"
 "  	c none"
@@ -14418,6 +14996,7 @@ ExtendedLabels=Y
 FontStyle=SmallFont
 CustomColor=Day
 DaycustomColor:#0065D5
+ContourColor=No
 DayXpm="21 12 2 1"   Colormode=16
 "!	c #0095FF"
 "  	c none"
@@ -14443,6 +15022,7 @@ String4=0x03,Mini rotonde
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 DayXpm="9 9 2 1"   Colormode=16
 "!	c #BD6500"
 "  	c none"
@@ -14465,6 +15045,7 @@ String4=0x03,Mini rotonde
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 DayXpm="11 11 3 1"   Colormode=16
 "!	c #FFFFFF"
 "#	c #C4C4C4"
@@ -14490,6 +15071,7 @@ String4=0x03,Mini rotonde
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 DayXpm="11 11 3 1"   Colormode=16
 "!	c #C4C4C4"
 "#	c #EDEDED"
@@ -14516,6 +15098,7 @@ ExtendedLabels=Y
 FontStyle=SmallFont
 CustomColor=Day
 DaycustomColor:#FF0041
+ContourColor=No
 DayXpm="9 9 2 1"   Colormode=16
 "!	c #FF0041"
 "  	c none"
@@ -14539,6 +15122,7 @@ ExtendedLabels=Y
 FontStyle=SmallFont
 CustomColor=Day
 DaycustomColor:#00CA00
+ContourColor=No
 DayXpm="9 9 2 1"   Colormode=16
 "!	c #00CA00"
 "  	c none"
@@ -14562,6 +15146,7 @@ ExtendedLabels=Y
 FontStyle=SmallFont
 CustomColor=Day
 DaycustomColor:#0065FF
+ContourColor=No
 DayXpm="9 9 2 1"   Colormode=16
 "!	c #0065FF"
 "  	c none"
@@ -14591,6 +15176,7 @@ ExtendedLabels=Y
 FontStyle=SmallFont
 CustomColor=Day
 DaycustomColor:#009500
+ContourColor=No
 DayXpm="15 18 2 1"   Colormode=16
 "!	c #009500"
 "  	c none"
@@ -14629,6 +15215,7 @@ ExtendedLabels=Y
 FontStyle=Default
 CustomColor=Day
 DaycustomColor:#4A58AD
+ContourColor=No
 DayXpm="7 7 1 1"   Colormode=0
 "!	c #7981B0"
 "!!!!!!!"
@@ -14652,6 +15239,7 @@ ExtendedLabels=Y
 FontStyle=SmallFont
 CustomColor=Day
 DaycustomColor:#009500
+ContourColor=No
 DayXpm="16 15 2 1"   Colormode=16
 "!	c #009500"
 "  	c none"
@@ -14687,6 +15275,7 @@ ExtendedLabels=Y
 FontStyle=SmallFont
 CustomColor=Day
 DaycustomColor:#4A58AD
+ContourColor=No
 DayXpm="4 4 1 1"   Colormode=0
 "!	c #7981B0"
 "!!!!"
@@ -14707,6 +15296,7 @@ ExtendedLabels=Y
 FontStyle=SmallFont
 CustomColor=Day
 DaycustomColor:#4A58AD
+ContourColor=No
 DayXpm="6 6 1 1"   Colormode=0
 "!	c #7981B0"
 "!!!!!!"
@@ -14732,6 +15322,7 @@ ExtendedLabels=Y
 FontStyle=SmallFont
 CustomColor=Day
 DaycustomColor:#5E5E5D
+ContourColor=No
 DayXpm="9 9 2 1"   Colormode=16
 "!	c #A4A4A4"
 "  	c none"
@@ -14758,6 +15349,7 @@ ExtendedLabels=Y
 FontStyle=SmallFont
 CustomColor=Day
 DaycustomColor:#5E5E5D
+ContourColor=No
 DayXpm="7 7 2 1"   Colormode=16
 "!	c #AAAAAA"
 "  	c none"
@@ -14779,6 +15371,7 @@ String4=0x03,Dam
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 DayXpm="9 9 3 1"   Colormode=16
 "!	c #AAAAAA"
 "#	c #6D6E6F"
@@ -14809,6 +15402,7 @@ ExtendedLabels=Y
 FontStyle=SmallFont
 CustomColor=Day
 DaycustomColor:#4863A0
+ContourColor=No
 DayXpm="15 14 2 1"   Colormode=16
 "!	c #4D80B3"
 "  	c none"
@@ -14838,6 +15432,7 @@ String4=0x03,Doorwaadbare plaats
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 DayXpm="15 13 2 1"   Colormode=16
 "!	c #0095FF"
 "  	c none"
@@ -14871,6 +15466,7 @@ ExtendedLabels=Y
 FontStyle=SmallFont
 CustomColor=Day
 DaycustomColor:#006500
+ContourColor=No
 DayXpm="1 1 2 1"   Colormode=16
 "!	c #009500"
 "  	c none"
@@ -14892,6 +15488,7 @@ ExtendedLabels=Y
 FontStyle=SmallFont
 CustomColor=Day
 DaycustomColor:#4D80B3
+ContourColor=No
 DayXpm="1 1 2 1"   Colormode=16
 "!	c #009500"
 "  	c none"
@@ -14909,6 +15506,7 @@ ExtendedLabels=Y
 FontStyle=Default
 CustomColor=Day
 DaycustomColor:#4D80B3
+ContourColor=No
 DayXpm="1 1 2 1"   Colormode=16
 "!	c #009500"
 "  	c none"
@@ -14930,6 +15528,7 @@ ExtendedLabels=Y
 FontStyle=SmallFont
 CustomColor=Day
 DaycustomColor:#4D80B3
+ContourColor=No
 DayXpm="9 9 2 1"   Colormode=16
 "!	c #7BBCEC"
 "  	c none"
@@ -14956,6 +15555,7 @@ ExtendedLabels=Y
 FontStyle=SmallFont
 CustomColor=Day
 DaycustomColor:#000000
+ContourColor=No
 DayXpm="10 8 2 1"   Colormode=16
 "!	c #000000"
 "  	c none"
@@ -14984,6 +15584,7 @@ ExtendedLabels=Y
 FontStyle=Default
 CustomColor=Day
 DaycustomColor:#60A46A
+ContourColor=No
 DayXpm="1 1 2 1"   Colormode=16
 "!	c #009500"
 "  	c none"
@@ -15005,6 +15606,7 @@ ExtendedLabels=Y
 FontStyle=SmallFont
 CustomColor=Day
 DaycustomColor:#60A46A
+ContourColor=No
 DayXpm="1 1 2 1"   Colormode=16
 "!	c #009500"
 "  	c none"
@@ -15021,6 +15623,7 @@ ExtendedLabels=Y
 FontStyle=SmallFont
 CustomColor=Day
 DaycustomColor:#7B008B
+ContourColor=No
 DayXpm="1 1 2 1"   Colormode=16
 "!	c #009500"
 "  	c none"
@@ -15038,6 +15641,7 @@ String4=0x03,Tourtisten kantoor
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 DayXpm="16 16 2 1"   Colormode=16
 "!	c #734A08"
 "  	c none"
@@ -15070,6 +15674,7 @@ String4=0x03,Audioguide
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 DayXpm="16 15 2 1"   Colormode=16
 "!	c #666666"
 "  	c none"
@@ -15104,6 +15709,7 @@ String9=0x05,Grotta
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 DayXpm="11 6 2 1"   Colormode=16
 "!	c #000000"
 "  	c none"
@@ -15126,6 +15732,7 @@ String4=0x03,Bunker
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 DayXpm="13 9 2 1"   Colormode=16
 "!	c #666666"
 "  	c none"
@@ -15155,6 +15762,7 @@ ExtendedLabels=Y
 FontStyle=SmallFont
 CustomColor=Day
 DaycustomColor:#907712
+ContourColor=No
 DayXpm="1 1 2 1"   Colormode=16
 "!	c #009500"
 "  	c none"
@@ -15176,6 +15784,7 @@ ExtendedLabels=Y
 FontStyle=SmallFont
 CustomColor=Day
 DaycustomColor:#006500
+ContourColor=No
 DayXpm="1 1 2 1"   Colormode=16
 "!	c #00FF4B"
 "  	c none"
@@ -15197,6 +15806,7 @@ ExtendedLabels=Y
 FontStyle=SmallFont
 CustomColor=Day
 DaycustomColor:#967757
+ContourColor=No
 DayXpm="1 1 2 1"   Colormode=16
 "!	c #009500"
 "  	c none"
@@ -15218,6 +15828,7 @@ ExtendedLabels=Y
 FontStyle=NormalFont
 CustomColor=Day
 DaycustomColor:#967757
+ContourColor=No
 DayXpm="1 1 2 1"   Colormode=16
 "!	c #009500"
 "  	c none"
@@ -15239,6 +15850,7 @@ ExtendedLabels=Y
 FontStyle=SmallFont
 CustomColor=Day
 DaycustomColor:#BD3000
+ContourColor=No
 DayXpm="14 10 2 1"   Colormode=16
 "!	c #D40000"
 "  	c none"
@@ -15269,6 +15881,7 @@ ExtendedLabels=Y
 FontStyle=SmallFont
 CustomColor=Day
 DaycustomColor:#734A08
+ContourColor=No
 DayXpm="14 10 2 1"   Colormode=16
 "!	c #D08F55"
 "  	c none"
@@ -15295,6 +15908,7 @@ ExtendedLabels=Y
 FontStyle=SmallFont
 CustomColor=Day
 DaycustomColor:#734A08
+ContourColor=No
 DayXpm="12 9 2 1"   Colormode=16
 "!	c #D08F55"
 "  	c none"
@@ -15324,11 +15938,38 @@ ExtendedLabels=Y
 FontStyle=SmallFont
 CustomColor=Day
 DaycustomColor:#527247
+ContourColor=No
 DayXpm="1 1 2 1"   Colormode=16
 "!	c #009500"
 "  	c none"
 " "
 ;1
+[end]
+[_point]
+type=0x066
+subtype=0x19
+;GRMN_TYPE: //
+String2=0x02,Sattel
+String3=0x04,Saddle
+String4=0x03,Bergpas, Zadel
+ExtendedLabels=Y
+FontStyle=LargeFont
+CustomColor=Day
+DaycustomColor:#006500
+ContourColor=No
+DayXpm="12 9 2 1"   Colormode=16
+"!	c #D08F55"
+"  	c none"
+"!          !"
+"!!        !!"
+"!!!      !!!"
+"!!!!    !!!!"
+"!!!!!  !!!!!"
+"!!!!!!!!!!!!"
+"!!!!!!!!!!!!"
+"!!!!!!!!!!!!"
+"!!!!!!!!!!!!"
+;123456789012
 [end]
 [_point]
 type=0x067
@@ -15342,6 +15983,7 @@ ExtendedLabels=Y
 FontStyle=SmallFont
 CustomColor=Day
 DaycustomColor:#525252
+ContourColor=No
 DayXpm="10 15 2 1"   Colormode=16
 "!	c #666666"
 "  	c none"
@@ -15373,6 +16015,7 @@ String4=0x03,Zendtoren
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 DayXpm="12 14 2 1"   Colormode=16
 "!	c #666666"
 "  	c none"
@@ -15404,6 +16047,7 @@ ExtendedLabels=Y
 FontStyle=SmallFont
 CustomColor=Day
 DaycustomColor:#525252
+ContourColor=No
 DayXpm="14 14 2 1"   Colormode=16
 "!	c #666666"
 "  	c none"
@@ -15434,6 +16078,7 @@ String4=0x03,Watertoren
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 DayXpm="10 14 2 1"   Colormode=16
 "!	c #666666"
 "  	c none"
@@ -15464,6 +16109,7 @@ String4=0x03,Hoogzit
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 DayXpm="8 14 2 1"   Colormode=16
 "!	c #666666"
 "  	c none"
@@ -15494,6 +16140,7 @@ String4=0x03,Windturbine
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 DayXpm="12 16 2 1"   Colormode=16
 "!	c #666666"
 "  	c none"
@@ -15527,6 +16174,7 @@ ExtendedLabels=Y
 FontStyle=SmallFont
 CustomColor=Day
 DaycustomColor:#525252
+ContourColor=No
 DayXpm="12 15 2 1"   Colormode=16
 "!	c #666666"
 "  	c none"
@@ -15558,6 +16206,7 @@ String4=0x03,Klokkentoren
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 DayXpm="10 16 2 1"   Colormode=16
 "!	c #666666"
 "  	c none"
@@ -15590,6 +16239,7 @@ String4=0x03,Mast
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 DayXpm="8 15 2 1"   Colormode=16
 "!	c #666666"
 "  	c none"
@@ -15624,6 +16274,7 @@ String9=0x05,Torre/Pilone
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 DayXpm="8 15 2 1"   Colormode=16
 "!	c #666666"
 "  	c none"
@@ -15655,6 +16306,7 @@ String4=0x03,Lichtmast
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 DayXpm="10 15 2 1"   Colormode=16
 "!	c #666666"
 "  	c none"
@@ -15686,6 +16338,7 @@ String4=0x03,Mast (Staal)
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 DayXpm="10 15 2 1"   Colormode=16
 "!	c #666666"
 "  	c none"
@@ -15718,6 +16371,7 @@ ExtendedLabels=Y
 FontStyle=SmallFont
 CustomColor=Day
 DaycustomColor:#525252
+ContourColor=No
 DayXpm="16 18 2 1"   Colormode=16
 "!	c #666666"
 "  	c none"
@@ -15752,6 +16406,7 @@ String4=0x03,Koeltoren
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 DayXpm="12 14 2 1"   Colormode=16
 "!	c #666666"
 "  	c none"
@@ -15782,6 +16437,7 @@ String4=0x03,Schoorsteen
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 DayXpm="13 16 3 1"   Colormode=16
 "!	c #FFFFFF"
 "#	c #666666"
@@ -15816,6 +16472,7 @@ ExtendedLabels=Y
 FontStyle=SmallFont
 CustomColor=Day
 DaycustomColor:#525252
+ContourColor=No
 DayXpm="10 16 2 1"   Colormode=16
 "!	c #666666"
 "  	c none"
@@ -15848,6 +16505,7 @@ String4=0x03,Zendmast
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 DayXpm="12 14 2 1"   Colormode=16
 "!	c #666666"
 "  	c none"
@@ -15878,6 +16536,7 @@ String4=0x03,Zendmast (Staal)
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 DayXpm="12 17 2 1"   Colormode=16
 "!	c #666666"
 "  	c none"
@@ -15911,6 +16570,7 @@ String4=0x03,Lichtmast (Staal)
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 DayXpm="10 15 2 1"   Colormode=16
 "!	c #666666"
 "  	c none"
@@ -15943,6 +16603,7 @@ ExtendedLabels=Y
 FontStyle=SmallFont
 CustomColor=Day
 DaycustomColor:#525252
+ContourColor=No
 DayXpm="12 16 2 1"   Colormode=16
 "!	c #666666"
 "  	c none"
@@ -15975,6 +16636,7 @@ String4=0x03,Lichttoren
 ExtendedLabels=Y
 FontStyle=SmallFont
 CustomColor=No
+ContourColor=No
 DayXpm="10 15 2 1"   Colormode=16
 "!	c #666666"
 "  	c none"
@@ -16005,6 +16667,7 @@ String4=0x03,Kraan
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 DayXpm="16 16 2 1"   Colormode=16
 "!	c #666666"
 "  	c none"
@@ -16038,6 +16701,7 @@ ExtendedLabels=Y
 FontStyle=SmallFont
 CustomColor=Day
 DaycustomColor:#734A08
+ContourColor=No
 DayXpm="16 14 2 1"   Colormode=16
 "!	c #734A08"
 "  	c none"
@@ -16069,6 +16733,7 @@ ExtendedLabels=Y
 FontStyle=SmallFont
 CustomColor=Day
 DaycustomColor:#734A08
+ContourColor=No
 DayXpm="16 14 2 1"   Colormode=16
 "!	c #734A08"
 "  	c none"
@@ -16100,6 +16765,7 @@ ExtendedLabels=Y
 FontStyle=SmallFont
 CustomColor=Day
 DaycustomColor:#734A08
+ContourColor=No
 DayXpm="16 14 2 1"   Colormode=16
 "!	c #734A08"
 "  	c none"
@@ -16131,6 +16797,7 @@ ExtendedLabels=Y
 FontStyle=SmallFont
 CustomColor=Day
 DaycustomColor:#734A08
+ContourColor=No
 DayXpm="16 12 2 1"   Colormode=16
 "!	c #734A08"
 "  	c none"
@@ -16160,6 +16827,7 @@ ExtendedLabels=Y
 FontStyle=SmallFont
 CustomColor=Day
 DaycustomColor:#734A08
+ContourColor=No
 DayXpm="16 14 2 1"   Colormode=16
 "!	c #734A08"
 "  	c none"
@@ -16191,6 +16859,7 @@ ExtendedLabels=Y
 FontStyle=SmallFont
 CustomColor=Day
 DaycustomColor:#525252
+ContourColor=No
 DayXpm="16 13 2 1"   Colormode=16
 "!	c #666666"
 "  	c none"
@@ -16221,6 +16890,7 @@ ExtendedLabels=Y
 FontStyle=SmallFont
 CustomColor=Day
 DaycustomColor:#525252
+ContourColor=No
 DayXpm="14 16 2 1"   Colormode=16
 "!	c #666666"
 "  	c none"
@@ -16257,6 +16927,7 @@ ExtendedLabels=Y
 FontStyle=SmallFont
 CustomColor=Day
 DaycustomColor:#3E8BFD
+ContourColor=No
 DayXpm="12 14 3 1"   Colormode=16
 "!	c #0095FF"
 "#	c #F2EFE9"
@@ -16292,6 +16963,7 @@ ExtendedLabels=Y
 FontStyle=SmallFont
 CustomColor=Day
 DaycustomColor:#734A08
+ContourColor=No
 DayXpm="16 13 2 1"   Colormode=16
 "!	c #734A08"
 "  	c none"
@@ -16325,6 +16997,7 @@ ExtendedLabels=Y
 FontStyle=SmallFont
 CustomColor=Day
 DaycustomColor:#734A08
+ContourColor=No
 DayXpm="12 14 2 1"   Colormode=16
 "!	c #734A08"
 "  	c none"
@@ -16359,6 +17032,7 @@ ExtendedLabels=Y
 FontStyle=SmallFont
 CustomColor=Day
 DaycustomColor:#734A08
+ContourColor=No
 DayXpm="18 15 2 1"   Colormode=16
 "!	c #734A08"
 "  	c none"
@@ -16394,6 +17068,7 @@ ExtendedLabels=Y
 FontStyle=Default
 CustomColor=Day
 DaycustomColor:#8461C4
+ContourColor=No
 DayXpm="10 15 2 1"   Colormode=16
 "!	c #8A68C6"
 "  	c none"
@@ -16425,6 +17100,7 @@ String4=0x03,Fietssluis
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 DayXpm="11 4 2 1"   Colormode=16
 "!	c #3F3F3F"
 "  	c none"
@@ -16443,6 +17119,7 @@ String4=0x03,Slagpoort
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 DayXpm="14 12 2 1"   Colormode=16
 "!	c #3F3F3F"
 "  	c none"
@@ -16471,6 +17148,7 @@ String4=0x03,Draaipoort
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 DayXpm="8 12 2 1"   Colormode=16
 "!	c #3F3F3F"
 "  	c none"
@@ -16499,6 +17177,7 @@ String4=0x03,Motor sluis
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 DayXpm="10 14 2 1"   Colormode=16
 "!	c #3F3F3F"
 "  	c none"
@@ -16529,6 +17208,7 @@ String4=0x03,Slagboom
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 DayXpm="8 5 2 1"   Colormode=16
 "!	c #3F3F3F"
 "  	c none"
@@ -16550,6 +17230,7 @@ ExtendedLabels=Y
 FontStyle=SmallFont
 CustomColor=Day
 DaycustomColor:#734A08
+ContourColor=No
 DayXpm="5 5 2 1"   Colormode=16
 "!	c #734A08"
 "  	c none"
@@ -16574,6 +17255,7 @@ String9=0x05,Negozio
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 DayXpm="5 5 2 1"   Colormode=16
 "!	c #BD30B4"
 "  	c none"
@@ -16595,6 +17277,7 @@ String4=0x03,Wildrooster
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 DayXpm="7 7 2 1"   Colormode=16
 "!	c #3F3F3F"
 "  	c none"
@@ -16617,6 +17300,7 @@ String4=0x03,Trapje
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 DayXpm="6 10 2 1"   Colormode=16
 "!	c #3F3F3F"
 "  	c none"
@@ -16643,6 +17327,7 @@ String4=0x03,Tolpoortje
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 DayXpm="13 8 2 1"   Colormode=16
 "!	c #0095FF"
 "  	c none"
@@ -16667,6 +17352,7 @@ String4=0x03,Blokkade
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
+ContourColor=No
 DayXpm="1 1 2 1"   Colormode=16
 "!	c #009500"
 "  	c none"
