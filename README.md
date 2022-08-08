@@ -1,9 +1,8 @@
-# 20220722 Implemented mapnik changes up to release 5.5.1
+# 20220808 Implemented mapnik changes up to release 5.6.0
 Openstreetmap visual changes can be found on https://github.com/gravitystorm/openstreetmap-carto/blob/master/CHANGELOG.md
 Releasenotes for all latest style- and typ changes can be found in de style info-file within the style zip
-- Rendering mountain pass
-- Small changes
-- Option for duo language in Süd Tirol
+- Rendering parcel lockers
+- Change of tree and tree row colors
 
 # Custom mkgmap style and typ-file 
 This style renders routable Garmin Maps for Basecamp and Mapsource in the current Openstreetmap Mapnik layout. 
