@@ -1,4 +1,4 @@
-# 20220808 Implemented mapnik changes up to release 5.6.0
+# 20240529 Implemented mapnik changes up to release 5.8.0
 Openstreetmap visual changes can be found on https://github.com/gravitystorm/openstreetmap-carto/blob/master/CHANGELOG.md
 Releasenotes for all latest style- and typ changes can be found in de style info-file within the style zip
 - Rendering parcel lockers

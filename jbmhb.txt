@@ -17,135 +17,135 @@ CodePage=65001
 ;MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
 ;General Public License for more details.
 ;
-;Auto generated: 20220722 20:30
+;Auto generated: 20240517 16:07
 ;From master: JBM
 ;As subset: hidebike
 ;
 [End]
 [_drawOrder]
-Type=0x027,1
-Type=0x04a,1
-Type=0x04b,1
-Type=0x003,2
-Type=0x006,2
-Type=0x007,2
-Type=0x008,2
-Type=0x00f,2
-Type=0x010,2
-Type=0x011,2
-Type=0x015,2
-Type=0x017,2
-Type=0x025,2
-Type=0x028,2
-Type=0x032,2
-Type=0x038,2
-Type=0x03d,2
-Type=0x048,2
-Type=0x060,2
-Type=0x06b,2
-Type=0x06e,2
-Type=0x072,2
-Type=0x073,2
+Type=0x01,28
+Type=0x02,12
+Type=0x03,2
+Type=0x04,28
+Type=0x05,15
+Type=0x06,2
+Type=0x07,2
+Type=0x08,2
+Type=0x09,13
+Type=0x0a,4
+Type=0x0b,4
+Type=0x0c,3
+Type=0x0d,12
+Type=0x0e,27
+Type=0x0f,2
+Type=0x10,2
+Type=0x11,2
+Type=0x12,9
+Type=0x13,25
+Type=0x14,5
+Type=0x15,2
+Type=0x16,10
+Type=0x17,2
+Type=0x18,7
+Type=0x19,14
+Type=0x1a,12
+Type=0x1b,11
+Type=0x1c,5
+Type=0x1d,11
+Type=0x1e,3
+Type=0x1f,17
+Type=0x20,15
+Type=0x21,13
+Type=0x22,4
+Type=0x23,22
+Type=0x24,4
+Type=0x25,2
+Type=0x26,9
+Type=0x27,1
+Type=0x28,2
+Type=0x29,12
+Type=0x2a,16
+Type=0x2b,8
+Type=0x2c,10
+Type=0x2d,12
+Type=0x2e,6
+Type=0x2f,3
+Type=0x30,12
+Type=0x31,12
+Type=0x32,2
+Type=0x33,22
+Type=0x34,22
+Type=0x35,22
+Type=0x36,22
+Type=0x37,22
+Type=0x38,22
+Type=0x39,23
+Type=0x3a,11
+Type=0x3b,12
+Type=0x3c,21
+Type=0x3d,2
+Type=0x3e,21
+Type=0x3f,22
+Type=0x40,13
+Type=0x41,6
+Type=0x42,22
+Type=0x43,4
+Type=0x44,19
+Type=0x45,19
+Type=0x46,21
+Type=0x47,22
+Type=0x48,2
+Type=0x49,23
+Type=0x4a,1
+Type=0x4b,1
+Type=0x4c,3
+Type=0x4d,15
+Type=0x4e,8
+Type=0x4f,21
+Type=0x50,11
+Type=0x51,22
+Type=0x52,22
+Type=0x53,22
+Type=0x54,22
+Type=0x55,22
+Type=0x56,22
+Type=0x57,22
+Type=0x58,17
+Type=0x59,10
+Type=0x5a,13
+Type=0x5b,9
+Type=0x5c,7
+Type=0x5d,13
+Type=0x5e,11
+Type=0x5f,25
+Type=0x60,2
+Type=0x61,11
+Type=0x62,22
+Type=0x63,3
+Type=0x64,3
+Type=0x65,7
+Type=0x66,3
+Type=0x67,4
+Type=0x68,10
+Type=0x69,22
+Type=0x6a,24
+Type=0x6b,2
+Type=0x6c,18
+Type=0x6d,26
+Type=0x6e,2
+Type=0x6f,5
+Type=0x70,17
+Type=0x71,11
+Type=0x72,2
+Type=0x73,2
+Type=0x7a,12
+Type=0x7b,20
+Type=0x7c,5
+Type=0x7d,9
+Type=0x7e,12
+Type=0x7f,26
 Type=0x10001,2
-Type=0x00c,3
-Type=0x01e,3
-Type=0x02f,3
-Type=0x04c,3
-Type=0x063,3
-Type=0x064,3
-Type=0x066,3
-Type=0x00a,4
-Type=0x00b,4
-Type=0x022,4
-Type=0x024,4
-Type=0x043,4
-Type=0x067,4
-Type=0x014,5
-Type=0x01c,5
-Type=0x06f,5
-Type=0x07c,5
-Type=0x02e,6
-Type=0x041,6
-Type=0x018,7
-Type=0x05c,7
-Type=0x065,7
-Type=0x02b,8
-Type=0x04e,8
-Type=0x012,9
-Type=0x026,9
-Type=0x05b,9
-Type=0x07d,9
-Type=0x016,10
-Type=0x02c,10
-Type=0x059,10
-Type=0x068,10
-Type=0x01b,11
-Type=0x01d,11
-Type=0x03a,11
-Type=0x050,11
-Type=0x05e,11
-Type=0x061,11
-Type=0x071,11
-Type=0x002,12
-Type=0x00d,12
-Type=0x01a,12
-Type=0x029,12
-Type=0x02d,12
-Type=0x030,12
-Type=0x031,12
-Type=0x03b,12
-Type=0x07a,12
-Type=0x07e,12
-Type=0x009,13
-Type=0x021,13
-Type=0x040,13
-Type=0x05a,13
-Type=0x05d,13
-Type=0x019,14
-Type=0x005,15
-Type=0x020,15
-Type=0x04d,15
-Type=0x02a,16
-Type=0x01f,17
-Type=0x058,17
-Type=0x070,17
-Type=0x06c,18
-Type=0x044,19
-Type=0x045,19
-Type=0x07b,20
-Type=0x03c,21
-Type=0x03e,21
-Type=0x046,21
-Type=0x04f,21
-Type=0x023,22
-Type=0x033,22
-Type=0x034,22
-Type=0x035,22
-Type=0x036,22
-Type=0x037,22
-Type=0x03f,22
-Type=0x042,22
-Type=0x047,22
-Type=0x051,22
-Type=0x052,22
-Type=0x053,22
-Type=0x054,22
-Type=0x055,22
-Type=0x056,22
-Type=0x057,22
-Type=0x062,22
-Type=0x069,22
-Type=0x039,23
-Type=0x049,23
-Type=0x06a,24
-Type=0x013,25
-Type=0x05f,25
-Type=0x06d,26
-Type=0x07f,26
-Type=0x00e,27
-Type=0x001,28
-Type=0x004,28
-[End]
+[end]
 [_polygon]
 type=0x01
 ;GRMN_TYPE: Urban Areas/LARGE_CITY/Large urban area, 200 000 or more inhabitants/Non NT
@@ -1515,6 +1515,52 @@ Xpm="32 32 2 1"
 "                      !         "
 "                      !         "
 "                                "
+;12345678901234567890123456789012
+[end]
+[_polygon]
+type=0x38
+;GRMN_TYPE: //
+String3=0x04,Flowerbed
+String4=0x03,Bloemen
+ExtendedLabels=Y
+FontStyle=NoLabel (invisible)
+CustomColor=No
+ContourColor=No
+Xpm="32 32 2 1"
+"! c #FFFFD5"
+"# c #DBF1C6"
+"################################"
+"################################"
+"################################"
+"################################"
+"################################"
+"########!#######################"
+"###!!###!#######################"
+"####!!##!#!#####################"
+"#####!!!!!!#####################"
+"######!!!#######################"
+"######!!!#######################"
+"#####!!#!!######################"
+"###!!####!######################"
+"###!######!#####################"
+"################################"
+"################################"
+"############################!###"
+"#####################!#####!####"
+"#####################!!###!!####"
+"######################!!##!#####"
+"#######################!!!######"
+"########################!!!#####"
+"######################!!#!!!!###"
+"#####################!!###!#####"
+"####################!!###!!#####"
+"####################!####!######"
+"#########################!######"
+"################################"
+"################################"
+"################################"
+"################################"
+"################################"
 ;12345678901234567890123456789012
 [end]
 [_polygon]
@@ -5335,7 +5381,7 @@ type=0x10a01
 UseOrientation=Y
 LineWidth=6
 Xpm="0 0 1 0"
-"1 c #8FD792"
+"1 c #ADD19E"
 String1=0x01,Arbre
 String2=0x02,Baumen
 String3=0x04,Trees
@@ -5509,6 +5555,49 @@ String3=0x04,Waterway
 String4=0x03,Waterweg
 ExtendedLabels=Y
 FontStyle=SmallFont
+CustomColor=No
+ContourColor=No
+[end]
+[_line]
+type=0x10a0b
+;GRMN_TYPE: //
+UseOrientation=Y
+Xpm="32 8 2  1"
+"! c #949494"
+"# c #D5D5D5"
+"!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+"!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+"!###############!!#############!"
+"!###############!!#############!"
+"!###############!!#############!"
+"!###############!!#############!"
+"!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+"!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+;12345678901234567890123456789012
+String3=0x04,Rollercoaster
+String4=0x03,Achtbaan
+ExtendedLabels=N
+[end]
+[_line]
+type=0x10a0c
+;GRMN_TYPE: //
+UseOrientation=Y
+Xpm="32 8 2  1"
+"! c #C5C5C5"
+"# c #D5D5D5"
+"!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+"!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+"!###############!!#############!"
+"!###############!!#############!"
+"!###############!!#############!"
+"!###############!!#############!"
+"!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+"!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+;12345678901234567890123456789012
+String3=0x04,Roller coaster (Tunnel)
+String4=0x03,Achtbaan (Tunnel)
+ExtendedLabels=Y
+FontStyle=NoLabel (invisible)
 CustomColor=No
 ContourColor=No
 [end]
@@ -8201,20 +8290,20 @@ FontStyle=NoLabel (invisible)
 CustomColor=No
 ContourColor=No
 DayXpm="11 11 3 1"   Colormode=16
-"!	c #8CD58F"
-"#	c #BD958B"
+"!	c #BD958B"
+"#	c #ACD09D"
 "  	c none"
-"   !!!!!   "
-"  !!!!!!!  "
-" !!!!!!!!! "
-"!!!!!!!!!!!"
-"!!!!!#!!!!!"
-"!!!!###!!!!"
-"!!!!!#!!!!!"
-"!!!!!!!!!!!"
-" !!!!!!!!! "
-"  !!!!!!!  "
-"   !!!!!   "
+"   #####   "
+"  #######  "
+" ######### "
+"###########"
+"#####!#####"
+"####!!!####"
+"#####!#####"
+"###########"
+" ######### "
+"  #######  "
+"   #####   "
 ;12345678901
 [end]
 [_point]
@@ -9744,6 +9833,35 @@ DayXpm="15 18 2 1"   Colormode=16
 "    !!!!!      "
 "   !!!!!!!     "
 ;123456789012345
+[end]
+[_point]
+type=0x02c
+subtype=0x1c
+;GRMN_TYPE: //
+String3=0x04,Parcel locker
+String4=0x03,Pakketkluis
+ExtendedLabels=Y
+FontStyle=NoLabel (invisible)
+CustomColor=No
+ContourColor=No
+DayXpm="14 14 2 1"   Colormode=16
+"!	c #734A08"
+"  	c none"
+"       !!!    "
+"!!    !!!!!   "
+"!   !!!!!!!!! "
+"!  !!!!!!!!!!!"
+"!    !!!!!!!  "
+"!  !  !!!!!  !"
+"!  !!  !!!  !!"
+"!  !!!     !!!"
+"!  !!!!   !!!!"
+"!  !!!!! !!!!!"
+"!   !!!! !!!! "
+"!    !!! !!!  "
+"!!    !! !!   "
+"       ! !    "
+;12345678901234
 [end]
 [_point]
 type=0x02c
@@ -15860,12 +15978,12 @@ String2=0x02,Sattel
 String3=0x04,Saddle
 String4=0x03,Bergpas, Zadel
 ExtendedLabels=Y
-FontStyle=LargeFont
+FontStyle=SmallFont
 CustomColor=Day
-DaycustomColor:#006500
+DaycustomColor:#3E8BFD
 ContourColor=No
 DayXpm="12 9 2 1"   Colormode=16
-"!	c #D08F55"
+"!	c #0095FF"
 "  	c none"
 "!          !"
 "!!        !!"
