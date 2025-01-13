@@ -1,8 +1,9 @@
-# 20240529 Implemented mapnik changes up to release 5.8.0
+# 20250113 Implemented mapnik changes up to release 5.8.0
 Openstreetmap visual changes can be found on https://github.com/gravitystorm/openstreetmap-carto/blob/master/CHANGELOG.md
 Releasenotes for all latest style- and typ changes can be found in de style info-file within the style zip
-- Rendering parcel lockers
-- Change of tree and tree row colors
+- Rendering shop=hearing_aids and leisure=dance
+- Change rendering of railway=preserved
+- Added translations for french and german
 
 # Custom mkgmap style and typ-file 
 This style renders routable Garmin Maps for Basecamp and Mapsource in the current Openstreetmap Mapnik layout. 
