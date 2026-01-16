@@ -1,12 +1,5 @@
-# 20260116 Implemented mapnik changes up to release 5.9.0
+# Implemented mapnik changes up to release 5.9.0
 - Small fixes
-
-# 20250113 Implemented mapnik changes up to release 5.8.0
-Openstreetmap visual changes can be found on https://github.com/gravitystorm/openstreetmap-carto/blob/master/CHANGELOG.md
-Releasenotes for all latest style- and typ changes can be found in de style info-file within the style zip
-- Rendering shop=hearing_aids and leisure=dance
-- Change rendering of railway=preserved
-- Added translations for French and German
 
 # Custom mkgmap style and typ-file 
 This style renders routable Garmin Maps for Basecamp and Mapsource in the current Openstreetmap Mapnik layout. 
