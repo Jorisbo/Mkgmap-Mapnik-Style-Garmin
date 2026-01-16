@@ -17,7 +17,7 @@ CodePage=65001
 ;MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
 ;General Public License for more details.
 ;
-;Auto generated: 20240517 16:07
+;Auto generated: 20250707 21:01
 ;From master: JBM
 ;As subset: hidebike
 ;
@@ -32,8 +32,8 @@ Type=0x06,2
 Type=0x07,2
 Type=0x08,2
 Type=0x09,13
-Type=0x0a,4
-Type=0x0b,4
+Type=0x0a,5
+Type=0x0b,5
 Type=0x0c,3
 Type=0x0d,12
 Type=0x0e,27
@@ -42,7 +42,7 @@ Type=0x10,2
 Type=0x11,2
 Type=0x12,9
 Type=0x13,25
-Type=0x14,5
+Type=0x14,6
 Type=0x15,2
 Type=0x16,10
 Type=0x17,2
@@ -68,7 +68,7 @@ Type=0x2a,16
 Type=0x2b,8
 Type=0x2c,10
 Type=0x2d,12
-Type=0x2e,6
+Type=0x2e,7
 Type=0x2f,3
 Type=0x30,12
 Type=0x31,12
@@ -114,7 +114,7 @@ Type=0x58,17
 Type=0x59,10
 Type=0x5a,13
 Type=0x5b,9
-Type=0x5c,7
+Type=0x5c,8
 Type=0x5d,13
 Type=0x5e,11
 Type=0x5f,25
@@ -133,7 +133,7 @@ Type=0x6b,2
 Type=0x6c,18
 Type=0x6d,26
 Type=0x6e,2
-Type=0x6f,5
+Type=0x6f,9
 Type=0x70,17
 Type=0x71,11
 Type=0x72,2
@@ -1520,6 +1520,8 @@ Xpm="32 32 2 1"
 [_polygon]
 type=0x38
 ;GRMN_TYPE: //
+String1=0x01,Parterre de fleurs
+String2=0x02,Blumenbeet
 String3=0x04,Flowerbed
 String4=0x03,Bloemen
 ExtendedLabels=Y
@@ -1566,6 +1568,7 @@ Xpm="32 32 2 1"
 [_polygon]
 type=0x39
 ;GRMN_TYPE: //
+String1=0x01,Construction
 String2=0x02,Konstruktion
 String3=0x04,Man made
 String4=0x03,Constructie
@@ -1593,6 +1596,7 @@ Xpm="0 0 1 0"
 [_polygon]
 type=0x3b
 ;GRMN_TYPE: //
+String1=0x01,Aérogare
 String2=0x02,Flughafenterminal
 String3=0x04,Terminal
 String4=0x03,Terminal
@@ -1669,6 +1673,7 @@ Xpm="0 0 1 0"
 [_polygon]
 type=0x41
 ;GRMN_TYPE: Water Areas/LAKE_LT_1MI, SMALL_LAKE/Small lake, typically less than 5 sq mi in area/Non NT
+String1=0x01,Prairie
 String2=0x02,Wiese
 String3=0x04,Meadow
 String4=0x03,Weide
@@ -1682,6 +1687,7 @@ Xpm="0 0 1 0"
 [_polygon]
 type=0x42
 ;GRMN_TYPE: Water Areas/LAKE_GT_1000MI, MAJOR_LAKE/Major regional lake, typically larger than 500 sq mi/Non NT
+String1=0x01,Lac Salé
 String2=0x02,Salzsee
 String3=0x04,Saltpond
 String4=0x03,Zoutmeer
@@ -2536,6 +2542,7 @@ Xpm="32 32 2 1"
 [_polygon]
 type=0x5e
 ;GRMN_TYPE: //
+String1=0x01,Zone commerciale
 String2=0x02,Gewerbegebiet
 String3=0x04,Retail area
 String4=0x03,Handelsgebied
@@ -2612,6 +2619,7 @@ Xpm="32 32 2 1"
 [_polygon]
 type=0x61
 ;GRMN_TYPE: //
+String1=0x01,Bunker
 String2=0x02,Sand
 String3=0x04,Sandtrap
 String4=0x03,Bunker
@@ -2791,6 +2799,7 @@ Xpm="0 0 1 0"
 [_polygon]
 type=0x6b
 ;GRMN_TYPE: //
+String1=0x01,Gare routière
 String2=0x02,Bus
 String3=0x04,Bus terminal
 String4=0x03,Bus terminal
@@ -2939,6 +2948,7 @@ Xpm="32 32 2 1"
 [_polygon]
 type=0x7c
 ;GRMN_TYPE: //
+String1=0x01,Jardin familial
 String2=0x02,Schrebergärten
 String3=0x04,Allotments
 String4=0x03,Volkstuinen
@@ -3000,6 +3010,7 @@ Xpm="0 0 1 0"
 [_polygon]
 type=0x7e
 ;GRMN_TYPE: //
+String1=0x01,Centrale électrique
 String2=0x02,Kraftwerk
 String3=0x04,Powerplant
 String4=0x03,Electriciteitsstation
@@ -3200,6 +3211,7 @@ Xpm="0 0 4 0"
 "2 c #FF008B"
 "3 c #E892A2"
 "4 c #FF008B"
+String1=0x01,Voie d’accès
 String2=0x02,Autobahn (Verbindung)
 String3=0x04,Motorway (Link)
 String4=0x03,Snelweg (Verbinding)
@@ -3907,6 +3919,7 @@ Xpm="32 2 2  1"
 "     !!!!            !!!!       "
 "     !!!!            !!!!       "
 ;12345678901234567890123456789012
+String1=0x01,Via ferrata
 String2=0x02,Klettersteig
 String3=0x04,Via ferrata
 String4=0x03,Via ferrata
@@ -4093,6 +4106,7 @@ Xpm="32 2 2  1"
 "  !!!!    !!!!    !!!!    !!!!  "
 "  !!!!    !!!!    !!!!    !!!!  "
 ;12345678901234567890123456789012
+String1=0x01,Sentier équestre
 String2=0x02,Reitweg
 String3=0x04,Bridleway
 String4=0x03,Ruiterpad
@@ -4353,6 +4367,7 @@ UseOrientation=Y
 LineWidth=1
 Xpm="0 0 1 0"
 "1 c #101010"
+String1=0x01,Chemin de fer
 String2=0x02,Eisenbahn
 String3=0x04,Railway
 String4=0x03,Spoorweg
@@ -4520,6 +4535,8 @@ UseOrientation=Y
 LineWidth=1
 Xpm="0 0 1 0"
 "1 c #737373"
+String1=0x01,Trou de golf
+String2=0x02,Golfloch
 String3=0x04,Golf hole
 String4=0x03,Golf hole
 ExtendedLabels=Y
@@ -4535,6 +4552,7 @@ UseOrientation=Y
 LineWidth=1
 Xpm="0 0 1 0"
 "1 c #A4A4A4"
+String1=0x01,Zone piétonne (Bord)
 String2=0x02,Fußgängerzone (Rand)
 String3=0x04,Pedestrian (Outline)
 String4=0x03,Voetgangersgebied (Rand)
@@ -4550,6 +4568,7 @@ UseOrientation=Y
 LineWidth=1
 Xpm="0 0 1 0"
 "1 c #39CAB4"
+String1=0x01,Terrain de sport (Bord)
 String2=0x02,Sportplatz (Rand)
 String3=0x04,Sports pitch (Outline)
 String4=0x03,Sportveld (Rand)
@@ -4565,7 +4584,7 @@ UseOrientation=Y
 LineWidth=1
 Xpm="0 0 1 0"
 "1 c #DDDDB3"
-String1=0x01,Ecole
+String1=0x01,Ecole (Bord)
 String2=0x02,Schule (Rand)
 String3=0x04,School (Outline)
 String4=0x03,School (Rand)
@@ -4581,6 +4600,7 @@ UseOrientation=Y
 LineWidth=1
 Xpm="0 0 1 0"
 "1 c #92D897"
+String1=0x01,Aire de loisirs (Bord)
 String2=0x02,Rekreation (Rand)
 String3=0x04,Recreation (Outline)
 String4=0x03,Recreatie (Rand)
@@ -4596,6 +4616,7 @@ UseOrientation=Y
 LineWidth=1
 Xpm="0 0 1 0"
 "1 c #949494"
+String1=0x01,Carrière (Bord)
 String2=0x02,Steinbruch (Rand)
 String3=0x04,Quarry (Outline)
 String4=0x03,Groeve (Rand)
@@ -4611,6 +4632,7 @@ UseOrientation=Y
 LineWidth=1
 Xpm="0 0 1 0"
 "1 c #C5C5C5"
+String1=0x01,Aéroport (Bord)
 String2=0x02,Flughafen (Rand)
 String3=0x04,Aero (Outline)
 String4=0x03,Vliegveld (Rand)
@@ -4626,6 +4648,7 @@ UseOrientation=Y
 LineWidth=1
 Xpm="0 0 1 0"
 "1 c #C5C5C5"
+String1=0x01,Centrale électrique (Bord)
 String2=0x02,Elektrizitätsstation (Rand)
 String3=0x04,Powerplant (Outline)
 String4=0x03,Electriciteitsstation (Rand)
@@ -4673,6 +4696,7 @@ UseOrientation=N
 LineWidth=1
 Xpm="0 0 1 0"
 "1 c #D5D5D5"
+String1=0x01,Parking (Bord)
 String2=0x02,Parking
 String3=0x04,Parking (Outline)
 String4=0x03,Parkeerplaats (Rand)
@@ -4688,6 +4712,7 @@ UseOrientation=Y
 LineWidth=1
 Xpm="0 0 1 0"
 "1 c #C6B3C3"
+String1=0x01,Zone industrielle (Bord)
 String2=0x02,Industriegebiet (Rand)
 String3=0x04,Industrial area (Outline)
 String4=0x03,Industriegebied (Rand)
@@ -4703,6 +4728,7 @@ UseOrientation=Y
 LineWidth=1
 Xpm="0 0 1 0"
 "1 c #D1B2B0"
+String1=0x01,Zone industrielle (Bord)
 String2=0x02,Gewerbegebiet (Rand)
 String3=0x04,Commercial area (Outline)
 String4=0x03,Commercieel gebied (Rand)
@@ -4718,6 +4744,7 @@ UseOrientation=Y
 LineWidth=1
 Xpm="0 0 1 0"
 "1 c #E6BCB0"
+String1=0x01,Zone industrielle (Bord)
 String2=0x02,Gewerbegebiet (Rand)
 String3=0x04,Retail area (Outline)
 String4=0x03,Handelsgebied (Rand)
@@ -4733,7 +4760,7 @@ UseOrientation=Y
 LineWidth=1
 Xpm="0 0 1 0"
 "1 c #E2C9A4"
-String1=0x01,Ferme
+String1=0x01,Ferme (Bord)
 String2=0x02,Bauernhof (Rand)
 String3=0x04,Farmyard (Outline)
 String4=0x03,Boerenbedrijf (Rand)
@@ -4749,6 +4776,7 @@ UseOrientation=Y
 LineWidth=1
 Xpm="0 0 1 0"
 "1 c #C5C5C5"
+String1=0x01,Port (Bord)
 String2=0x02,Hafen
 String3=0x04,Harbour (Outline)
 String4=0x03,Haven (Rand)
@@ -4764,6 +4792,7 @@ UseOrientation=Y
 LineWidth=1
 Xpm="0 0 1 0"
 "1 c #C5C5C5"
+String1=0x01,Aire (Bord)
 String2=0x02,Service
 String3=0x04,Service(Outline)
 String4=0x03,Service (Rand)
@@ -4795,6 +4824,7 @@ UseOrientation=Y
 LineWidth=2
 Xpm="0 0 1 0"
 "1 c #7D7C7B"
+String1=0x01,Mur de la ville
 String2=0x02,Stadtmauer
 String3=0x04,City wall
 String4=0x03,Stadsmuur
@@ -4810,6 +4840,7 @@ UseOrientation=N
 LineWidth=1
 Xpm="0 0 1 0"
 "1 c #ACAAA7"
+String1=0x01,Fossé
 String2=0x02,Graben
 String3=0x04,Ditch
 String4=0x03,Droge greppel
@@ -4829,6 +4860,7 @@ Xpm="32 3 2  1"
 "!!              !!              "
 "!!              !!              "
 ;12345678901234567890123456789012
+String1=0x01,Digue
 String2=0x02,Deich
 String3=0x04,Embankement
 String4=0x03,Dijk
@@ -4850,6 +4882,7 @@ Xpm="32 5 2  1"
 "   !!!             !!!          "
 "    !               !           "
 ;12345678901234567890123456789012
+String1=0x01,Falaise
 String2=0x02,Klippe
 String3=0x04,Cliff
 String4=0x03,Klif
@@ -4865,6 +4898,7 @@ UseOrientation=Y
 LineWidth=1
 Xpm="0 0 1 0"
 "1 c #ACAAA7"
+String1=0x01,Mur
 String2=0x02,Maur
 String3=0x04,Wall
 String4=0x03,Muur
@@ -4880,6 +4914,7 @@ UseOrientation=Y
 LineWidth=1
 Xpm="0 0 1 0"
 "1 c #8D847D"
+String1=0x01,Mur de soutènement
 String2=0x02,Stützmauer
 String3=0x04,Retaining wall
 String4=0x03,Keermuur
@@ -4905,6 +4940,7 @@ Xpm="32 9 2  1"
 "################################"
 "##!!!!####!!!!####!!!!####!!!!##"
 ;12345678901234567890123456789012
+String1=0x01,Autoroute
 String2=0x02,Autobahn (Tunnel)
 String3=0x04,Motorway (Tunnel)
 String4=0x03,Snelweg (Tunnel)
@@ -4930,6 +4966,7 @@ Xpm="32 9 2  1"
 "################################"
 "##!!!!####!!!!####!!!!####!!!!##"
 ;12345678901234567890123456789012
+String1=0x01,Autoroute
 String2=0x02,Schnellstraße (Tunnel)
 String3=0x04,Trunk (Tunnel)
 String4=0x03,Autoweg (Tunnel)
@@ -4955,6 +4992,7 @@ Xpm="32 9 2  1"
 "################################"
 "##!!!!####!!!!####!!!!####!!!!##"
 ;12345678901234567890123456789012
+String1=0x01,Chemin provincial
 String2=0x02,Bundesstraße (Tunnel)
 String3=0x04,Primary (Tunnel)
 String4=0x03,Primair (Tunnel)
@@ -4980,6 +5018,7 @@ Xpm="32 9 2  1"
 "################################"
 "##!!!!####!!!!####!!!!####!!!!##"
 ;12345678901234567890123456789012
+String1=0x01,Chemin provincial
 String2=0x02,Bundesstraße (Tunnel)
 String3=0x04,Secondary (Tunnel)
 String4=0x03,Secundair (Tunnel)
@@ -5005,6 +5044,7 @@ Xpm="32 9 2  1"
 "################################"
 "##!!!!####!!!!####!!!!####!!!!##"
 ;12345678901234567890123456789012
+String1=0x01,Che,min (Tunnel)
 String2=0x02,Straße (Tunnel)
 String3=0x04,Tertiair (Tunnel)
 String4=0x03,Tertiair (Tunnel
@@ -5100,6 +5140,7 @@ UseOrientation=Y
 LineWidth=6
 Xpm="0 0 1 0"
 "1 c #BBBBCC"
+String1=0x01,Rue de Taxi
 String2=0x02,Taxi weg
 String3=0x04,Taxiway
 String4=0x03,Taxibaan
@@ -5151,6 +5192,7 @@ Xpm="32 1 2  1"
 "  c none"
 " !!!!!!  !!!!!!  !!!!!!  !!!!!! "
 ;12345678901234567890123456789012
+String1=0x01,Piste cyclable
 String2=0x02,Radweg
 String3=0x04,Cycleway
 String4=0x03,Fietspad
@@ -5305,6 +5347,7 @@ Xpm="32 7 2  1"
 "#!#!#!#!#!#!#!#!#!#!#!#!#!#!#!#!"
 "!#!#!#!#!#!#!#!#!#!#!#!#!#!#!#!#"
 ;12345678901234567890123456789012
+String1=0x01,Zoo
 String2=0x02,Tiergarten / Vergnügungspark
 String3=0x04,Zoo / Themepark
 String4=0x03,Zoo / Attractiepark
@@ -5320,6 +5363,7 @@ UseOrientation=Y
 LineWidth=2
 Xpm="0 0 1 0"
 "1 c #660033"
+String1=0x01,Parc d'attractions
 String2=0x02,Vergnügungspark
 String3=0x04,Themepark
 String4=0x03,Attractiepark
@@ -5335,6 +5379,7 @@ UseOrientation=Y
 LineWidth=1
 Xpm="0 0 1 0"
 "1 c #660033"
+String1=0x01,Parc d'attractions
 String2=0x02,Vergnügungspark
 String3=0x04,Themepark
 String4=0x03,Attractiepark
@@ -5550,6 +5595,7 @@ BorderWidth=1
 Xpm="0 0 2 0"
 "1 c #FFFFFF"
 "2 c #C5C5C5"
+String1=0x01,Voie navigable
 String2=0x02,Wasserweg
 String3=0x04,Waterway
 String4=0x03,Waterweg
@@ -5574,9 +5620,15 @@ Xpm="32 8 2  1"
 "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
 "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
 ;12345678901234567890123456789012
+String1=0x01,Montagnes russes
+String2=0x02,Achterbahn
 String3=0x04,Rollercoaster
 String4=0x03,Achtbaan
-ExtendedLabels=N
+ExtendedLabels=Y
+FontStyle=SmallFont
+CustomColor=Day
+DaycustomColor:#838383
+ContourColor=No
 [end]
 [_line]
 type=0x10a0c
@@ -5594,11 +5646,14 @@ Xpm="32 8 2  1"
 "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
 "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
 ;12345678901234567890123456789012
+String1=0x01,Montagnes russes (Tunnel)
+String2=0x02,Achterbahn (Tunnel)
 String3=0x04,Roller coaster (Tunnel)
 String4=0x03,Achtbaan (Tunnel)
 ExtendedLabels=Y
-FontStyle=NoLabel (invisible)
-CustomColor=No
+FontStyle=SmallFont
+CustomColor=Day
+DaycustomColor:#838383
 ContourColor=No
 [end]
 [_line]
@@ -5608,6 +5663,7 @@ UseOrientation=Y
 LineWidth=2
 Xpm="0 0 1 0"
 "1 c #AAD3DF"
+String1=0x01,Fossé
 String2=0x02,Graben
 String3=0x04,Ditch
 String4=0x03,Sloot
@@ -5631,6 +5687,7 @@ Xpm="32 7 2  1"
 "##!!!!!###!!!!!###!!!!!###!!!!!#"
 "##!!!!!###!!!!!###!!!!!###!!!!!#"
 ;12345678901234567890123456789012
+String1=0x01,Ruisseau (Tunnel)
 String2=0x02,Fluß (Tunnel)
 String3=0x04,Stream (Tunnel)
 String4=0x03,Kanaal, Beek, Rivier (Tunnel)
@@ -5651,6 +5708,7 @@ Xpm="32 4 2  1"
 "################################"
 "##!!!!####!!!!####!!!!####!!!!##"
 ;12345678901234567890123456789012
+String1=0x01,Fossé (Tunnel)
 String2=0x02,Graben (Tunnel)
 String3=0x04,Ditch (Tunnel)
 String4=0x03,Sloot (Tunnel)
@@ -5722,6 +5780,7 @@ UseOrientation=Y
 LineWidth=4
 Xpm="0 0 1 0"
 "1 c #B7ACB4"
+String1=0x01,Marina
 String2=0x02,Hafen
 String3=0x04,Marina
 String4=0x03,Jachthaven (Land)
@@ -5737,6 +5796,7 @@ UseOrientation=Y
 LineWidth=4
 Xpm="0 0 1 0"
 "1 c #9CB3D6"
+String1=0x01,Marina
 String2=0x02,Bootshafen
 String3=0x04,Marina
 String4=0x03,Jachthaven
@@ -5795,6 +5855,7 @@ Xpm="32 2 2  1"
 "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
 "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
 ;12345678901234567890123456789012
+String1=0x01,Portail haute tension
 String2=0x02,Hochspannungsportal
 String3=0x04,Powerportal
 String4=0x03,Hoogspaningsportaal
@@ -5818,6 +5879,7 @@ Xpm="32 7 2  1"
 "!!####!!!!####!!!!####!!!!####!!"
 "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
 ;12345678901234567890123456789012
+String1=0x01,Autoroute (En travaux)
 String2=0x02,Autobahn (Im bau)
 String3=0x04,Motorway (Construction)
 String4=0x03,Snelweg (In aanleg)
@@ -5841,6 +5903,7 @@ Xpm="32 7 2  1"
 "!!####!!!!####!!!!####!!!!####!!"
 "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
 ;12345678901234567890123456789012
+String1=0x01,Autoroute (En travaux)
 String2=0x02,Schnellstraße (Im bau)
 String3=0x04,Trunk (Construction)
 String4=0x03,Autoweg (In aanleg)
@@ -5864,6 +5927,7 @@ Xpm="32 7 2  1"
 "!!####!!!!####!!!!####!!!!####!!"
 "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
 ;12345678901234567890123456789012
+String1=0x01,Autoroute (En travaux)
 String2=0x02,Bundesstraße (Im bau)
 String3=0x04,Primary (Construction)
 String4=0x03,Primair (In aanleg)
@@ -5887,6 +5951,7 @@ Xpm="32 7 2  1"
 "!!####!!!!####!!!!####!!!!####!!"
 "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
 ;12345678901234567890123456789012
+String1=0x01,Autoroute (En travaux)
 String2=0x02,Bundesstraße (Im bau)
 String3=0x04,Secondary (Construction)
 String4=0x03,Secundair (In aanleg)
@@ -5910,6 +5975,7 @@ Xpm="32 7 2  1"
 "!!####!!!!####!!!!####!!!!####!!"
 "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
 ;12345678901234567890123456789012
+String1=0x01,Chemin (En travaux)
 String2=0x02,Weg (Im bau)
 String3=0x04,Road (Construction)
 String4=0x03,Weg (In aanleg)
@@ -5933,7 +5999,7 @@ Xpm="32 7 2  1"
 "!!####!!!!####!!!!####!!!!####!!"
 "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
 ;12345678901234567890123456789012
-String1=0x01,Route (en travaux)
+String1=0x01,Route (En travaux)
 String2=0x02,Weg (Im bau)
 String3=0x04,Road (Construction)
 String4=0x03,Weg (In aanleg)
@@ -5955,6 +6021,7 @@ Xpm="32 2 2  1"
 "   !!      !!      !!      !!   "
 "   !!      !!      !!      !!   "
 ;12345678901234567890123456789012
+String1=0x01,Piste cyclable (En travaux)
 String2=0x02,Radweg (Im bau)
 String3=0x04,Cycleway (Construction)
 String4=0x03,Trappen, Fiets- of voetpad (In aanleg)
@@ -5972,7 +6039,7 @@ Xpm="32 1 2  1"
 "  c none"
 " !!  !!  !!  !!  !!  !!  !!  !! "
 ;12345678901234567890123456789012
-String1=0x01,Voie
+String1=0x01,Voie (En travaux)
 String2=0x02,Gleis (Im bau)
 String3=0x04,Railway (Construction)
 String4=0x03,Spoorweg (In aanleg)
@@ -5991,6 +6058,7 @@ Xpm="32 2 2  1"
 "!!  !!  !!  !!  !!  !!  !!  !!  "
 "!!  !!  !!  !!  !!  !!  !!  !!  "
 ;12345678901234567890123456789012
+String1=0x01,Voie (Tunnel)
 String2=0x02,Gleis (Tunnel)
 String3=0x04,Railway (Tunnel)
 String4=0x03,Nevenspoor (Tunnel)
@@ -6033,6 +6101,7 @@ Xpm="32 3 2  1"
 "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
 "  !!!!!                         "
 ;12345678901234567890123456789012
+String1=0x01,Téléphérique de fret
 String2=0x02,Material Seilbahn
 String3=0x04,Cablecar
 String4=0x03,Goederenlift
@@ -6053,6 +6122,7 @@ Xpm="32 3 2  1"
 "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
 "!!!             !!!             "
 ;12345678901234567890123456789012
+String1=0x01,Téléphérique à cabines
 String2=0x02,Kabine Seilbahn
 String3=0x04,Cablecar
 String4=0x03,Gondellift
@@ -6071,6 +6141,7 @@ Xpm="32 1 2  1"
 "  c none"
 "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
 ;12345678901234567890123456789012
+String1=0x01,Tapis roulant
 String3=0x04,Goods conveyer
 String4=0x03,Transportband
 ExtendedLabels=Y
@@ -7604,6 +7675,7 @@ DayXpm="13 12 2 1"   Colormode=16
 type=0x02a
 subtype=0x05
 ;GRMN_TYPE: Business - Food and Drink/RESTAURANT_DELI/Deli or sandwich shop/Non NT
+String1=0x01,Pub
 String2=0x02,Kneipe
 String3=0x04,Pub
 String4=0x03,Pub
@@ -7633,6 +7705,7 @@ DayXpm="10 13 2 1"   Colormode=16
 type=0x02a
 subtype=0x06
 ;GRMN_TYPE: Business - Food and Drink/RESTAURANT_INTRNTNL/International cuisine/Non NT
+String1=0x01,Discothèque
 String2=0x02,Nachtclub
 String3=0x04,Nightclub
 String4=0x03,Nachtclub
@@ -7663,6 +7736,7 @@ DayXpm="13 14 2 1"   Colormode=16
 type=0x02a
 subtype=0x07
 ;GRMN_TYPE: Business - Food and Drink/RESTAURANT_FAST_FOOD/Fast food establishment, i.e. McDonalds/Non NT
+String1=0x01,Glacier
 String2=0x02,Eissalon
 String3=0x04,Icecream
 String4=0x03,IJssalon
@@ -8180,6 +8254,7 @@ DayXpm="12 16 2 1"   Colormode=16
 type=0x02b
 subtype=0x00
 ;GRMN_TYPE: //
+String1=0x01,Rampe de bateau
 String2=0x02,Bootshang
 String3=0x04,Boat ramp
 String4=0x03,Botenhelling
@@ -8310,6 +8385,7 @@ DayXpm="11 11 3 1"   Colormode=16
 type=0x02b
 subtype=0x04
 ;GRMN_TYPE: Business - Lodging/RESORT/Resort/Non NT
+String1=0x01,Colonne publicitaire
 String2=0x02,Plakatsäule
 String3=0x04,Advertising column
 String4=0x03,Reclamezuil
@@ -8411,6 +8487,7 @@ DayXpm="13 15 2 1"   Colormode=16
 type=0x02b
 subtype=0x08
 ;GRMN_TYPE: //
+String1=0x01,Auberge de jeunesse
 String2=0x02,Herberge
 String3=0x04,Hostel
 String4=0x03,Jeugdherberg
@@ -8444,6 +8521,7 @@ DayXpm="16 16 2 1"   Colormode=16
 type=0x02b
 subtype=0x09
 ;GRMN_TYPE: //
+String1=0x01,Motel
 String2=0x02,Motel
 String3=0x04,Motel
 String4=0x03,Motel
@@ -8477,6 +8555,7 @@ DayXpm="16 16 2 1"   Colormode=16
 type=0x02b
 subtype=0x0a
 ;GRMN_TYPE: //
+String1=0x01,Appartement
 String2=0x02,Wohnung
 String3=0x04,Apartment
 String4=0x03,Appartement
@@ -8602,6 +8681,7 @@ DayXpm="15 12 2 1"   Colormode=16
 type=0x02b
 subtype=0x10
 ;GRMN_TYPE: //
+String1=0x01,Pièces automobiles
 String2=0x02,Autoteile
 String3=0x04,Carparts
 String4=0x03,Auto onderdelen
@@ -8630,6 +8710,7 @@ DayXpm="16 12 2 1"   Colormode=16
 type=0x02b
 subtype=0x11
 ;GRMN_TYPE: //
+String1=0x01,Salon de beauté
 String2=0x02,Kosmetiksalon
 String3=0x04,Beauty
 String4=0x03,Schoonheidssalon
@@ -8659,6 +8740,7 @@ DayXpm="16 13 2 1"   Colormode=16
 type=0x02b
 subtype=0x12
 ;GRMN_TYPE: //
+String1=0x01,Budget
 String2=0x02,Budget
 String3=0x04,Budget
 String4=0x03,Budget
@@ -8692,6 +8774,7 @@ DayXpm="14 17 2 1"   Colormode=16
 type=0x02b
 subtype=0x13
 ;GRMN_TYPE: //
+String1=0x01,Peche
 String2=0x02,Fisch
 String3=0x04,Fisch
 String4=0x03,Vis
@@ -9009,6 +9092,38 @@ DayXpm="15 15 2 1"   Colormode=16
 " !!!!!!!       "
 "   !!!!!       "
 "     !!!       "
+;123456789012345
+[end]
+[_point]
+type=0x02b
+subtype=0x1d
+;GRMN_TYPE: //
+String1=0x01,Prothèse auditive
+String2=0x02,Hörgeräte
+String3=0x04,Hearing aids
+String4=0x03,Gehoortoestellen
+ExtendedLabels=Y
+FontStyle=NoLabel (invisible)
+CustomColor=No
+ContourColor=No
+DayXpm="15 15 2 1"   Colormode=16
+"!	c #BD30B4"
+"  	c none"
+"     !!!       "
+"    !!!!!   !  "
+"   !!! !!! !   "
+"  !!    !! ! !!"
+" !!        ! ! "
+" !!  !!!!  ! !!"
+" !!  !!!!! !   "
+"  !!    !!  !  "
+"  !!!!!  !!    "
+"   !!!!! !!!   "
+"     !!! !!!   "
+"         !!    "
+" !!     !!     "
+"  !!!!!!!!     "
+"   !!!!!!      "
 ;123456789012345
 [end]
 [_point]
@@ -11546,6 +11661,7 @@ DayXpm="16 17 2 1"   Colormode=16
 type=0x02e
 subtype=0x1b
 ;GRMN_TYPE: //
+String1=0x01,Magasin de tapis
 String3=0x04,Carpet
 String4=0x03,Tapijten
 ExtendedLabels=Y
@@ -12005,6 +12121,7 @@ DayXpm="10 14 2 1"   Colormode=16
 type=0x02f
 subtype=0x0f
 ;GRMN_TYPE: Business - Services/GARMIN_DEALERS/Garmin dealer/Non NT
+String1=0x01,Location de bateau
 String2=0x02,Bootsverleih
 String3=0x04,Boatrental
 String4=0x03,Bootverhuur
@@ -12132,6 +12249,7 @@ DayXpm="14 15 2 1"   Colormode=16
 type=0x02f
 subtype=0x13
 ;GRMN_TYPE: Business - Services/REPAIR_SERVICE/Repair service/Non NT
+String1=0x01,Téléphone d'urgence
 String2=0x02,Not Anruf
 String3=0x04,Emergency phone
 String4=0x03,Noodtelefoon
@@ -12198,6 +12316,7 @@ DayXpm="14 16 2 1"   Colormode=16
 type=0x02f
 subtype=0x15
 ;GRMN_TYPE: Business - Services/UTILITY/Utility (gas, electric, water) services/Non NT
+String1=0x01,Bains publics
 String2=0x02,Badehaus
 String3=0x04,Public bath
 String4=0x03,Badhuis
@@ -12357,6 +12476,7 @@ DayXpm="13 15 2 1"   Colormode=16
 type=0x02f
 subtype=0x1a
 ;GRMN_TYPE: //
+String1=0x01,Monument
 String2=0x02,Denkmal
 String3=0x04,Monument
 String4=0x03,Monument
@@ -12387,6 +12507,7 @@ DayXpm="10 13 2 1"   Colormode=16
 type=0x02f
 subtype=0x1b
 ;GRMN_TYPE: //
+String1=0x01,Bureau
 String2=0x02,Büro
 String3=0x04,Office
 String4=0x03,Kantoor
@@ -12442,6 +12563,8 @@ DayXpm="10 16 2 1"   Colormode=16
 type=0x02f
 subtype=0x1d
 ;GRMN_TYPE: //
+String1=0x01,Distributeur de billets
+String2=0x02,Ticketautomat
 String3=0x04,Vending machine
 String4=0x03,Ticketautomaat
 ExtendedLabels=Y
@@ -12708,6 +12831,7 @@ DayXpm="15 15 2 1"   Colormode=16
 type=0x030
 subtype=0x07
 ;GRMN_TYPE: Business - Emergency and Government/GOV_OFFICE/Government Office/Non NT
+String1=0x01,Parking moto
 String2=0x02,Motorrad parking
 String3=0x04,Motorbike parking
 String4=0x03,Motorfiest parkeerplaats
@@ -12839,6 +12963,7 @@ DayXpm="14 12 2 1"   Colormode=16
 type=0x030
 subtype=0x0b
 ;GRMN_TYPE: //
+String1=0x01,Dentiste
 String2=0x02,Zahnartz
 String3=0x04,Dentist
 String4=0x03,Tandarts
@@ -12933,6 +13058,7 @@ DayXpm="16 16 2 1"   Colormode=16
 type=0x030
 subtype=0x0e
 ;GRMN_TYPE: //
+String1=0x01,Jouets
 String2=0x02,Spielzeug
 String3=0x04,Toys
 String4=0x03,Speelgoed
@@ -12962,6 +13088,7 @@ DayXpm="14 13 2 1"   Colormode=16
 type=0x030
 subtype=0x0f
 ;GRMN_TYPE: //
+String1=0x01,Tabac
 String2=0x02,Zigarettenladen
 String3=0x04,Tobacco
 String4=0x03,Rookwaren
@@ -12994,6 +13121,7 @@ DayXpm="16 16 2 1"   Colormode=16
 type=0x030
 subtype=0x10
 ;GRMN_TYPE: //
+String1=0x01,De plein air
 String2=0x02,Outdoor
 String3=0x04,Outdoor
 String4=0x03,Outdoor
@@ -13027,6 +13155,7 @@ DayXpm="14 16 2 1"   Colormode=16
 type=0x030
 subtype=0x11
 ;GRMN_TYPE: //
+String1=0x01,Magasin d'instruments de musique
 String2=0x02,Musikinstrumente geschäft
 String3=0x04,Musical instruments
 String4=0x03,Muziekinstrumenten
@@ -13145,6 +13274,7 @@ DayXpm="16 16 2 1"   Colormode=16
 type=0x030
 subtype=0x15
 ;GRMN_TYPE: //
+String1=0x01,Magasin de motos
 String2=0x02,Motorrad
 String3=0x04,Motorbikes
 String4=0x03,Motorfietsenwinkel
@@ -13175,6 +13305,7 @@ DayXpm="16 14 2 1"   Colormode=16
 type=0x030
 subtype=0x16
 ;GRMN_TYPE: //
+String1=0x01,Laitier
 String2=0x02,Milchprodukte
 String3=0x04,Dairy products
 String4=0x03,Zuivel
@@ -13207,6 +13338,7 @@ DayXpm="16 16 2 1"   Colormode=16
 type=0x030
 subtype=0x17
 ;GRMN_TYPE: //
+String1=0x01,Dispositifs médicaux
 String2=0x02,Medizinische hilfsmittel
 String3=0x04,Medical supply
 String4=0x03,Medische hulpmiddelen
@@ -13299,6 +13431,7 @@ DayXpm="16 16 2 1"   Colormode=16
 type=0x03a
 subtype=0x01
 ;GRMN_TYPE: //
+String1=0x01,Location de vélos
 String2=0x02,Radverleih
 String3=0x04,Bicycle rental
 String4=0x03,Fietsenverhuur
@@ -13331,6 +13464,7 @@ DayXpm="14 16 2 1"   Colormode=16
 type=0x03a
 subtype=0x02
 ;GRMN_TYPE: //
+String1=0x01,Atelier de réparation de vélos
 String2=0x02,Radgeschäft
 String3=0x04,Bicycle repair station
 String4=0x03,Fietsenmaker
@@ -13489,6 +13623,7 @@ DayXpm="12 13 2 1"   Colormode=16
 type=0x03a
 subtype=0x07
 ;GRMN_TYPE: //
+String1=0x01,Temple Shinto
 String2=0x02,Shinto Tempel
 String3=0x04,Shinto temple
 String4=0x03,Shintoistische tempel
@@ -13520,6 +13655,7 @@ DayXpm="14 14 2 1"   Colormode=16
 type=0x03a
 subtype=0x08
 ;GRMN_TYPE: //
+String1=0x01,Temple Sikh
 String2=0x02,Sikh Tempel
 String3=0x04,Sikh temple
 String4=0x03,Sikh tempel
@@ -13553,7 +13689,7 @@ DayXpm="12 16 2 1"   Colormode=16
 type=0x03a
 subtype=0x09
 ;GRMN_TYPE: //
-String1=0x01,Temple taoïste
+String1=0x01,Temple Taoïste
 String2=0x02,Taoistischer Tempel
 String3=0x04,Taoistic temple
 String4=0x03,Taoistische tempel
@@ -13584,6 +13720,7 @@ DayXpm="14 14 2 1"   Colormode=16
 type=0x03a
 subtype=0x0a
 ;GRMN_TYPE: //
+String1=0x01,Temple Hindou
 String2=0x02,Hindu Tempel
 String3=0x04,Hindu temple
 String4=0x03,Hindoeistische tempel
@@ -13762,6 +13899,7 @@ DayXpm="1 1 2 1"   Colormode=16
 type=0x03b
 subtype=0x0b
 ;GRMN_TYPE: //
+String1=0x01,Jardin familial
 String2=0x02,Schrebergärten
 String3=0x04,Allotments
 String4=0x03,Volkstuinen
@@ -13801,6 +13939,24 @@ DayXpm="1 1 2 1"   Colormode=16
 [_point]
 type=0x03b
 subtype=0x0d
+;GRMN_TYPE: //
+String1=0x01,Blanco
+String2=0x02,Blanco
+String3=0x04,Blanco
+String4=0x03,Blanco
+ExtendedLabels=Y
+FontStyle=NoLabel (invisible)
+CustomColor=No
+ContourColor=No
+DayXpm="1 1 2 1"   Colormode=16
+"!	c #00FF4B"
+"  	c none"
+" "
+;1
+[end]
+[_point]
+type=0x03b
+subtype=0x0e
 ;GRMN_TYPE: //
 String1=0x01,Blanco
 String2=0x02,Blanco
@@ -13892,6 +14048,7 @@ DayXpm="1 1 2 1"   Colormode=16
 type=0x03c
 subtype=0x00
 ;GRMN_TYPE: //
+String1=0x01,Zoo
 String2=0x02,Tiergarten / Vergnügungspark
 String3=0x04,Zoo / Themepark
 String4=0x03,Dierentuin / Themapark
@@ -13932,6 +14089,7 @@ DayXpm="1 1 2 1"   Colormode=16
 type=0x03c
 subtype=0x02
 ;GRMN_TYPE: //
+String1=0x01,Zoo
 String2=0x02,Tiergarten / Vergnügungspark
 String3=0x04,Zoo / Themepark
 String4=0x03,Dierentuin / Themapark
@@ -14010,6 +14168,7 @@ DayXpm="1 1 2 1"   Colormode=16
 type=0x043
 subtype=0x00
 ;GRMN_TYPE: //
+String1=0x01,Zone industrielle
 String2=0x02,Gewerbegebiet
 String3=0x04,Retail area
 String4=0x03,Handelsgebied
@@ -14028,6 +14187,7 @@ DayXpm="1 1 2 1"   Colormode=16
 type=0x043
 subtype=0x01
 ;GRMN_TYPE: //
+String1=0x01,Centre commercial
 String2=0x02,Gewerbegebiet
 String3=0x04,Commercial area
 String4=0x03,Commercieel gebied
@@ -14046,6 +14206,7 @@ DayXpm="1 1 2 1"   Colormode=16
 type=0x043
 subtype=0x02
 ;GRMN_TYPE: //
+String1=0x01,Centre commercial
 String2=0x02,Einkaufszentrum
 String3=0x04,Mall
 String4=0x03,Winkelcentrum
@@ -14132,6 +14293,7 @@ DayXpm="1 1 2 1"   Colormode=16
 type=0x04e
 subtype=0x01
 ;GRMN_TYPE: //
+String1=0x01,Centrale électrique
 String2=0x02,Kraftwerk
 String3=0x04,Powerplant
 String4=0x03,Electriciteitsstation
@@ -14150,6 +14312,7 @@ DayXpm="1 1 2 1"   Colormode=16
 type=0x04e
 subtype=0x02
 ;GRMN_TYPE: //
+String1=0x01,Construction
 String2=0x02,Im bau
 String3=0x04,Under construction
 String4=0x03,In aanleg
@@ -14258,7 +14421,8 @@ DayXpm="14 14 2 1"   Colormode=16
 type=0x050
 subtype=0x02
 ;GRMN_TYPE: //
-String1=0x01,Gesundheitswesen
+String1=0x01,Soins de santé
+String2=0x02,Gesundheitswesen
 String3=0x04,Healthcare
 String4=0x03,Gezondheidszorg
 ExtendedLabels=Y
@@ -14305,6 +14469,7 @@ DayXpm="5 5 2 1"   Colormode=16
 type=0x050
 subtype=0x04
 ;GRMN_TYPE: //
+String1=0x01,Bureau
 String2=0x02,Büro
 String3=0x04,Office
 String4=0x03,Kantoor
@@ -14327,6 +14492,7 @@ DayXpm="5 5 2 1"   Colormode=16
 type=0x059
 subtype=0x02
 ;GRMN_TYPE: //
+String1=0x01,Maison de repos
 String2=0x02,Pflegeheim
 String3=0x04,Nursing home
 String4=0x03,Verzorgingstehuis / Kinderopvang
@@ -14641,6 +14807,7 @@ DayXpm="14 14 2 1"   Colormode=16
 type=0x05a
 subtype=0x07
 ;GRMN_TYPE: //
+String1=0x01,Inspection automobile
 String2=0x02,Fahrzeug Inspektion
 String3=0x04,Vehicle inspection
 String4=0x03,Autokeuring
@@ -14703,6 +14870,7 @@ DayXpm="10 14 2 1"   Colormode=16
 type=0x05a
 subtype=0x09
 ;GRMN_TYPE: //
+String1=0x01,Consulat
 String3=0x04,Consulate
 String4=0x03,Consulaat
 ExtendedLabels=Y
@@ -15042,6 +15210,7 @@ DayXpm="14 14 2 1"   Colormode=16
 type=0x064
 subtype=0x18
 ;GRMN_TYPE: //
+String1=0x01,Parc de vacances
 String2=0x02,Ferienpark
 String3=0x04,Chalet
 String4=0x03,Vakantiepark
@@ -15066,6 +15235,41 @@ DayXpm="21 12 2 1"   Colormode=16
 "        !!!!!!!      "
 "       !!!!!!!!!     "
 ;123456789012345678901
+[end]
+[_point]
+type=0x064
+subtype=0x19
+;GRMN_TYPE: //
+String1=0x01,Dancing
+String2=0x02,Dancing
+String3=0x04,Dancing
+String4=0x03,Dancing
+ExtendedLabels=Y
+FontStyle=NoLabel (invisible)
+CustomColor=No
+ContourColor=No
+DayXpm="15 18 2 1"   Colormode=16
+"!	c #009500"
+"  	c none"
+"        !!     "
+"       !!!!    "
+"  !!   !!!!    "
+"  !!    !!   !!"
+"   !!        !!"
+"    !!!!!!   !!"
+"     !!!!!! !! "
+"        !!!!!  "
+"    !   !!!!!  "
+"   !!!  !!!!   "
+"  !! !   !!!!  "
+" !!  !   !!!!  "
+" !   !    !!!! "
+" !  !!   !! !! "
+"!!  !!  !!  !! "
+"!!     !!   !! "
+"      !!   !!  "
+"          !!   "
+;123456789012345
 [end]
 [_point]
 type=0x064
@@ -15392,6 +15596,8 @@ DayXpm="7 7 2 1"   Colormode=16
 type=0x065
 subtype=0x07
 ;GRMN_TYPE: Geographical Named Points of Interest - Water Related/COVE/Cove/Non NT, NT
+String1=0x01,Barrage
+String2=0x02,Damm
 String3=0x04,Dam
 String4=0x03,Dam
 ExtendedLabels=Y
@@ -15452,6 +15658,7 @@ DayXpm="15 14 2 1"   Colormode=16
 type=0x065
 subtype=0x09
 ;GRMN_TYPE: Geographical Named Points of Interest - Water Related/GEYSER/Geyser/Non NT, NT
+String1=0x01,Passer à gué
 String2=0x02,Furt
 String3=0x04,Ford
 String4=0x03,Doorwaadbare plaats
@@ -15643,6 +15850,8 @@ DayXpm="1 1 2 1"   Colormode=16
 type=0x065
 subtype=0x16
 ;GRMN_TYPE: //
+String1=0x01,Itinéraire cyclable
+String2=0x02,Fahrradroute
 String3=0x04,Bikeroute
 String4=0x03,Fietsroute
 ExtendedLabels=Y
@@ -15926,6 +16135,7 @@ DayXpm="14 10 2 1"   Colormode=16
 type=0x066
 subtype=0x17
 ;GRMN_TYPE: Geographical Named Points of Interest - Land Related/VALLEY/Valley/Non NT, NT
+String1=0x01,Col de montange
 String2=0x02,Sattel
 String3=0x04,Saddle
 String4=0x03,Bergpas, Zadel
@@ -15974,6 +16184,7 @@ DayXpm="1 1 2 1"   Colormode=16
 type=0x066
 subtype=0x19
 ;GRMN_TYPE: //
+String1=0x01,Col de montange
 String2=0x02,Sattel
 String3=0x04,Saddle
 String4=0x03,Bergpas, Zadel
@@ -16194,7 +16405,7 @@ subtype=0x08
 String1=0x01,Moulin Ã  vent
 String2=0x02,Windmühle
 String3=0x04,Windmill
-String4=0x03,Molen
+String4=0x03,Windmolen
 ExtendedLabels=Y
 FontStyle=SmallFont
 CustomColor=Day
@@ -16686,6 +16897,7 @@ DayXpm="10 15 2 1"   Colormode=16
 type=0x067
 subtype=0x18
 ;GRMN_TYPE: //
+String1=0x01,Grue
 String2=0x02,Kran
 String3=0x04,Crane
 String4=0x03,Kraan
@@ -17248,6 +17460,7 @@ DayXpm="8 5 2 1"   Colormode=16
 type=0x069
 subtype=0x06
 ;GRMN_TYPE: //
+String1=0x01,Facilité
 String2=0x02,Einrichtung
 String3=0x04,Amenity
 String4=0x03,Voorziening
@@ -17319,6 +17532,7 @@ DayXpm="7 7 2 1"   Colormode=16
 type=0x069
 subtype=0x09
 ;GRMN_TYPE: //
+String1=0x01,Ttourniquet
 String2=0x02,Treppe
 String3=0x04,Stile
 String4=0x03,Trapje
